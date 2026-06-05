@@ -24,9 +24,9 @@ export default function Footer() {
           <div className="space-y-6">
             <div className="flex items-center gap-2">
               <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center font-bold text-white text-xl">
-                JD
+                T
               </div>
-              <span className="text-white font-extrabold text-2xl tracking-tight">JustDial</span>
+              <span className="text-white font-extrabold text-2xl tracking-tight">Thozil.com</span>
             </div>
             <p className="text-sm text-gray-400 leading-relaxed max-w-xs">
               India's No. 1 Local Search Engine. Find anything, anywhere, anytime. 
@@ -39,7 +39,7 @@ export default function Footer() {
               </a>
               <a href="#" className="flex items-center text-sm hover:text-white transition-colors">
                 <Mail className="w-4 h-4 mr-3 text-gray-500" />
-                support@justdialclone.com
+                support@thozil.com
               </a>
               <a href="#" className="flex items-center text-sm hover:text-white transition-colors">
                 <MapPin className="w-4 h-4 mr-3 text-gray-500" />
@@ -81,9 +81,9 @@ export default function Footer() {
           {/* Business & Social */}
           <div className="space-y-8">
             <div>
-              <h4 className="text-white font-bold text-lg mb-4">JustDial for Business</h4>
+              <h4 className="text-white font-bold text-lg mb-4">Thozil.com for Business</h4>
               <p className="text-sm text-gray-400 mb-4">
-                Grow your business with JustDial. Get discovered by millions.
+                Grow your business with Thozil.com. Get discovered by millions.
               </p>
               <Button className="w-full bg-primary hover:bg-primary/90 text-white font-semibold">
                 List Your Business
@@ -117,7 +117,7 @@ export default function Footer() {
         <Separator className="bg-gray-800 mb-8" />
         
         <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-gray-500">
-          <p>© {new Date().getFullYear()} JustDial Clone Built With Replit. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Thozil.com. All rights reserved.</p>
           <div className="flex gap-6">
             <a href="#" className="hover:text-white transition-colors">Terms</a>
             <a href="#" className="hover:text-white transition-colors">Privacy</a>

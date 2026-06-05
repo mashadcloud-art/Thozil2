@@ -9,9 +9,9 @@ export default function Navbar() {
         {/* Logo */}
         <div className="flex-shrink-0 flex items-center gap-2">
           <div className="w-10 h-10 bg-white rounded-lg flex items-center justify-center font-bold text-primary text-xl shadow-inner">
-            JD
+            T
           </div>
-          <span className="text-white font-extrabold text-2xl tracking-tight hidden sm:inline-block">JustDial</span>
+          <span className="text-white font-extrabold text-2xl tracking-tight hidden sm:inline-block">Thozil.com</span>
         </div>
 
         {/* Center Search Bar */}
