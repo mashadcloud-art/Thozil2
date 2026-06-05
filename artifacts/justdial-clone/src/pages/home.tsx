@@ -3,9 +3,9 @@ import HeroSection from "@/components/HeroSection";
 import QuickCategories from "@/components/QuickCategories";
 import CategoryCards from "@/components/CategoryCards";
 import BillsRecharge from "@/components/BillsRecharge";
-import SidebarBanner from "@/components/SidebarBanner";
-import TravelBookings from "@/components/TravelBookings";
+import FullWidthBanner from "@/components/FullWidthBanner";
 import PopularSearches from "@/components/PopularSearches";
+import TravelBookings from "@/components/TravelBookings";
 import DiscoverByCity from "@/components/DiscoverByCity";
 import TrendingSearches from "@/components/TrendingSearches";
 import LatestMovies from "@/components/LatestMovies";
@@ -20,23 +20,24 @@ export default function Home() {
         <HeroSection />
         <QuickCategories />
 
-        {/* Category cards + sidebar — sidebar stretches to full height */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-stretch">
-          {/* Left — category cards + popular searches */}
-          <div className="lg:col-span-8 space-y-10">
+        {/* Category cards + Bills sidebar */}
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
+          <div className="lg:col-span-8">
             <CategoryCards />
-            <PopularSearches />
           </div>
-
-          {/* Right sidebar — flex column, Bills fixed, banner, Travel fills rest */}
-          <div className="lg:col-span-4 flex flex-col gap-4">
+          <div className="lg:col-span-4">
             <BillsRecharge />
-            <SidebarBanner />
-            <div className="flex-1">
-              <TravelBookings />
-            </div>
           </div>
         </div>
+
+        {/* Full-width banner between sections */}
+        <FullWidthBanner />
+
+        {/* Popular Searches — full width */}
+        <PopularSearches />
+
+        {/* Travel & Bookings — full width, same feel as Popular Searches */}
+        <TravelBookings />
 
         <DiscoverByCity />
         <TrendingSearches />
