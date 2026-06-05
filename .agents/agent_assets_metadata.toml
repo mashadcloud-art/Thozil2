@@ -60,3 +60,57 @@ id = "Dr7L-YEWfNJAQ59CPmGtv"
 uri = "file://artifacts/justdial-clone/src/assets/images/movie-5.png"
 type = "image"
 title = "Bollywood comedy movie"
+
+[[generated]]
+id = "U02_0HqjHq_yQofTNFEIH"
+uri = "file://attached_assets/generated_images/elegant_catering_spread_with_a193.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "s5dlSPIb8e9iSHdT60WGD"
+uri = "file://attached_assets/generated_images/traditional_indian_gold_bangles_6a94.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "jgjllSWRMEHqzYHrF4rH4"
+uri = "file://attached_assets/generated_images/elegant_banquet_hall_with_6d55.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "bb6t3VRIgwdp90X8clK_C"
+uri = "file://attached_assets/generated_images/relaxing_spa_facial_massage_54b8.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "bKH-fWs3aAiANhBbQ-Qwe"
+uri = "file://attached_assets/generated_images/professional_nail_art_manicure_eb79.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "tiU-WpoumzHztL9enYBex"
+uri = "file://attached_assets/generated_images/professional_hair_salon_stylist_72ea.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "iyziTI_FkaJLwUQwCNaxZ"
+uri = "file://attached_assets/generated_images/technician_servicing_wall_mounted_13fb.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "xKrw92Uhwf_YR1tgfs07H"
+uri = "file://attached_assets/generated_images/mechanic_repairing_motorcycle_wheel_ff9b.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "oY2PB1iURCKaCguWlcwjE"
+uri = "file://attached_assets/generated_images/popcorn_bucket_and_movie_4f6f.png"
+type = "image"
+title = "generated_image"
