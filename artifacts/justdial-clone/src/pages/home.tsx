@@ -1,5 +1,5 @@
 import Navbar from "@/components/Navbar";
-import HeroSlideshow from "@/components/HeroSlideshow";
+import HeroSection from "@/components/HeroSection";
 import QuickCategories from "@/components/QuickCategories";
 import CategoryCards from "@/components/CategoryCards";
 import BillsRecharge from "@/components/BillsRecharge";
@@ -14,7 +14,7 @@ export default function Home() {
       <Navbar />
       
       <main className="flex-1 w-full max-w-[1400px] mx-auto px-4 md:px-6 lg:px-8 py-6 space-y-10">
-        <HeroSlideshow />
+        <HeroSection />
         <QuickCategories />
         
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
