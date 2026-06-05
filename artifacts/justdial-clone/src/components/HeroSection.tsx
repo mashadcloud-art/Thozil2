@@ -58,7 +58,7 @@ export default function HeroSection() {
   return (
     <div className="flex flex-col gap-3">
       {/* Main split hero */}
-      <div className="flex gap-3 h-[340px] md:h-[380px]">
+      <div className="flex gap-3 h-[220px] md:h-[260px]">
 
         {/* Left — main slideshow */}
         <div className="relative flex-1 rounded-xl overflow-hidden shadow-md group min-w-0">
