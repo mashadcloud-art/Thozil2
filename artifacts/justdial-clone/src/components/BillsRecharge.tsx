@@ -25,7 +25,7 @@ export default function BillsRecharge() {
   const [activeTab, setActiveTab] = useState(tabs[0].id);
 
   return (
-    <div className="border border-gray-100 rounded-xl shadow-md overflow-hidden bg-white">
+    <div className="h-full flex flex-col border border-gray-100 rounded-xl shadow-md overflow-hidden bg-white">
       {/* Header */}
       <div className="px-4 py-3 border-b border-primary/10 bg-primary/5">
         <h3 className="text-base font-bold text-primary">Bills &amp; Recharge</h3>
@@ -52,7 +52,7 @@ export default function BillsRecharge() {
       </div>
 
       {/* Form */}
-      <div className="p-4 space-y-3 bg-white">
+      <div className="p-4 flex flex-col flex-1 gap-3 bg-white justify-between">
         {(placeholders[activeTab] ?? []).map((ph, i) => (
           <Input
             key={i}
