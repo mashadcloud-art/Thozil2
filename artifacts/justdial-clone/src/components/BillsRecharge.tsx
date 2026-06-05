@@ -1,66 +1,71 @@
 import { useState } from "react";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Smartphone, Zap, Tv, Droplet, Flame, ShieldPlus } from "lucide-react";
 
 const tabs = [
-  { id: "mobile", label: "Mobile", icon: Smartphone },
+  { id: "mobile",      label: "Mobile",      icon: Smartphone },
   { id: "electricity", label: "Electricity", icon: Zap },
-  { id: "dth", label: "DTH", icon: Tv },
-  { id: "water", label: "Water", icon: Droplet },
-  { id: "gas", label: "Gas", icon: Flame },
-  { id: "insurance", label: "Insurance", icon: ShieldPlus },
+  { id: "dth",         label: "DTH",         icon: Tv },
+  { id: "water",       label: "Water",       icon: Droplet },
+  { id: "gas",         label: "Gas",         icon: Flame },
+  { id: "insurance",   label: "Insurance",   icon: ShieldPlus },
 ];
+
+const placeholders: Record<string, string[]> = {
+  mobile:      ["Enter Mobile Number", "Enter Amount"],
+  electricity: ["Enter Consumer Number", "Enter Bill Amount"],
+  dth:         ["Enter Subscriber ID", "Enter Amount"],
+  water:       ["Enter Account Number", "Enter Bill Amount"],
+  gas:         ["Enter BP Number", "Enter Amount"],
+  insurance:   ["Enter Policy Number", "Enter Premium Amount"],
+};
 
 export default function BillsRecharge() {
   const [activeTab, setActiveTab] = useState(tabs[0].id);
 
   return (
-    <Card className="border-none shadow-md overflow-hidden">
-      <CardHeader className="bg-primary/5 pb-4 border-b border-primary/10">
-        <CardTitle className="text-lg font-bold text-primary flex items-center gap-2">
-          Bills & Recharge
-        </CardTitle>
-      </CardHeader>
-      <CardContent className="p-0">
-        <div className="flex overflow-x-auto hide-scrollbar border-b border-gray-100">
-          {tabs.map((tab) => (
-            <button
-              key={tab.id}
-              onClick={() => setActiveTab(tab.id)}
-              className={`flex flex-col items-center justify-center min-w-[70px] p-3 text-xs font-medium border-b-2 transition-colors ${
-                activeTab === tab.id
-                  ? "border-primary text-primary bg-primary/5"
-                  : "border-transparent text-gray-500 hover:text-gray-900 hover:bg-gray-50"
-              }`}
-            >
-              <tab.icon className="w-5 h-5 mb-1" />
-              {tab.label}
-            </button>
-          ))}
-        </div>
-        
-        <div className="p-5 space-y-4 bg-white">
-          <div className="space-y-3">
-            <Input 
-              placeholder={
-                activeTab === "mobile" ? "Enter Mobile Number" :
-                activeTab === "electricity" ? "Enter Consumer Number" :
-                activeTab === "dth" ? "Enter Subscriber ID" :
-                "Enter details"
-              } 
-              className="bg-gray-50 border-gray-200 h-11"
-            />
-            {activeTab === "mobile" && (
-              <Input placeholder="Amount" type="number" className="bg-gray-50 border-gray-200 h-11" />
-            )}
-          </div>
-          <Button className="w-full h-11 font-bold text-md bg-orange-500 hover:bg-orange-600 text-white border-none">
-            Proceed to Pay
-          </Button>
-        </div>
-      </CardContent>
-    </Card>
+    <div className="border border-gray-100 rounded-xl shadow-md overflow-hidden bg-white">
+      {/* Header */}
+      <div className="px-4 py-3 border-b border-primary/10 bg-primary/5">
+        <h3 className="text-base font-bold text-primary">Bills &amp; Recharge</h3>
+        <p className="text-gray-400 text-xs">Quick &amp; secure payments</p>
+      </div>
+
+      {/* Tabs */}
+      <div className="flex overflow-x-auto border-b border-gray-100" style={{ scrollbarWidth: "none" }}>
+        {tabs.map((tab) => (
+          <button
+            key={tab.id}
+            onClick={() => setActiveTab(tab.id)}
+            className={`flex flex-col items-center justify-center min-w-[62px] py-2.5 px-1 text-[10px] font-semibold border-b-2 transition-colors flex-1 ${
+              activeTab === tab.id
+                ? "border-primary text-primary bg-primary/5"
+                : "border-transparent text-gray-400 hover:text-gray-700 hover:bg-gray-50"
+            }`}
+            data-testid={`tab-${tab.id}`}
+          >
+            <tab.icon className="w-4 h-4 mb-1" />
+            {tab.label}
+          </button>
+        ))}
+      </div>
+
+      {/* Form */}
+      <div className="p-4 space-y-3 bg-white">
+        {(placeholders[activeTab] ?? []).map((ph, i) => (
+          <Input
+            key={i}
+            placeholder={ph}
+            type={i === 1 ? "number" : "text"}
+            className="bg-gray-50 border-gray-200 h-10 text-sm"
+            data-testid={`input-bill-${i}`}
+          />
+        ))}
+        <Button className="w-full h-10 font-bold bg-orange-500 hover:bg-orange-600 text-white border-none">
+          Proceed to Pay
+        </Button>
+      </div>
+    </div>
   );
 }

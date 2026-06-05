@@ -3,6 +3,7 @@ import HeroSection from "@/components/HeroSection";
 import QuickCategories from "@/components/QuickCategories";
 import CategoryCards from "@/components/CategoryCards";
 import BillsRecharge from "@/components/BillsRecharge";
+import SidebarBanner from "@/components/SidebarBanner";
 import TravelBookings from "@/components/TravelBookings";
 import PopularSearches from "@/components/PopularSearches";
 import DiscoverByCity from "@/components/DiscoverByCity";
@@ -19,14 +20,21 @@ export default function Home() {
         <HeroSection />
         <QuickCategories />
 
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
+        {/* Category cards + sidebar — sidebar stretches to full height */}
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-stretch">
+          {/* Left — category cards + popular searches */}
           <div className="lg:col-span-8 space-y-10">
             <CategoryCards />
             <PopularSearches />
           </div>
-          <div className="lg:col-span-4 space-y-6">
+
+          {/* Right sidebar — flex column, Bills fixed, banner, Travel fills rest */}
+          <div className="lg:col-span-4 flex flex-col gap-4">
             <BillsRecharge />
-            <TravelBookings />
+            <SidebarBanner />
+            <div className="flex-1">
+              <TravelBookings />
+            </div>
           </div>
         </div>
 
