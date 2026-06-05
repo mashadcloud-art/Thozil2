@@ -1,0 +1,62 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "88XGuZbqD5jW-kOH7aj9l"
+uri = "file://artifacts/justdial-clone/src/assets/images/hero-1.png"
+type = "image"
+title = "Plumber fixing sink"
+
+[[generated]]
+id = "NLeKtJ-nLX2EmZd7CS77h"
+uri = "file://artifacts/justdial-clone/src/assets/images/hero-2.png"
+type = "image"
+title = "Indian wedding decor"
+
+[[generated]]
+id = "k4vFI53dHds-cbKV3VPrM"
+uri = "file://artifacts/justdial-clone/src/assets/images/hero-3.png"
+type = "image"
+title = "Electrician working"
+
+[[generated]]
+id = "VGElTKBbEmZi8esdBlU6B"
+uri = "file://artifacts/justdial-clone/src/assets/images/hero-4.png"
+type = "image"
+title = "Spa massage setup"
+
+[[generated]]
+id = "H5YgQMEIUdj63ayuZryhG"
+uri = "file://artifacts/justdial-clone/src/assets/images/hero-5.png"
+type = "image"
+title = "Clean living room"
+
+[[generated]]
+id = "9WoAMW0kAagqYpKwxhZ8g"
+uri = "file://artifacts/justdial-clone/src/assets/images/movie-1.png"
+type = "image"
+title = "Bollywood action movie"
+
+[[generated]]
+id = "hArkNN0-3XjO88EJ4VXZo"
+uri = "file://artifacts/justdial-clone/src/assets/images/movie-2.png"
+type = "image"
+title = "Bollywood romance movie"
+
+[[generated]]
+id = "qfBSfl3X8nN4vPj3Ui5Aj"
+uri = "file://artifacts/justdial-clone/src/assets/images/movie-3.png"
+type = "image"
+title = "Hollywood sci-fi movie"
+
+[[generated]]
+id = "cV9y8Ew-fN2SSKTekIQ9i"
+uri = "file://artifacts/justdial-clone/src/assets/images/movie-4.png"
+type = "image"
+title = "Hollywood thriller movie"
+
+[[generated]]
+id = "Dr7L-YEWfNJAQ59CPmGtv"
+uri = "file://artifacts/justdial-clone/src/assets/images/movie-5.png"
+type = "image"
+title = "Bollywood comedy movie"
