@@ -66,6 +66,26 @@ app.get('/api/v1/tourism', async (req, res) => {
   }
 });
 
+app.post('/api/v1/tourism', async (req, res) => {
+  try {
+    const { stateKey } = req.body;
+    if (!stateKey) {
+      return res.status(400).json({ error: 'Please specify a stateKey in the request body.' });
+    }
+
+    const result = await Tourism.findOneAndUpdate(
+      { stateKey: stateKey.toLowerCase() },
+      req.body,
+      { upsert: true, new: true }
+    );
+
+    return res.status(200).json({ success: true, data: result });
+  } catch (err) {
+    console.error(err);
+    return res.status(500).json({ error: 'Internal Server Database Error.' });
+  }
+});
+
 // =========================
 // ROOT ROUTE
 // =========================

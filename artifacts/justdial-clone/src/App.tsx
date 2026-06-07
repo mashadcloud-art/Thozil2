@@ -7,6 +7,7 @@ import Home from "@/pages/home";
 import SearchResults from "@/pages/search-results";
 
 import StateTourism from "@/pages/state/StateTourism";
+import AdminDashboard from "@/pages/admin/AdminDashboard";
 
 const queryClient = new QueryClient();
 
@@ -15,6 +16,7 @@ function Router() {
     <Switch>
       <Route path="/" component={Home} />
       <Route path="/state/:state" component={StateTourism} />
+      <Route path="/admin" component={AdminDashboard} />
       <Route component={NotFound} />
     </Switch>
   );
