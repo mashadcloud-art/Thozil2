@@ -41,6 +41,7 @@ export default function StateTourism({ params }: { params: { state: string } }) 
 
   // Auto city/district toggle reset when state changes and fetch live data
   useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to top on state key change
     setActiveCityToggle("primary");
     setSearchQuery("");
     setSelectedCategory("All");

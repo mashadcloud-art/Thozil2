@@ -1,4 +1,4 @@
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import { useLocation } from "wouter";
 import { tourismData } from "@/data/tourismData";
 import Navbar from "@/components/Navbar";
@@ -11,6 +11,10 @@ import {
 export default function ListingDetail({ params }: { params: { id: string } }) {
   const [, setLocation] = useLocation();
   const listingId = params.id;
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [listingId]);
 
   // Search across all states, attractions, hotels, and restaurants to find our listing
   const listing = useMemo(() => {
