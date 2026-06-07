@@ -268,7 +268,7 @@ export const tourismData: Record<string, StateTourismData> = {
     gallery: [
       "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1593693397690-362cb9666fc2?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1516690561799-46d8f74f90f6?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1516690561799-46d8f74f9abf?auto=format&fit=crop&w=600&q=80",
       "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=600&q=80",
       "https://images.unsplash.com/photo-1506953823976-52e1fdc0149a?auto=format&fit=crop&w=600&q=80"
     ],
@@ -339,7 +339,7 @@ export const tourismData: Record<string, StateTourismData> = {
         desc: "Known as 'The Niagara of India', this majestic 80-foot waterfall is surrounded by dense forests home to rare Hornbill species.",
         timing: "Opens at 08:00 am",
         category: "Tourist Places",
-        image: "https://images.unsplash.com/photo-1516690561799-46d8f74f90f6?auto=format&fit=crop&w=600&q=80"
+        image: "https://images.unsplash.com/photo-1516690561799-46d8f74f9abf?auto=format&fit=crop&w=600&q=80"
       }
     ],
     hotels: [
