@@ -110,14 +110,8 @@ export default function DiscoverByCity() {
       params.set("district", item.district);
       setLocation(`/search?${params.toString()}`);
     } else if (activeTab === "state") {
-      // Update the URL state parameter on the homepage without navigating away
-      const params = new URLSearchParams(window.location.search);
-      params.set("state", item.code);
-      params.delete("district"); // Clear district
-      setLocation(`/?${params.toString()}`);
-      
-      // Auto-select the districts tab to show that state's districts
-      setActiveTab("district");
+      // Navigate to the state-wise tourism page
+      setLocation(`/state/${item.code}`);
     } else if (activeTab === "district") {
       const params = new URLSearchParams();
       params.set("state", item.state);
