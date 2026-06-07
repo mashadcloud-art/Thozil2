@@ -1,5 +1,5 @@
 import { useState, useMemo, useEffect, useRef } from "react";
-import { useLocation } from "wouter";
+import { useLocation, Link } from "wouter";
 import { tourismData, thozilPartners, categoriesMapping } from "@/data/tourismData";
 import { districtsData } from "@/lib/locationData";
 import Navbar from "@/components/Navbar";
@@ -492,12 +492,12 @@ export default function StateTourism({ params }: { params: { state: string } }) 
                         <Clock className="w-3 h-3" />
                         {att.timing}
                       </span>
-                      <button 
-                        onClick={() => setLocation(`/listing/${att.id}`)}
+                      <Link 
+                        href={`/listing/${att.id}`}
                         className="text-xs font-bold text-primary hover:text-primary/80 transition-colors flex items-center gap-1"
                       >
                         Find Local Listings <ChevronRight className="w-3.5 h-3.5" />
-                      </button>
+                      </Link>
                     </div>
                   </div>
                 ))}
@@ -595,12 +595,12 @@ export default function StateTourism({ params }: { params: { state: string } }) 
                         <span className="text-xs font-bold text-gray-900">{hotel.rating}</span>
                         <span className="text-[10px] text-gray-400">({hotel.reviews} reviews)</span>
                       </div>
-                      <button 
-                        onClick={() => setLocation(`/listing/${hotel.id}`)}
+                      <Link 
+                        href={`/listing/${hotel.id}`}
                         className="text-xs font-bold text-primary hover:text-primary/80 transition-colors"
                       >
                         View Details
-                      </button>
+                      </Link>
                     </div>
                   </div>
                 ))}
@@ -675,12 +675,12 @@ export default function StateTourism({ params }: { params: { state: string } }) 
                           <span className="text-[11px] font-bold text-gray-900">{rest.rating}</span>
                           <span className="text-[9px] text-gray-400">({rest.reviews})</span>
                         </div>
-                        <button 
-                          onClick={() => setLocation(`/listing/${rest.id}`)}
+                        <Link 
+                          href={`/listing/${rest.id}`}
                           className="text-[11px] font-bold text-primary hover:text-primary/80 transition-colors"
                         >
                           Find Outlets
-                        </button>
+                        </Link>
                       </div>
                     </div>
                   </div>
