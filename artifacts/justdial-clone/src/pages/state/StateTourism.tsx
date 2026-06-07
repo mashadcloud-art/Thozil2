@@ -48,7 +48,7 @@ export default function StateTourism({ params }: { params: { state: string } }) 
     
     const apiStateKey = stateNameMap[stateKey] || stateKey.toLowerCase();
     
-    fetch(`/backend/api/v1/tourism?state=${apiStateKey}`)
+    fetch(`/api/api/v1/tourism?state=${apiStateKey}`)
       .then(res => {
         if (!res.ok) throw new Error("State data not found");
         return res.json();
@@ -69,6 +69,24 @@ export default function StateTourism({ params }: { params: { state: string } }) 
       });
   }, [stateKey, setLocation]);
 
+  // Filtered Attractions - Matches dynamic search & circular category buttons
+  const filteredAttractions = useMemo(() => {
+    if (!data || !data.attractions) return [];
+    return data.attractions.filter(att => {
+      const matchesSearch = att.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+                            att.locality.toLowerCase().includes(searchQuery.toLowerCase()) ||
+                            att.category.toLowerCase().includes(searchQuery.toLowerCase());
+      
+      const matchesCategory = selectedCategory === "All" || att.category === selectedCategory;
+      return matchesSearch && matchesCategory;
+    });
+  }, [data, searchQuery, selectedCategory]);
+
+  // Filter local tour guides for this state
+  const localizedPartners = useMemo(() => {
+    return thozilPartners.filter(p => p.state === stateKey);
+  }, [stateKey]);
+
   if (loading) {
     return (
       <div className="min-h-screen flex flex-col bg-slate-50 font-sans">
@@ -85,23 +103,6 @@ export default function StateTourism({ params }: { params: { state: string } }) 
   }
 
   if (!data) return null;
-
-  // Filtered Attractions - Matches dynamic search & circular category buttons
-  const filteredAttractions = useMemo(() => {
-    return data.attractions.filter(att => {
-      const matchesSearch = att.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-                            att.locality.toLowerCase().includes(searchQuery.toLowerCase()) ||
-                            att.category.toLowerCase().includes(searchQuery.toLowerCase());
-      
-      const matchesCategory = selectedCategory === "All" || att.category === selectedCategory;
-      return matchesSearch && matchesCategory;
-    });
-  }, [data, searchQuery, selectedCategory]);
-
-  // Filter local tour guides for this state
-  const localizedPartners = useMemo(() => {
-    return thozilPartners.filter(p => p.state === stateKey);
-  }, [stateKey]);
 
   const handleLike = () => {
     if (!hasVoted) {
