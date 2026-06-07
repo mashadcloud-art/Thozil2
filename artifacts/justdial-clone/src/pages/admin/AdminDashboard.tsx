@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { useLocation } from "wouter";
 import { tourismData } from "@/data/tourismData";
+import { districtsData } from "@/lib/locationData";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { 
@@ -391,7 +392,7 @@ export default function AdminDashboard() {
                         >
                           <Trash2 className="w-4 h-4" />
                         </button>
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                           <div>
                             <label className="block text-xs font-bold text-gray-500 mb-1">Attraction Title</label>
                             <input 
@@ -409,6 +410,19 @@ export default function AdminDashboard() {
                               onChange={(e) => updateFormField(e.target.value, "locality", idx, "attractions")}
                               className="w-full bg-white border border-gray-200 rounded-lg px-3 py-1.5 text-xs focus:outline-none"
                             />
+                          </div>
+                          <div>
+                            <label className="block text-xs font-bold text-gray-500 mb-1">District</label>
+                            <select 
+                              value={att.district || ""} 
+                              onChange={(e) => updateFormField(e.target.value, "district", idx, "attractions")}
+                              className="w-full bg-white border border-gray-200 rounded-lg px-3 py-1.5 text-xs focus:outline-none"
+                            >
+                              <option value="">Select District</option>
+                              {(districtsData[selectedStateKey] || []).map((d) => (
+                                <option key={d} value={d}>{d}</option>
+                              ))}
+                            </select>
                           </div>
                         </div>
                         <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
@@ -498,7 +512,7 @@ export default function AdminDashboard() {
                   <div className="flex justify-between items-center pb-2 border-b border-gray-100">
                     <h3 className="text-lg font-black text-gray-900">5. Hotels &amp; Homestays</h3>
                     <button 
-                      onClick={() => addListItem("hotels", { id: `hot_${Date.now()}`, title: "", locality: "", rating: 4.5, reviews: "1.2k", price: "₹6,000/night", image: "" })}
+                      onClick={() => addListItem("hotels", { id: `hot_${Date.now()}`, title: "", locality: "", rating: 4.5, reviews: "1.2k", price: "₹6,000/night", image: "", district: "" })}
                       className="flex items-center gap-1.5 px-3 py-1.5 bg-slate-900 text-white text-xs font-bold rounded-lg hover:bg-slate-800"
                     >
                       <Plus className="w-3.5 h-3.5" /> Add Hotel
@@ -513,7 +527,7 @@ export default function AdminDashboard() {
                         >
                           <Trash2 className="w-4 h-4" />
                         </button>
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                           <div>
                             <label className="block text-xs font-bold text-gray-500 mb-1">Hotel Name</label>
                             <input 
@@ -531,6 +545,19 @@ export default function AdminDashboard() {
                               onChange={(e) => updateFormField(e.target.value, "locality", idx, "hotels")}
                               className="w-full bg-white border border-gray-200 rounded-lg px-3 py-1.5 text-xs focus:outline-none"
                             />
+                          </div>
+                          <div>
+                            <label className="block text-xs font-bold text-gray-500 mb-1">District</label>
+                            <select 
+                              value={hotel.district || ""} 
+                              onChange={(e) => updateFormField(e.target.value, "district", idx, "hotels")}
+                              className="w-full bg-white border border-gray-200 rounded-lg px-3 py-1.5 text-xs focus:outline-none"
+                            >
+                              <option value="">Select District</option>
+                              {(districtsData[selectedStateKey] || []).map((d) => (
+                                <option key={d} value={d}>{d}</option>
+                              ))}
+                            </select>
                           </div>
                         </div>
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -590,6 +617,133 @@ export default function AdminDashboard() {
                             </label>
                             {hotel.image && (
                               <img src={hotel.image} alt="Preview" className="w-10 h-10 object-cover rounded-lg border border-gray-200" />
+                            )}
+                          </div>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+
+                {/* Restaurants Editor */}
+                <div className="space-y-6">
+                  <div className="flex justify-between items-center pb-2 border-b border-gray-100">
+                    <h3 className="text-lg font-black text-gray-900">6. Popular Restaurants</h3>
+                    <button 
+                      onClick={() => addListItem("restaurants", { id: `rest_${Date.now()}`, title: "", locality: "", cuisine: "", rating: 4.5, reviews: "1.2k", famousFor: "", image: "", district: "" })}
+                      className="flex items-center gap-1.5 px-3 py-1.5 bg-slate-900 text-white text-xs font-bold rounded-lg hover:bg-slate-800"
+                    >
+                      <Plus className="w-3.5 h-3.5" /> Add Restaurant
+                    </button>
+                  </div>
+                  <div className="grid grid-cols-1 gap-6">
+                    {formState.restaurants?.map((rest: any, idx: number) => (
+                      <div key={rest.id || idx} className="bg-slate-50 border border-gray-100 p-6 rounded-2xl relative space-y-4">
+                        <button 
+                          onClick={() => removeListItem("restaurants", idx)}
+                          className="absolute top-4 right-4 text-red-500 hover:text-red-700"
+                        >
+                          <Trash2 className="w-4 h-4" />
+                        </button>
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                          <div>
+                            <label className="block text-xs font-bold text-gray-500 mb-1">Restaurant Name</label>
+                            <input 
+                              type="text" 
+                              value={rest.title || ""} 
+                              onChange={(e) => updateFormField(e.target.value, "title", idx, "restaurants")}
+                              className="w-full bg-white border border-gray-200 rounded-lg px-3 py-1.5 text-xs focus:outline-none"
+                            />
+                          </div>
+                          <div>
+                            <label className="block text-xs font-bold text-gray-500 mb-1">Locality</label>
+                            <input 
+                              type="text" 
+                              value={rest.locality || ""} 
+                              onChange={(e) => updateFormField(e.target.value, "locality", idx, "restaurants")}
+                              className="w-full bg-white border border-gray-200 rounded-lg px-3 py-1.5 text-xs focus:outline-none"
+                            />
+                          </div>
+                          <div>
+                            <label className="block text-xs font-bold text-gray-500 mb-1">District</label>
+                            <select 
+                              value={rest.district || ""} 
+                              onChange={(e) => updateFormField(e.target.value, "district", idx, "restaurants")}
+                              className="w-full bg-white border border-gray-200 rounded-lg px-3 py-1.5 text-xs focus:outline-none"
+                            >
+                              <option value="">Select District</option>
+                              {(districtsData[selectedStateKey] || []).map((d) => (
+                                <option key={d} value={d}>{d}</option>
+                              ))}
+                            </select>
+                          </div>
+                        </div>
+                        <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+                          <div>
+                            <label className="block text-xs font-bold text-gray-500 mb-1">Cuisine</label>
+                            <input 
+                              type="text" 
+                              value={rest.cuisine || ""} 
+                              onChange={(e) => updateFormField(e.target.value, "cuisine", idx, "restaurants")}
+                              className="w-full bg-white border border-gray-200 rounded-lg px-3 py-1.5 text-xs focus:outline-none"
+                            />
+                          </div>
+                          <div>
+                            <label className="block text-xs font-bold text-gray-500 mb-1">Rating</label>
+                            <input 
+                              type="number" 
+                              step="0.1" 
+                              value={rest.rating || 0} 
+                              onChange={(e) => updateFormField(parseFloat(e.target.value) || 0, "rating", idx, "restaurants")}
+                              className="w-full bg-white border border-gray-200 rounded-lg px-3 py-1.5 text-xs focus:outline-none"
+                            />
+                          </div>
+                          <div>
+                            <label className="block text-xs font-bold text-gray-500 mb-1">Reviews count</label>
+                            <input 
+                              type="text" 
+                              value={rest.reviews || ""} 
+                              onChange={(e) => updateFormField(e.target.value, "reviews", idx, "restaurants")}
+                              className="w-full bg-white border border-gray-200 rounded-lg px-3 py-1.5 text-xs focus:outline-none"
+                            />
+                          </div>
+                          <div>
+                            <label className="block text-xs font-bold text-gray-500 mb-1">Famous For</label>
+                            <input 
+                              type="text" 
+                              value={rest.famousFor || ""} 
+                              onChange={(e) => updateFormField(e.target.value, "famousFor", idx, "restaurants")}
+                              className="w-full bg-white border border-gray-200 rounded-lg px-3 py-1.5 text-xs focus:outline-none"
+                            />
+                          </div>
+                        </div>
+                        <div className="flex flex-col md:flex-row gap-3 items-end">
+                          <div className="flex-1 w-full">
+                            <label className="block text-xs font-bold text-gray-500 mb-1">Restaurant Image URL</label>
+                            <input 
+                              type="text" 
+                              value={rest.image || ""} 
+                              onChange={(e) => updateFormField(e.target.value, "image", idx, "restaurants")}
+                              className="w-full bg-white border border-gray-200 rounded-lg px-3 py-1.5 text-xs focus:outline-none"
+                            />
+                          </div>
+                          <div className="flex items-center gap-3 w-full md:w-auto">
+                            <label className="flex items-center justify-center gap-1.5 px-4 py-1.5 bg-white border border-gray-200 text-xs font-bold text-gray-600 rounded-lg cursor-pointer hover:bg-slate-50 w-full md:w-auto">
+                              {uploadingField?.fieldPath === "image" && uploadingField?.index === idx && uploadingField?.listName === "restaurants" ? (
+                                <RefreshCw className="w-3.5 h-3.5 animate-spin text-primary" />
+                              ) : (
+                                <Upload className="w-3.5 h-3.5" />
+                              )}
+                              Upload Image
+                              <input 
+                                type="file" 
+                                accept="image/*" 
+                                className="hidden" 
+                                onChange={(e) => handleFileUpload(e, "image", idx, "restaurants")}
+                              />
+                            </label>
+                            {rest.image && (
+                              <img src={rest.image} alt="Preview" className="w-10 h-10 object-cover rounded-lg border border-gray-200" />
                             )}
                           </div>
                         </div>

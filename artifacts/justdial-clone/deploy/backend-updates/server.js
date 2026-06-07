@@ -45,6 +45,67 @@ app.use("/admin/hotel", hotelRoutes);
 app.use("/admin/upload", uploadRoutes);
 
 // =========================
+// LIVE WEATHER AUTOMATION
+// =========================
+const weatherCache = {};
+
+async function fetchLiveWeather(city) {
+  if (!city) return null;
+  const cacheKey = city.toLowerCase().trim();
+  const now = Date.now();
+  
+  if (weatherCache[cacheKey] && weatherCache[cacheKey].expiresAt > now) {
+    return weatherCache[cacheKey].data;
+  }
+
+  try {
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 2000); // 2s timeout
+
+    const url = `https://wttr.in/${encodeURIComponent(city)}?format=j1`;
+    const res = await fetch(url, { signal: controller.signal });
+    clearTimeout(timeoutId);
+
+    if (!res.ok) throw new Error("wttr.in response error");
+
+    const data = await res.json();
+    const current = data.current_condition?.[0];
+    if (!current) throw new Error("Invalid wttr.in format");
+
+    const tempC = current.temp_C || "";
+    const desc = current.weatherDesc?.[0]?.value || "";
+    
+    // Map description to supported icon: "sun", "cloud", "cloud-rain", "wind"
+    let icon = "sun";
+    const descLower = desc.toLowerCase();
+    if (descLower.includes("rain") || descLower.includes("drizzle") || descLower.includes("shower") || descLower.includes("thunder")) {
+      icon = "cloud-rain";
+    } else if (descLower.includes("cloud") || descLower.includes("overcast") || descLower.includes("mist") || descLower.includes("fog") || descLower.includes("haze")) {
+      icon = "cloud";
+    } else if (descLower.includes("wind") || descLower.includes("blow") || descLower.includes("storm")) {
+      icon = "wind";
+    }
+
+    const weatherResult = {
+      temp: `${tempC} °C`,
+      condition: desc,
+      icon: icon
+    };
+
+    // Cache it for 15 minutes
+    weatherCache[cacheKey] = {
+      data: weatherResult,
+      expiresAt: now + 15 * 60 * 1000
+    };
+
+    return weatherResult;
+  } catch (err) {
+    console.warn(`Weather fetch failed for ${city}:`, err.message);
+    return null;
+  }
+}
+
+// =========================
 // PUBLIC TOURISM API
 // =========================
 app.get('/api/v1/tourism', async (req, res) => {
@@ -59,7 +120,13 @@ app.get('/api/v1/tourism', async (req, res) => {
       return res.status(404).json({ error: `No records found for: ${state}` });
     }
 
-    return res.status(200).json(result);
+    const plainResult = result.toObject();
+    const liveWeather = await fetchLiveWeather(plainResult.city);
+    if (liveWeather) {
+      plainResult.weather = liveWeather;
+    }
+
+    return res.status(200).json(plainResult);
   } catch (err) {
     console.error(err);
     return res.status(500).json({ error: 'Internal Server Database Error.' });

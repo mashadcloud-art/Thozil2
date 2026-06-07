@@ -1,10 +1,11 @@
-import { useState, useMemo, useEffect } from "react";
+import { useState, useMemo, useEffect, useRef } from "react";
 import { useLocation } from "wouter";
 import { tourismData, thozilPartners, categoriesMapping } from "@/data/tourismData";
+import { districtsData } from "@/lib/locationData";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { 
-  ChevronRight, Star, Clock, MapPin, Phone, MessageSquare, ThumbsUp, ThumbsDown, 
+  ChevronRight, ChevronLeft, Star, Clock, MapPin, Phone, MessageSquare, ThumbsUp, ThumbsDown, 
   HelpCircle, Calendar, Users, Info, X, Cloud, CloudRain, Sun, Wind
 } from "lucide-react";
 
@@ -17,7 +18,14 @@ export default function StateTourism({ params }: { params: { state: string } }) 
   // Search & Filters state
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("All");
+  const [selectedDistrict, setSelectedDistrict] = useState("All");
+  const [showAllAttractions, setShowAllAttractions] = useState(false);
   
+  // Carousel Container Refs
+  const hotelsRef = useRef<HTMLDivElement>(null);
+  const restaurantsRef = useRef<HTMLDivElement>(null);
+  const guidesRef = useRef<HTMLDivElement>(null);
+
   // Interactive Metrics state
   const [likes, setLikes] = useState(1284);
   const [dislikes, setDislikes] = useState(32);
@@ -31,11 +39,13 @@ export default function StateTourism({ params }: { params: { state: string } }) 
   const [bookingFormData, setBookingFormData] = useState({ name: "", phone: "", date: "", guests: 1, remarks: "" });
   const [isSuccessModalOpen, setIsSuccessModalOpen] = useState(false);
 
-  // Auto city toggle reset when state changes and fetch live data
+  // Auto city/district toggle reset when state changes and fetch live data
   useEffect(() => {
     setActiveCityToggle("primary");
     setSearchQuery("");
     setSelectedCategory("All");
+    setSelectedDistrict("All");
+    setShowAllAttractions(false);
     setLoading(true);
 
     const stateNameMap: Record<string, string> = {
@@ -69,18 +79,54 @@ export default function StateTourism({ params }: { params: { state: string } }) 
       });
   }, [stateKey, setLocation]);
 
-  // Filtered Attractions - Matches dynamic search & circular category buttons
+  // Horizontal Scroll Helper
+  const handleScroll = (ref: React.RefObject<HTMLDivElement | null>, direction: 'left' | 'right') => {
+    if (ref.current) {
+      const scrollAmount = 320; // Width of card + gap
+      ref.current.scrollBy({
+        left: direction === 'left' ? -scrollAmount : scrollAmount,
+        behavior: 'smooth'
+      });
+    }
+  };
+
+  // Filtered Attractions - Matches dynamic search, circular category buttons, and district filter
   const filteredAttractions = useMemo(() => {
     if (!data || !data.attractions) return [];
-    return data.attractions.filter(att => {
+    return data.attractions.filter((att: any) => {
       const matchesSearch = att.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
                             att.locality.toLowerCase().includes(searchQuery.toLowerCase()) ||
                             att.category.toLowerCase().includes(searchQuery.toLowerCase());
       
       const matchesCategory = selectedCategory === "All" || att.category === selectedCategory;
-      return matchesSearch && matchesCategory;
+
+      const matchesDistrict = selectedDistrict === "All" || 
+                              (att.district && att.district === selectedDistrict) ||
+                              (!att.district && att.locality.toLowerCase().includes(selectedDistrict.toLowerCase()));
+
+      return matchesSearch && matchesCategory && matchesDistrict;
     });
-  }, [data, searchQuery, selectedCategory]);
+  }, [data, searchQuery, selectedCategory, selectedDistrict]);
+
+  // Filtered Hotels - Matches district filter
+  const filteredHotels = useMemo(() => {
+    if (!data || !data.hotels) return [];
+    return data.hotels.filter((hotel: any) => {
+      if (selectedDistrict === "All") return true;
+      return (hotel.district && hotel.district === selectedDistrict) ||
+             (!hotel.district && hotel.locality.toLowerCase().includes(selectedDistrict.toLowerCase()));
+    });
+  }, [data, selectedDistrict]);
+
+  // Filtered Restaurants - Matches district filter
+  const filteredRestaurants = useMemo(() => {
+    if (!data || !data.restaurants) return [];
+    return data.restaurants.filter((rest: any) => {
+      if (selectedDistrict === "All") return true;
+      return (rest.district && rest.district === selectedDistrict) ||
+             (!rest.district && rest.locality.toLowerCase().includes(selectedDistrict.toLowerCase()));
+    });
+  }, [data, selectedDistrict]);
 
   // Filter local tour guides for this state
   const localizedPartners = useMemo(() => {
@@ -284,6 +330,38 @@ export default function StateTourism({ params }: { params: { state: string } }) 
           </div>
         </section>
 
+        {/* ==========================================
+            DISTRICT FILTER ROW
+            ========================================== */}
+        <section className="bg-white border border-gray-100 rounded-3xl p-6 shadow-sm overflow-hidden">
+          <h2 className="text-base font-bold text-gray-900 mb-4 px-2">Filter By District</h2>
+          <div className="flex items-center gap-3 overflow-x-auto pb-2 scrollbar-none scroll-smooth">
+            <button 
+              onClick={() => setSelectedDistrict("All")}
+              className={`px-5 py-2.5 rounded-full text-xs font-bold transition-all whitespace-nowrap border ${
+                selectedDistrict === "All" 
+                  ? 'bg-primary border-primary text-white shadow-sm' 
+                  : 'bg-slate-50 border-gray-100 text-gray-600 hover:bg-slate-100'
+              }`}
+            >
+              All Districts
+            </button>
+            {(districtsData[stateKey] || []).map((d) => (
+              <button 
+                key={d}
+                onClick={() => setSelectedDistrict(d)}
+                className={`px-5 py-2.5 rounded-full text-xs font-bold transition-all whitespace-nowrap border ${
+                  selectedDistrict === d 
+                    ? 'bg-primary border-primary text-white shadow-sm' 
+                    : 'bg-slate-50 border-gray-100 text-gray-600 hover:bg-slate-100'
+                }`}
+              >
+                {d}
+              </button>
+            ))}
+          </div>
+        </section>
+
 
         {/* ==========================================
             BEST SEASONS RECOMMENDATIONS
@@ -377,50 +455,62 @@ export default function StateTourism({ params }: { params: { state: string } }) 
               No attractions matching your filters were found. Try clearing category or changing search.
             </div>
           ) : (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {filteredAttractions.map((att) => (
-                <div key={att.id} className="bg-white border border-gray-100 rounded-3xl overflow-hidden shadow-sm hover:shadow-md transition-all group flex flex-col justify-between">
-                  <div>
-                    <div className="h-48 overflow-hidden relative">
-                      <img src={att.image} alt={att.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
-                      <span className="absolute top-4 left-4 bg-white/95 backdrop-blur-md text-[10px] font-bold text-primary px-3 py-1 rounded-full shadow-sm">
-                        {att.category}
-                      </span>
-                    </div>
-                    <div className="p-6 space-y-3">
-                      <div className="flex items-center justify-between">
-                        <span className="text-xs text-gray-400 font-semibold flex items-center gap-1">
-                          <MapPin className="w-3.5 h-3.5 text-gray-400" />
-                          {att.locality}
+            <div className="space-y-6">
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                {(showAllAttractions ? filteredAttractions : filteredAttractions.slice(0, 8)).map((att: any) => (
+                  <div key={att.id} className="bg-white border border-gray-100 rounded-3xl overflow-hidden shadow-sm hover:shadow-md transition-all group flex flex-col justify-between">
+                    <div>
+                      <div className="h-48 overflow-hidden relative">
+                        <img src={att.image} alt={att.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                        <span className="absolute top-4 left-4 bg-white/95 backdrop-blur-md text-[10px] font-bold text-primary px-3 py-1 rounded-full shadow-sm">
+                          {att.category}
                         </span>
-                        <div className="flex items-center gap-1">
-                          <Star className="w-3.5 h-3.5 text-yellow-400 fill-yellow-400" />
-                          <span className="text-xs font-bold text-gray-900">{att.rating}</span>
-                          <span className="text-[10px] text-gray-400">({att.reviews})</span>
-                        </div>
                       </div>
-                      <h3 className="text-lg font-bold text-gray-900 group-hover:text-primary transition-colors">
-                        {att.title}
-                      </h3>
-                      <p className="text-xs text-gray-500 leading-relaxed">
-                        {att.desc}
-                      </p>
+                      <div className="p-6 space-y-3">
+                        <div className="flex items-center justify-between">
+                          <span className="text-xs text-gray-400 font-semibold flex items-center gap-1">
+                            <MapPin className="w-3.5 h-3.5 text-gray-400" />
+                            {att.locality}
+                          </span>
+                          <div className="flex items-center gap-1">
+                            <Star className="w-3.5 h-3.5 text-yellow-400 fill-yellow-400" />
+                            <span className="text-xs font-bold text-gray-900">{att.rating}</span>
+                            <span className="text-[10px] text-gray-400">({att.reviews})</span>
+                          </div>
+                        </div>
+                        <h3 className="text-lg font-bold text-gray-900 group-hover:text-primary transition-colors">
+                          {att.title}
+                        </h3>
+                        <p className="text-xs text-gray-500 leading-relaxed line-clamp-2">
+                          {att.desc}
+                        </p>
+                      </div>
+                    </div>
+                    <div className="px-6 pb-6 pt-4 border-t border-gray-50 flex items-center justify-between">
+                      <span className="text-[10px] font-bold text-green-600 bg-green-50 px-2.5 py-1 rounded-md flex items-center gap-1">
+                        <Clock className="w-3 h-3" />
+                        {att.timing}
+                      </span>
+                      <button 
+                        onClick={() => setLocation(`/search?q=${encodeURIComponent(att.title)}&state=${stateKey}`)}
+                        className="text-xs font-bold text-primary hover:text-primary/80 transition-colors flex items-center gap-1"
+                      >
+                        Find Local Listings <ChevronRight className="w-3.5 h-3.5" />
+                      </button>
                     </div>
                   </div>
-                  <div className="px-6 pb-6 pt-4 border-t border-gray-50 flex items-center justify-between">
-                    <span className="text-[10px] font-bold text-green-600 bg-green-50 px-2.5 py-1 rounded-md flex items-center gap-1">
-                      <Clock className="w-3 h-3" />
-                      {att.timing}
-                    </span>
-                    <button 
-                      onClick={() => setLocation(`/search?q=${encodeURIComponent(att.title)}&state=${stateKey}`)}
-                      className="text-xs font-bold text-primary hover:text-primary/80 transition-colors flex items-center gap-1"
-                    >
-                      Find Local Listings <ChevronRight className="w-3.5 h-3.5" />
-                    </button>
-                  </div>
+                ))}
+              </div>
+              {filteredAttractions.length > 8 && (
+                <div className="flex justify-center pt-2">
+                  <button
+                    onClick={() => setShowAllAttractions(!showAllAttractions)}
+                    className="px-6 py-2.5 bg-white border border-gray-200 text-xs font-bold text-gray-700 rounded-xl hover:bg-slate-50 transition-colors shadow-sm cursor-pointer"
+                  >
+                    {showAllAttractions ? "Show Less" : `Show All Attractions (${filteredAttractions.length})`}
+                  </button>
                 </div>
-              ))}
+              )}
             </div>
           )}
         </section>
@@ -469,42 +559,73 @@ export default function StateTourism({ params }: { params: { state: string } }) 
             <h2 className="text-2xl font-extrabold text-gray-900 tracking-tight">Best Hotels &amp; Homestays</h2>
             <div className="h-0.5 bg-gray-200 flex-1 ml-4 rounded" />
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {data.hotels.map((hotel) => (
-              <div key={hotel.id} className="bg-white border border-gray-100 rounded-3xl overflow-hidden shadow-sm hover:shadow-md transition-all group flex flex-col justify-between">
-                <div>
-                  <div className="h-44 overflow-hidden relative">
-                    <img src={hotel.image} alt={hotel.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
-                    <span className="absolute bottom-4 right-4 bg-slate-900/90 text-white font-extrabold text-xs px-3.5 py-1.5 rounded-xl shadow-sm">
-                      {hotel.price}
-                    </span>
+          {filteredHotels.length === 0 ? (
+            <div className="bg-white border border-gray-100 rounded-3xl p-10 text-center text-gray-500 shadow-sm animate-in fade-in duration-200">
+              No hotels matching your district filter were found.
+            </div>
+          ) : (
+            <div className="relative group/carousel">
+              <div 
+                ref={hotelsRef}
+                className="flex gap-6 overflow-x-auto scrollbar-none scroll-smooth pb-4 px-1"
+              >
+                {filteredHotels.map((hotel: any) => (
+                  <div key={hotel.id} className="w-[300px] flex-shrink-0 bg-white border border-gray-100 rounded-3xl overflow-hidden shadow-sm hover:shadow-md transition-all group flex flex-col justify-between">
+                    <div>
+                      <div className="h-44 overflow-hidden relative">
+                        <img src={hotel.image} alt={hotel.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                        <span className="absolute bottom-4 right-4 bg-slate-900/90 text-white font-extrabold text-xs px-3.5 py-1.5 rounded-xl shadow-sm">
+                          {hotel.price}
+                        </span>
+                      </div>
+                      <div className="p-5 space-y-2">
+                        <h3 className="text-base font-bold text-gray-900 group-hover:text-primary transition-colors line-clamp-1">
+                          {hotel.title}
+                        </h3>
+                        <span className="text-xs text-gray-400 font-semibold flex items-center gap-1">
+                          <MapPin className="w-3.5 h-3.5 text-gray-400" />
+                          {hotel.locality}
+                        </span>
+                      </div>
+                    </div>
+                    <div className="px-5 pb-5 pt-3 border-t border-gray-50 flex items-center justify-between">
+                      <div className="flex items-center gap-1">
+                        <Star className="w-3.5 h-3.5 text-yellow-400 fill-yellow-400" />
+                        <span className="text-xs font-bold text-gray-900">{hotel.rating}</span>
+                        <span className="text-[10px] text-gray-400">({hotel.reviews} reviews)</span>
+                      </div>
+                      <button 
+                        onClick={() => setLocation(`/search?q=${encodeURIComponent(hotel.title)}&state=${stateKey}`)}
+                        className="text-xs font-bold text-primary hover:text-primary/80 transition-colors"
+                      >
+                        View Details
+                      </button>
+                    </div>
                   </div>
-                  <div className="p-5 space-y-2">
-                    <h3 className="text-base font-bold text-gray-900 group-hover:text-primary transition-colors">
-                      {hotel.title}
-                    </h3>
-                    <span className="text-xs text-gray-400 font-semibold flex items-center gap-1">
-                      <MapPin className="w-3.5 h-3.5 text-gray-400" />
-                      {hotel.locality}
-                    </span>
-                  </div>
-                </div>
-                <div className="px-5 pb-5 pt-3 border-t border-gray-50 flex items-center justify-between">
-                  <div className="flex items-center gap-1">
-                    <Star className="w-3.5 h-3.5 text-yellow-400 fill-yellow-400" />
-                    <span className="text-xs font-bold text-gray-900">{hotel.rating}</span>
-                    <span className="text-[10px] text-gray-400">({hotel.reviews} reviews)</span>
-                  </div>
-                  <button 
-                    onClick={() => setLocation(`/search?q=${encodeURIComponent(hotel.title)}&state=${stateKey}`)}
-                    className="text-xs font-bold text-primary hover:text-primary/80 transition-colors"
-                  >
-                    View Details
-                  </button>
-                </div>
+                ))}
               </div>
-            ))}
-          </div>
+              
+              {/* Carousel navigation buttons */}
+              {filteredHotels.length > 3 && (
+                <>
+                  <button 
+                    onClick={() => handleScroll(hotelsRef, 'left')} 
+                    className="absolute -left-4 top-1/2 -translate-y-1/2 bg-white border border-gray-200 rounded-full p-2.5 shadow-md hover:bg-slate-50 transition-all z-10 opacity-0 group-hover/carousel:opacity-100 cursor-pointer flex items-center justify-center"
+                    aria-label="Scroll left"
+                  >
+                    <ChevronLeft className="w-5 h-5 text-gray-700" />
+                  </button>
+                  <button 
+                    onClick={() => handleScroll(hotelsRef, 'right')} 
+                    className="absolute -right-4 top-1/2 -translate-y-1/2 bg-white border border-gray-200 rounded-full p-2.5 shadow-md hover:bg-slate-50 transition-all z-10 opacity-0 group-hover/carousel:opacity-100 cursor-pointer flex items-center justify-center"
+                    aria-label="Scroll right"
+                  >
+                    <ChevronRight className="w-5 h-5 text-gray-700" />
+                  </button>
+                </>
+              )}
+            </div>
+          )}
         </section>
 
 
@@ -516,45 +637,76 @@ export default function StateTourism({ params }: { params: { state: string } }) 
             <h2 className="text-2xl font-extrabold text-gray-900 tracking-tight">Popular Restaurants</h2>
             <div className="h-0.5 bg-gray-200 flex-1 ml-4 rounded" />
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {data.restaurants.map((rest) => (
-              <div key={rest.id} className="bg-white border border-gray-100 rounded-3xl overflow-hidden shadow-sm hover:shadow-md transition-all group flex flex-col md:flex-row">
-                <div className="w-full md:w-48 h-40 md:h-auto overflow-hidden flex-shrink-0">
-                  <img src={rest.image} alt={rest.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
-                </div>
-                <div className="p-5 flex-1 flex flex-col justify-between">
-                  <div className="space-y-2">
-                    <span className="text-[10px] font-bold text-primary uppercase tracking-wider bg-orange-50 px-2.5 py-1 rounded-md">
-                      {rest.cuisine}
-                    </span>
-                    <h3 className="text-base font-bold text-gray-900 group-hover:text-primary transition-colors">
-                      {rest.title}
-                    </h3>
-                    <p className="text-xs text-gray-500">
-                      <span className="font-semibold text-gray-700">Famous For:</span> {rest.famousFor}
-                    </p>
-                    <span className="text-xs text-gray-400 font-semibold flex items-center gap-1">
-                      <MapPin className="w-3.5 h-3.5 text-gray-400" />
-                      {rest.locality}
-                    </span>
-                  </div>
-                  <div className="pt-4 mt-3 border-t border-gray-50 flex items-center justify-between">
-                    <div className="flex items-center gap-1">
-                      <Star className="w-3.5 h-3.5 text-yellow-400 fill-yellow-400" />
-                      <span className="text-xs font-bold text-gray-900">{rest.rating}</span>
-                      <span className="text-[10px] text-gray-400">({rest.reviews} reviews)</span>
+          {filteredRestaurants.length === 0 ? (
+            <div className="bg-white border border-gray-100 rounded-3xl p-10 text-center text-gray-500 shadow-sm animate-in fade-in duration-200">
+              No restaurants matching your district filter were found.
+            </div>
+          ) : (
+            <div className="relative group/carousel">
+              <div 
+                ref={restaurantsRef}
+                className="flex gap-6 overflow-x-auto scrollbar-none scroll-smooth pb-4 px-1"
+              >
+                {filteredRestaurants.map((rest: any) => (
+                  <div key={rest.id} className="w-[380px] md:w-[420px] flex-shrink-0 bg-white border border-gray-100 rounded-3xl overflow-hidden shadow-sm hover:shadow-md transition-all group flex flex-row">
+                    <div className="w-32 md:w-36 h-full overflow-hidden flex-shrink-0">
+                      <img src={rest.image} alt={rest.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
                     </div>
-                    <button 
-                      onClick={() => setLocation(`/search?q=${encodeURIComponent(rest.title)}&state=${stateKey}`)}
-                      className="text-xs font-bold text-primary hover:text-primary/80 transition-colors"
-                    >
-                      Find Outlets
-                    </button>
+                    <div className="p-5 flex-1 flex flex-col justify-between">
+                      <div className="space-y-1.5">
+                        <span className="text-[9px] font-bold text-primary uppercase tracking-wider bg-orange-50 px-2.5 py-0.5 rounded-md inline-block">
+                          {rest.cuisine}
+                        </span>
+                        <h3 className="text-sm font-bold text-gray-900 group-hover:text-primary transition-colors line-clamp-1">
+                          {rest.title}
+                        </h3>
+                        <p className="text-[11px] text-gray-500 leading-tight line-clamp-1">
+                          <span className="font-semibold text-gray-700">Famous:</span> {rest.famousFor}
+                        </p>
+                        <span className="text-[11px] text-gray-400 font-semibold flex items-center gap-1">
+                          <MapPin className="w-3 h-3 text-gray-400" />
+                          {rest.locality}
+                        </span>
+                      </div>
+                      <div className="pt-3 mt-2 border-t border-gray-50 flex items-center justify-between">
+                        <div className="flex items-center gap-1">
+                          <Star className="w-3 h-3 text-yellow-400 fill-yellow-400" />
+                          <span className="text-[11px] font-bold text-gray-900">{rest.rating}</span>
+                          <span className="text-[9px] text-gray-400">({rest.reviews})</span>
+                        </div>
+                        <button 
+                          onClick={() => setLocation(`/search?q=${encodeURIComponent(rest.title)}&state=${stateKey}`)}
+                          className="text-[11px] font-bold text-primary hover:text-primary/80 transition-colors"
+                        >
+                          Find Outlets
+                        </button>
+                      </div>
+                    </div>
                   </div>
-                </div>
+                ))}
               </div>
-            ))}
-          </div>
+              
+              {/* Carousel navigation buttons */}
+              {filteredRestaurants.length > 2 && (
+                <>
+                  <button 
+                    onClick={() => handleScroll(restaurantsRef, 'left')} 
+                    className="absolute -left-4 top-1/2 -translate-y-1/2 bg-white border border-gray-200 rounded-full p-2.5 shadow-md hover:bg-slate-50 transition-all z-10 opacity-0 group-hover/carousel:opacity-100 cursor-pointer flex items-center justify-center"
+                    aria-label="Scroll left"
+                  >
+                    <ChevronLeft className="w-5 h-5 text-gray-700" />
+                  </button>
+                  <button 
+                    onClick={() => handleScroll(restaurantsRef, 'right')} 
+                    className="absolute -right-4 top-1/2 -translate-y-1/2 bg-white border border-gray-200 rounded-full p-2.5 shadow-md hover:bg-slate-50 transition-all z-10 opacity-0 group-hover/carousel:opacity-100 cursor-pointer flex items-center justify-center"
+                    aria-label="Scroll right"
+                  >
+                    <ChevronRight className="w-5 h-5 text-gray-700" />
+                  </button>
+                </>
+              )}
+            </div>
+          )}
         </section>
 
 
@@ -566,47 +718,78 @@ export default function StateTourism({ params }: { params: { state: string } }) 
             <h2 className="text-2xl font-extrabold text-gray-900 tracking-tight">Verified Local Guides</h2>
             <div className="h-0.5 bg-gray-200 flex-1 ml-4 rounded" />
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {localizedPartners.map((guide) => (
-              <div key={guide.id} className="bg-white border border-gray-100 rounded-3xl p-6 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
-                <div className="space-y-4">
-                  <div className="flex items-center gap-4">
-                    <div className="w-14 h-14 rounded-2xl overflow-hidden border border-gray-100 shadow-sm flex-shrink-0">
-                      <img src={guide.avatar} alt={guide.name} className="w-full h-full object-cover" />
+          {localizedPartners.length === 0 ? (
+            <div className="bg-white border border-gray-100 rounded-3xl p-10 text-center text-gray-500 shadow-sm">
+              No verified guides available for this state yet.
+            </div>
+          ) : (
+            <div className="relative group/carousel">
+              <div 
+                ref={guidesRef}
+                className="flex gap-6 overflow-x-auto scrollbar-none scroll-smooth pb-4 px-1"
+              >
+                {localizedPartners.map((guide: any) => (
+                  <div key={guide.id} className="w-[280px] flex-shrink-0 bg-white border border-gray-100 rounded-3xl p-6 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+                    <div className="space-y-4">
+                      <div className="flex items-center gap-4">
+                        <div className="w-14 h-14 rounded-2xl overflow-hidden border border-gray-100 shadow-sm flex-shrink-0">
+                          <img src={guide.avatar} alt={guide.name} className="w-full h-full object-cover" />
+                        </div>
+                        <div>
+                          <h3 className="text-base font-bold text-gray-900">{guide.name}</h3>
+                          <span className="text-[10px] font-bold text-primary uppercase tracking-wider">{guide.exp}</span>
+                        </div>
+                      </div>
+                      <div className="space-y-1.5">
+                        <p className="text-xs text-gray-700 font-semibold leading-tight line-clamp-1">{guide.role}</p>
+                        <div className="flex items-center gap-1 flex-wrap">
+                          {guide.languages.map((l: string, i: number) => (
+                            <span key={i} className="text-[9px] font-bold text-gray-400 bg-gray-50 border border-gray-100 px-2 py-0.5 rounded">
+                              {l}
+                            </span>
+                          ))}
+                        </div>
+                      </div>
                     </div>
-                    <div>
-                      <h3 className="text-base font-bold text-gray-900">{guide.name}</h3>
-                      <span className="text-[10px] font-bold text-primary uppercase tracking-wider">{guide.exp}</span>
-                    </div>
-                  </div>
-                  <div className="space-y-1.5">
-                    <p className="text-xs text-gray-700 font-semibold leading-tight">{guide.role}</p>
-                    <div className="flex items-center gap-1 flex-wrap">
-                      {guide.languages.map((l, i) => (
-                        <span key={i} className="text-[9px] font-bold text-gray-400 bg-gray-50 border border-gray-100 px-2 py-0.5 rounded">
-                          {l}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
-                </div>
 
-                <div className="mt-6 pt-4 border-t border-gray-50 flex items-center justify-between">
-                  <div>
-                    <span className="text-[10px] text-gray-400 font-bold block leading-none">CHARGES</span>
-                    <span className="text-sm font-extrabold text-gray-900">{guide.price}</span>
+                    <div className="mt-6 pt-4 border-t border-gray-50 flex items-center justify-between">
+                      <div>
+                        <span className="text-[10px] text-gray-400 font-bold block leading-none">CHARGES</span>
+                        <span className="text-sm font-extrabold text-gray-900">{guide.price}</span>
+                      </div>
+                      <button 
+                        onClick={() => setActivePartnerDetail(guide)}
+                        className="bg-primary hover:bg-primary/95 text-white font-bold text-xs px-4 py-2.5 rounded-xl shadow-sm hover:shadow transition-all flex items-center gap-1.5"
+                      >
+                        <MessageSquare className="w-3.5 h-3.5" />
+                        Book Guide
+                      </button>
+                    </div>
                   </div>
-                  <button 
-                    onClick={() => setActivePartnerDetail(guide)}
-                    className="bg-primary hover:bg-primary/95 text-white font-bold text-xs px-4 py-2.5 rounded-xl shadow-sm hover:shadow transition-all flex items-center gap-1.5"
-                  >
-                    <MessageSquare className="w-3.5 h-3.5" />
-                    Book Guide
-                  </button>
-                </div>
+                ))}
               </div>
-            ))}
-          </div>
+              
+              {/* Carousel navigation buttons */}
+              {localizedPartners.length > 3 && (
+                <>
+                  <button 
+                    onClick={() => handleScroll(guidesRef, 'left')} 
+                    className="absolute -left-4 top-1/2 -translate-y-1/2 bg-white border border-gray-200 rounded-full p-2.5 shadow-md hover:bg-slate-50 transition-all z-10 opacity-0 group-hover/carousel:opacity-100 cursor-pointer flex items-center justify-center"
+                    aria-label="Scroll left"
+                  >
+                    <ChevronLeft className="w-5 h-5 text-gray-700" />
+                  </button>
+                  <button 
+                    onClick={() => handleScroll(guidesRef, 'right')} 
+                    className="absolute -right-4 top-1/2 -translate-y-1/2 bg-white border border-gray-200 rounded-full p-2.5 shadow-md hover:bg-slate-50 transition-all z-10 opacity-0 group-hover/carousel:opacity-100 cursor-pointer flex items-center justify-center"
+                    aria-label="Scroll right"
+                  >
+                    <ChevronRight className="w-5 h-5 text-gray-700" />
+                  </button>
+                </>
+              )}
+            </div>
+          )}
         </section>
 
 
