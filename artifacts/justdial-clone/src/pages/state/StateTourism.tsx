@@ -53,7 +53,8 @@ export default function StateTourism({ params }: { params: { state: string } }) 
       TN: "tamil_nadu",
       RJ: "rajasthan",
       GA: "goa",
-      KA: "karnataka"
+      KA: "karnataka",
+      LA: "ladakh"
     };
     
     const apiStateKey = stateNameMap[stateKey] || stateKey.toLowerCase();
@@ -383,7 +384,7 @@ export default function StateTourism({ params }: { params: { state: string } }) 
                 Avg: {data.seasons.peak.temp}
               </div>
               <ul className="space-y-2.5">
-                {data.seasons.peak.points.map((pt, i) => (
+                {data.seasons.peak.points.map((pt: string, i: number) => (
                   <li key={i} className="text-xs text-gray-600 flex items-start gap-2">
                     <span className="w-1.5 h-1.5 bg-primary rounded-full mt-1.5 flex-shrink-0" />
                     <span>{pt}</span>
@@ -399,7 +400,7 @@ export default function StateTourism({ params }: { params: { state: string } }) 
                 Avg: {data.seasons.moderate.temp}
               </div>
               <ul className="space-y-2.5">
-                {data.seasons.moderate.points.map((pt, i) => (
+                {data.seasons.moderate.points.map((pt: string, i: number) => (
                   <li key={i} className="text-xs text-gray-600 flex items-start gap-2">
                     <span className="w-1.5 h-1.5 bg-teal-500 rounded-full mt-1.5 flex-shrink-0" />
                     <span>{pt}</span>
@@ -415,7 +416,7 @@ export default function StateTourism({ params }: { params: { state: string } }) 
                 Avg: {data.seasons.off.temp}
               </div>
               <ul className="space-y-2.5">
-                {data.seasons.off.points.map((pt, i) => (
+                {data.seasons.off.points.map((pt: string, i: number) => (
                   <li key={i} className="text-xs text-gray-600 flex items-start gap-2">
                     <span className="w-1.5 h-1.5 bg-slate-400 rounded-full mt-1.5 flex-shrink-0" />
                     <span>{pt}</span>
@@ -492,7 +493,7 @@ export default function StateTourism({ params }: { params: { state: string } }) 
                         {att.timing}
                       </span>
                       <button 
-                        onClick={() => setLocation(`/search?q=${encodeURIComponent(att.title)}&state=${stateKey}`)}
+                        onClick={() => setLocation(`/listing/${att.id}`)}
                         className="text-xs font-bold text-primary hover:text-primary/80 transition-colors flex items-center gap-1"
                       >
                         Find Local Listings <ChevronRight className="w-3.5 h-3.5" />
@@ -530,7 +531,7 @@ export default function StateTourism({ params }: { params: { state: string } }) 
             </div>
             
             <div className="relative border-l border-white/20 ml-3 md:ml-28 pl-6 md:pl-8 space-y-8">
-              {data.oneDayHustle.steps.map((step, idx) => (
+              {data.oneDayHustle.steps.map((step: any, idx: number) => (
                 <div key={idx} className="relative group">
                   {/* Timeline point */}
                   <div className="absolute -left-[31px] md:-left-[39px] w-4 h-4 rounded-full bg-primary border-4 border-slate-950 group-hover:scale-125 transition-transform" />
@@ -595,7 +596,7 @@ export default function StateTourism({ params }: { params: { state: string } }) 
                         <span className="text-[10px] text-gray-400">({hotel.reviews} reviews)</span>
                       </div>
                       <button 
-                        onClick={() => setLocation(`/search?q=${encodeURIComponent(hotel.title)}&state=${stateKey}`)}
+                        onClick={() => setLocation(`/listing/${hotel.id}`)}
                         className="text-xs font-bold text-primary hover:text-primary/80 transition-colors"
                       >
                         View Details
@@ -675,7 +676,7 @@ export default function StateTourism({ params }: { params: { state: string } }) 
                           <span className="text-[9px] text-gray-400">({rest.reviews})</span>
                         </div>
                         <button 
-                          onClick={() => setLocation(`/search?q=${encodeURIComponent(rest.title)}&state=${stateKey}`)}
+                          onClick={() => setLocation(`/listing/${rest.id}`)}
                           className="text-[11px] font-bold text-primary hover:text-primary/80 transition-colors"
                         >
                           Find Outlets
@@ -804,7 +805,7 @@ export default function StateTourism({ params }: { params: { state: string } }) 
             <h2 className="text-xl font-bold text-gray-900">Did You Know? (Fun Facts)</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {data.didYouKnow.map((fact, idx) => (
+            {data.didYouKnow.map((fact: string, idx: number) => (
               <div key={idx} className="bg-slate-50 border border-gray-100/50 rounded-2xl p-5 flex items-start gap-4 hover:bg-amber-50/20 transition-all duration-300">
                 <span className="w-6 h-6 rounded-full bg-amber-100 text-amber-700 font-bold text-xs flex items-center justify-center flex-shrink-0 mt-0.5">
                   {idx + 1}

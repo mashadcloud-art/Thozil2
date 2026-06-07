@@ -28,7 +28,8 @@ export const districtsData: Record<string, string[]> = {
   NL: ["Kohima","Dimapur","Mokokchung","Tuensang","Wokha","Zunheboto","Phek","Mon"],
   MZ: ["Aizawl","Lunglei","Champhai","Kolasib","Serchhip","Lawngtlai","Mamit","Saiha"],
   AR: ["Itanagar","Naharlagun","Pasighat","Tawang","Ziro","Bomdila","Along","Tezu","Roing"],
-  SK: ["East Sikkim","West Sikkim","North Sikkim","South Sikkim"]
+  SK: ["East Sikkim","West Sikkim","North Sikkim","South Sikkim"],
+  LA: ["Leh", "Kargil"]
 };
 
 export const stateNames: Record<string, string> = {
@@ -61,5 +62,6 @@ export const stateNames: Record<string, string> = {
   NL: "Nagaland",
   MZ: "Mizoram",
   AR: "Arunachal Pradesh",
-  SK: "Sikkim"
+  SK: "Sikkim",
+  LA: "Ladakh"
 };
