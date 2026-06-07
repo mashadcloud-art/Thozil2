@@ -11,16 +11,8 @@ import {
 export default function StateTourism({ params }: { params: { state: string } }) {
   const [, setLocation] = useLocation();
   const stateKey = params.state.toUpperCase();
-  const data = tourismData[stateKey];
-
-  // If no data exists, redirect to home page
-  useEffect(() => {
-    if (!data) {
-      setLocation("/");
-    }
-  }, [data, setLocation]);
-
-  if (!data) return null;
+  const [data, setData] = useState<any>(null);
+  const [loading, setLoading] = useState(true);
 
   // Search & Filters state
   const [searchQuery, setSearchQuery] = useState("");
@@ -39,12 +31,60 @@ export default function StateTourism({ params }: { params: { state: string } }) 
   const [bookingFormData, setBookingFormData] = useState({ name: "", phone: "", date: "", guests: 1, remarks: "" });
   const [isSuccessModalOpen, setIsSuccessModalOpen] = useState(false);
 
-  // Auto city toggle reset when state changes
+  // Auto city toggle reset when state changes and fetch live data
   useEffect(() => {
     setActiveCityToggle("primary");
     setSearchQuery("");
     setSelectedCategory("All");
-  }, [stateKey]);
+    setLoading(true);
+
+    const stateNameMap: Record<string, string> = {
+      KL: "kerala",
+      TN: "tamil_nadu",
+      RJ: "rajasthan",
+      GA: "goa",
+      KA: "karnataka"
+    };
+    
+    const apiStateKey = stateNameMap[stateKey] || stateKey.toLowerCase();
+    
+    fetch(`/backend/api/v1/tourism?state=${apiStateKey}`)
+      .then(res => {
+        if (!res.ok) throw new Error("State data not found");
+        return res.json();
+      })
+      .then(fetchedData => {
+        setData(fetchedData);
+        setLoading(false);
+      })
+      .catch(err => {
+        console.warn("API fetch failed, falling back to static tourism data:", err);
+        const fallback = tourismData[stateKey];
+        if (fallback) {
+          setData(fallback);
+        } else {
+          setLocation("/");
+        }
+        setLoading(false);
+      });
+  }, [stateKey, setLocation]);
+
+  if (loading) {
+    return (
+      <div className="min-h-screen flex flex-col bg-slate-50 font-sans">
+        <Navbar />
+        <div className="flex-1 flex items-center justify-center">
+          <div className="flex flex-col items-center gap-3">
+            <div className="w-8 h-8 border-4 border-primary border-t-transparent rounded-full animate-spin" />
+            <span className="text-sm font-semibold text-gray-600">Loading State Tourism Guide...</span>
+          </div>
+        </div>
+        <Footer />
+      </div>
+    );
+  }
+
+  if (!data) return null;
 
   // Filtered Attractions - Matches dynamic search & circular category buttons
   const filteredAttractions = useMemo(() => {
