@@ -1,8 +1,3 @@
-param(
-    [string]$Command,
-    [string]$Message
-)
-
 $ScriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 # Resolve thozil.js which is located in the parent folder of 'deploy/'
 $JsPath = [System.IO.Path]::GetFullPath((Join-Path $ScriptDir "..\thozil.js"))
