@@ -8,10 +8,12 @@ const path = require('path');
 const args = process.argv.slice(2);
 const command = args[0];
 
+const projectRoot = __dirname;
+
 function runCmd(cmd) {
   try {
     console.log(`\x1b[36mRunning: ${cmd}\x1b[0m`);
-    execSync(cmd, { stdio: 'inherit' });
+    execSync(cmd, { cwd: projectRoot, stdio: 'inherit' });
     return true;
   } catch (error) {
     console.error(`\x1b[31mError executing: ${cmd}\x1b[0m`);
