@@ -16,7 +16,7 @@ export default function Home() {
     <div className="min-h-screen w-full flex flex-col bg-background overflow-x-hidden">
       <Navbar />
 
-      <main className="flex-1 w-full max-w-[1400px] mx-auto px-4 md:px-6 lg:px-8 py-6 space-y-10">
+      <main className="flex-1 w-full max-w-[1600px] mx-auto px-4 md:px-6 lg:px-8 py-6 space-y-10">
         <HeroSection />
         <QuickCategories />
 
