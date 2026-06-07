@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-import { useLocation } from "wouter";
+import { useLocation, Link } from "wouter";
 import { districtsData, stateNames } from "@/lib/locationData";
 
 
@@ -150,13 +150,13 @@ export default function Navbar() {
           <h2 className="sr-only">Thozil.com header — search with state and district selector</h2>
           <div className="hdr">
 
-            <a className="logo" href="#">
+            <Link href="/" className="logo">
               <div className="lmark">T</div>
               <div>
                 <div className="lname">Thozil<span style={{ color: "#FF6B2C" }}>.com</span></div>
                 <div className="lsub">Local Directory</div>
               </div>
-            </a>
+            </Link>
 
             <div className="search-bar">
               <div className="sf">
