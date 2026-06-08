@@ -58,7 +58,7 @@ export default function QuickCategories() {
             variants={item}
             href={
               cat.label === "Restaurants"
-                ? `/restaurant-collections?state=${selectedState}`
+                ? `/${selectedState}/restaurant-collections`
                 : `/search?q=${encodeURIComponent(cat.label)}&state=${selectedState}`
             }
             className="flex flex-col items-center justify-center p-3 rounded-xl bg-white border border-gray-100 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-200 group"

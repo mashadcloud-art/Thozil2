@@ -4,7 +4,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { 
   ChevronRight, Calendar, TrendingUp, ShoppingBag, 
-  MapPin, HelpCircle, ChevronDown, ChevronUp, 
+  HelpCircle, ChevronDown, ChevronUp, 
   Utensils, Globe, GlassWater, Zap, Candy, ChefHat
 } from "lucide-react";
 import { stateNames } from "@/lib/locationData";
@@ -22,20 +22,21 @@ interface CategoryGroup {
   bg: string;
   image: string;
   items: SubCategoryItem[];
+  moreLink: string;
 }
 
-export default function RestaurantCollections() {
+export default function RestaurantCollections({ params }: { params?: { state?: string } }) {
   const [, setLocation] = useLocation();
   
-  // Parse query params to get current location state & district
+  // Extract stateKey from path params or fallback to query param
   const getParam = (key: string, fallback = "") => {
     const params = new URLSearchParams(typeof window !== "undefined" ? window.location.search : "");
     return params.get(key) || fallback;
   };
 
-  const selectedState = getParam("state", "KL");
+  const stateKey = (params?.state || getParam("state", "KL")).toUpperCase();
   const selectedDistrict = getParam("district", "");
-  const stateName = stateNames[selectedState] || selectedState;
+  const stateName = stateNames[stateKey] || stateKey;
   const locationName = selectedDistrict ? `${selectedDistrict}, ${stateName}` : stateName;
 
   // Accordion active state tracking
@@ -45,7 +46,7 @@ export default function RestaurantCollections() {
     setActiveFaq(activeFaq === index ? null : index);
   };
 
-  // Categories list modeled exactly after the Justdial structure
+  // Categories list modeled EXACTLY after the user's pasted HTML and design mock
   const categories: CategoryGroup[] = [
     {
       title: "Indian Flavours",
@@ -54,11 +55,12 @@ export default function RestaurantCollections() {
       bg: "bg-orange-50",
       image: "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=400&h=240&q=80",
       items: [
-        { name: "South Indian", query: "South Indian" },
-        { name: "Pure Veg", query: "Pure Veg" },
-        { name: "Biryani", query: "Biryani" },
-        { name: "North Indian", query: "North Indian" }
-      ]
+        { name: "Sea Food", query: "Sea Food" },
+        { name: "Maharashtrian", query: "Maharashtrian" },
+        { name: "Mughlai", query: "Mughlai" },
+        { name: "Dhaba", query: "Dhaba" }
+      ],
+      moreLink: "Indian-Flavours"
     },
     {
       title: "Global Cuisines",
@@ -67,11 +69,12 @@ export default function RestaurantCollections() {
       bg: "bg-blue-50",
       image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&h=240&q=80",
       items: [
+        { name: "German", query: "German" },
         { name: "Continental", query: "Continental" },
-        { name: "Arabic", query: "Arabic" },
-        { name: "Italian", query: "Italian" },
-        { name: "Chinese", query: "Chinese" }
-      ]
+        { name: "American", query: "American" },
+        { name: "European", query: "European" }
+      ],
+      moreLink: "Global-Cuisines"
     },
     {
       title: "Nightlife",
@@ -80,11 +83,11 @@ export default function RestaurantCollections() {
       bg: "bg-purple-50",
       image: "https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=400&h=240&q=80",
       items: [
-        { name: "Pubs", query: "Pubs" },
         { name: "Lounge Bars", query: "Lounge" },
-        { name: "Night Clubs", query: "Night Club" },
-        { name: "Restaurants & Bars", query: "Bar" }
-      ]
+        { name: "Restaurants & Bars", query: "Bar" },
+        { name: "Restaurants With Candle Light Dinner", query: "Candle Light" }
+      ],
+      moreLink: "Nightlife"
     },
     {
       title: "Quick Bites",
@@ -97,7 +100,8 @@ export default function RestaurantCollections() {
         { name: "Coffee Shops", query: "Coffee Shop" },
         { name: "Fast Food", query: "Fast Food" },
         { name: "Pizza Outlets", query: "Pizza" }
-      ]
+      ],
+      moreLink: "Quick-Bites"
     },
     {
       title: "Sweet Tooth",
@@ -107,9 +111,9 @@ export default function RestaurantCollections() {
       image: "https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=400&h=240&q=80",
       items: [
         { name: "Cake Shops", query: "Cake" },
-        { name: "Desserts", query: "Dessert" },
-        { name: "Donut Outlets", query: "Donut" }
-      ]
+        { name: "Desserts", query: "Dessert" }
+      ],
+      moreLink: "Sweet-Tooth"
     },
     {
       title: "Foodie",
@@ -118,11 +122,12 @@ export default function RestaurantCollections() {
       bg: "bg-emerald-50",
       image: "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=400&h=240&q=80",
       items: [
-        { name: "Fab Biryanis", query: "Biryani" },
-        { name: `Spice of ${selectedDistrict || stateName}`, query: "Traditional" },
-        { name: "Street Food", query: "Street Food" },
-        { name: "Sunday Brunches", query: "Brunch" }
-      ]
+        { name: "Best Momos", query: "Momos" },
+        { name: "Breakfast Joints", query: "Breakfast" },
+        { name: "Oye Punjab", query: "Punjabi" },
+        { name: "Sinful Desserts", query: "Dessert" }
+      ],
+      moreLink: "Foodie"
     }
   ];
 
@@ -130,7 +135,7 @@ export default function RestaurantCollections() {
   const faqs = [
     {
       q: `What are the key factors to consider when choosing a restaurant in ${locationName}?`,
-      a: `When selecting a dining venue in ${locationName}, you should consider the style of cuisine you are craving (e.g. traditional South Indian, fusion, international), the restaurant's location and accessibility, hygiene standards, customer ratings/reviews, average price range, and facilities like parking spaces, family seating, or home delivery options.`
+      a: `When selecting a dining venue in ${locationName}, you should consider the style of cuisine you are craving (e.g. traditional seafood, continental, Mughlai), the restaurant's location and accessibility, hygiene standards, customer ratings/reviews, average price range, and facilities like parking spaces, family seating, or home delivery options.`
     },
     {
       q: `How can I find the best local restaurants in ${locationName}?`,
@@ -146,11 +151,11 @@ export default function RestaurantCollections() {
     },
     {
       q: "What are some famous regional cuisines to try in different parts of India?",
-      a: `In South India, try Syrian Christian fish pollichathu, Malabar biryani, or ghee roast dosas. In North India, explore butter chicken, tandoori items, and Mughlai curries. Western regions offer Gujarati or Rajasthani thalis, while the East is famous for Bengali fish curries and traditional sweets.`
+      a: "In North India, try Punjabi, Kashmiri, and Mughlai cuisines. In South India, popular options include Andhra, Tamil, Kerala, Karnataka, Goan, and Chettinad cuisines. Western regions offer Gujarati or Maharashtrian dishes, while the East is famous for Bengali, Assamese, and Oriya fish curries."
     },
     {
       q: "How can I find restaurants offering authentic Indian street food in a hygienic environment?",
-      a: "Search for established indoor eateries or clean, air-conditioned outlets that specialize in street food (like chaats, puttu, or local snacks). Many modern shopping mall food courts also house verified street food vendors operating under strict sanitary guidelines."
+      a: "Search for established indoor eateries or clean, air-conditioned outlets that specialize in street food (like chaats, momos, or local snacks). Many modern shopping mall food courts also house verified street food vendors operating under strict sanitary guidelines."
     },
     {
       q: `What payment methods are commonly accepted at restaurants in ${locationName}?`,
@@ -181,7 +186,7 @@ export default function RestaurantCollections() {
         <section className="relative rounded-3xl overflow-hidden shadow-lg mb-8 h-[240px] md:h-[320px] lg:h-[360px] group">
           <img 
             src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1600&q=80" 
-            alt="Delicious Restaurant Food Collage" 
+            alt={`Restaurant Collections in ${stateName}`} 
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-[8000ms] ease-out" 
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/40 to-black/20" />
@@ -204,7 +209,7 @@ export default function RestaurantCollections() {
         <section className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
           {/* Book A Table */}
           <Link 
-            href={`/search?q=Restaurants&state=${selectedState}&district=${selectedDistrict}&bookTable=true`}
+            href={`/search?q=Restaurants&state=${stateKey}&district=${selectedDistrict}&bookTable=true`}
             className="flex items-center p-6 bg-white border border-gray-100 rounded-3xl shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300 group cursor-pointer"
           >
             <div className="w-14 h-14 bg-red-50 rounded-2xl flex items-center justify-center text-red-500 mr-4 group-hover:scale-110 transition-transform">
@@ -219,7 +224,7 @@ export default function RestaurantCollections() {
 
           {/* Trending */}
           <Link 
-            href={`/search?q=Restaurants&state=${selectedState}&district=${selectedDistrict}&trending=true`}
+            href={`/search?q=Restaurants&state=${stateKey}&district=${selectedDistrict}&trending=true`}
             className="flex items-center p-6 bg-white border border-gray-100 rounded-3xl shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300 group cursor-pointer"
           >
             <div className="w-14 h-14 bg-amber-50 rounded-2xl flex items-center justify-center text-amber-600 mr-4 group-hover:scale-110 transition-transform">
@@ -234,7 +239,7 @@ export default function RestaurantCollections() {
 
           {/* Order Food */}
           <Link 
-            href={`/search?q=Restaurants&state=${selectedState}&district=${selectedDistrict}&orderFood=true`}
+            href={`/search?q=Restaurants&state=${stateKey}&district=${selectedDistrict}&orderFood=true`}
             className="flex items-center p-6 bg-white border border-gray-100 rounded-3xl shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300 group cursor-pointer"
           >
             <div className="w-14 h-14 bg-emerald-50 rounded-2xl flex items-center justify-center text-emerald-600 mr-4 group-hover:scale-110 transition-transform">
@@ -255,69 +260,67 @@ export default function RestaurantCollections() {
           <div className="flex items-center justify-between border-b border-gray-200 pb-3">
             <h2 className="text-2xl font-black text-gray-900 tracking-tight flex items-center gap-2">
               <Utensils className="w-6 h-6 text-primary" />
-              Explore Collections
+              Restaurant Collections in {stateName}
             </h2>
-            <Link 
-              href={`/search?q=Restaurants&state=${selectedState}&district=${selectedDistrict}`}
-              className="text-xs font-bold text-primary hover:underline"
-            >
-              View All Categories
-            </Link>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {categories.map((cat, idx) => {
-              const IconComponent = cat.icon;
               return (
                 <div 
                   key={idx} 
-                  className="bg-white border border-gray-100 rounded-3xl overflow-hidden shadow-sm hover:shadow-md transition-shadow group flex flex-col justify-between"
+                  className="bg-white border border-gray-200 rounded-3xl overflow-hidden shadow-sm hover:shadow-md transition-shadow group flex flex-col justify-between"
                 >
                   <div>
                     {/* Header Image */}
-                    <div className="h-32 w-full overflow-hidden relative">
+                    <div className="h-44 w-full overflow-hidden relative">
                       <img 
                         src={cat.image} 
                         alt={cat.title} 
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" 
                       />
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
-                      <div className="absolute bottom-3 left-4 flex items-center gap-2 text-white">
-                        <div className={`p-1.5 rounded-xl ${cat.bg} ${cat.color} backdrop-blur-sm`}>
-                          <IconComponent className="w-4 h-4" />
-                        </div>
-                        <h3 className="font-bold text-base tracking-tight">{cat.title}</h3>
-                      </div>
                     </div>
 
-                    {/* Subcategories list */}
-                    <ul className="p-6 grid grid-cols-2 gap-4">
-                      {cat.items.map((sub, sidx) => (
-                        <li key={sidx} className="flex items-center">
-                          <Link 
-                            href={`/search?q=${encodeURIComponent(sub.query)}&state=${selectedState}&district=${selectedDistrict}`}
-                            className="text-sm font-semibold text-gray-700 hover:text-primary hover:translate-x-1 transition-all flex items-center gap-1.5"
-                          >
-                            <span className="w-1.5 h-1.5 rounded-full bg-orange-400 flex-shrink-0" />
-                            {sub.name}
-                          </Link>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-
-                  <div className="px-6 pb-6 pt-2 border-t border-gray-50">
-                    <Link 
-                      href={`/search?q=${encodeURIComponent(cat.title)}&state=${selectedState}&district=${selectedDistrict}`}
-                      className="text-xs font-bold text-gray-500 hover:text-primary transition-colors flex items-center justify-between"
-                    >
-                      <span>Explore more options</span>
-                      <ChevronRight className="w-4 h-4" />
-                    </Link>
+                    <div className="p-6">
+                      <h3 className="font-bold text-gray-900 text-lg mb-3 tracking-tight">{cat.title}</h3>
+                      {/* Subcategories list */}
+                      <ul className="space-y-2">
+                        {cat.items.map((sub, sidx) => (
+                          <li key={sidx}>
+                            <Link 
+                              href={`/search?q=${encodeURIComponent(sub.query)}&state=${stateKey}&district=${selectedDistrict}`}
+                              className="text-sm text-gray-600 hover:text-primary transition-colors flex items-center gap-1"
+                            >
+                              - {sub.name}
+                            </Link>
+                          </li>
+                        ))}
+                        {cat.moreLink && (
+                          <li>
+                            <Link 
+                              href={`/search?q=Restaurants&state=${stateKey}&district=${selectedDistrict}`}
+                              className="text-sm text-blue-600 hover:underline hover:text-blue-800 transition-colors"
+                            >
+                              - More
+                            </Link>
+                          </li>
+                        )}
+                      </ul>
+                    </div>
                   </div>
                 </div>
               );
             })}
+          </div>
+
+          {/* View All Categories Button */}
+          <div className="flex justify-center pt-6">
+            <Link
+              href={`/search?q=Restaurants&state=${stateKey}&district=${selectedDistrict}`}
+              className="bg-[#0076d6] hover:bg-[#005fb8] text-white font-medium px-8 py-3 rounded-xl shadow transition-all duration-200 flex items-center justify-center text-base font-semibold"
+            >
+              View All Categories of Restaurants in {stateName}
+            </Link>
           </div>
         </section>
 

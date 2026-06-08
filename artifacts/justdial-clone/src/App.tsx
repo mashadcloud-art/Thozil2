@@ -23,6 +23,7 @@ function Router() {
       <Route path="/listing/:id" component={ListingDetail} />
       <Route path="/admin" component={AdminDashboard} />
       <Route path="/register-business" component={RegisterBusiness} />
+      <Route path="/:state/restaurant-collections" component={RestaurantCollections} />
       <Route path="/restaurant-collections" component={RestaurantCollections} />
       <Route component={NotFound} />
     </Switch>

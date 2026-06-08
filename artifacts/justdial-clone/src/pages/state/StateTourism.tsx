@@ -328,7 +328,7 @@ export default function StateTourism({ params }: { params: { state: string } }) 
                 key={cat.id}
                 onClick={() => {
                   if (cat.id === "Restaurants") {
-                    setLocation(`/restaurant-collections?state=${stateKey}`);
+                    setLocation(`/${stateKey}/restaurant-collections`);
                   } else {
                     setSelectedCategory(cat.id);
                   }
@@ -658,7 +658,7 @@ export default function StateTourism({ params }: { params: { state: string } }) 
               <div className="h-0.5 bg-gray-200 flex-1 ml-4 rounded" />
             </div>
             <Link 
-              href={`/restaurant-collections?state=${stateKey}`}
+              href={`/${stateKey}/restaurant-collections`}
               className="text-xs font-bold text-primary hover:underline whitespace-nowrap"
             >
               View Collections
