@@ -2,12 +2,14 @@ import { useState, useMemo, useEffect, useRef } from "react";
 import { useLocation, Link } from "wouter";
 import { tourismData, thozilPartners, categoriesMapping } from "@/data/tourismData";
 import { districtsData } from "@/lib/locationData";
+import { getSeasonDataForDistrict } from "@/data/districtSeasons";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { 
   ChevronRight, ChevronLeft, Star, Clock, MapPin, Phone, MessageSquare, ThumbsUp, ThumbsDown, 
   HelpCircle, Calendar, Users, Info, X, Cloud, CloudRain, Sun, Wind
 } from "lucide-react";
+
 
 export default function StateTourism({ params }: { params: { state: string } }) {
   const [, setLocation] = useLocation();
@@ -134,6 +136,13 @@ export default function StateTourism({ params }: { params: { state: string } }) 
   const localizedPartners = useMemo(() => {
     return thozilPartners.filter(p => p.state === stateKey);
   }, [stateKey]);
+
+  // Dynamically compute best season for selected district
+  const displayedSeasons = useMemo(() => {
+    if (!data || !data.seasons) return null;
+    if (selectedDistrict === "All") return data.seasons;
+    return getSeasonDataForDistrict(data.stateName, selectedDistrict, data.seasons);
+  }, [data, selectedDistrict]);
 
   if (loading) {
     return (
@@ -368,65 +377,67 @@ export default function StateTourism({ params }: { params: { state: string } }) 
         {/* ==========================================
             BEST SEASONS RECOMMENDATIONS
             ========================================== */}
-        <section className="space-y-6">
-          <div className="flex items-center gap-2">
-            <h2 className="text-2xl font-extrabold text-gray-900 tracking-tight">Best Season to Visit</h2>
-            <div className="h-0.5 bg-gray-200 flex-1 ml-4 rounded" />
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {/* Peak */}
-            <div className="bg-white border-2 border-primary/20 rounded-3xl p-6 shadow-sm relative overflow-hidden">
-              <div className="absolute top-0 right-0 bg-primary text-white text-[10px] font-bold px-3 py-1 rounded-bl-xl tracking-wider">
-                RECOMMENDED
-              </div>
-              <span className="text-xs font-bold text-primary tracking-wide uppercase">{data.seasons.peak.months}</span>
-              <h3 className="text-lg font-bold text-gray-900 mt-1 mb-3">{data.seasons.peak.title}</h3>
-              <div className="bg-orange-50 text-primary font-bold text-sm px-3 py-1.5 rounded-xl inline-block mb-5">
-                Avg: {data.seasons.peak.temp}
-              </div>
-              <ul className="space-y-2.5">
-                {data.seasons.peak.points.map((pt: string, i: number) => (
-                  <li key={i} className="text-xs text-gray-600 flex items-start gap-2">
-                    <span className="w-1.5 h-1.5 bg-primary rounded-full mt-1.5 flex-shrink-0" />
-                    <span>{pt}</span>
-                  </li>
-                ))}
-              </ul>
+        {displayedSeasons && (
+          <section className="space-y-6">
+            <div className="flex items-center gap-2">
+              <h2 className="text-2xl font-extrabold text-gray-900 tracking-tight">Best Season to Visit</h2>
+              <div className="h-0.5 bg-gray-200 flex-1 ml-4 rounded" />
             </div>
-            {/* Moderate */}
-            <div className="bg-white border border-gray-100 rounded-3xl p-6 shadow-sm">
-              <span className="text-xs font-bold text-teal-600 tracking-wide uppercase">{data.seasons.moderate.months}</span>
-              <h3 className="text-lg font-bold text-gray-900 mt-1 mb-3">{data.seasons.moderate.title}</h3>
-              <div className="bg-teal-50 text-teal-700 font-bold text-sm px-3 py-1.5 rounded-xl inline-block mb-5">
-                Avg: {data.seasons.moderate.temp}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              {/* Peak */}
+              <div className="bg-white border-2 border-primary/20 rounded-3xl p-6 shadow-sm relative overflow-hidden">
+                <div className="absolute top-0 right-0 bg-primary text-white text-[10px] font-bold px-3 py-1 rounded-bl-xl tracking-wider">
+                  RECOMMENDED
+                </div>
+                <span className="text-xs font-bold text-primary tracking-wide uppercase">{displayedSeasons.peak.months}</span>
+                <h3 className="text-lg font-bold text-gray-900 mt-1 mb-3">{displayedSeasons.peak.title}</h3>
+                <div className="bg-orange-50 text-primary font-bold text-sm px-3 py-1.5 rounded-xl inline-block mb-5">
+                  Avg: {displayedSeasons.peak.temp}
+                </div>
+                <ul className="space-y-2.5">
+                  {displayedSeasons.peak.points.map((pt: string, i: number) => (
+                    <li key={i} className="text-xs text-gray-600 flex items-start gap-2">
+                      <span className="w-1.5 h-1.5 bg-primary rounded-full mt-1.5 flex-shrink-0" />
+                      <span>{pt}</span>
+                    </li>
+                  ))}
+                </ul>
               </div>
-              <ul className="space-y-2.5">
-                {data.seasons.moderate.points.map((pt: string, i: number) => (
-                  <li key={i} className="text-xs text-gray-600 flex items-start gap-2">
-                    <span className="w-1.5 h-1.5 bg-teal-500 rounded-full mt-1.5 flex-shrink-0" />
-                    <span>{pt}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-            {/* Off-Season */}
-            <div className="bg-white border border-gray-100 rounded-3xl p-6 shadow-sm">
-              <span className="text-xs font-bold text-slate-500 tracking-wide uppercase">{data.seasons.off.months}</span>
-              <h3 className="text-lg font-bold text-gray-900 mt-1 mb-3">{data.seasons.off.title}</h3>
-              <div className="bg-slate-100 text-slate-700 font-bold text-sm px-3 py-1.5 rounded-xl inline-block mb-5">
-                Avg: {data.seasons.off.temp}
+              {/* Moderate */}
+              <div className="bg-white border border-gray-100 rounded-3xl p-6 shadow-sm">
+                <span className="text-xs font-bold text-teal-600 tracking-wide uppercase">{displayedSeasons.moderate.months}</span>
+                <h3 className="text-lg font-bold text-gray-900 mt-1 mb-3">{displayedSeasons.moderate.title}</h3>
+                <div className="bg-teal-50 text-teal-700 font-bold text-sm px-3 py-1.5 rounded-xl inline-block mb-5">
+                  Avg: {displayedSeasons.moderate.temp}
+                </div>
+                <ul className="space-y-2.5">
+                  {displayedSeasons.moderate.points.map((pt: string, i: number) => (
+                    <li key={i} className="text-xs text-gray-600 flex items-start gap-2">
+                      <span className="w-1.5 h-1.5 bg-teal-500 rounded-full mt-1.5 flex-shrink-0" />
+                      <span>{pt}</span>
+                    </li>
+                  ))}
+                </ul>
               </div>
-              <ul className="space-y-2.5">
-                {data.seasons.off.points.map((pt: string, i: number) => (
-                  <li key={i} className="text-xs text-gray-600 flex items-start gap-2">
-                    <span className="w-1.5 h-1.5 bg-slate-400 rounded-full mt-1.5 flex-shrink-0" />
-                    <span>{pt}</span>
-                  </li>
-                ))}
-              </ul>
+              {/* Off-Season */}
+              <div className="bg-white border border-gray-100 rounded-3xl p-6 shadow-sm">
+                <span className="text-xs font-bold text-slate-500 tracking-wide uppercase">{displayedSeasons.off.months}</span>
+                <h3 className="text-lg font-bold text-gray-900 mt-1 mb-3">{displayedSeasons.off.title}</h3>
+                <div className="bg-slate-100 text-slate-700 font-bold text-sm px-3 py-1.5 rounded-xl inline-block mb-5">
+                  Avg: {displayedSeasons.off.temp}
+                </div>
+                <ul className="space-y-2.5">
+                  {displayedSeasons.off.points.map((pt: string, i: number) => (
+                    <li key={i} className="text-xs text-gray-600 flex items-start gap-2">
+                      <span className="w-1.5 h-1.5 bg-slate-400 rounded-full mt-1.5 flex-shrink-0" />
+                      <span>{pt}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </div>
-          </div>
-        </section>
+          </section>
+        )}
 
 
         {/* ==========================================
