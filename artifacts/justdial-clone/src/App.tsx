@@ -11,6 +11,7 @@ import AdminDashboard from "@/pages/admin/AdminDashboard";
 import ListingDetail from "@/pages/listing-detail";
 import RegisterBusiness from "@/pages/RegisterBusiness";
 import RestaurantCollections from "@/pages/RestaurantCollections";
+import Restaurants from "@/pages/Restaurants";
 
 const queryClient = new QueryClient();
 
@@ -24,6 +25,8 @@ function Router() {
       <Route path="/admin" component={AdminDashboard} />
       <Route path="/register-business" component={RegisterBusiness} />
       <Route path="/:state/restaurant-collections" component={RestaurantCollections} />
+      <Route path="/Restaurants" component={Restaurants} />
+      <Route path="/restaurants" component={Restaurants} />
       <Route path="/restaurant-collections" component={RestaurantCollections} />
       <Route component={NotFound} />
     </Switch>
