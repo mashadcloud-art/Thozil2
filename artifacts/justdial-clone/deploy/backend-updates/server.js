@@ -154,6 +154,64 @@ app.post('/api/v1/tourism', async (req, res) => {
 });
 
 // =========================
+// PUBLIC BUSINESS REGISTRATION API
+// =========================
+app.post('/api/v1/register-business', async (req, res) => {
+  try {
+    const { stateKey, category, businessData } = req.body;
+    if (!stateKey || !category || !businessData) {
+      return res.status(400).json({ error: 'Missing stateKey, category, or businessData in request body.' });
+    }
+
+    const targetStateKey = stateKey.toLowerCase();
+    const stateDoc = await Tourism.findOne({ stateKey: targetStateKey });
+    if (!stateDoc) {
+      return res.status(404).json({ error: `State document not found for: ${stateKey}` });
+    }
+
+    let arrayName = '';
+    let itemPrefix = '';
+    const normCategory = category.toLowerCase();
+    
+    if (normCategory === 'restaurants' || normCategory === 'restaurant') {
+      arrayName = 'restaurants';
+      itemPrefix = 'rest';
+    } else if (normCategory === 'hotels' || normCategory === 'hotel') {
+      arrayName = 'hotels';
+      itemPrefix = 'hot';
+    } else if (normCategory === 'attractions' || normCategory === 'tourist places' || normCategory === 'tourist place') {
+      arrayName = 'attractions';
+      itemPrefix = 'att';
+    } else {
+      return res.status(400).json({ error: `Unsupported business category: ${category}` });
+    }
+
+    const uniqueId = `${targetStateKey}_${itemPrefix}_${Date.now()}`;
+    const newListing = {
+      id: uniqueId,
+      ...businessData,
+      rating: parseFloat(businessData.rating) || 5.0,
+      reviews: businessData.reviews || "1 review"
+    };
+
+    // Initialize array if it doesn't exist
+    if (!stateDoc[arrayName]) {
+      stateDoc[arrayName] = [];
+    }
+
+    // Add item and save
+    stateDoc[arrayName].push(newListing);
+    stateDoc.markModified(arrayName);
+    await stateDoc.save();
+
+    return res.status(200).json({ success: true, data: newListing });
+  } catch (err) {
+    console.error(err);
+    return res.status(500).json({ error: 'Internal Server Database Error while registering business.' });
+  }
+});
+
+// =========================
 // ROOT ROUTE
 // =========================
 app.get("/", (req, res) => {

@@ -282,14 +282,14 @@ export default function Navbar() {
             </div>
 
             <div className="actions">
-              <button className="rbtn" aria-label="Register your Business" data-testid="button-register-business">
+              <Link href="/register-business" className="rbtn" aria-label="Register your Business" data-testid="button-register-business" style={{ textDecoration: "none" }}>
                 <span className="fbadge">FREE</span>
                 <i className="ti ti-building-store" aria-hidden="true" style={{ fontSize: "16px" }}></i>
                 <div className="rbtn-text">
                   <span className="rbtn-title">Register your Business</span>
                   <span className="rbtn-sub">Boost Your Visibility Today!</span>
                 </div>
-              </button>
+              </Link>
               <button className="lbtn" data-testid="button-login">Login / Sign Up</button>
             </div>
 

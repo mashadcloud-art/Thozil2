@@ -1,6 +1,7 @@
 import { Facebook, Twitter, Instagram, Youtube, Linkedin, MapPin, Phone, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
+import { Link } from "wouter";
 
 const cityLinks = [
   "Mumbai", "Delhi", "Bangalore", "Hyderabad", "Chennai", 
@@ -85,9 +86,11 @@ export default function Footer() {
               <p className="text-sm text-gray-400 mb-4">
                 Grow your business with Thozil.com. Get discovered by millions.
               </p>
-              <Button className="w-full bg-primary hover:bg-primary/90 text-white font-semibold">
-                List Your Business
-              </Button>
+              <Link href="/register-business" className="w-full block">
+                <Button className="w-full bg-primary hover:bg-primary/90 text-white font-semibold cursor-pointer">
+                  List Your Business
+                </Button>
+              </Link>
             </div>
             
             <div>

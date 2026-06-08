@@ -31,6 +31,7 @@ export interface HotelItem {
   reviews: string;
   price: string;
   image: string;
+  district?: string;
 }
 
 export interface HustleStep {
@@ -53,6 +54,7 @@ export interface RestaurantItem {
   reviews: string;
   famousFor: string;
   image: string;
+  district?: string;
 }
 
 export interface StateTourismData {
@@ -376,12 +378,112 @@ export const tourismData: Record<string, StateTourismData> = {
       {
         id: "kl_rest_1",
         title: "Paragon Restaurant",
-        locality: "Calicut / Kochi Outlets",
+        locality: "CH Bypass, Calicut",
+        district: "Kozhikode",
         cuisine: "Malabar Seafood & Biryani",
-        rating: 4.6,
+        rating: 4.7,
         reviews: "42.0k",
         famousFor: "Malabar Mutton Biryani & Prawn Mango Curry",
         image: "https://images.unsplash.com/photo-1626132647523-66f5bf380027?auto=format&fit=crop&w=400&q=80"
+      },
+      {
+        id: "kl_rest_2",
+        title: "Villa Maya",
+        locality: "Enchakkal, Thiruvananthapuram",
+        district: "Thiruvananthapuram",
+        cuisine: "Premium Heritage Fine Dining",
+        rating: 4.8,
+        reviews: "9.5k",
+        famousFor: "Stuffed Crab & Fish Pollichathu",
+        image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=400&q=80"
+      },
+      {
+        id: "kl_rest_3",
+        title: "Rahmath Hotel",
+        locality: "KP Kesava Menon Road, Calicut",
+        district: "Kozhikode",
+        cuisine: "Authentic Kozhikode Non-Veg",
+        rating: 4.6,
+        reviews: "22.3k",
+        famousFor: "Mutton Biryani & Beef Fry",
+        image: "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=400&q=80"
+      },
+      {
+        id: "kl_rest_4",
+        title: "Dhe Puttu",
+        locality: "Edappally, Kochi",
+        district: "Ernakulam",
+        cuisine: "Modern Fusion Puttu Specialities",
+        rating: 4.5,
+        reviews: "15.1k",
+        famousFor: "Erachi Puttu & Chemmeen Puttu",
+        image: "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=400&q=80"
+      },
+      {
+        id: "kl_rest_5",
+        title: "Grand Pavilion",
+        locality: "M.G. Road, Ernakulam",
+        district: "Ernakulam",
+        cuisine: "Traditional Kerala Seafood & Syrian Christian Cuisine",
+        rating: 4.6,
+        reviews: "12.8k",
+        famousFor: "Karimeen Pollichathu & Prawn Curry",
+        image: "https://images.unsplash.com/photo-1626132647523-66f5bf380027?auto=format&fit=crop&w=400&q=80"
+      },
+      {
+        id: "kl_rest_6",
+        title: "Restaurant by Chef Pillai",
+        locality: "The Gateway Hotel, Kochi",
+        district: "Ernakulam",
+        cuisine: "Signature Fusion Kerala Seafood",
+        rating: 4.7,
+        reviews: "8.2k",
+        famousFor: "Fish Nirvana & Unniyappam Pudding",
+        image: "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=400&q=80"
+      },
+      {
+        id: "kl_rest_7",
+        title: "Sree Krishna Inn",
+        locality: "Warriam Road, Kochi",
+        district: "Ernakulam",
+        cuisine: "Pure South Indian Vegetarian",
+        rating: 4.4,
+        reviews: "6.3k",
+        famousFor: "Kerala Sadhya & Ghee Dosa",
+        image: "https://images.unsplash.com/photo-1610192244261-3f33de3f55e4?auto=format&fit=crop&w=400&q=80"
+      },
+      {
+        id: "kl_rest_8",
+        title: "Kashi Art Cafe",
+        locality: "Burger Street, Fort Kochi",
+        district: "Ernakulam",
+        cuisine: "European Cafe & Continental Breakfast",
+        rating: 4.5,
+        reviews: "8.9k",
+        famousFor: "Chocolate Cake, Fresh Juices & French Toast",
+        image: "https://images.unsplash.com/photo-1498804103079-a6351b050096?auto=format&fit=crop&w=400&q=80"
+      },
+      {
+        id: "kl_rest_9",
+        title: "Rapsy Restaurant",
+        locality: "Munnar Bazaar, Munnar",
+        district: "Idukki",
+        cuisine: "Budget Multi-cuisine & Breakfast",
+        rating: 4.3,
+        reviews: "7.1k",
+        famousFor: "Spanish Omelette, Beef Biryani & Parotta",
+        image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=400&q=80"
+      },
+      {
+        id: "kl_rest_10",
+        title: "The Rice Boat",
+        locality: "Taj Malabar Resort, Willingdon Island, Kochi",
+        district: "Ernakulam",
+        cuisine: "Luxury Seafood Fine Dining",
+        rating: 4.8,
+        reviews: "3.2k",
+        famousFor: "Tigert Prawns & Crab Masala",
+        image: "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?auto=format&fit=crop&w=400&q=80"
       }
     ],
     didYouKnow: [
