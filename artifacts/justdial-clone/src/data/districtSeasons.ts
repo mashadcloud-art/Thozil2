@@ -173,6 +173,294 @@ export const districtSeasons: Record<string, DistrictSeasonData> = {
       ]
     }
   },
+  "Kollam": {
+    peak: {
+      months: "October - March",
+      title: "Ashtamudi Lake & Houseboats",
+      temp: "22°C to 30°C",
+      points: [
+        "Calm houseboat cruises on Ashtamudi Lake without major tourist crowds",
+        "Explore the historical Tangasseri Lighthouse and nearby quiet beaches",
+        "Take a scenic drive to the Thenmala eco-tourism zone for forest canopy walks"
+      ]
+    },
+    moderate: {
+      months: "June - September",
+      title: "Monsoon Backwater Swell",
+      temp: "23°C to 28°C",
+      points: [
+        "Watch rainfall over the vast, connected backwater lakes and rivers",
+        "Ideal time for traditional, relaxing Ayurvedic healthcare packages",
+        "Enjoy the deep green look of coco-palm islands along the lake edges"
+      ]
+    },
+    off: {
+      months: "April - May",
+      title: "Coastal Summer Breeze",
+      temp: "27°C to 34°C",
+      points: [
+        "Warm weather, perfect for early morning temple visits or late beach strolls",
+        "Excellent coastal dining with fresh backwater fish and toddy delicacies",
+        "Remarkable seasonal discounts at lakeside heritage resorts"
+      ]
+    }
+  },
+  "Pathanamthitta": {
+    peak: {
+      months: "November - February",
+      title: "Sabarimala Pilgrim & Forest Winter",
+      temp: "18°C to 28°C",
+      points: [
+        "Witness Sabarimala pilgrim season and vibrant local temple festivals",
+        "Perfect, cool weather for exploring Gavi's dense evergreen forests",
+        "Enjoy tranquil coracle bamboo rafting at the Adavi eco-tourism site"
+      ]
+    },
+    moderate: {
+      months: "June - September",
+      title: "Vibrant Forest Monsoon",
+      temp: "20°C to 26°C",
+      points: [
+        "Monsoon rains completely revive the forest rivers and mountain streams",
+        "Achankovil and Pamba rivers flow with incredible strength and speed",
+        "Peaceful stays at misty hill station eco-lodges"
+      ]
+    },
+    off: {
+      months: "March - May",
+      title: "Quiet Summer Valleys",
+      temp: "24°C to 33°C",
+      points: [
+        "Uncrowded temple visits and peaceful sight-seeing tours",
+        "Budget-friendly eco-tourism packages and wilderness resort rates",
+        "Great drives along the scenic foothills of the Western Ghats"
+      ]
+    }
+  },
+  "Kottayam": {
+    peak: {
+      months: "September - February",
+      title: "Kumarakom Bird Sanctuary Peak",
+      temp: "20°C to 29°C",
+      points: [
+        "Ideal weather for bird watching and spotting migratory species in Kumarakom",
+        "Stunning, clear blue views of the massive Vembanad Lake",
+        "Lively local houseboat traffic, luxury boat rides, and fishing trips"
+      ]
+    },
+    moderate: {
+      months: "June - August",
+      title: "Monsoon Wetlands",
+      temp: "22°C to 28°C",
+      points: [
+        "Watch heavy monsoon rains sweep across the expansive lake surface",
+        "Best time for authentic Ayurvedic massage and healing therapies",
+        "Cozy, relaxing stays listening to the rain at boutique water villas"
+      ]
+    },
+    off: {
+      months: "March - May",
+      title: "Lakeside Summer Retreat",
+      temp: "25°C to 34°C",
+      points: [
+        "Warm summer evenings, perfect for sunset boat rides and lake fishing",
+        "Exceptional price drops on five-star luxury lakeside resorts",
+        "Feast on seasonal sweet mangoes, pineapples, and fresh pearl spot fish"
+      ]
+    }
+  },
+  "Thrissur": {
+    peak: {
+      months: "October - May",
+      title: "Cultural Festivals & Heritage",
+      temp: "22°C to 32°C",
+      points: [
+        "Witness grand local temple festivals, including the world-famous Thrissur Pooram",
+        "Pleasant winter weather for exploring Athirappilly waterfall parks",
+        "Excellent time for historical walks around temples and museum galleries"
+      ]
+    },
+    moderate: {
+      months: "June - September",
+      title: "Roaring Waterfalls Monsoon",
+      temp: "23°C to 29°C",
+      points: [
+        "Athirappilly and Vazhachal waterfalls swell into massive, roaring cascades",
+        "Rainforest trails are filled with active wildlife and fresh mountain streams",
+        "Beautiful misty landscapes at Peechi Dam reservoir gardens"
+      ]
+    },
+    off: {
+      months: "March - April",
+      title: "Quiet Cultural Trails",
+      temp: "26°C to 35°C",
+      points: [
+        "Quiet sightseeing with zero crowds at key museums and palaces",
+        "Budget-friendly hotel rates in Kerala's cultural capital",
+        "Taste local temple feasts and shop for authentic handloom clothes"
+      ]
+    }
+  },
+  "Palakkad": {
+    peak: {
+      months: "November - February",
+      title: "Winter Fort & Silent Valley",
+      temp: "20°C to 28°C",
+      points: [
+        "Cool breeze flows through the Palakkad Gap, keeping days comfortable",
+        "Perfect trekking conditions inside Silent Valley National Park's rainforests",
+        "Ideal time for visiting the historic stone Palakkad Fort and gardens"
+      ]
+    },
+    moderate: {
+      months: "June - September",
+      title: "Monsoon Paddy Plains",
+      temp: "22°C to 27°C",
+      points: [
+        "Lush green carpets of paddy fields stretch as far as the eye can see",
+        "Dams like Malampuzha and Kanjirapuzha offer high water level views",
+        "Enjoy mist-clad hill drives to Nelliyampathy heights"
+      ]
+    },
+    off: {
+      months: "March - May",
+      title: "Nelliyampathy Summer Escape",
+      temp: "28°C to 38°C",
+      points: [
+        "Escape the plainlands summer heat to the cool high hills of Nelliyampathy",
+        "Substantially lower room tariffs at plantation homestays and hotels",
+        "Enjoy traditional village festivals and summer harvest crops"
+      ]
+    }
+  },
+  "Malappuram": {
+    peak: {
+      months: "October - March",
+      title: "Winter Rivers & Bird Sanctuary",
+      temp: "21°C to 30°C",
+      points: [
+        "Ideal weather to spot migratory birds at Kadalundi Bird Sanctuary",
+        "Pleasant temperatures for trekking in Nilambur teak forests",
+        "Watch beautiful, clear winter sunsets at Padinharekara beach park"
+      ]
+    },
+    moderate: {
+      months: "June - September",
+      title: "Monsoon Teak Valleys",
+      temp: "22°C to 28°C",
+      points: [
+        "Watch heavy rain swell the Chaliyar and Bharathapuzha rivers",
+        "The world's oldest teak plantations look fresh, rich, and deeply green",
+        "Cozy stays and scenic river views at plantation guest houses"
+      ]
+    },
+    off: {
+      months: "April - May",
+      title: "Humid Summer Vistas",
+      temp: "26°C to 35°C",
+      points: [
+        "Quiet travel with no crowds at historical monuments and beaches",
+        "Budget-friendly tariffs at riverfront hotels and eco-resorts",
+        "Enjoy fresh summer mango crops and traditional Malabar delicacies"
+      ]
+    }
+  },
+  "Kozhikode": {
+    peak: {
+      months: "October - March",
+      title: "Coastal Winter & Food Feasts",
+      temp: "21°C to 31°C",
+      points: [
+        "Fabulous weather for evening relaxations at Kappad and Kozhikode beaches",
+        "Best time to explore the culinary street culture, tasting Kozhikodan Biryani",
+        "Enjoy scenic houseboat boat cruises along Elathur backwaters"
+      ]
+    },
+    moderate: {
+      months: "June - September",
+      title: "Monsoon Sea Views & Falls",
+      temp: "23°C to 29°C",
+      points: [
+        "Watch dramatic heavy monsoon sea waves from safe beach walk paths",
+        "Thusharagiri and Arippara waterfalls run in full, spectacular flows",
+        "Lush green hills and swollen reservoir vistas at Kakkayam Dam"
+      ]
+    },
+    off: {
+      months: "April - May",
+      title: "Sunny Coastal Summer",
+      temp: "26°C to 35°C",
+      points: [
+        "Warm summer days, best for cooling off during late evening beach dips",
+        "Great discount rates for beach resorts and high-end city hotels",
+        "Taste local summer refreshments like Kulukki Sarbath and fresh seafood"
+      ]
+    }
+  },
+  "Kannur": {
+    peak: {
+      months: "October - March",
+      title: "Theyyam Festival & Drive-in Beaches",
+      temp: "21°C to 31°C",
+      points: [
+        "Peak season to witness traditional Theyyam ritual dance performances",
+        "Perfect dry sands to drive along Muzhappilangad Drive-in Beach",
+        "Cool evening breezes at the historic St. Angelo Fort by the sea"
+      ]
+    },
+    moderate: {
+      months: "June - September",
+      title: "Monsoon Cliffs & Plateau",
+      temp: "23°C to 29°C",
+      points: [
+        "Heavy monsoon seas create spectacular views from cliffside vantages",
+        "Madayipara laterite plateau turns into a vibrant blue-green carpet of flowers",
+        "Excellent season for traditional monsoon Ayurvedic rejuvenation"
+      ]
+    },
+    off: {
+      months: "April - May",
+      title: "Warm Seaside Summer",
+      temp: "27°C to 35°C",
+      points: [
+        "Sunny weather, perfect for late evening beach activities and sunset walks",
+        "Highly reduced rates on beachfront homestays and luxury resorts",
+        "Explore historic forts and quiet beach coves with total privacy"
+      ]
+    }
+  },
+  "Kasaragod": {
+    peak: {
+      months: "October - March",
+      title: "Bekal Fort & Silent Backwaters",
+      temp: "20°C to 31°C",
+      points: [
+        "Perfect, cool weather to walk around the massive coastal Bekal Fort",
+        "Houseboat cruising on the untouched Valiyaparamba backwaters",
+        "Spectacular, clear sunset views over the sea at Kappil Beach cliffs"
+      ]
+    },
+    moderate: {
+      months: "June - September",
+      title: "Monsoon Fortress Greenery",
+      temp: "23°C to 28°C",
+      points: [
+        "Bekal Fort gardens and ramparts look exceptionally lush and emerald green",
+        "Witness high waves crashing against the stone base of the fort",
+        "Cozy stays at premium luxury wellness retreats with monsoon deals"
+      ]
+    },
+    off: {
+      months: "April - May",
+      title: "Quiet Fortress Summer",
+      temp: "26°C to 35°C",
+      points: [
+        "Uncrowded tourist sites and quiet beach relaxation",
+        "Highly discounted rates at world-class luxury beach resorts",
+        "Enjoy local fruit harvest festivals and calm evening walks"
+      ]
+    }
+  },
 
   // === GOA ===
   "North Goa": {
