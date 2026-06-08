@@ -56,7 +56,11 @@ export default function QuickCategories() {
           <motion.a 
             key={i} 
             variants={item}
-            href={`/search?q=${encodeURIComponent(cat.label)}&state=${selectedState}`}
+            href={
+              cat.label === "Restaurants"
+                ? `/restaurant-collections?state=${selectedState}`
+                : `/search?q=${encodeURIComponent(cat.label)}&state=${selectedState}`
+            }
             className="flex flex-col items-center justify-center p-3 rounded-xl bg-white border border-gray-100 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-200 group"
           >
             <div className={`w-12 h-12 rounded-full flex items-center justify-center mb-2 ${cat.bg} group-hover:scale-110 transition-transform duration-200`}>
