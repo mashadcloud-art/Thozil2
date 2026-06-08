@@ -42,6 +42,9 @@ const groups = [
 ];
 
 export default function CategoryCards() {
+  const searchParams = new URLSearchParams(typeof window !== "undefined" ? window.location.search : "");
+  const selectedState = searchParams.get("state") || "KL";
+
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
       {groups.map((group, gi) => (
@@ -60,7 +63,7 @@ export default function CategoryCards() {
             {group.items.map((item, ii) => (
               <a
                 key={ii}
-                href="#"
+                href={`/search?q=${encodeURIComponent(item.label)}&state=${selectedState}`}
                 className="flex flex-col items-center p-3 hover:bg-gray-50 transition-colors group"
                 data-testid={`category-item-${gi}-${ii}`}
               >

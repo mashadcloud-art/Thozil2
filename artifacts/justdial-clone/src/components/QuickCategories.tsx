@@ -36,6 +36,9 @@ const item = {
 };
 
 export default function QuickCategories() {
+  const searchParams = new URLSearchParams(typeof window !== "undefined" ? window.location.search : "");
+  const selectedState = searchParams.get("state") || "KL";
+
   return (
     <section>
       <div className="mb-4 flex items-center justify-between">
@@ -53,7 +56,7 @@ export default function QuickCategories() {
           <motion.a 
             key={i} 
             variants={item}
-            href="#"
+            href={`/search?q=${encodeURIComponent(cat.label)}&state=${selectedState}`}
             className="flex flex-col items-center justify-center p-3 rounded-xl bg-white border border-gray-100 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-200 group"
           >
             <div className={`w-12 h-12 rounded-full flex items-center justify-center mb-2 ${cat.bg} group-hover:scale-110 transition-transform duration-200`}>

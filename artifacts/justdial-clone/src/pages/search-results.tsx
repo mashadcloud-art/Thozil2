@@ -1,5 +1,5 @@
-import { useState } from "react";
-import { useLocation } from "wouter";
+import { useState, useEffect, useMemo } from "react";
+import { useLocation, Link } from "wouter";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Star, MapPin, Phone, MessageSquare, ShieldCheck, Clock, ChevronRight, SlidersHorizontal, Grid, List as ListIcon } from "lucide-react";
@@ -119,7 +119,7 @@ export default function SearchResults() {
   const [, setLocation] = useLocation();
   
   // Parse query params (simple client-side parser)
-  const searchParams = new URLSearchParams(window.location.search);
+  const searchParams = new URLSearchParams(typeof window !== "undefined" ? window.location.search : "");
   const query = searchParams.get("q") || "";
   const state = searchParams.get("state") || "";
   const district = searchParams.get("district") || "";
@@ -128,16 +128,133 @@ export default function SearchResults() {
   const [filterVerified, setFilterVerified] = useState(false);
   const [sortBy, setSortBy] = useState("popular");
 
-  // Filter list based on queries
-  const filteredResults = mockResults.filter(item => {
-    if (query && !item.name.toLowerCase().includes(query.toLowerCase()) && !item.category.toLowerCase().includes(query.toLowerCase())) {
-      return false;
-    }
-    if (state && item.state !== state) return false;
-    if (district && item.district.toLowerCase() !== district.toLowerCase()) return false;
-    if (filterVerified && !item.verified) return false;
-    return true;
-  });
+  const [dbResults, setDbResults] = useState<any[]>([]);
+  const [loadingDb, setLoadingDb] = useState(false);
+
+  useEffect(() => {
+    const activeState = state || "KL";
+    setLoadingDb(true);
+    
+    const stateNameMap: Record<string, string> = {
+      KL: "kerala",
+      TN: "tamil_nadu",
+      RJ: "rajasthan",
+      GA: "goa",
+      KA: "karnataka",
+      LA: "ladakh"
+    };
+    
+    const apiStateKey = stateNameMap[activeState.toUpperCase()] || activeState.toLowerCase();
+    
+    fetch(`/api/api/v1/tourism?state=${apiStateKey}`)
+      .then(res => {
+        if (!res.ok) throw new Error("State data not found");
+        return res.json();
+      })
+      .then(fetchedData => {
+        const items: any[] = [];
+        
+        // Map restaurants
+        if (fetchedData.restaurants) {
+          fetchedData.restaurants.forEach((r: any) => {
+            items.push({
+              id: r.id,
+              name: r.title,
+              category: "Restaurants",
+              state: activeState.toUpperCase(),
+              district: r.district || "",
+              rating: r.rating || 4.5,
+              reviewsCount: parseInt(r.reviews) || 45,
+              address: `${r.locality}, ${fetchedData.stateName || "Kerala"}, India`,
+              phone: r.phone || "+91 99029 00900",
+              image: r.image || "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=600&q=80",
+              verified: true,
+              timing: "Open now: 11:00 AM - 11:00 PM",
+              featured: false,
+              famousFor: r.famousFor
+            });
+          });
+        }
+        
+        // Map hotels
+        if (fetchedData.hotels) {
+          fetchedData.hotels.forEach((h: any) => {
+            items.push({
+              id: h.id,
+              name: h.title,
+              category: "Hotels",
+              state: activeState.toUpperCase(),
+              district: h.district || "",
+              rating: h.rating || 4.5,
+              reviewsCount: parseInt(h.reviews) || 28,
+              address: `${h.locality}, ${fetchedData.stateName || "Kerala"}, India`,
+              phone: h.phone || "+91 99029 00900",
+              image: h.image || "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=600&q=80",
+              verified: true,
+              timing: "24 Hours Check-in",
+              featured: false,
+              price: h.price
+            });
+          });
+        }
+
+        // Map attractions
+        if (fetchedData.attractions) {
+          fetchedData.attractions.forEach((a: any) => {
+            items.push({
+              id: a.id,
+              name: a.title,
+              category: a.category || "Tourist Places",
+              state: activeState.toUpperCase(),
+              district: a.district || "",
+              rating: a.rating || 4.5,
+              reviewsCount: parseInt(a.reviews) || 120,
+              address: `${a.locality}, ${fetchedData.stateName || "Kerala"}, India`,
+              phone: "+91 99029 00900",
+              image: a.image || "https://images.unsplash.com/photo-1596422846543-75c6fc18a52b?w=300&h=300&fit=crop",
+              verified: true,
+              timing: a.timing || "Open: 9:00 AM - 6:00 PM",
+              featured: false
+            });
+          });
+        }
+
+        setDbResults(items);
+        setLoadingDb(false);
+      })
+      .catch(err => {
+        console.warn("Failed to fetch search results from MongoDB:", err);
+        setLoadingDb(false);
+      });
+  }, [state]);
+
+  // Combine and filter list based on queries
+  const filteredResults = useMemo(() => {
+    const activeState = state || "KL";
+    const combined = [...dbResults, ...mockResults];
+
+    return combined.filter(item => {
+      // 1. Query matching
+      if (query) {
+        const queryLower = query.toLowerCase();
+        const matchesQuery = 
+          item.name.toLowerCase().includes(queryLower) || 
+          item.category.toLowerCase().includes(queryLower);
+        if (!matchesQuery) return false;
+      }
+      
+      // 2. State matching
+      if (item.state !== activeState.toUpperCase()) return false;
+      
+      // 3. District matching
+      if (district && item.district.toLowerCase() !== district.toLowerCase()) return false;
+      
+      // 4. Verification matching
+      if (filterVerified && !item.verified) return false;
+      
+      return true;
+    });
+  }, [dbResults, query, state, district, filterVerified]);
 
   return (
     <div className="min-h-screen w-full flex flex-col bg-slate-50 overflow-x-hidden font-sans">
@@ -313,11 +430,14 @@ export default function SearchResults() {
                     }`}
                   >
                     {/* Image */}
-                    <div className={`relative bg-slate-100 overflow-hidden ${
-                      viewMode === "grid" 
-                        ? "w-full h-48 rounded-t-2xl" 
-                        : "w-full md:w-64 h-48 md:h-auto md:rounded-l-2xl flex-shrink-0"
-                    }`}>
+                    <Link
+                      href={`/listing/${item.id}`}
+                      className={`relative bg-slate-100 overflow-hidden cursor-pointer ${
+                        viewMode === "grid" 
+                          ? "w-full h-48 rounded-t-2xl block" 
+                          : "w-full md:w-64 h-48 md:h-auto md:rounded-l-2xl flex-shrink-0 block"
+                      }`}
+                    >
                       <img
                         src={item.image}
                         alt={item.name}
@@ -328,7 +448,7 @@ export default function SearchResults() {
                           FEATURED
                         </span>
                       )}
-                    </div>
+                    </Link>
 
                     {/* Details */}
                     <div className="p-6 flex-1 flex flex-col justify-between">
@@ -357,12 +477,14 @@ export default function SearchResults() {
 
                         {/* Title */}
                         <h2 className="text-xl font-bold text-gray-900 flex items-center gap-1.5 hover:text-primary transition-colors cursor-pointer">
-                          {item.name}
-                          {item.verified && (
-                            <span title="Verified Business">
-                              <ShieldCheck className="w-5 h-5 text-green-500 fill-green-50 flex-shrink-0" />
-                            </span>
-                          )}
+                          <Link href={`/listing/${item.id}`} className="hover:text-primary flex items-center gap-1.5 w-full">
+                            {item.name}
+                            {item.verified && (
+                              <span title="Verified Business">
+                                <ShieldCheck className="w-5 h-5 text-green-500 fill-green-50 flex-shrink-0" />
+                              </span>
+                            )}
+                          </Link>
                         </h2>
 
                         {/* Address */}
