@@ -326,7 +326,13 @@ export default function StateTourism({ params }: { params: { state: string } }) 
             {categoriesMapping.map((cat) => (
               <button 
                 key={cat.id}
-                onClick={() => setSelectedCategory(cat.id)}
+                onClick={() => {
+                  if (cat.id === "Restaurants") {
+                    setLocation(`/restaurant-collections?state=${stateKey}`);
+                  } else {
+                    setSelectedCategory(cat.id);
+                  }
+                }}
                 className="flex flex-col items-center gap-2.5 flex-shrink-0 cursor-pointer group"
               >
                 <div className={`w-16 h-16 rounded-full overflow-hidden border-2 transition-all relative ${
@@ -646,9 +652,17 @@ export default function StateTourism({ params }: { params: { state: string } }) 
             POPULAR RESTAURANTS SECTION
             ========================================== */}
         <section className="space-y-6">
-          <div className="flex items-center gap-2">
-            <h2 className="text-2xl font-extrabold text-gray-900 tracking-tight">Popular Restaurants</h2>
-            <div className="h-0.5 bg-gray-200 flex-1 ml-4 rounded" />
+          <div className="flex items-center justify-between gap-4">
+            <div className="flex items-center gap-2 flex-1">
+              <h2 className="text-2xl font-extrabold text-gray-900 tracking-tight">Popular Restaurants</h2>
+              <div className="h-0.5 bg-gray-200 flex-1 ml-4 rounded" />
+            </div>
+            <Link 
+              href={`/restaurant-collections?state=${stateKey}`}
+              className="text-xs font-bold text-primary hover:underline whitespace-nowrap"
+            >
+              View Collections
+            </Link>
           </div>
           {filteredRestaurants.length === 0 ? (
             <div className="bg-white border border-gray-100 rounded-3xl p-10 text-center text-gray-500 shadow-sm animate-in fade-in duration-200">
