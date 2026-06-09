@@ -246,8 +246,9 @@ export default function SearchResults() {
               />
             </div>
           </div>
+        </div>
 
-          {/* ── FILTER BAR ── */}
+        {/* ── FILTER BAR ── */}
           <div style={{ background: "#fff", borderBottom: "1px solid #e5e7eb", padding: "12px 0" }} data-dd>
             <div style={{ maxWidth:920, margin:"0 auto", padding:"0 24px", display:"flex", alignItems:"center", gap:10, flexWrap:"wrap" }}>
 
@@ -331,10 +332,8 @@ export default function SearchResults() {
               <button style={{ ...filterBtnStyle(false), marginLeft: "auto", border: "none" }}>
                 <SlidersHorizontal style={{ width:16, height:16 }} /> All Filters
               </button>
-
             </div>
           </div>
-        </div>
 
         {/* ══ RESULTS ══ */}
         <div style={{ maxWidth:920, margin:"0 auto", padding:"24px 24px" }}>
