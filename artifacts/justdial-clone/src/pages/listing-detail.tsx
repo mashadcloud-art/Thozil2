@@ -281,15 +281,15 @@ export default function ListingDetail({ params }: { params: { id: string } }) {
           <div className="lg:col-span-4 grid grid-cols-2 lg:grid-cols-1 gap-2 p-2 bg-slate-50 h-[120px] lg:h-full">
             <div className="rounded-2xl overflow-hidden relative group">
               <img 
-                src="https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&w=400&q=80" 
-                alt="Ladakh landscape" 
+                src={apiMenus.length > 0 && apiMenus[0]?.categories?.[0]?.items?.[0]?.image ? apiMenus[0].categories[0].items[0].image : "https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&w=400&q=80"} 
+                alt="Gallery 1" 
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />
             </div>
             <div className="rounded-2xl overflow-hidden relative group">
               <img 
-                src="https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=400&q=80" 
-                alt="Shanti Stupa view" 
+                src={apiMenus.length > 0 && apiMenus[0]?.categories?.[0]?.items?.[1]?.image ? apiMenus[0].categories[0].items[1].image : "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=400&q=80"} 
+                alt="Gallery 2" 
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />
               <div className="absolute inset-0 bg-black/40 flex items-center justify-center text-white font-bold text-xs cursor-pointer hover:bg-black/50 transition-colors">
@@ -313,6 +313,21 @@ export default function ListingDetail({ params }: { params: { id: string } }) {
               <Phone className="w-4 h-4" />
               Call Now
             </a>
+            <a 
+              href="https://wa.me/919999999999" 
+              target="_blank" rel="noreferrer"
+              className="bg-[#25D366] hover:bg-[#20bd5a] text-white font-bold text-sm px-5 py-3 rounded-2xl shadow-sm hover:shadow transition-all flex items-center gap-2"
+            >
+              <MessageSquare className="w-4 h-4" />
+              WhatsApp
+            </a>
+            <button 
+              className="bg-amber-100 hover:bg-amber-200 text-amber-800 font-bold text-sm px-5 py-3 rounded-2xl shadow-sm transition-all flex items-center gap-2"
+              onClick={() => alert("Claim request sent!")}
+            >
+              <ShieldCheck className="w-4 h-4" />
+              Claim this Business
+            </button>
             <button 
               onClick={() => setActiveTab("reviews")}
               className="bg-slate-50 border border-gray-100 hover:bg-slate-100 text-gray-700 font-bold text-sm px-5 py-3 rounded-2xl transition-all flex items-center gap-2"
@@ -565,6 +580,31 @@ export default function ListingDetail({ params }: { params: { id: string } }) {
           {/* Right Column: Inquiry / Booking Sidebar & Map Mockup */}
           <div className="lg:col-span-4 space-y-6">
             
+            {/* Top Selling Product Card (Only for Restaurants) */}
+            {listing.type === "Restaurant" && apiMenus.length > 0 && apiMenus[0].categories?.[0]?.items?.[0] && (
+              <div className="bg-gradient-to-br from-orange-500 to-red-500 rounded-3xl p-6 shadow-lg text-white space-y-4 relative overflow-hidden group">
+                <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full blur-2xl -translate-y-1/2 translate-x-1/2" />
+                <div className="relative z-10 flex justify-between items-start">
+                  <div>
+                    <span className="bg-black/20 text-white text-[10px] font-black uppercase tracking-wider px-2 py-1 rounded mb-2 inline-block">Top Selling</span>
+                    <h3 className="text-xl font-black">{apiMenus[0].categories[0].items[0].name}</h3>
+                  </div>
+                  <div className="bg-white text-red-600 font-black text-sm px-2 py-1 rounded shadow-sm">
+                    ₹{apiMenus[0].categories[0].items[0].price}
+                  </div>
+                </div>
+                <div className="relative z-10 rounded-2xl overflow-hidden shadow-inner h-32 border-2 border-white/20">
+                  <img src={apiMenus[0].categories[0].items[0].image} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" alt="Top Product" />
+                </div>
+                <p className="relative z-10 text-xs text-white/90 font-medium line-clamp-2">
+                  {apiMenus[0].categories[0].items[0].description}
+                </p>
+                <button className="relative z-10 w-full bg-white hover:bg-gray-50 text-red-600 font-black text-sm py-3 rounded-xl shadow-sm transition-colors">
+                  Order Now
+                </button>
+              </div>
+            )}
+
             {/* Inquiry Widget Card */}
             <div className="bg-white border border-gray-100 rounded-3xl p-6 shadow-sm space-y-5">
               <div>
