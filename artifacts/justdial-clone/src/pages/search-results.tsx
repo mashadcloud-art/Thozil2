@@ -217,7 +217,7 @@ export default function SearchResults() {
       <main style={{ flex: 1 }}>
         {/* ══ HEADER ══ */}
         <div style={{ 
-          background: `linear-gradient(to right, rgba(15, 27, 45, 0.98) 20%, rgba(15, 27, 45, 0.6) 80%), url('https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1600&q=80')`,
+          background: `linear-gradient(to right, rgba(15, 27, 45, 0.85), rgba(15, 27, 45, 0.4)), url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1600&q=80')`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           position: "relative"
@@ -237,9 +237,9 @@ export default function SearchResults() {
               <Search style={{ position:"absolute", left:14, top:"50%", transform:"translateY(-50%)", color:"#5A7A9A", width:17, height:17 }} />
               <input type="text" placeholder="Search restaurants, doctors, services…" value={searchTerm}
                 onChange={e => setSearchTerm(e.target.value)}
-                style={{ width:"100%", boxSizing:"border-box", paddingLeft:42, paddingRight:16, paddingTop:12, paddingBottom:12, background:N2, border:`1.5px solid ${N3}`, borderRadius:11, color:"#fff", fontSize:14, outline:"none" }}
+                style={{ width:"100%", boxSizing:"border-box", paddingLeft:42, paddingRight:16, paddingTop:12, paddingBottom:12, background: "rgba(26, 43, 66, 0.6)", backdropFilter: "blur(12px)", border:`1px solid rgba(255,255,255,0.1)`, borderRadius:11, color:"#fff", fontSize:14, outline:"none", transition: "border-color 0.2s" }}
                 onFocus={(e: any) => e.target.style.borderColor = A}
-                onBlur={(e: any)  => e.target.style.borderColor = N3}
+                onBlur={(e: any)  => e.target.style.borderColor = "rgba(255,255,255,0.1)"}
               />
             </div>
           </div>
