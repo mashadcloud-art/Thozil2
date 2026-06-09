@@ -167,23 +167,23 @@ export default function SearchResults({ params }: { params?: { state?: string; c
     return baseItems.filter(r => {
       const searchLower = searchTerm.toLowerCase();
 
-      // Broad category expansion
+      const safeCategory = (r.category || "").toLowerCase();
+      
+      // Broad category definitions
       const indianFlavours = ["maharashtrian", "seafood", "mughlai", "dhaba", "bengali", "pure veg", "punjabi", "gujarati", "south indian", "biryani", "kerala cuisine", "indian flavours"];
       const globalCuisines = ["german", "continental", "american", "european", "chinese", "tibetan", "global cuisines"];
       const nightlife = ["lounge", "bar", "candle light", "nightlife"];
       const quickBites = ["bakery", "coffee shop", "cafe", "quick bites"];
 
-      const safeCategory = (r.category || "").toLowerCase();
-      let expandedSearchMatch = false;
-      if (searchLower === "indian flavours") {
-         expandedSearchMatch = indianFlavours.includes(safeCategory);
-      } else if (searchLower === "global cuisines") {
-         expandedSearchMatch = globalCuisines.includes(safeCategory);
-      } else if (searchLower === "nightlife") {
-         expandedSearchMatch = nightlife.some(c => safeCategory.includes(c));
-      } else if (searchLower === "quick bites") {
-         expandedSearchMatch = quickBites.some(c => safeCategory.includes(c));
-      }
+      const checkExpandedMatch = (term: string) => {
+        if (term === "indian flavours") return indianFlavours.includes(safeCategory);
+        if (term === "global cuisines") return globalCuisines.includes(safeCategory);
+        if (term === "nightlife") return nightlife.some(c => safeCategory.includes(c));
+        if (term === "quick bites") return quickBites.some(c => safeCategory.includes(c));
+        return false;
+      };
+
+      let expandedSearchMatch = checkExpandedMatch(searchLower);
 
       const matchSearch = !searchLower || 
                           expandedSearchMatch ||
@@ -191,7 +191,14 @@ export default function SearchResults({ params }: { params?: { state?: string; c
                           safeCategory.includes(searchLower) ||
                           (r.tags && r.tags.some((t: string) => t.toLowerCase().includes(searchLower)));
       const matchArea = selectedArea ? r.area === selectedArea : true;
-      const matchCuisine = selectedCuisine ? r.category === selectedCuisine : true;
+      
+      let matchCuisine = true;
+      if (selectedCuisine) {
+         const cuisineLower = selectedCuisine.toLowerCase();
+         const isBroadCuisineMatch = checkExpandedMatch(cuisineLower);
+         matchCuisine = isBroadCuisineMatch || safeCategory === cuisineLower;
+      }
+      
       return matchSearch && matchArea && matchCuisine;
     });
   }, [dbResults, searchTerm, selectedArea, selectedCuisine]);
