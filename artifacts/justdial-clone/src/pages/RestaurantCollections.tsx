@@ -273,16 +273,21 @@ export default function RestaurantCollections({ params }: { params?: { state?: s
                 >
                   <div>
                     {/* Header Image */}
-                    <div className="h-44 w-full overflow-hidden relative">
+                    <Link 
+                      href={`/search?q=${encodeURIComponent(cat.title)}&state=${stateKey}&district=${selectedDistrict}`}
+                      className="block h-44 w-full overflow-hidden relative cursor-pointer"
+                    >
                       <img 
                         src={cat.image} 
                         alt={cat.title} 
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" 
                       />
-                    </div>
+                    </Link>
 
                     <div className="p-6">
-                      <h3 className="font-bold text-gray-900 text-lg mb-3 tracking-tight">{cat.title}</h3>
+                      <Link href={`/search?q=${encodeURIComponent(cat.title)}&state=${stateKey}&district=${selectedDistrict}`}>
+                        <h3 className="font-bold text-gray-900 text-lg mb-3 tracking-tight hover:text-primary transition-colors cursor-pointer">{cat.title}</h3>
+                      </Link>
                       {/* Subcategories list */}
                       <ul className="space-y-2">
                         {cat.items.map((sub, sidx) => (

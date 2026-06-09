@@ -19,10 +19,10 @@ const MOCK_RESULTS = [
 ];
 
 const SORT_OPTIONS = ["Relevance", "Rating", "Popular", "Friends Rating", "Distance", "Price: Low to High", "Price: High to Low"];
-const CUISINE_OPTIONS = ["Maharashtrian", "Seafood", "Mughlai", "Dhaba", "Bengali", "Pure Veg", "Punjabi", "Tibetan", "Gujarati", "Biryani", "Buffet", "Chinese", "South Indian"];
+const CUISINE_OPTIONS = ["Maharashtrian", "Seafood", "Mughlai", "Dhaba", "Bengali", "Pure Veg", "Punjabi", "Tibetan", "Gujarati", "Biryani", "Buffet", "Chinese", "South Indian", "Indian Flavours", "Global Cuisines", "Nightlife", "Quick Bites"];
 
 const getMockCuisine = (str: string) => {
-  const cuisines = ["Maharashtrian", "Seafood", "Mughlai", "Dhaba", "Bengali", "Punjabi", "Tibetan", "Gujarati", "Chinese", "South Indian", "Kerala Cuisine"];
+  const cuisines = ["Maharashtrian", "Seafood", "Mughlai", "Dhaba", "Bengali", "Punjabi", "Tibetan", "Gujarati", "Chinese", "South Indian", "Kerala Cuisine", "Indian Flavours", "Global Cuisines", "Nightlife", "Quick Bites"];
   let hash = 0;
   for (let i = 0; i < str.length; i++) hash = str.charCodeAt(i) + ((hash << 5) - hash);
   return cuisines[Math.abs(hash) % cuisines.length];
