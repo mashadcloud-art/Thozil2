@@ -954,6 +954,160 @@
         }
       ],
       "image": "https://images.pexels.com/photos/37925075/pexels-photo-37925075.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+    },
+    {
+      "id": "spoonacular_picks",
+      "name": "Chef's Specials",
+      "image": "https://img.spoonacular.com/recipes/665744-556x370.jpg",
+      "categories": [
+        {
+          "id": "spoonacular_recipes",
+          "name": "Trending Recipes",
+          "image": "https://img.spoonacular.com/recipes/648895-556x370.jpg",
+          "items": [
+            {
+              "id": "sp_665744",
+              "name": "Zucchini Flutes Piped With Basil Ricotta Mousse",
+              "description": "If you want to add more gluten free and primal recipes to your recipe box, Zucchini Flutes Piped ...",
+              "price": 50,
+              "image": "https://img.spoonacular.com/recipes/665744-556x370.jpg"
+            },
+            {
+              "id": "sp_648895",
+              "name": "Kielbasa With Brussels Sprouts In Mustard Cream Sauce",
+              "description": "The recipe Kielbasa With Brussels Sprouts In Mustard Cream Sauce can be made in about 45 minutes....",
+              "price": 138,
+              "image": "https://img.spoonacular.com/recipes/648895-556x370.jpg"
+            },
+            {
+              "id": "sp_653836",
+              "name": "Orange Chocolate Cake",
+              "description": "Orange Chocolate Cake requires approximately 45 minutes from start to finish. This recipe makes 1...",
+              "price": 50,
+              "image": "https://img.spoonacular.com/recipes/653836-556x370.jpg"
+            },
+            {
+              "id": "sp_636301",
+              "name": "Brown Sugar and Balsamic Glazed Pork Loin",
+              "description": "The recipe Brown Sugar and Balsamic Glazed Pork Loin can be made in roughly 45 minutes. This reci...",
+              "price": 94,
+              "image": "https://img.spoonacular.com/recipes/636301-556x370.jpg"
+            },
+            {
+              "id": "sp_663100",
+              "name": "Thai Cucumber Salad (By Roz)",
+              "description": "You can never have too many side dish recipes, so give Thai Cucumber Salad (By Roz) a try. This r...",
+              "price": 96,
+              "image": "https://img.spoonacular.com/recipes/663100-556x370.jpg"
+            },
+            {
+              "id": "sp_659887",
+              "name": "Shortbread Lemon Cookies",
+              "description": "Shortbread Lemon Cookies might be a good recipe to expand your dessert repertoire. For 29 cents p...",
+              "price": 50,
+              "image": "https://img.spoonacular.com/recipes/659887-556x370.jpg"
+            },
+            {
+              "id": "sp_651823",
+              "name": "Middle Eastern Chopped Salad",
+              "description": "Middle Eastern Chopped Salad could be just the gluten free, dairy free, paleolithic, and lacto ov...",
+              "price": 84,
+              "image": "https://img.spoonacular.com/recipes/651823-556x370.jpg"
+            },
+            {
+              "id": "sp_645680",
+              "name": "Grilled Chuck Burgers with Extra Sharp Cheddar and Lemon Garlic Aioli",
+              "description": "Grilled Chuck Burgers with Extra Sharp Cheddar and Lemon Garlic Aioli is an American main course....",
+              "price": 130,
+              "image": "https://img.spoonacular.com/recipes/645680-556x370.jpg"
+            },
+            {
+              "id": "sp_658632",
+              "name": "Roasted Pumpkin and Barley Risotto",
+              "description": "Roasted Pumpkin and Barley Risotto might be just the main course you are searching for. This reci...",
+              "price": 101,
+              "image": "https://img.spoonacular.com/recipes/658632-556x370.jpg"
+            },
+            {
+              "id": "sp_631757",
+              "name": "Savory Slow Roasted Tomatoes with Filet of Anchovy",
+              "description": "Savory Slow Roasted Tomatoes with Filet of Anchovy might be just the side dish you are searching ...",
+              "price": 50,
+              "image": "https://img.spoonacular.com/recipes/631757-556x370.jpg"
+            },
+            {
+              "id": "sp_716424",
+              "name": "Strawberry Basil Sorbet (no Ice Cream Maker Necessary!)",
+              "description": "Strawberry Basil Sorbet (no Ice Cream Maker Necessary!) might be just the dessert you are searchi...",
+              "price": 50,
+              "image": "https://img.spoonacular.com/recipes/716424-556x370.jpg"
+            },
+            {
+              "id": "sp_664533",
+              "name": "Vegetable Cheddar Quiche",
+              "description": "If you want to add more Mediterranean recipes to your collection, Vegetable Cheddar Quiche might ...",
+              "price": 50,
+              "image": "https://img.spoonacular.com/recipes/664533-556x370.jpg"
+            },
+            {
+              "id": "sp_636523",
+              "name": "Butter-Bread",
+              "description": "Butter-Bread is a lacto ovo vegetarian recipe with 6 servings. One serving contains 583 calories,...",
+              "price": 50,
+              "image": "https://img.spoonacular.com/recipes/636523-556x370.jpg"
+            },
+            {
+              "id": "sp_1098393",
+              "name": "Mardi Gras Shrimp Étouffée",
+              "description": "Mardi Gras Shrimp Étouffée takes around 1 hour and 30 minutes from beginning to end. One portion ...",
+              "price": 267,
+              "image": "https://img.spoonacular.com/recipes/1098393-556x370.jpg"
+            },
+            {
+              "id": "sp_662276",
+              "name": "Sun Dried Tomato and Herb Baked Eggs",
+              "description": "If you want to add more gluten free, dairy free, paleolithic, and lacto ovo vegetarian recipes to...",
+              "price": 50,
+              "image": "https://img.spoonacular.com/recipes/662276-556x370.jpg"
+            },
+            {
+              "id": "sp_639850",
+              "name": "Cod with tomatoes, olives and polenta",
+              "description": "Cod with tomatoes, olives and polentan is a gluten free, dairy free, and pescatarian recipe with ...",
+              "price": 167,
+              "image": "https://img.spoonacular.com/recipes/639850-556x370.jpg"
+            },
+            {
+              "id": "sp_657031",
+              "name": "Potatoes Smothered with Egg Sauce (Cariucho)",
+              "description": "The recipe Potatoes Smothered with Egg Sauce (Cariucho) can be made in around 45 minutes. This re...",
+              "price": 61,
+              "image": "https://img.spoonacular.com/recipes/657031-556x370.jpg"
+            },
+            {
+              "id": "sp_716421",
+              "name": "Grilled Peach Melba with Vanilla Bean Frozen Yogurt",
+              "description": "If you have approximately 45 minutes to spend in the kitchen, Grilled Peach Melba with Vanilla Be...",
+              "price": 203,
+              "image": "https://img.spoonacular.com/recipes/716421-556x370.jpg"
+            },
+            {
+              "id": "sp_661531",
+              "name": "Steak with lemon and capers",
+              "description": "You can never have too many main course recipes, so give Steak with lemon and capers a try. One s...",
+              "price": 323,
+              "image": "https://img.spoonacular.com/recipes/661531-556x370.jpg"
+            },
+            {
+              "id": "sp_664244",
+              "name": "Upside Down Chicken Cake",
+              "description": "The recipe Upside Down Chicken Cake can be made in approximately 45 minutes. One portion of this ...",
+              "price": 50,
+              "image": "https://img.spoonacular.com/recipes/664244-556x370.jpg"
+            }
+          ]
+        }
+      ]
     }
   ],
   "restaurants": [
@@ -1327,7 +1481,8 @@
       "district": "Pathanamthitta",
       "locality": "Downtown",
       "cuisines": [
-        "south_indian"
+        "south_indian",
+        "spoonacular_picks"
       ],
       "rating": 4,
       "image": "https://images.pexels.com/photos/18177440/pexels-photo-18177440.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
@@ -1544,7 +1699,8 @@
       "locality": "Downtown",
       "cuisines": [
         "smoothies",
-        "american"
+        "american",
+        "spoonacular_picks"
       ],
       "rating": 4.9,
       "image": "https://images.pexels.com/photos/14333987/pexels-photo-14333987.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
@@ -2257,7 +2413,8 @@
       "district": "Malappuram",
       "locality": "Downtown",
       "cuisines": [
-        "chinese"
+        "chinese",
+        "spoonacular_picks"
       ],
       "rating": 3.1,
       "image": "https://images.pexels.com/photos/35415466/pexels-photo-35415466.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
@@ -2328,7 +2485,8 @@
       "locality": "Downtown",
       "cuisines": [
         "mocktails",
-        "north_indian"
+        "north_indian",
+        "spoonacular_picks"
       ],
       "rating": 3.8,
       "image": "https://images.pexels.com/photos/12280754/pexels-photo-12280754.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
@@ -2615,7 +2773,8 @@
       "cuisines": [
         "juices",
         "american",
-        "cold_drinks"
+        "cold_drinks",
+        "spoonacular_picks"
       ],
       "rating": 4.8,
       "image": "https://images.pexels.com/photos/31822992/pexels-photo-31822992.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
