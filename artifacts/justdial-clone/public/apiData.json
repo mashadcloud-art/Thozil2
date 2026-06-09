@@ -166,28 +166,28 @@
               "id": "beef_fry",
               "name": "Beef Fry",
               "price": 220,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Beef_Ularthiyathu.jpg"
+              "image": "https://images.unsplash.com/photo-1722698030083-75d1d50cabe4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxCZWVmJTIwRnJ5JTIwS2VyYWxhfGVufDB8fHx8MTc4MDk3ODEyMXww&ixlib=rb-4.1.0&q=80&w=1080"
             },
             {
               "id": "kerala_fish_fry",
               "name": "Kerala Fish Fry",
               "price": 200,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Meen_Fry.jpg"
+              "image": "https://images.unsplash.com/photo-1620894580123-466ad3a0ca06?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxLZXJhbGElMjBGaXNoJTIwRnJ5JTIwS2VyYWxhfGVufDB8fHx8MTc4MDk3ODEyMnww&ixlib=rb-4.1.0&q=80&w=1080"
             },
             {
               "id": "pazham_pori",
               "name": "Pazham Pori",
               "price": 40,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Pazham_pori.jpg"
+              "image": "https://images.pexels.com/photos/7394818/pexels-photo-7394818.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "parippu_vada",
               "name": "Parippu Vada",
               "price": 30,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Parippu_Vada.jpg"
+              "image": "https://images.unsplash.com/photo-1647541736428-f6b48d5bf4a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxQYXJpcHB1JTIwVmFkYSUyMEtlcmFsYXxlbnwwfHx8fDE3ODA5NzgxMjV8MA&ixlib=rb-4.1.0&q=80&w=1080"
             }
           ],
-          "image": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Beef_Ularthiyathu.jpg"
+          "image": "https://images.unsplash.com/photo-1620894580123-466ad3a0ca06?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxLZXJhbGElMjBTdGFydGVycyUyMGZvb2R8ZW58MHx8fHwxNzgwOTc4MTIxfDA&ixlib=rb-4.1.0&q=80&w=1080"
         },
         {
           "id": "kerala_main_course",
@@ -197,28 +197,28 @@
               "id": "kerala_meals",
               "name": "Kerala Meals",
               "price": 140,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Kerala_meals.jpg"
+              "image": "https://images.unsplash.com/photo-1722698030083-75d1d50cabe4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxLZXJhbGElMjBNZWFscyUyMEtlcmFsYXxlbnwwfHx8fDE3ODA5NzgxMjZ8MA&ixlib=rb-4.1.0&q=80&w=1080"
             },
             {
               "id": "kappa_meen_curry",
               "name": "Kappa & Meen Curry",
               "price": 180,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Kappa_and_meen_curry.jpg"
+              "image": "https://images.pexels.com/photos/9392998/pexels-photo-9392998.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "kerala_chicken_roast",
               "name": "Chicken Roast",
               "price": 220,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Chicken_roast.jpg"
+              "image": "https://images.unsplash.com/photo-1722698030083-75d1d50cabe4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxDaGlja2VuJTIwUm9hc3QlMjBLZXJhbGF8ZW58MHx8fHwxNzgwOTc4MTI4fDA&ixlib=rb-4.1.0&q=80&w=1080"
             },
             {
               "id": "kerala_fish_curry",
               "name": "Kerala Fish Curry",
               "price": 190,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Meen_curry.jpg"
+              "image": "https://images.unsplash.com/photo-1620894580123-466ad3a0ca06?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxLZXJhbGElMjBGaXNoJTIwQ3VycnklMjBLZXJhbGF8ZW58MHx8fHwxNzgwOTc4MTI5fDA&ixlib=rb-4.1.0&q=80&w=1080"
             }
           ],
-          "image": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Kerala_meals.jpg"
+          "image": "https://images.unsplash.com/photo-1620894592665-c68bdefed3fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxLZXJhbGElMjBNYWluJTIwQ291cnNlJTIwZm9vZHxlbnwwfHx8fDE3ODA5NzgxMjV8MA&ixlib=rb-4.1.0&q=80&w=1080"
         },
         {
           "id": "kerala_breakfast",
@@ -228,31 +228,31 @@
               "id": "appam",
               "name": "Appam",
               "price": 15,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Appam.jpg"
+              "image": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxBcHBhbSUyMEtlcmFsYXxlbnwwfHx8fDE3ODA5NzgxMzF8MA&ixlib=rb-4.1.0&q=80&w=1080"
             },
             {
               "id": "idiyappam",
               "name": "Idiyappam",
               "price": 20,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Idiyappam.jpg"
+              "image": "https://images.unsplash.com/photo-1641666017842-f94246ef2961?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxJZGl5YXBwYW0lMjBLZXJhbGF8ZW58MHx8fHwxNzgwOTc4MTMxfDA&ixlib=rb-4.1.0&q=80&w=1080"
             },
             {
               "id": "puttu",
               "name": "Puttu",
               "price": 25,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Puttu.jpg"
+              "image": "https://images.pexels.com/photos/9392998/pexels-photo-9392998.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "egg_roast",
               "name": "Egg Roast",
               "price": 70,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Egg_roast.jpg"
+              "image": "https://images.unsplash.com/photo-1636375584142-23b44ef2fb4c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxFZ2clMjBSb2FzdCUyMEtlcmFsYXxlbnwwfHx8fDE3ODA5NzgxMzN8MA&ixlib=rb-4.1.0&q=80&w=1080"
             }
           ],
-          "image": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Appam.jpg"
+          "image": "https://images.unsplash.com/photo-1722698030083-75d1d50cabe4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxLZXJhbGElMjBCcmVha2Zhc3QlMjBmb29kfGVufDB8fHx8MTc4MDk3ODEzMHww&ixlib=rb-4.1.0&q=80&w=1080"
         }
       ],
-      "image": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Beef_Ularthiyathu.jpg"
+      "image": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxLZXJhbGElMjBmb29kfGVufDB8fHx8MTc4MDk3ODEyMHww&ixlib=rb-4.1.0&q=80&w=1080"
     },
     {
       "id": "south_indian",
@@ -266,34 +266,34 @@
               "id": "idli",
               "name": "Idli",
               "price": 35,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Idli_Sambar.jpg"
+              "image": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxJZGxpJTIwU291dGglMjBJbmRpYW58ZW58MHx8fHwxNzgwOTc4MTQxfDA&ixlib=rb-4.1.0&q=80&w=1080"
             },
             {
               "id": "plain_dosa",
               "name": "Plain Dosa",
               "price": 50,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Dosa_plain.jpg"
+              "image": "https://images.pexels.com/photos/20422123/pexels-photo-20422123.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "masala_dosa",
               "name": "Masala Dosa",
               "price": 80,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Masala_Dosa.jpg"
+              "image": "https://images.unsplash.com/photo-1668236543090-82eba5ee5976?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxNYXNhbGElMjBEb3NhJTIwU291dGglMjBJbmRpYW58ZW58MHx8fHwxNzgwOTc4MTQzfDA&ixlib=rb-4.1.0&q=80&w=1080"
             },
             {
               "id": "vada",
               "name": "Vada",
               "price": 30,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Medu_Vada.jpg"
+              "image": "https://images.unsplash.com/photo-1683533678033-f5d60f0a3437?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxWYWRhJTIwU291dGglMjBJbmRpYW58ZW58MHx8fHwxNzgwOTc4MTQ0fDA&ixlib=rb-4.1.0&q=80&w=1080"
             },
             {
               "id": "pongal",
               "name": "Pongal",
               "price": 70,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Ven_pongal.jpg"
+              "image": "https://images.pexels.com/photos/30519625/pexels-photo-30519625.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             }
           ],
-          "image": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Idli_Sambar.jpg"
+          "image": "https://images.unsplash.com/photo-1625398407796-82650a8c135f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxTb3V0aCUyMEluZGlhbiUyMEJyZWFrZmFzdCUyMGZvb2R8ZW58MHx8fHwxNzgwOTc4MTQwfDA&ixlib=rb-4.1.0&q=80&w=1080"
         },
         {
           "id": "south_rice_items",
@@ -303,25 +303,25 @@
               "id": "sambar_rice",
               "name": "Sambar Rice",
               "price": 90,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Sambar_rice.jpg"
+              "image": "https://images.unsplash.com/photo-1668236534990-73c4ed23043c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxTYW1iYXIlMjBSaWNlJTIwU291dGglMjBJbmRpYW58ZW58MHx8fHwxNzgwOTc4MTQ3fDA&ixlib=rb-4.1.0&q=80&w=1080"
             },
             {
               "id": "curd_rice",
               "name": "Curd Rice",
               "price": 70,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Curd_rice.jpg"
+              "image": "https://images.unsplash.com/photo-1666251214795-a1296307d29c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxDdXJkJTIwUmljZSUyMFNvdXRoJTIwSW5kaWFufGVufDB8fHx8MTc4MDk3ODE0OHww&ixlib=rb-4.1.0&q=80&w=1080"
             },
             {
               "id": "lemon_rice",
               "name": "Lemon Rice",
               "price": 80,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Lemon_rice.jpg"
+              "image": "https://images.unsplash.com/photo-1666251214795-a1296307d29c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxMZW1vbiUyMFJpY2UlMjBTb3V0aCUyMEluZGlhbnxlbnwwfHx8fDE3ODA5NzgxNDl8MA&ixlib=rb-4.1.0&q=80&w=1080"
             }
           ],
-          "image": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Sambar_rice.jpg"
+          "image": "https://images.unsplash.com/photo-1536304993881-ff6e9eefa2a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxTb3V0aCUyMEluZGlhbiUyMFJpY2UlMjBJdGVtcyUyMGZvb2R8ZW58MHx8fHwxNzgwOTc4MTQ2fDA&ixlib=rb-4.1.0&q=80&w=1080"
         }
       ],
-      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Idli_Sambar.jpg"
+      "image": "https://images.unsplash.com/photo-1668236543090-82eba5ee5976?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxTb3V0aCUyMEluZGlhbiUyMGZvb2R8ZW58MHx8fHwxNzgwOTc4MTQwfDA&ixlib=rb-4.1.0&q=80&w=1080"
     },
     {
       "id": "north_indian",
@@ -335,22 +335,22 @@
               "id": "chicken_tikka",
               "name": "Chicken Tikka",
               "price": 260,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Chicken_tikka.jpg"
+              "image": "https://images.pexels.com/photos/9609836/pexels-photo-9609836.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "paneer_tikka",
               "name": "Paneer Tikka",
               "price": 230,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Paneer_tikka.jpg"
+              "image": "https://images.pexels.com/photos/30858420/pexels-photo-30858420.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "tandoori_chicken",
               "name": "Tandoori Chicken",
               "price": 300,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Tandoori_chicken.jpg"
+              "image": "https://images.pexels.com/photos/9609836/pexels-photo-9609836.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             }
           ],
-          "image": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Chicken_tikka.jpg"
+          "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxOb3J0aCUyMEluZGlhbiUyMFN0YXJ0ZXJzJTIwZm9vZHxlbnwwfHx8fDE3ODA5NzgxNTB8MA&ixlib=rb-4.1.0&q=80&w=1080"
         },
         {
           "id": "north_main_course",
@@ -360,28 +360,28 @@
               "id": "butter_chicken",
               "name": "Butter Chicken",
               "price": 320,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Butter_chicken.jpg"
+              "image": "https://images.pexels.com/photos/11188417/pexels-photo-11188417.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "paneer_butter_masala",
               "name": "Paneer Butter Masala",
               "price": 280,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Paneer_butter_masala.jpg"
+              "image": "https://images.pexels.com/photos/35066807/pexels-photo-35066807.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "dal_makhani",
               "name": "Dal Makhani",
               "price": 220,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Dal_makhani.jpg"
+              "image": "https://images.pexels.com/photos/37182513/pexels-photo-37182513.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "chole_bhature",
               "name": "Chole Bhature",
               "price": 180,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Chole_Bhature.jpg"
+              "image": "https://images.pexels.com/photos/20446423/pexels-photo-20446423.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             }
           ],
-          "image": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Butter_chicken.jpg"
+          "image": "https://images.pexels.com/photos/29148133/pexels-photo-29148133.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
         },
         {
           "id": "north_breads",
@@ -391,25 +391,25 @@
               "id": "naan",
               "name": "Naan",
               "price": 35,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Naan.jpg"
+              "image": "https://images.unsplash.com/photo-1767114915936-745dd372f1d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxOYWFuJTIwTm9ydGglMjBJbmRpYW58ZW58MHx8fHwxNzgwOTc4MTU4fDA&ixlib=rb-4.1.0&q=80&w=1080"
             },
             {
               "id": "butter_naan",
               "name": "Butter Naan",
               "price": 45,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Butter_naan.jpg"
+              "image": "https://images.pexels.com/photos/30203311/pexels-photo-30203311.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "tandoori_roti",
               "name": "Tandoori Roti",
               "price": 30,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Tandoori_roti.jpg"
+              "image": "https://images.pexels.com/photos/20446394/pexels-photo-20446394.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             }
           ],
-          "image": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Naan.jpg"
+          "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxOb3J0aCUyMEluZGlhbiUyMEJyZWFkcyUyMGZvb2R8ZW58MHx8fHwxNzgwOTc4MTU3fDA&ixlib=rb-4.1.0&q=80&w=1080"
         }
       ],
-      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Chicken_tikka.jpg"
+      "image": "https://images.unsplash.com/photo-1589778655375-3e622a9fc91c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxOb3J0aCUyMEluZGlhbiUyMGZvb2R8ZW58MHx8fHwxNzgwOTc4MTQ5fDA&ixlib=rb-4.1.0&q=80&w=1080"
     },
     {
       "id": "chinese",
@@ -423,22 +423,22 @@
               "id": "gobi_manchurian",
               "name": "Gobi Manchurian",
               "price": 160,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Gobi_Manchurian.jpg"
+              "image": "https://images.pexels.com/photos/29631468/pexels-photo-29631468.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "chilli_chicken",
               "name": "Chilli Chicken",
               "price": 210,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Chilli_chicken.jpg"
+              "image": "https://images.pexels.com/photos/29631426/pexels-photo-29631426.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "spring_rolls",
               "name": "Spring Rolls",
               "price": 150,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Spring_rolls.jpg"
+              "image": "https://images.pexels.com/photos/34170982/pexels-photo-34170982.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             }
           ],
-          "image": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Gobi_Manchurian.jpg"
+          "image": "https://images.pexels.com/photos/28674534/pexels-photo-28674534.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
         },
         {
           "id": "chinese_rice",
@@ -448,22 +448,22 @@
               "id": "veg_fried_rice",
               "name": "Veg Fried Rice",
               "price": 150,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Veg_fried_rice.jpg"
+              "image": "https://images.pexels.com/photos/29631468/pexels-photo-29631468.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "chicken_fried_rice",
               "name": "Chicken Fried Rice",
               "price": 180,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Chicken_fried_rice.jpg"
+              "image": "https://images.pexels.com/photos/34170982/pexels-photo-34170982.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "schezwan_fried_rice",
               "name": "Schezwan Fried Rice",
               "price": 190,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Schezwan_fried_rice.jpg"
+              "image": "https://images.pexels.com/photos/29631468/pexels-photo-29631468.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             }
           ],
-          "image": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Veg_fried_rice.jpg"
+          "image": "https://images.unsplash.com/photo-1644131447497-8723db691320?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxDaGluZXNlJTIwUmljZSUyMGZvb2R8ZW58MHx8fHwxNzgwOTc4MTYxfDA&ixlib=rb-4.1.0&q=80&w=1080"
         },
         {
           "id": "chinese_noodles",
@@ -473,25 +473,25 @@
               "id": "veg_noodles",
               "name": "Veg Noodles",
               "price": 150,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Veg_noodles.jpg"
+              "image": "https://images.pexels.com/photos/34170982/pexels-photo-34170982.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "chicken_noodles",
               "name": "Chicken Noodles",
               "price": 180,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Chicken_noodles.jpg"
+              "image": "https://images.pexels.com/photos/34170982/pexels-photo-34170982.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "hakka_noodles",
               "name": "Hakka Noodles",
               "price": 170,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Hakka_noodles.jpg"
+              "image": "https://images.pexels.com/photos/34170982/pexels-photo-34170982.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             }
           ],
-          "image": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Veg_noodles.jpg"
+          "image": "https://images.pexels.com/photos/4223916/pexels-photo-4223916.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
         }
       ],
-      "image": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Gobi_Manchurian.jpg"
+      "image": "https://images.unsplash.com/photo-1585032226651-759b368d7246?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxDaGluZXNlJTIwZm9vZHxlbnwwfHx8fDE3ODA5NzgxNjB8MA&ixlib=rb-4.1.0&q=80&w=1080"
     },
     {
       "id": "arabian",
@@ -505,22 +505,22 @@
               "id": "alfaham",
               "name": "Alfaham",
               "price": 320,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Al_Faham_Chicken.jpg"
+              "image": "https://images.pexels.com/photos/37307214/pexels-photo-37307214.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "shawarma_roll",
               "name": "Shawarma Roll",
               "price": 120,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Chicken_Shawarma_Wrap.jpg"
+              "image": "https://images.pexels.com/photos/34318137/pexels-photo-34318137.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "grilled_chicken",
               "name": "Grilled Chicken",
               "price": 280,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Grilled_chicken_plate.jpg"
+              "image": "https://images.pexels.com/photos/37417613/pexels-photo-37417613.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             }
           ],
-          "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Al_Faham_Chicken.jpg"
+          "image": "https://images.pexels.com/photos/18698264/pexels-photo-18698264.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
         },
         {
           "id": "arabian_rice",
@@ -530,25 +530,25 @@
               "id": "chicken_mandi",
               "name": "Chicken Mandi",
               "price": 320,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Mandi_Rice_with_Chicken.jpg"
+              "image": "https://images.pexels.com/photos/18698264/pexels-photo-18698264.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "mutton_mandi",
               "name": "Mutton Mandi",
               "price": 420,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Mutton_Mandi.jpg"
+              "image": "https://images.pexels.com/photos/18698236/pexels-photo-18698236.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "majboos",
               "name": "Chicken Majboos",
               "price": 300,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Chicken_Machboos.jpg"
+              "image": "https://images.pexels.com/photos/37307214/pexels-photo-37307214.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             }
           ],
-          "image": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Mandi_Rice_with_Chicken.jpg"
+          "image": "https://images.pexels.com/photos/32986473/pexels-photo-32986473.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
         }
       ],
-      "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Al_Faham_Chicken.jpg"
+      "image": "https://images.pexels.com/photos/7469296/pexels-photo-7469296.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
     },
     {
       "id": "italian",
@@ -562,22 +562,22 @@
               "id": "margherita_pizza",
               "name": "Margherita Pizza",
               "price": 350,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Margherita_Pizza.jpg"
+              "image": "https://images.pexels.com/photos/18127987/pexels-photo-18127987.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "pepperoni_pizza",
               "name": "Pepperoni Pizza",
               "price": 420,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Pepperoni_pizza.jpg"
+              "image": "https://images.pexels.com/photos/774487/pexels-photo-774487.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "four_cheese_pizza",
               "name": "Four Cheese Pizza",
               "price": 450,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Quattro_Formaggi_Pizza.jpg"
+              "image": "https://images.pexels.com/photos/28272163/pexels-photo-28272163.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             }
           ],
-          "image": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Margherita_Pizza.jpg"
+          "image": "https://images.pexels.com/photos/6068717/pexels-photo-6068717.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
         },
         {
           "id": "italian_pasta",
@@ -587,25 +587,25 @@
               "id": "alfredo_pasta",
               "name": "Alfredo Pasta",
               "price": 300,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Fettuccine_Alfredo.jpg"
+              "image": "https://images.pexels.com/photos/5639532/pexels-photo-5639532.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "arrabiata_pasta",
               "name": "Arrabiata Pasta",
               "price": 280,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Penne_all%27Arrabbiata.jpg"
+              "image": "https://images.pexels.com/photos/36841078/pexels-photo-36841078.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "lasagna",
               "name": "Lasagna",
               "price": 350,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Lasagne_-_stonesoup.jpg"
+              "image": "https://images.pexels.com/photos/16845653/pexels-photo-16845653.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             }
           ],
-          "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Fettuccine_Alfredo.jpg"
+          "image": "https://images.pexels.com/photos/546945/pexels-photo-546945.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
         }
       ],
-      "image": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Margherita_Pizza.jpg"
+      "image": "https://images.pexels.com/photos/5531093/pexels-photo-5531093.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
     },
     {
       "id": "american",
@@ -619,22 +619,22 @@
               "id": "classic_burger",
               "name": "Classic Burger",
               "price": 250,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Classic_burger.jpg"
+              "image": "https://images.pexels.com/photos/10701947/pexels-photo-10701947.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "cheeseburger",
               "name": "Cheeseburger",
               "price": 280,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/6/62/Cheeseburger.jpg"
+              "image": "https://images.pexels.com/photos/14709727/pexels-photo-14709727.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "bbq_burger",
               "name": "BBQ Burger",
               "price": 300,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/4/4f/BBQ_Burger.jpg"
+              "image": "https://images.pexels.com/photos/3826282/pexels-photo-3826282.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             }
           ],
-          "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Classic_burger.jpg"
+          "image": "https://images.pexels.com/photos/16014748/pexels-photo-16014748.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
         },
         {
           "id": "american_sides",
@@ -644,22 +644,22 @@
               "id": "french_fries",
               "name": "French Fries",
               "price": 120,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/6/67/French_Fries.jpg"
+              "image": "https://images.pexels.com/photos/36292352/pexels-photo-36292352.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "fried_chicken",
               "name": "Fried Chicken",
               "price": 220,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Fried_chicken.jpg"
+              "image": "https://images.pexels.com/photos/12664796/pexels-photo-12664796.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "onion_rings",
               "name": "Onion Rings",
               "price": 150,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Onion_Rings.jpg"
+              "image": "https://images.pexels.com/photos/37358770/pexels-photo-37358770.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             }
           ],
-          "image": "https://upload.wikimedia.org/wikipedia/commons/6/67/French_Fries.jpg"
+          "image": "https://images.pexels.com/photos/5836773/pexels-photo-5836773.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
         },
         {
           "id": "american_drinks",
@@ -669,19 +669,19 @@
               "id": "milkshake",
               "name": "Milkshake",
               "price": 180,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Chocolate_milkshake.jpg"
+              "image": "https://images.pexels.com/photos/36937762/pexels-photo-36937762.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "cola",
               "name": "Cola",
               "price": 40,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Cola_drink.jpg"
+              "image": "https://images.pexels.com/photos/9220520/pexels-photo-9220520.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             }
           ],
-          "image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Chocolate_milkshake.jpg"
+          "image": "https://images.pexels.com/photos/8202965/pexels-photo-8202965.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
         }
       ],
-      "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Classic_burger.jpg"
+      "image": "https://images.pexels.com/photos/4676411/pexels-photo-4676411.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
     },
     {
       "id": "desserts",
@@ -695,37 +695,37 @@
               "id": "gulab_jamun",
               "name": "Gulab Jamun",
               "price": 60,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Gulab_Jamun_%28homemade%29.jpg"
+              "image": "https://images.pexels.com/photos/9198596/pexels-photo-9198596.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "brownie",
               "name": "Chocolate Brownie",
               "price": 120,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Chocolate_Brownie.jpg"
+              "image": "https://images.pexels.com/photos/7021888/pexels-photo-7021888.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "falooda",
               "name": "Falooda",
               "price": 150,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Falooda.jpg"
+              "image": "https://images.pexels.com/photos/18646641/pexels-photo-18646641.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "carrot_halwa",
               "name": "Carrot Halwa",
               "price": 90,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Gajar_ka_halwa.jpg"
+              "image": "https://images.pexels.com/photos/20446403/pexels-photo-20446403.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "payasam",
               "name": "Payasam",
               "price": 80,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Semiyan_payasam.jpg"
+              "image": "https://images.pexels.com/photos/14132112/pexels-photo-14132112.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             }
           ],
-          "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Gulab_Jamun_%28homemade%29.jpg"
+          "image": "https://images.pexels.com/photos/24981279/pexels-photo-24981279.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
         }
       ],
-      "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Gulab_Jamun_%28homemade%29.jpg"
+      "image": "https://images.pexels.com/photos/37219215/pexels-photo-37219215.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
     },
     {
       "id": "ice_cream",
@@ -739,37 +739,37 @@
               "id": "vanilla_icecream",
               "name": "Vanilla Ice Cream",
               "price": 60,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Vanilla_ice_cream_cone.jpg"
+              "image": "https://images.pexels.com/photos/16962446/pexels-photo-16962446.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "chocolate_icecream",
               "name": "Chocolate Ice Cream",
               "price": 70,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/7/70/Chocolate_ice_cream.jpg"
+              "image": "https://images.pexels.com/photos/14612417/pexels-photo-14612417.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "strawberry_icecream",
               "name": "Strawberry Ice Cream",
               "price": 70,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Strawberry_ice_cream.jpg"
+              "image": "https://images.pexels.com/photos/7761650/pexels-photo-7761650.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "butterscotch_icecream",
               "name": "Butterscotch Ice Cream",
               "price": 80,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Butterscotch_ice_cream.jpg"
+              "image": "https://images.pexels.com/photos/5060454/pexels-photo-5060454.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "kulfi",
               "name": "Kulfi",
               "price": 50,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Kulfi.jpg"
+              "image": "https://images.pexels.com/photos/29699512/pexels-photo-29699512.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             }
           ],
-          "image": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Vanilla_ice_cream_cone.jpg"
+          "image": "https://images.pexels.com/photos/15595674/pexels-photo-15595674.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
         }
       ],
-      "image": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Vanilla_ice_cream_cone.jpg"
+      "image": "https://images.pexels.com/photos/15595674/pexels-photo-15595674.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
     },
     {
       "id": "juices",
@@ -783,37 +783,37 @@
               "id": "orange_juice",
               "name": "Orange Juice",
               "price": 80,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Orange_juice_1.jpg"
+              "image": "https://images.pexels.com/photos/2994/healthy-fruits-morning-kitchen.jpg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "lime_juice",
               "name": "Lime Juice",
               "price": 40,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Lime_juice.jpg"
+              "image": "https://images.pexels.com/photos/8679351/pexels-photo-8679351.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "watermelon_juice",
               "name": "Watermelon Juice",
               "price": 70,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Watermelon_juice.jpg"
+              "image": "https://images.pexels.com/photos/8679183/pexels-photo-8679183.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "apple_juice",
               "name": "Apple Juice",
               "price": 90,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Apple_juice.jpg"
+              "image": "https://images.pexels.com/photos/5817625/pexels-photo-5817625.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "pineapple_juice",
               "name": "Pineapple Juice",
               "price": 85,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Pineapple_juice.jpg"
+              "image": "https://images.pexels.com/photos/27518954/pexels-photo-27518954.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             }
           ],
-          "image": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Orange_juice_1.jpg"
+          "image": "https://images.pexels.com/photos/31823001/pexels-photo-31823001.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
         }
       ],
-      "image": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Orange_juice_1.jpg"
+      "image": "https://images.pexels.com/photos/31823001/pexels-photo-31823001.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
     },
     {
       "id": "mocktails",
@@ -827,31 +827,31 @@
               "id": "mint_mojito",
               "name": "Mint Mojito",
               "price": 140,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Mojito.jpg"
+              "image": "https://images.pexels.com/photos/4051250/pexels-photo-4051250.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "blue_lagoon",
               "name": "Blue Lagoon",
               "price": 160,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Blue_Lagoon_Cocktail.jpg"
+              "image": "https://images.pexels.com/photos/8771967/pexels-photo-8771967.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "strawberry_mojito",
               "name": "Strawberry Mojito",
               "price": 150,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Strawberry_mojito.jpg"
+              "image": "https://images.pexels.com/photos/30412118/pexels-photo-30412118.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "lemon_ice_tea",
               "name": "Lemon Ice Tea",
               "price": 90,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Iced_tea_lemon.jpg"
+              "image": "https://images.pexels.com/photos/33840581/pexels-photo-33840581.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             }
           ],
-          "image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Mojito.jpg"
+          "image": "https://images.pexels.com/photos/12280754/pexels-photo-12280754.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
         }
       ],
-      "image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Mojito.jpg"
+      "image": "https://images.pexels.com/photos/12280754/pexels-photo-12280754.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
     },
     {
       "id": "smoothies",
@@ -865,25 +865,25 @@
               "id": "banana_smoothie",
               "name": "Banana Smoothie",
               "price": 120,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Banana_smoothie.jpg"
+              "image": "https://images.pexels.com/photos/4051777/pexels-photo-4051777.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "mango_smoothie",
               "name": "Mango Smoothie",
               "price": 140,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Mango_smoothie.jpg"
+              "image": "https://images.pexels.com/photos/14930492/pexels-photo-14930492.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "berry_smoothie",
               "name": "Berry Smoothie",
               "price": 160,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Berry_smoothie.jpg"
+              "image": "https://images.pexels.com/photos/20791352/pexels-photo-20791352.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             }
           ],
-          "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Banana_smoothie.jpg"
+          "image": "https://images.pexels.com/photos/12119029/pexels-photo-12119029.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
         }
       ],
-      "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Banana_smoothie.jpg"
+      "image": "https://images.pexels.com/photos/12119029/pexels-photo-12119029.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
     },
     {
       "id": "hot_drinks",
@@ -897,31 +897,31 @@
               "id": "tea",
               "name": "Tea",
               "price": 15,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/4/45/Tea_in_cup.jpg"
+              "image": "https://images.pexels.com/photos/32993269/pexels-photo-32993269.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "coffee",
               "name": "Coffee",
               "price": 20,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/4/45/A_small_cup_of_coffee.JPG"
+              "image": "https://images.pexels.com/photos/997670/pexels-photo-997670.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "masala_tea",
               "name": "Masala Tea",
               "price": 25,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Masala_chai.jpg"
+              "image": "https://images.pexels.com/photos/34324342/pexels-photo-34324342.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "hot_chocolate",
               "name": "Hot Chocolate",
               "price": 80,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/7/70/Hot_chocolate.jpg"
+              "image": "https://images.pexels.com/photos/10406759/pexels-photo-10406759.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             }
           ],
-          "image": "https://upload.wikimedia.org/wikipedia/commons/4/45/Tea_in_cup.jpg"
+          "image": "https://images.pexels.com/photos/30669728/pexels-photo-30669728.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
         }
       ],
-      "image": "https://upload.wikimedia.org/wikipedia/commons/4/45/Tea_in_cup.jpg"
+      "image": "https://images.pexels.com/photos/17874782/pexels-photo-17874782.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
     },
     {
       "id": "cold_drinks",
@@ -935,25 +935,25 @@
               "id": "cola",
               "name": "Cola",
               "price": 40,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/0/09/Cola_with_ice.jpg"
+              "image": "https://images.pexels.com/photos/15205136/pexels-photo-15205136.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "soda",
               "name": "Soda",
               "price": 20,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Soda_water.jpg"
+              "image": "https://images.pexels.com/photos/8880727/pexels-photo-8880727.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "energy_drink",
               "name": "Energy Drink",
               "price": 90,
-              "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Energy_drink_can.jpg"
+              "image": "https://images.pexels.com/photos/17423277/pexels-photo-17423277.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             }
           ],
-          "image": "https://upload.wikimedia.org/wikipedia/commons/0/09/Cola_with_ice.jpg"
+          "image": "https://images.pexels.com/photos/9737410/pexels-photo-9737410.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
         }
       ],
-      "image": "https://upload.wikimedia.org/wikipedia/commons/0/09/Cola_with_ice.jpg"
+      "image": "https://images.pexels.com/photos/37925075/pexels-photo-37925075.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
     }
   ],
   "restaurants": [

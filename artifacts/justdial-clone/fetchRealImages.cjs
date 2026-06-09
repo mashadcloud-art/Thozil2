@@ -50,35 +50,50 @@ const fetchImage = async (query) => {
 const processAll = async () => {
   let count = 0;
   for (const cuisine of apiData.cuisines) {
+    if (cuisine.id === 'tasty_under_30') continue; // Tasty is fine
+
     console.log(`Processing cuisine: ${cuisine.name}`);
-    cuisine.image = await fetchImage(`${cuisine.name} food`);
-    await sleep(250);
+    if (!cuisine.image || cuisine.image.includes('wikimedia')) {
+        cuisine.image = await fetchImage(`${cuisine.name} food`);
+        await sleep(250);
+    }
 
     for (const cat of cuisine.categories) {
-      cat.image = await fetchImage(`${cuisine.name} ${cat.name} food`);
-      await sleep(250);
+      if (!cat.image || cat.image.includes('wikimedia')) {
+          cat.image = await fetchImage(`${cuisine.name} ${cat.name} food`);
+          await sleep(250);
+      }
 
       for (const item of cat.items) {
-        let q = item.name;
-        if (q === "All Items") q = `${cuisine.name} food`;
-        else q = `${item.name} ${cuisine.name}`; // e.g. "Beef Fry Kerala"
+        if (!item.image || item.image.includes('wikimedia')) {
+            let q = item.name;
+            if (q === "All Items") q = `${cuisine.name} food`;
+            else q = `${item.name} ${cuisine.name}`; // e.g. "Beef Fry Kerala"
 
-        item.image = await fetchImage(q);
-        console.log(`- Fetched image for: ${item.name} -> ${item.image}`);
-        await sleep(250); // Be respectful to APIs
-        count++;
+            item.image = await fetchImage(q);
+            console.log(`- Fetched image for: ${item.name} -> ${item.image}`);
+            fs.writeFileSync('public/apiData.json', JSON.stringify(apiData, null, 2)); // Save progress
+            await sleep(250); // Be respectful to APIs
+            count++;
+        }
       }
     }
   }
   
   // also fetch main restaurant images based on their cuisine
   for (const rest of apiData.restaurants) {
-     rest.image = await fetchImage(`${rest.cuisines[0]} restaurant`);
-     await sleep(250);
+     if (!rest.image || rest.image.includes('wikimedia')) {
+         const c = rest.cuisines && rest.cuisines.length > 0 ? rest.cuisines[0] : 'restaurant';
+         rest.image = await fetchImage(`${c} restaurant`);
+         fs.writeFileSync('public/apiData.json', JSON.stringify(apiData, null, 2)); // Save progress
+         await sleep(250);
+     }
   }
 
-  fs.writeFileSync('public/apiData.json', JSON.stringify(apiData, null, 2));
   console.log(`Finished processing ${count} items and updated apiData.json`);
 };
 
-processAll().catch(console.error);
+processAll().catch(e => {
+    console.error("FATAL ERROR", e);
+    process.exit(1);
+});
