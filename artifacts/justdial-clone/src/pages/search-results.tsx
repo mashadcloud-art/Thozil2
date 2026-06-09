@@ -216,8 +216,13 @@ export default function SearchResults() {
 
       <main style={{ flex: 1 }}>
         {/* ══ HEADER ══ */}
-        <div style={{ background: N }}>
-          <div style={{ maxWidth: 920, margin: "0 auto", padding: "32px 24px 24px" }}>
+        <div style={{ 
+          background: `linear-gradient(to right, rgba(15, 27, 45, 0.98) 20%, rgba(15, 27, 45, 0.6) 80%), url('https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1600&q=80')`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          position: "relative"
+        }}>
+          <div style={{ maxWidth: 920, margin: "0 auto", padding: "48px 24px 40px", position: "relative", zIndex: 10 }}>
             <div style={{ display:"flex", alignItems:"center", gap:8, marginBottom:8 }}>
               <span style={{ background:A, borderRadius:5, padding:"2px 9px", fontSize:10, fontWeight:800, color:"#fff", letterSpacing:"0.1em", textTransform:"uppercase" }}>
                 {stateNames[state] || state}
