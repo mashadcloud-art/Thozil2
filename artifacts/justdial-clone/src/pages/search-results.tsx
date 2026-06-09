@@ -19,7 +19,14 @@ const MOCK_RESULTS = [
 ];
 
 const SORT_OPTIONS = ["Relevance", "Rating", "Popular", "Friends Rating", "Distance", "Price: Low to High", "Price: High to Low"];
-const CUISINE_OPTIONS = ["Bengali", "Pure Veg", "Punjabi", "Tibetan", "Gujarati", "Biryani", "Buffet", "Chinese", "South Indian"];
+const CUISINE_OPTIONS = ["Maharashtrian", "Seafood", "Mughlai", "Dhaba", "Bengali", "Pure Veg", "Punjabi", "Tibetan", "Gujarati", "Biryani", "Buffet", "Chinese", "South Indian"];
+
+const getMockCuisine = (str: string) => {
+  const cuisines = ["Maharashtrian", "Seafood", "Mughlai", "Dhaba", "Bengali", "Punjabi", "Tibetan", "Gujarati", "Chinese", "South Indian", "Kerala Cuisine"];
+  let hash = 0;
+  for (let i = 0; i < str.length; i++) hash = str.charCodeAt(i) + ((hash << 5) - hash);
+  return cuisines[Math.abs(hash) % cuisines.length];
+};
 const NEARBY_AREAS = ["Saboo", "Nubra", "Horzey", "Diskit", "Hunder", "Turtuk", "Chuglamsar", "Khalsi", "Panamik", "Spituk", "Thiksay", "Shey", "Alchi", "Shara", "Stok"];
 
 // Design Tokens
@@ -108,7 +115,7 @@ export default function SearchResults() {
             items.push({
               id: `rest_${r.id}`,
               name: r.title,
-              category: "Restaurants",
+              category: getMockCuisine(r.title || ""),
               rating: r.rating || 4.5,
               reviews: parseInt(r.reviews) || 45,
               address: `${r.locality || r.district || ""}, ${fetchedData.stateName || "Kerala"}`,
@@ -154,8 +161,11 @@ export default function SearchResults() {
   const filtered = useMemo(() => {
     const baseItems = dbResults.length > 0 ? dbResults : MOCK_RESULTS;
     return baseItems.filter(r => {
-      const matchSearch = r.name.toLowerCase().includes(searchTerm.toLowerCase()) || 
-                          r.category.toLowerCase().includes(searchTerm.toLowerCase());
+      const searchLower = searchTerm.toLowerCase();
+      const matchSearch = !searchLower || 
+                          r.name.toLowerCase().includes(searchLower) || 
+                          r.category.toLowerCase().includes(searchLower) ||
+                          (r.tags && r.tags.some((t: string) => t.toLowerCase().includes(searchLower)));
       const matchArea = selectedArea ? r.area === selectedArea : true;
       return matchSearch && matchArea;
     });
