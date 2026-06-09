@@ -98,14 +98,14 @@ export default function AllCategoriesDirectory({ stateKey }: { stateKey: string 
           No results found
         </div>
       ) : (
-        <div className="space-y-2">
+        <div className="columns-1 md:columns-2 lg:columns-3 gap-4">
           {Object.keys(filteredData.data).map((letter) => {
             const cat = filteredData.data[letter];
             const Icon = cat.icon;
             const isOpen = openSet.has(letter) || query.length > 0;
 
             return (
-              <div key={letter} className="border border-gray-200 rounded-xl overflow-hidden bg-white">
+              <div key={letter} className="border border-gray-200 rounded-xl overflow-hidden bg-white mb-4 break-inside-avoid shadow-sm hover:shadow-md transition-shadow">
                 <div 
                   onClick={() => toggleOpen(letter)}
                   className={`flex items-center gap-3 p-3.5 cursor-pointer select-none transition-colors ${isOpen ? 'bg-gray-50' : 'hover:bg-gray-50'}`}
