@@ -7,7 +7,7 @@ const apiData = JSON.parse(fs.readFileSync(file, 'utf8'));
 
 async function importSpoonacular() {
   console.log("Fetching recipes from Spoonacular...");
-  const res = await fetch(`https://api.spoonacular.com/recipes/random?number=20&apiKey=${API_KEY}`);
+  const res = await fetch(`https://api.spoonacular.com/recipes/random?number=100&apiKey=${API_KEY}`);
   
   if (!res.ok) {
     console.error("Failed to fetch Spoonacular API:", res.status);
