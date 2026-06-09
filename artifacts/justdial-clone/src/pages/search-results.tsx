@@ -77,9 +77,13 @@ export default function SearchResults() {
   const [searchTerm, setSearchTerm] = useState(query);
   const [active, setActive] = useState<string | null>(null);
   const [selectedSort, setSelectedSort] = useState("Relevance");
-  const [selectedCuisine, setSelectedCuisine] = useState("Bengali");
+  const [selectedCuisine, setSelectedCuisine] = useState<string | null>(null);
   const [selectedArea, setSelectedArea] = useState<string | null>(null);
   const [openNow, setOpenNow] = useState(false);
+
+  useEffect(() => {
+    setSearchTerm(query);
+  }, [query]);
   const [hearts, setHearts] = useState<Record<string, boolean>>({});
 
   const [dbResults, setDbResults] = useState<any[]>([]);
@@ -167,9 +171,10 @@ export default function SearchResults() {
                           r.category.toLowerCase().includes(searchLower) ||
                           (r.tags && r.tags.some((t: string) => t.toLowerCase().includes(searchLower)));
       const matchArea = selectedArea ? r.area === selectedArea : true;
-      return matchSearch && matchArea;
+      const matchCuisine = selectedCuisine ? r.category === selectedCuisine : true;
+      return matchSearch && matchArea && matchCuisine;
     });
-  }, [dbResults, searchTerm, selectedArea]);
+  }, [dbResults, searchTerm, selectedArea, selectedCuisine]);
 
   /* ── screenshot-style filter pill ── */
   const filterBtnStyle = (isActive: boolean) => ({
@@ -299,8 +304,10 @@ export default function SearchResults() {
               {/* CUISINE */}
               <Dropdown id="cuisine" active={active} setActive={setActive}
                 trigger={(on: boolean) => (
-                  <button data-dd style={filterBtnStyle(on)}>
-                    <span style={{ color: "#0066cc", fontWeight: 600 }}>{selectedCuisine}</span>
+                  <button data-dd style={filterBtnStyle(on || !!selectedCuisine)}>
+                    <span style={{ color: selectedCuisine ? "#0066cc" : "inherit", fontWeight: selectedCuisine ? 600 : 500 }}>
+                      {selectedCuisine || "Cuisine"}
+                    </span>
                     <ChevronDown style={{ width:14, height:14, transform: on ? "rotate(180deg)" : "none", transition:"transform .2s" }} />
                   </button>
                 )}
