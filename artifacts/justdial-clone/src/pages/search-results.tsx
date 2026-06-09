@@ -83,6 +83,12 @@ export default function SearchResults({ params }: { params?: { state?: string; c
 
   useEffect(() => {
     setSearchTerm(query);
+    const matchedCuisine = CUISINE_OPTIONS.find(c => c.toLowerCase() === query.toLowerCase());
+    if (matchedCuisine) {
+      setSelectedCuisine(matchedCuisine);
+    } else {
+      setSelectedCuisine(null);
+    }
   }, [query]);
   const [hearts, setHearts] = useState<Record<string, boolean>>({});
 
@@ -345,7 +351,11 @@ export default function SearchResults({ params }: { params?: { state?: string; c
                       const sel = selectedCuisine === opt;
                       return (
                         <button key={opt} data-dd
-                          onClick={() => { setSelectedCuisine(opt); setActive(null); }}
+                          onClick={() => { 
+                            setSelectedCuisine(opt); 
+                            setActive(null); 
+                            setLocation(`/${state}/restaurants/${encodeURIComponent(opt.replace(/\s+/g, '-'))}`);
+                          }}
                           style={{ width:"100%", textAlign:"left", padding:"10px 16px", border:"none", cursor:"pointer", background: "transparent", display:"flex", alignItems:"center", justifyContent:"space-between" }}
                           onMouseEnter={(e: any) => { e.currentTarget.style.background="#f3f4f6"; }}
                           onMouseLeave={(e: any) => { e.currentTarget.style.background="transparent"; }}
