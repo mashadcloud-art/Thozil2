@@ -171,6 +171,7 @@ export default function ListingDetail({ params }: { params: { id: string } }) {
 
   // Tab State
   const [activeTab, setActiveTab] = useState<"overview" | "photos" | "reviews" | "menu">("overview");
+  const [lightboxImage, setLightboxImage] = useState<string | null>(null);
 
   if (loading) {
     return (
@@ -223,6 +224,16 @@ export default function ListingDetail({ params }: { params: { id: string } }) {
 
   return (
     <div className="min-h-screen w-full flex flex-col bg-slate-50 font-sans overflow-x-hidden">
+      {/* Lightbox */}
+      {lightboxImage && (
+        <div 
+          className="fixed inset-0 z-[100] bg-black/90 flex items-center justify-center p-4 cursor-pointer backdrop-blur-sm"
+          onClick={() => setLightboxImage(null)}
+        >
+          <img src={lightboxImage} className="max-w-full max-h-full object-contain rounded-xl shadow-2xl" alt="Enlarged" />
+        </div>
+      )}
+
       <Navbar />
 
       {/* Breadcrumbs */}
@@ -247,9 +258,10 @@ export default function ListingDetail({ params }: { params: { id: string } }) {
             <img 
               src={listing.image} 
               alt={listing.title} 
-              className="w-full h-full object-cover group-hover:scale-102 transition-transform duration-700"
+              onClick={() => setLightboxImage(listing.image)}
+              className="w-full h-full object-cover group-hover:scale-102 transition-transform duration-700 cursor-pointer"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent pointer-events-none" />
             
             {/* Overlay Info */}
             <div className="absolute bottom-6 left-6 right-6 text-white space-y-2">
@@ -278,25 +290,31 @@ export default function ListingDetail({ params }: { params: { id: string } }) {
           </div>
 
           {/* Secondary Collage/Grid Images */}
-          <div className="lg:col-span-4 grid grid-cols-2 lg:grid-cols-1 gap-2 p-2 bg-slate-50 h-[120px] lg:h-full">
-            <div className="rounded-2xl overflow-hidden relative group">
-              <img 
-                src={apiMenus.length > 0 && apiMenus[0]?.categories?.[0]?.items?.[0]?.image ? apiMenus[0].categories[0].items[0].image : "https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&w=400&q=80"} 
-                alt="Gallery 1" 
-                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-              />
-            </div>
-            <div className="rounded-2xl overflow-hidden relative group">
-              <img 
-                src={apiMenus.length > 0 && apiMenus[0]?.categories?.[0]?.items?.[1]?.image ? apiMenus[0].categories[0].items[1].image : "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=400&q=80"} 
-                alt="Gallery 2" 
-                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-              />
-              <div className="absolute inset-0 bg-black/40 flex items-center justify-center text-white font-bold text-xs cursor-pointer hover:bg-black/50 transition-colors">
-                <Image className="w-4 h-4 mr-1.5" />
-                View Gallery
-              </div>
-            </div>
+          <div className="lg:col-span-4 grid grid-cols-2 gap-2 p-2 bg-slate-50 h-[120px] lg:h-full">
+            {[0, 1, 2, 3].map(i => {
+              const allItems = apiMenus.length > 0 ? apiMenus.flatMap(c => c.categories).flatMap(c => c.items) : [];
+              const imgSrc = allItems[i] ? allItems[i].image : (
+                i === 0 ? "https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&w=400&q=80" :
+                i === 1 ? "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=400&q=80" :
+                i === 2 ? "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=400&q=80" :
+                "https://images.unsplash.com/photo-1582878826629-29b7ad1cb438?auto=format&fit=crop&w=400&q=80"
+              );
+              return (
+                <div key={i} className="rounded-2xl overflow-hidden relative group cursor-pointer" onClick={() => setLightboxImage(imgSrc)}>
+                  <img 
+                    src={imgSrc} 
+                    alt={`Gallery ${i}`} 
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                  {i === 3 && (
+                    <div className="absolute inset-0 bg-black/40 flex items-center justify-center text-white font-bold text-xs hover:bg-black/50 transition-colors">
+                      <Image className="w-4 h-4 mr-1.5" />
+                      View Gallery
+                    </div>
+                  )}
+                </div>
+              );
+            })}
           </div>
         </section>
 
@@ -426,6 +444,45 @@ export default function ListingDetail({ params }: { params: { id: string } }) {
                     )}
                   </ul>
                 </div>
+
+                {apiMenus.length > 0 && (
+                  <>
+                    <div className="pt-6 border-t border-gray-100">
+                      <h3 className="text-base font-bold text-gray-900 mb-3">Cuisines Offered</h3>
+                      <div className="flex overflow-x-auto gap-4 pb-2 snap-x" style={{ scrollbarWidth: 'none' }}>
+                        {apiMenus.map(cuisine => (
+                          <div 
+                            key={cuisine.id} 
+                            onClick={() => setActiveTab("menu")}
+                            className="min-w-[140px] bg-slate-50 border border-gray-100 rounded-2xl p-3 cursor-pointer hover:shadow-md transition-shadow snap-start flex flex-col items-center text-center gap-2"
+                          >
+                            <img src={cuisine.image} className="w-14 h-14 rounded-full object-cover" alt={cuisine.name} />
+                            <span className="font-bold text-sm text-gray-800">{cuisine.name}</span>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+
+                    <div className="pt-6 border-t border-gray-100">
+                      <h3 className="text-base font-bold text-gray-900 mb-3">Top Selling Items</h3>
+                      <div className="flex overflow-x-auto gap-4 pb-2 snap-x" style={{ scrollbarWidth: 'none' }}>
+                        {apiMenus.flatMap(c => c.categories).flatMap(c => c.items).slice(0, 5).map(item => (
+                          <div 
+                            key={item.id} 
+                            onClick={() => setLightboxImage(item.image)}
+                            className="min-w-[180px] w-[180px] bg-slate-50 border border-gray-100 rounded-2xl p-3 cursor-pointer hover:shadow-md transition-shadow snap-start flex flex-col gap-2"
+                          >
+                            <img src={item.image} className="w-full h-24 rounded-xl object-cover" alt={item.name} />
+                            <div>
+                              <h4 className="font-bold text-sm text-gray-900 truncate">{item.name}</h4>
+                              <div className="font-black text-emerald-600 bg-emerald-50 w-fit px-2 py-0.5 rounded-md text-xs mt-1">₹{item.price}</div>
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  </>
+                )}
               </div>
             )}
 
