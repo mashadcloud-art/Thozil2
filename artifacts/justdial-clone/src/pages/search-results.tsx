@@ -166,7 +166,26 @@ export default function SearchResults() {
     const baseItems = dbResults.length > 0 ? dbResults : MOCK_RESULTS;
     return baseItems.filter(r => {
       const searchLower = searchTerm.toLowerCase();
+
+      // Broad category expansion
+      const indianFlavours = ["maharashtrian", "seafood", "mughlai", "dhaba", "bengali", "pure veg", "punjabi", "gujarati", "south indian", "biryani", "kerala cuisine", "indian flavours"];
+      const globalCuisines = ["german", "continental", "american", "european", "chinese", "tibetan", "global cuisines"];
+      const nightlife = ["lounge", "bar", "candle light", "nightlife"];
+      const quickBites = ["bakery", "coffee shop", "cafe", "quick bites"];
+
+      let expandedSearchMatch = false;
+      if (searchLower === "indian flavours") {
+         expandedSearchMatch = indianFlavours.includes(r.category.toLowerCase());
+      } else if (searchLower === "global cuisines") {
+         expandedSearchMatch = globalCuisines.includes(r.category.toLowerCase());
+      } else if (searchLower === "nightlife") {
+         expandedSearchMatch = nightlife.some(c => r.category.toLowerCase().includes(c));
+      } else if (searchLower === "quick bites") {
+         expandedSearchMatch = quickBites.some(c => r.category.toLowerCase().includes(c));
+      }
+
       const matchSearch = !searchLower || 
+                          expandedSearchMatch ||
                           r.name.toLowerCase().includes(searchLower) || 
                           r.category.toLowerCase().includes(searchLower) ||
                           (r.tags && r.tags.some((t: string) => t.toLowerCase().includes(searchLower)));
