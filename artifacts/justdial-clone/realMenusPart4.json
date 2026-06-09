@@ -1,0 +1,226 @@
+{
+  "global_extras": [
+    {
+      "id": "desserts",
+      "name": "Desserts",
+      "items": [
+        {
+          "id": "gulab_jamun",
+          "name": "Gulab Jamun",
+          "price": 60,
+          "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Gulab_Jamun_%28homemade%29.jpg"
+        },
+        {
+          "id": "brownie",
+          "name": "Chocolate Brownie",
+          "price": 120,
+          "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Chocolate_Brownie.jpg"
+        },
+        {
+          "id": "falooda",
+          "name": "Falooda",
+          "price": 150,
+          "image": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Falooda.jpg"
+        },
+        {
+          "id": "carrot_halwa",
+          "name": "Carrot Halwa",
+          "price": 90,
+          "image": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Gajar_ka_halwa.jpg"
+        },
+        {
+          "id": "payasam",
+          "name": "Payasam",
+          "price": 80,
+          "image": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Semiyan_payasam.jpg"
+        }
+      ]
+    },
+
+    {
+      "id": "ice_cream",
+      "name": "Ice Cream",
+      "items": [
+        {
+          "id": "vanilla_icecream",
+          "name": "Vanilla Ice Cream",
+          "price": 60,
+          "image": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Vanilla_ice_cream_cone.jpg"
+        },
+        {
+          "id": "chocolate_icecream",
+          "name": "Chocolate Ice Cream",
+          "price": 70,
+          "image": "https://upload.wikimedia.org/wikipedia/commons/7/70/Chocolate_ice_cream.jpg"
+        },
+        {
+          "id": "strawberry_icecream",
+          "name": "Strawberry Ice Cream",
+          "price": 70,
+          "image": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Strawberry_ice_cream.jpg"
+        },
+        {
+          "id": "butterscotch_icecream",
+          "name": "Butterscotch Ice Cream",
+          "price": 80,
+          "image": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Butterscotch_ice_cream.jpg"
+        },
+        {
+          "id": "kulfi",
+          "name": "Kulfi",
+          "price": 50,
+          "image": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Kulfi.jpg"
+        }
+      ]
+    },
+
+    {
+      "id": "juices",
+      "name": "Juices",
+      "items": [
+        {
+          "id": "orange_juice",
+          "name": "Orange Juice",
+          "price": 80,
+          "image": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Orange_juice_1.jpg"
+        },
+        {
+          "id": "lime_juice",
+          "name": "Lime Juice",
+          "price": 40,
+          "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Lime_juice.jpg"
+        },
+        {
+          "id": "watermelon_juice",
+          "name": "Watermelon Juice",
+          "price": 70,
+          "image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Watermelon_juice.jpg"
+        },
+        {
+          "id": "apple_juice",
+          "name": "Apple Juice",
+          "price": 90,
+          "image": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Apple_juice.jpg"
+        },
+        {
+          "id": "pineapple_juice",
+          "name": "Pineapple Juice",
+          "price": 85,
+          "image": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Pineapple_juice.jpg"
+        }
+      ]
+    },
+
+    {
+      "id": "mocktails",
+      "name": "Mocktails",
+      "items": [
+        {
+          "id": "mint_mojito",
+          "name": "Mint Mojito",
+          "price": 140,
+          "image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Mojito.jpg"
+        },
+        {
+          "id": "blue_lagoon",
+          "name": "Blue Lagoon",
+          "price": 160,
+          "image": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Blue_Lagoon_Cocktail.jpg"
+        },
+        {
+          "id": "strawberry_mojito",
+          "name": "Strawberry Mojito",
+          "price": 150,
+          "image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Strawberry_mojito.jpg"
+        },
+        {
+          "id": "lemon_ice_tea",
+          "name": "Lemon Ice Tea",
+          "price": 90,
+          "image": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Iced_tea_lemon.jpg"
+        }
+      ]
+    },
+
+    {
+      "id": "smoothies",
+      "name": "Smoothies",
+      "items": [
+        {
+          "id": "banana_smoothie",
+          "name": "Banana Smoothie",
+          "price": 120,
+          "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Banana_smoothie.jpg"
+        },
+        {
+          "id": "mango_smoothie",
+          "name": "Mango Smoothie",
+          "price": 140,
+          "image": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Mango_smoothie.jpg"
+        },
+        {
+          "id": "berry_smoothie",
+          "name": "Berry Smoothie",
+          "price": 160,
+          "image": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Berry_smoothie.jpg"
+        }
+      ]
+    },
+
+    {
+      "id": "hot_drinks",
+      "name": "Hot Drinks",
+      "items": [
+        {
+          "id": "tea",
+          "name": "Tea",
+          "price": 15,
+          "image": "https://upload.wikimedia.org/wikipedia/commons/4/45/Tea_in_cup.jpg"
+        },
+        {
+          "id": "coffee",
+          "name": "Coffee",
+          "price": 20,
+          "image": "https://upload.wikimedia.org/wikipedia/commons/4/45/A_small_cup_of_coffee.JPG"
+        },
+        {
+          "id": "masala_tea",
+          "name": "Masala Tea",
+          "price": 25,
+          "image": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Masala_chai.jpg"
+        },
+        {
+          "id": "hot_chocolate",
+          "name": "Hot Chocolate",
+          "price": 80,
+          "image": "https://upload.wikimedia.org/wikipedia/commons/7/70/Hot_chocolate.jpg"
+        }
+      ]
+    },
+
+    {
+      "id": "cold_drinks",
+      "name": "Cold Drinks",
+      "items": [
+        {
+          "id": "cola",
+          "name": "Cola",
+          "price": 40,
+          "image": "https://upload.wikimedia.org/wikipedia/commons/0/09/Cola_with_ice.jpg"
+        },
+        {
+          "id": "soda",
+          "name": "Soda",
+          "price": 20,
+          "image": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Soda_water.jpg"
+        },
+        {
+          "id": "energy_drink",
+          "name": "Energy Drink",
+          "price": 90,
+          "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Energy_drink_can.jpg"
+        }
+      ]
+    }
+  ]
+}

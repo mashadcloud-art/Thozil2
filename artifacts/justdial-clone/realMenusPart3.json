@@ -1,0 +1,186 @@
+{
+  "cuisines": [
+    {
+      "id": "arabian",
+      "name": "Arabian",
+      "categories": [
+        {
+          "id": "arabian_grills",
+          "name": "Grills",
+          "items": [
+            {
+              "id": "alfaham",
+              "name": "Alfaham",
+              "price": 320,
+              "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Al_Faham_Chicken.jpg"
+            },
+            {
+              "id": "shawarma_roll",
+              "name": "Shawarma Roll",
+              "price": 120,
+              "image": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Chicken_Shawarma_Wrap.jpg"
+            },
+            {
+              "id": "grilled_chicken",
+              "name": "Grilled Chicken",
+              "price": 280,
+              "image": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Grilled_chicken_plate.jpg"
+            }
+          ]
+        },
+        {
+          "id": "arabian_rice",
+          "name": "Rice",
+          "items": [
+            {
+              "id": "chicken_mandi",
+              "name": "Chicken Mandi",
+              "price": 320,
+              "image": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Mandi_Rice_with_Chicken.jpg"
+            },
+            {
+              "id": "mutton_mandi",
+              "name": "Mutton Mandi",
+              "price": 420,
+              "image": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Mutton_Mandi.jpg"
+            },
+            {
+              "id": "majboos",
+              "name": "Chicken Majboos",
+              "price": 300,
+              "image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Chicken_Machboos.jpg"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "italian",
+      "name": "Italian",
+      "categories": [
+        {
+          "id": "italian_pizza",
+          "name": "Pizza",
+          "items": [
+            {
+              "id": "margherita_pizza",
+              "name": "Margherita Pizza",
+              "price": 350,
+              "image": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Margherita_Pizza.jpg"
+            },
+            {
+              "id": "pepperoni_pizza",
+              "name": "Pepperoni Pizza",
+              "price": 420,
+              "image": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Pepperoni_pizza.jpg"
+            },
+            {
+              "id": "four_cheese_pizza",
+              "name": "Four Cheese Pizza",
+              "price": 450,
+              "image": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Quattro_Formaggi_Pizza.jpg"
+            }
+          ]
+        },
+        {
+          "id": "italian_pasta",
+          "name": "Pasta",
+          "items": [
+            {
+              "id": "alfredo_pasta",
+              "name": "Alfredo Pasta",
+              "price": 300,
+              "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Fettuccine_Alfredo.jpg"
+            },
+            {
+              "id": "arrabiata_pasta",
+              "name": "Arrabiata Pasta",
+              "price": 280,
+              "image": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Penne_all%27Arrabbiata.jpg"
+            },
+            {
+              "id": "lasagna",
+              "name": "Lasagna",
+              "price": 350,
+              "image": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Lasagne_-_stonesoup.jpg"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "american",
+      "name": "American",
+      "categories": [
+        {
+          "id": "american_burgers",
+          "name": "Burgers",
+          "items": [
+            {
+              "id": "classic_burger",
+              "name": "Classic Burger",
+              "price": 250,
+              "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Classic_burger.jpg"
+            },
+            {
+              "id": "cheeseburger",
+              "name": "Cheeseburger",
+              "price": 280,
+              "image": "https://upload.wikimedia.org/wikipedia/commons/6/62/Cheeseburger.jpg"
+            },
+            {
+              "id": "bbq_burger",
+              "name": "BBQ Burger",
+              "price": 300,
+              "image": "https://upload.wikimedia.org/wikipedia/commons/4/4f/BBQ_Burger.jpg"
+            }
+          ]
+        },
+        {
+          "id": "american_sides",
+          "name": "Sides",
+          "items": [
+            {
+              "id": "french_fries",
+              "name": "French Fries",
+              "price": 120,
+              "image": "https://upload.wikimedia.org/wikipedia/commons/6/67/French_Fries.jpg"
+            },
+            {
+              "id": "fried_chicken",
+              "name": "Fried Chicken",
+              "price": 220,
+              "image": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Fried_chicken.jpg"
+            },
+            {
+              "id": "onion_rings",
+              "name": "Onion Rings",
+              "price": 150,
+              "image": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Onion_Rings.jpg"
+            }
+          ]
+        },
+        {
+          "id": "american_drinks",
+          "name": "Drinks",
+          "items": [
+            {
+              "id": "milkshake",
+              "name": "Milkshake",
+              "price": 180,
+              "image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Chocolate_milkshake.jpg"
+            },
+            {
+              "id": "cola",
+              "name": "Cola",
+              "price": 40,
+              "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Cola_drink.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

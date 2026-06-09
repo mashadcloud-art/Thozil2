@@ -1,0 +1,169 @@
+{
+  "version": 1,
+  "last_updated": "2026-06-09",
+  "cuisines": [
+    {
+      "id": "kerala",
+      "name": "Kerala",
+      "categories": [
+        {
+          "id": "kerala_starters",
+          "name": "Starters",
+          "items": [
+            {
+              "id": "beef_fry",
+              "name": "Beef Fry",
+              "price": 220,
+              "image": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Beef_Ularthiyathu.jpg"
+            },
+            {
+              "id": "kerala_fish_fry",
+              "name": "Kerala Fish Fry",
+              "price": 200,
+              "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Meen_Fry.jpg"
+            },
+            {
+              "id": "pazham_pori",
+              "name": "Pazham Pori",
+              "price": 40,
+              "image": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Pazham_pori.jpg"
+            },
+            {
+              "id": "parippu_vada",
+              "name": "Parippu Vada",
+              "price": 30,
+              "image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Parippu_Vada.jpg"
+            }
+          ]
+        },
+        {
+          "id": "kerala_main_course",
+          "name": "Main Course",
+          "items": [
+            {
+              "id": "kerala_meals",
+              "name": "Kerala Meals",
+              "price": 140,
+              "image": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Kerala_meals.jpg"
+            },
+            {
+              "id": "kappa_meen_curry",
+              "name": "Kappa & Meen Curry",
+              "price": 180,
+              "image": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Kappa_and_meen_curry.jpg"
+            },
+            {
+              "id": "kerala_chicken_roast",
+              "name": "Chicken Roast",
+              "price": 220,
+              "image": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Chicken_roast.jpg"
+            },
+            {
+              "id": "kerala_fish_curry",
+              "name": "Kerala Fish Curry",
+              "price": 190,
+              "image": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Meen_curry.jpg"
+            }
+          ]
+        },
+        {
+          "id": "kerala_breakfast",
+          "name": "Breakfast",
+          "items": [
+            {
+              "id": "appam",
+              "name": "Appam",
+              "price": 15,
+              "image": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Appam.jpg"
+            },
+            {
+              "id": "idiyappam",
+              "name": "Idiyappam",
+              "price": 20,
+              "image": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Idiyappam.jpg"
+            },
+            {
+              "id": "puttu",
+              "name": "Puttu",
+              "price": 25,
+              "image": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Puttu.jpg"
+            },
+            {
+              "id": "egg_roast",
+              "name": "Egg Roast",
+              "price": 70,
+              "image": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Egg_roast.jpg"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "south_indian",
+      "name": "South Indian",
+      "categories": [
+        {
+          "id": "south_breakfast",
+          "name": "Breakfast",
+          "items": [
+            {
+              "id": "idli",
+              "name": "Idli",
+              "price": 35,
+              "image": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Idli_Sambar.jpg"
+            },
+            {
+              "id": "plain_dosa",
+              "name": "Plain Dosa",
+              "price": 50,
+              "image": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Dosa_plain.jpg"
+            },
+            {
+              "id": "masala_dosa",
+              "name": "Masala Dosa",
+              "price": 80,
+              "image": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Masala_Dosa.jpg"
+            },
+            {
+              "id": "vada",
+              "name": "Vada",
+              "price": 30,
+              "image": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Medu_Vada.jpg"
+            },
+            {
+              "id": "pongal",
+              "name": "Pongal",
+              "price": 70,
+              "image": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Ven_pongal.jpg"
+            }
+          ]
+        },
+        {
+          "id": "south_rice_items",
+          "name": "Rice Items",
+          "items": [
+            {
+              "id": "sambar_rice",
+              "name": "Sambar Rice",
+              "price": 90,
+              "image": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Sambar_rice.jpg"
+            },
+            {
+              "id": "curd_rice",
+              "name": "Curd Rice",
+              "price": 70,
+              "image": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Curd_rice.jpg"
+            },
+            {
+              "id": "lemon_rice",
+              "name": "Lemon Rice",
+              "price": 80,
+              "image": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Lemon_rice.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
