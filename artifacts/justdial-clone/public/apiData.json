@@ -13,31 +13,31 @@
               "name": "Beef Fry",
               "description": "Spicy Kerala-style beef fry with coconut slices.",
               "price": 220,
-              "image": "https://foodish-api.com/images/butter-chicken/butter-chicken9.jpg"
+              "image": "https://images.unsplash.com/photo-1722698030083-75d1d50cabe4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxCZWVmJTIwRnJ5JTIwS2VyYWxhfGVufDB8fHx8MTc4MDk3ODEyMXww&ixlib=rb-4.1.0&q=80&w=1080"
             },
             {
               "id": "kerala_fish_fry",
               "name": "Kerala Fish Fry",
               "description": "Seer fish marinated in spices and shallow fried.",
               "price": 200,
-              "image": "https://foodish-api.com/images/butter-chicken/butter-chicken22.jpg"
+              "image": "https://images.unsplash.com/photo-1620894580123-466ad3a0ca06?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxLZXJhbGElMjBGaXNoJTIwRnJ5JTIwS2VyYWxhfGVufDB8fHx8MTc4MDk3ODEyMnww&ixlib=rb-4.1.0&q=80&w=1080"
             },
             {
               "id": "pazham_pori",
               "name": "Pazham Pori",
               "description": "Ripe banana fritters coated in batter.",
               "price": 40,
-              "image": "https://foodish-api.com/images/burger/burger13.jpg"
+              "image": "https://images.pexels.com/photos/7394818/pexels-photo-7394818.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "parippu_vada",
               "name": "Parippu Vada",
               "description": "Crispy lentil fritters served hot.",
               "price": 30,
-              "image": "https://foodish-api.com/images/samosa/samosa3.jpg"
+              "image": "https://images.unsplash.com/photo-1647541736428-f6b48d5bf4a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxQYXJpcHB1JTIwVmFkYSUyMEtlcmFsYXxlbnwwfHx8fDE3ODA5NzgxMjV8MA&ixlib=rb-4.1.0&q=80&w=1080"
             }
           ],
-          "image": "https://foodish-api.com/images/biryani/biryani41.jpg"
+          "image": "https://images.unsplash.com/photo-1620894580123-466ad3a0ca06?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxLZXJhbGElMjBTdGFydGVycyUyMGZvb2R8ZW58MHx8fHwxNzgwOTc4MTIxfDA&ixlib=rb-4.1.0&q=80&w=1080"
         },
         {
           "id": "kerala_main_course",
@@ -48,31 +48,31 @@
               "name": "Kerala Meals",
               "description": "Traditional Kerala rice meals with curries and sides.",
               "price": 140,
-              "image": "https://foodish-api.com/images/dosa/dosa37.jpg"
+              "image": "https://images.unsplash.com/photo-1722698030083-75d1d50cabe4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxLZXJhbGElMjBNZWFscyUyMEtlcmFsYXxlbnwwfHx8fDE3ODA5NzgxMjZ8MA&ixlib=rb-4.1.0&q=80&w=1080"
             },
             {
               "id": "kappa_meen_curry",
               "name": "Kappa & Meen Curry",
               "description": "Tapioca with spicy fish curry.",
               "price": 180,
-              "image": "https://foodish-api.com/images/pizza/pizza65.jpg"
+              "image": "https://images.pexels.com/photos/9392998/pexels-photo-9392998.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "kerala_chicken_roast",
               "name": "Chicken Roast",
               "description": "Slow-roasted chicken in Kerala spices.",
               "price": 220,
-              "image": "https://foodish-api.com/images/butter-chicken/butter-chicken14.jpg"
+              "image": "https://images.unsplash.com/photo-1722698030083-75d1d50cabe4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxDaGlja2VuJTIwUm9hc3QlMjBLZXJhbGF8ZW58MHx8fHwxNzgwOTc4MTI4fDA&ixlib=rb-4.1.0&q=80&w=1080"
             },
             {
               "id": "kerala_fish_curry",
               "name": "Kerala Fish Curry",
               "description": "Tangy coconut-based fish curry.",
               "price": 190,
-              "image": "https://foodish-api.com/images/dosa/dosa56.jpg"
+              "image": "https://images.unsplash.com/photo-1620894580123-466ad3a0ca06?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxLZXJhbGElMjBGaXNoJTIwQ3VycnklMjBLZXJhbGF8ZW58MHx8fHwxNzgwOTc4MTI5fDA&ixlib=rb-4.1.0&q=80&w=1080"
             }
           ],
-          "image": "https://foodish-api.com/images/samosa/samosa6.jpg"
+          "image": "https://images.unsplash.com/photo-1620894592665-c68bdefed3fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxLZXJhbGElMjBNYWluJTIwQ291cnNlJTIwZm9vZHxlbnwwfHx8fDE3ODA5NzgxMjV8MA&ixlib=rb-4.1.0&q=80&w=1080"
         },
         {
           "id": "kerala_breakfast",
@@ -83,31 +83,31 @@
               "name": "Appam",
               "description": "Soft hoppers made with fermented rice batter.",
               "price": 15,
-              "image": "https://foodish-api.com/images/dosa/dosa31.jpg"
+              "image": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxBcHBhbSUyMEtlcmFsYXxlbnwwfHx8fDE3ODA5NzgxMzF8MA&ixlib=rb-4.1.0&q=80&w=1080"
             },
             {
               "id": "idiyappam",
               "name": "Idiyappam",
               "description": "String hoppers served with curry.",
               "price": 20,
-              "image": "https://foodish-api.com/images/dosa/dosa4.jpg"
+              "image": "https://images.unsplash.com/photo-1641666017842-f94246ef2961?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxJZGl5YXBwYW0lMjBLZXJhbGF8ZW58MHx8fHwxNzgwOTc4MTMxfDA&ixlib=rb-4.1.0&q=80&w=1080"
             },
             {
               "id": "puttu",
               "name": "Puttu",
               "description": "Steamed rice flour cylinders with coconut.",
               "price": 25,
-              "image": "https://foodish-api.com/images/dosa/dosa18.jpg"
+              "image": "https://images.pexels.com/photos/9392998/pexels-photo-9392998.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "egg_roast",
               "name": "Egg Roast",
               "description": "Boiled eggs in spicy onion-tomato masala.",
               "price": 70,
-              "image": "https://foodish-api.com/images/butter-chicken/butter-chicken17.jpg"
+              "image": "https://images.unsplash.com/photo-1636375584142-23b44ef2fb4c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxFZ2clMjBSb2FzdCUyMEtlcmFsYXxlbnwwfHx8fDE3ODA5NzgxMzN8MA&ixlib=rb-4.1.0&q=80&w=1080"
             }
           ],
-          "image": "https://foodish-api.com/images/idly/idly8.jpg"
+          "image": "https://images.unsplash.com/photo-1722698030083-75d1d50cabe4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxLZXJhbGElMjBCcmVha2Zhc3QlMjBmb29kfGVufDB8fHx8MTc4MDk3ODEzMHww&ixlib=rb-4.1.0&q=80&w=1080"
         },
         {
           "id": "kerala_breads",
@@ -118,17 +118,17 @@
               "name": "Porotta",
               "description": "Flaky layered Kerala porotta.",
               "price": 15,
-              "image": "https://foodish-api.com/images/dosa/dosa50.jpg"
+              "image": "https://images.pexels.com/photos/23913881/pexels-photo-23913881.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "chapathi",
               "name": "Chapathi",
               "description": "Soft whole wheat flatbread.",
               "price": 12,
-              "image": "https://foodish-api.com/images/dosa/dosa4.jpg"
+              "image": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxDaGFwYXRoaSUyMEtlcmFsYXxlbnwwfHx8fDE3ODA5NzgxMzd8MA&ixlib=rb-4.1.0&q=80&w=1080"
             }
           ],
-          "image": "https://foodish-api.com/images/samosa/samosa9.jpg"
+          "image": "https://images.unsplash.com/photo-1632104667384-06f58cb7ad44?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxLZXJhbGElMjBCcmVhZHMlMjBmb29kfGVufDB8fHx8MTc4MDk3ODEzNHww&ixlib=rb-4.1.0&q=80&w=1080"
         },
         {
           "id": "kerala_snacks",
@@ -139,20 +139,20 @@
               "name": "Banana Chips",
               "description": "Crispy fried raw banana slices.",
               "price": 50,
-              "image": "https://foodish-api.com/images/dosa/dosa31.jpg"
+              "image": "https://images.unsplash.com/photo-1608781822675-88af808643ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxCYW5hbmElMjBDaGlwcyUyMEtlcmFsYXxlbnwwfHx8fDE3ODA5NzgxMzh8MA&ixlib=rb-4.1.0&q=80&w=1080"
             },
             {
               "id": "unniyappam",
               "name": "Unniyappam",
               "description": "Sweet rice and jaggery fritters.",
               "price": 45,
-              "image": "https://foodish-api.com/images/dosa/dosa43.jpg"
+              "image": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxVbm5peWFwcGFtJTIwS2VyYWxhfGVufDB8fHx8MTc4MDk3ODEzOXww&ixlib=rb-4.1.0&q=80&w=1080"
             }
           ],
-          "image": "https://foodish-api.com/images/samosa/samosa12.jpg"
+          "image": "https://images.unsplash.com/photo-1722698030083-75d1d50cabe4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxLZXJhbGElMjBTbmFja3MlMjBmb29kfGVufDB8fHx8MTc4MDk3ODEzN3ww&ixlib=rb-4.1.0&q=80&w=1080"
         }
       ],
-      "image": "https://foodish-api.com/images/dosa/dosa10.jpg"
+      "image": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxLZXJhbGElMjBmb29kfGVufDB8fHx8MTc4MDk3ODEyMHww&ixlib=rb-4.1.0&q=80&w=1080"
     },
     {
       "id": "south_indian",
@@ -167,38 +167,38 @@
               "name": "Idli",
               "description": "Steamed rice cakes served with chutney and sambar.",
               "price": 35,
-              "image": "https://foodish-api.com/images/dessert/dessert29.jpg"
+              "image": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxJZGxpJTIwU291dGglMjBJbmRpYW58ZW58MHx8fHwxNzgwOTc4MTQxfDA&ixlib=rb-4.1.0&q=80&w=1080"
             },
             {
               "id": "plain_dosa",
               "name": "Plain Dosa",
               "description": "Crispy rice crepe served with chutney and sambar.",
               "price": 50,
-              "image": "https://foodish-api.com/images/dosa/dosa1.jpg"
+              "image": "https://images.pexels.com/photos/20422123/pexels-photo-20422123.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "masala_dosa",
               "name": "Masala Dosa",
               "description": "Dosa stuffed with spiced potato masala.",
               "price": 80,
-              "image": "https://foodish-api.com/images/dosa/dosa62.jpg"
+              "image": "https://images.unsplash.com/photo-1668236543090-82eba5ee5976?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxNYXNhbGElMjBEb3NhJTIwU291dGglMjBJbmRpYW58ZW58MHx8fHwxNzgwOTc4MTQzfDA&ixlib=rb-4.1.0&q=80&w=1080"
             },
             {
               "id": "vada",
               "name": "Vada",
               "description": "Crispy lentil doughnuts served with sambar.",
               "price": 30,
-              "image": "https://foodish-api.com/images/samosa/samosa1.jpg"
+              "image": "https://images.unsplash.com/photo-1683533678033-f5d60f0a3437?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxWYWRhJTIwU291dGglMjBJbmRpYW58ZW58MHx8fHwxNzgwOTc4MTQ0fDA&ixlib=rb-4.1.0&q=80&w=1080"
             },
             {
               "id": "pongal",
               "name": "Pongal",
               "description": "Comforting rice and lentil dish with ghee.",
               "price": 70,
-              "image": "https://foodish-api.com/images/biryani/biryani35.jpg"
+              "image": "https://images.pexels.com/photos/30519625/pexels-photo-30519625.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             }
           ],
-          "image": "https://foodish-api.com/images/idly/idly36.jpg"
+          "image": "https://images.unsplash.com/photo-1625398407796-82650a8c135f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxTb3V0aCUyMEluZGlhbiUyMEJyZWFrZmFzdCUyMGZvb2R8ZW58MHx8fHwxNzgwOTc4MTQwfDA&ixlib=rb-4.1.0&q=80&w=1080"
         },
         {
           "id": "south_rice_items",
@@ -209,27 +209,27 @@
               "name": "Sambar Rice",
               "description": "Rice mixed with flavorful sambar.",
               "price": 90,
-              "image": "https://foodish-api.com/images/biryani/biryani35.jpg"
+              "image": "https://images.unsplash.com/photo-1668236534990-73c4ed23043c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxTYW1iYXIlMjBSaWNlJTIwU291dGglMjBJbmRpYW58ZW58MHx8fHwxNzgwOTc4MTQ3fDA&ixlib=rb-4.1.0&q=80&w=1080"
             },
             {
               "id": "curd_rice",
               "name": "Curd Rice",
               "description": "Rice mixed with yogurt and tempered spices.",
               "price": 70,
-              "image": "https://foodish-api.com/images/biryani/biryani30.jpg"
+              "image": "https://images.unsplash.com/photo-1666251214795-a1296307d29c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxDdXJkJTIwUmljZSUyMFNvdXRoJTIwSW5kaWFufGVufDB8fHx8MTc4MDk3ODE0OHww&ixlib=rb-4.1.0&q=80&w=1080"
             },
             {
               "id": "lemon_rice",
               "name": "Lemon Rice",
               "description": "Tangy rice tempered with mustard and peanuts.",
               "price": 80,
-              "image": "https://foodish-api.com/images/biryani/biryani3.jpg"
+              "image": "https://images.unsplash.com/photo-1666251214795-a1296307d29c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxMZW1vbiUyMFJpY2UlMjBTb3V0aCUyMEluZGlhbnxlbnwwfHx8fDE3ODA5NzgxNDl8MA&ixlib=rb-4.1.0&q=80&w=1080"
             }
           ],
-          "image": "https://foodish-api.com/images/biryani/biryani38.jpg"
+          "image": "https://images.unsplash.com/photo-1536304993881-ff6e9eefa2a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxTb3V0aCUyMEluZGlhbiUyMFJpY2UlMjBJdGVtcyUyMGZvb2R8ZW58MHx8fHwxNzgwOTc4MTQ2fDA&ixlib=rb-4.1.0&q=80&w=1080"
         }
       ],
-      "image": "https://foodish-api.com/images/dosa/dosa28.jpg"
+      "image": "https://images.unsplash.com/photo-1668236543090-82eba5ee5976?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxTb3V0aCUyMEluZGlhbiUyMGZvb2R8ZW58MHx8fHwxNzgwOTc4MTQwfDA&ixlib=rb-4.1.0&q=80&w=1080"
     },
     {
       "id": "north_indian",
@@ -244,17 +244,17 @@
               "name": "Chicken Tikka",
               "description": "Boneless chicken marinated and grilled in tandoor.",
               "price": 260,
-              "image": "https://foodish-api.com/images/butter-chicken/butter-chicken8.jpg"
+              "image": "https://images.unsplash.com/photo-1705174427925-744646e72117?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxDaGlja2VuJTIwVGlra2ElMjBOb3J0aCUyMEluZGlhbnxlbnwwfHx8fDE3ODA5NzgxNTF8MA&ixlib=rb-4.1.0&q=80&w=1080"
             },
             {
               "id": "paneer_tikka",
               "name": "Paneer Tikka",
               "description": "Grilled cottage cheese cubes with spices.",
               "price": 230,
-              "image": "https://foodish-api.com/images/butter-chicken/butter-chicken12.jpg"
+              "image": "https://images.pexels.com/photos/33430556/pexels-photo-33430556.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             }
           ],
-          "image": "https://foodish-api.com/images/rice/rice34.jpg"
+          "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxOb3J0aCUyMEluZGlhbiUyMFN0YXJ0ZXJzJTIwZm9vZHxlbnwwfHx8fDE3ODA5NzgxNTB8MA&ixlib=rb-4.1.0&q=80&w=1080"
         },
         {
           "id": "north_main_course",
@@ -265,24 +265,24 @@
               "name": "Butter Chicken",
               "description": "Creamy tomato-based chicken curry.",
               "price": 320,
-              "image": "https://foodish-api.com/images/butter-chicken/butter-chicken11.jpg"
+              "image": "https://images.unsplash.com/photo-1705174427925-744646e72117?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxCdXR0ZXIlMjBDaGlja2VuJTIwTm9ydGglMjBJbmRpYW58ZW58MHx8fHwxNzgwOTc4MTU0fDA&ixlib=rb-4.1.0&q=80&w=1080"
             },
             {
               "id": "paneer_butter_masala",
               "name": "Paneer Butter Masala",
               "description": "Rich tomato gravy with paneer cubes.",
               "price": 280,
-              "image": "https://foodish-api.com/images/butter-chicken/butter-chicken20.jpg"
+              "image": "https://images.unsplash.com/photo-1705174427925-744646e72117?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxQYW5lZXIlMjBCdXR0ZXIlMjBNYXNhbGElMjBOb3J0aCUyMEluZGlhbnxlbnwwfHx8fDE3ODA5NzgxNTV8MA&ixlib=rb-4.1.0&q=80&w=1080"
             },
             {
               "id": "dal_makhani",
               "name": "Dal Makhani",
               "description": "Slow-cooked black lentils in creamy gravy.",
               "price": 220,
-              "image": "https://foodish-api.com/images/biryani/biryani65.jpg"
+              "image": "https://images.pexels.com/photos/37182513/pexels-photo-37182513.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             }
           ],
-          "image": "https://foodish-api.com/images/pizza/pizza43.jpg"
+          "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxOb3J0aCUyMEluZGlhbiUyME1haW4lMjBDb3Vyc2UlMjBmb29kfGVufDB8fHx8MTc4MDk3ODE1M3ww&ixlib=rb-4.1.0&q=80&w=1080"
         },
         {
           "id": "north_breads",
@@ -293,27 +293,27 @@
               "name": "Naan",
               "description": "Soft tandoor-baked flatbread.",
               "price": 35,
-              "image": "https://foodish-api.com/images/dessert/dessert34.jpg"
+              "image": "https://images.unsplash.com/photo-1767114915936-745dd372f1d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxOYWFuJTIwTm9ydGglMjBJbmRpYW58ZW58MHx8fHwxNzgwOTc4MTU4fDA&ixlib=rb-4.1.0&q=80&w=1080"
             },
             {
               "id": "butter_naan",
               "name": "Butter Naan",
               "description": "Naan brushed with butter.",
               "price": 45,
-              "image": "https://foodish-api.com/images/butter-chicken/butter-chicken13.jpg"
+              "image": "https://images.unsplash.com/photo-1712757248842-04f6e3844374?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxCdXR0ZXIlMjBOYWFuJTIwTm9ydGglMjBJbmRpYW58ZW58MHx8fHwxNzgwOTc4MTU4fDA&ixlib=rb-4.1.0&q=80&w=1080"
             },
             {
               "id": "tandoori_roti",
               "name": "Tandoori Roti",
               "description": "Whole wheat flatbread cooked in tandoor.",
               "price": 30,
-              "image": "https://foodish-api.com/images/rice/rice16.jpg"
+              "image": "https://images.pexels.com/photos/12737800/pexels-photo-12737800.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             }
           ],
-          "image": "https://foodish-api.com/images/pizza/pizza21.jpg"
+          "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxOb3J0aCUyMEluZGlhbiUyMEJyZWFkcyUyMGZvb2R8ZW58MHx8fHwxNzgwOTc4MTU3fDA&ixlib=rb-4.1.0&q=80&w=1080"
         }
       ],
-      "image": "https://foodish-api.com/images/butter-chicken/butter-chicken13.jpg"
+      "image": "https://images.unsplash.com/photo-1589778655375-3e622a9fc91c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxOb3J0aCUyMEluZGlhbiUyMGZvb2R8ZW58MHx8fHwxNzgwOTc4MTQ5fDA&ixlib=rb-4.1.0&q=80&w=1080"
     },
     {
       "id": "chinese",
@@ -328,17 +328,17 @@
               "name": "Veg Fried Rice",
               "description": "Stir-fried rice with mixed vegetables.",
               "price": 150,
-              "image": "https://foodish-api.com/images/biryani/biryani64.jpg"
+              "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxWZWclMjBGcmllZCUyMFJpY2UlMjBDaGluZXNlfGVufDB8fHx8MTc4MDk3ODE2Mnww&ixlib=rb-4.1.0&q=80&w=1080"
             },
             {
               "id": "chicken_fried_rice",
               "name": "Chicken Fried Rice",
               "description": "Fried rice with chicken and veggies.",
               "price": 180,
-              "image": "https://foodish-api.com/images/biryani/biryani41.jpg"
+              "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxDaGlja2VuJTIwRnJpZWQlMjBSaWNlJTIwQ2hpbmVzZXxlbnwwfHx8fDE3ODA5NzgxNjN8MA&ixlib=rb-4.1.0&q=80&w=1080"
             }
           ],
-          "image": "https://foodish-api.com/images/biryani/biryani59.jpg"
+          "image": "https://images.unsplash.com/photo-1644131447497-8723db691320?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxDaGluZXNlJTIwUmljZSUyMGZvb2R8ZW58MHx8fHwxNzgwOTc4MTYxfDA&ixlib=rb-4.1.0&q=80&w=1080"
         },
         {
           "id": "chinese_noodles",
@@ -349,17 +349,17 @@
               "name": "Veg Noodles",
               "description": "Stir-fried noodles with vegetables.",
               "price": 150,
-              "image": "https://foodish-api.com/images/pasta/pasta13.jpg"
+              "image": "https://images.pexels.com/photos/37165674/pexels-photo-37165674.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "chicken_noodles",
               "name": "Chicken Noodles",
               "description": "Noodles tossed with chicken and sauces.",
               "price": 180,
-              "image": "https://foodish-api.com/images/butter-chicken/butter-chicken22.jpg"
+              "image": "https://images.pexels.com/photos/34170982/pexels-photo-34170982.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             }
           ],
-          "image": "https://foodish-api.com/images/pasta/pasta34.jpg"
+          "image": "https://images.pexels.com/photos/4223916/pexels-photo-4223916.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
         },
         {
           "id": "chinese_starters",
@@ -370,20 +370,20 @@
               "name": "Gobi Manchurian",
               "description": "Crispy cauliflower tossed in Indo-Chinese sauce.",
               "price": 160,
-              "image": "https://foodish-api.com/images/idly/idly22.jpg"
+              "image": "https://images.pexels.com/photos/28674543/pexels-photo-28674543.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "chilli_chicken",
               "name": "Chilli Chicken",
               "description": "Spicy chicken starter with capsicum and onions.",
               "price": 210,
-              "image": "https://foodish-api.com/images/butter-chicken/butter-chicken14.jpg"
+              "image": "https://images.pexels.com/photos/28674534/pexels-photo-28674534.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             }
           ],
-          "image": "https://foodish-api.com/images/dosa/dosa69.jpg"
+          "image": "https://images.pexels.com/photos/28674534/pexels-photo-28674534.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
         }
       ],
-      "image": "https://foodish-api.com/images/pizza/pizza46.jpg"
+      "image": "https://images.unsplash.com/photo-1585032226651-759b368d7246?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzI4Mzh8MHwxfHNlYXJjaHwxfHxDaGluZXNlJTIwZm9vZHxlbnwwfHx8fDE3ODA5NzgxNjB8MA&ixlib=rb-4.1.0&q=80&w=1080"
     },
     {
       "id": "arabian",
@@ -398,17 +398,17 @@
               "name": "Alfaham",
               "description": "Charcoal-grilled marinated chicken.",
               "price": 320,
-              "image": "https://foodish-api.com/images/butter-chicken/butter-chicken7.jpg"
+              "image": "https://images.pexels.com/photos/37307214/pexels-photo-37307214.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "shawarma_roll",
               "name": "Shawarma Roll",
               "description": "Shredded chicken wrapped in kuboos with garlic sauce.",
               "price": 120,
-              "image": "https://foodish-api.com/images/butter-chicken/butter-chicken18.jpg"
+              "image": "https://images.pexels.com/photos/34318137/pexels-photo-34318137.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             }
           ],
-          "image": "https://foodish-api.com/images/biryani/biryani59.jpg"
+          "image": "https://images.pexels.com/photos/18698264/pexels-photo-18698264.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
         },
         {
           "id": "arabian_rice",
@@ -419,13 +419,13 @@
               "name": "Chicken Mandi",
               "description": "Arabic-style spiced rice with chicken.",
               "price": 320,
-              "image": "https://foodish-api.com/images/biryani/biryani41.jpg"
+              "image": "https://images.pexels.com/photos/18698264/pexels-photo-18698264.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             }
           ],
-          "image": "https://foodish-api.com/images/biryani/biryani42.jpg"
+          "image": "https://images.pexels.com/photos/32986473/pexels-photo-32986473.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
         }
       ],
-      "image": "https://foodish-api.com/images/biryani/biryani20.jpg"
+      "image": "https://images.pexels.com/photos/7469296/pexels-photo-7469296.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
     },
     {
       "id": "bakery_cafe",
@@ -440,17 +440,17 @@
               "name": "Black Forest Cake",
               "description": "Chocolate sponge layered with cream and cherries.",
               "price": 450,
-              "image": "https://foodish-api.com/images/dessert/dessert1.jpg"
+              "image": "https://images.pexels.com/photos/37551576/pexels-photo-37551576.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "cheesecake",
               "name": "Cheesecake",
               "description": "Creamy baked cheesecake slice.",
               "price": 280,
-              "image": "https://foodish-api.com/images/dessert/dessert24.jpg"
+              "image": "https://images.pexels.com/photos/8425184/pexels-photo-8425184.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             }
           ],
-          "image": "https://foodish-api.com/images/dessert/dessert10.jpg"
+          "image": "https://images.pexels.com/photos/2773607/pexels-photo-2773607.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
         },
         {
           "id": "coffee",
@@ -461,17 +461,17 @@
               "name": "Cappuccino",
               "description": "Espresso with steamed milk and foam.",
               "price": 140,
-              "image": "https://foodish-api.com/images/idly/idly40.jpg"
+              "image": "https://images.pexels.com/photos/29300402/pexels-photo-29300402.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "latte",
               "name": "Latte",
               "description": "Smooth espresso with steamed milk.",
               "price": 150,
-              "image": "https://foodish-api.com/images/pizza/pizza61.jpg"
+              "image": "https://images.pexels.com/photos/1889569/pexels-photo-1889569.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             }
           ],
-          "image": "https://foodish-api.com/images/rice/rice25.jpg"
+          "image": "https://images.pexels.com/photos/11847639/pexels-photo-11847639.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
         },
         {
           "id": "snacks_bakery",
@@ -482,60 +482,60 @@
               "name": "Veg Sandwich",
               "description": "Grilled sandwich with fresh veggies.",
               "price": 120,
-              "image": "https://foodish-api.com/images/burger/burger4.jpg"
+              "image": "https://images.pexels.com/photos/36925855/pexels-photo-36925855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "chicken_sandwich",
               "name": "Chicken Sandwich",
               "description": "Grilled sandwich with chicken filling.",
               "price": 150,
-              "image": "https://foodish-api.com/images/burger/burger25.jpg"
+              "image": "https://images.pexels.com/photos/12310570/pexels-photo-12310570.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             }
           ],
-          "image": "https://foodish-api.com/images/samosa/samosa15.jpg"
+          "image": "https://images.pexels.com/photos/17508437/pexels-photo-17508437.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
         }
       ],
-      "image": "https://foodish-api.com/images/dessert/dessert17.jpg"
+      "image": "https://images.pexels.com/photos/29918625/pexels-photo-29918625.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
     },
     {
       "id": "juices",
       "name": "Juices",
-      "image": "https://foodish-api.com/images/rice/rice1.jpg",
+      "image": "https://images.pexels.com/photos/31823001/pexels-photo-31823001.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "categories": [
         {
           "id": "juices_all",
           "name": "All Items",
-          "image": "https://foodish-api.com/images/rice/rice31.jpg",
+          "image": "https://images.pexels.com/photos/5498218/pexels-photo-5498218.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
           "items": [
             {
               "id": "orange_juice",
               "name": "Orange Juice",
               "price": 80,
-              "image": "https://foodish-api.com/images/rice/rice12.jpg"
+              "image": "https://images.pexels.com/photos/2994/healthy-fruits-morning-kitchen.jpg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "lime_juice",
               "name": "Lime Juice",
               "price": 40,
-              "image": "https://foodish-api.com/images/rice/rice16.jpg"
+              "image": "https://images.pexels.com/photos/8679351/pexels-photo-8679351.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "watermelon_juice",
               "name": "Watermelon Juice",
               "price": 70,
-              "image": "https://foodish-api.com/images/rice/rice34.jpg"
+              "image": "https://images.pexels.com/photos/8679183/pexels-photo-8679183.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "apple_juice",
               "name": "Apple Juice",
               "price": 90,
-              "image": "https://foodish-api.com/images/rice/rice7.jpg"
+              "image": "https://images.pexels.com/photos/5817625/pexels-photo-5817625.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "pineapple_juice",
               "name": "Pineapple Juice",
               "price": 85,
-              "image": "https://foodish-api.com/images/rice/rice14.jpg"
+              "image": "https://images.pexels.com/photos/27518954/pexels-photo-27518954.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             }
           ]
         }
@@ -544,42 +544,42 @@
     {
       "id": "ice_cream",
       "name": "Ice Cream",
-      "image": "https://foodish-api.com/images/dessert/dessert24.jpg",
+      "image": "https://images.pexels.com/photos/15595674/pexels-photo-15595674.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "categories": [
         {
           "id": "ice_cream_all",
           "name": "All Items",
-          "image": "https://foodish-api.com/images/dessert/dessert4.jpg",
+          "image": "https://images.pexels.com/photos/4725715/pexels-photo-4725715.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
           "items": [
             {
               "id": "vanilla_icecream",
               "name": "Vanilla Ice Cream",
               "price": 60,
-              "image": "https://foodish-api.com/images/dessert/dessert12.jpg"
+              "image": "https://images.pexels.com/photos/16962446/pexels-photo-16962446.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "chocolate_icecream",
               "name": "Chocolate Ice Cream",
               "price": 70,
-              "image": "https://foodish-api.com/images/dessert/dessert23.jpg"
+              "image": "https://images.pexels.com/photos/14612417/pexels-photo-14612417.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "strawberry_icecream",
               "name": "Strawberry Ice Cream",
               "price": 70,
-              "image": "https://foodish-api.com/images/dessert/dessert36.jpg"
+              "image": "https://images.pexels.com/photos/7761650/pexels-photo-7761650.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "butterscotch_icecream",
               "name": "Butterscotch Ice Cream",
               "price": 80,
-              "image": "https://foodish-api.com/images/butter-chicken/butter-chicken3.jpg"
+              "image": "https://images.pexels.com/photos/5060454/pexels-photo-5060454.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "kulfi",
               "name": "Kulfi",
               "price": 50,
-              "image": "https://foodish-api.com/images/pizza/pizza3.jpg"
+              "image": "https://images.pexels.com/photos/29699512/pexels-photo-29699512.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             }
           ]
         }
@@ -588,42 +588,42 @@
     {
       "id": "desserts",
       "name": "Desserts",
-      "image": "https://foodish-api.com/images/dessert/dessert11.jpg",
+      "image": "https://images.pexels.com/photos/37219215/pexels-photo-37219215.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "categories": [
         {
           "id": "desserts_all",
           "name": "All Items",
-          "image": "https://foodish-api.com/images/dessert/dessert10.jpg",
+          "image": "https://images.pexels.com/photos/36169944/pexels-photo-36169944.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
           "items": [
             {
               "id": "gulab_jamun",
               "name": "Gulab Jamun",
               "price": 60,
-              "image": "https://foodish-api.com/images/dessert/dessert8.jpg"
+              "image": "https://images.pexels.com/photos/9198596/pexels-photo-9198596.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "brownie",
               "name": "Chocolate Brownie",
               "price": 120,
-              "image": "https://foodish-api.com/images/rice/rice32.jpg"
+              "image": "https://images.pexels.com/photos/7021888/pexels-photo-7021888.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "falooda",
               "name": "Falooda",
               "price": 150,
-              "image": "https://foodish-api.com/images/samosa/samosa1.jpg"
+              "image": "https://images.pexels.com/photos/18646641/pexels-photo-18646641.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "carrot_halwa",
               "name": "Carrot Halwa",
               "price": 90,
-              "image": "https://foodish-api.com/images/dessert/dessert32.jpg"
+              "image": "https://images.pexels.com/photos/20446403/pexels-photo-20446403.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "payasam",
               "name": "Payasam",
               "price": 80,
-              "image": "https://foodish-api.com/images/dessert/dessert29.jpg"
+              "image": "https://images.pexels.com/photos/14132112/pexels-photo-14132112.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             }
           ]
         }
@@ -632,36 +632,36 @@
     {
       "id": "milkshakes",
       "name": "Milkshakes",
-      "image": "https://foodish-api.com/images/dessert/dessert6.jpg",
+      "image": "https://images.pexels.com/photos/6463660/pexels-photo-6463660.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "categories": [
         {
           "id": "milkshakes_all",
           "name": "All Items",
-          "image": "https://foodish-api.com/images/dessert/dessert13.jpg",
+          "image": "https://images.pexels.com/photos/34711204/pexels-photo-34711204.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
           "items": [
             {
               "id": "chocolate_shake",
               "name": "Chocolate Shake",
               "price": 120,
-              "image": "https://foodish-api.com/images/dessert/dessert25.jpg"
+              "image": "https://images.pexels.com/photos/28010210/pexels-photo-28010210.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "vanilla_shake",
               "name": "Vanilla Shake",
               "price": 110,
-              "image": "https://foodish-api.com/images/dessert/dessert36.jpg"
+              "image": "https://images.pexels.com/photos/28525198/pexels-photo-28525198.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "strawberry_shake",
               "name": "Strawberry Shake",
               "price": 130,
-              "image": "https://foodish-api.com/images/dessert/dessert9.jpg"
+              "image": "https://images.pexels.com/photos/11299731/pexels-photo-11299731.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "oreo_shake",
               "name": "Oreo Shake",
               "price": 150,
-              "image": "https://foodish-api.com/images/dessert/dessert25.jpg"
+              "image": "https://images.pexels.com/photos/28525199/pexels-photo-28525199.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             }
           ]
         }
@@ -670,36 +670,36 @@
     {
       "id": "mocktails",
       "name": "Mocktails",
-      "image": "https://foodish-api.com/images/idly/idly31.jpg",
+      "image": "https://images.pexels.com/photos/12280754/pexels-photo-12280754.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "categories": [
         {
           "id": "mocktails_all",
           "name": "All Items",
-          "image": "https://foodish-api.com/images/burger/burger56.jpg",
+          "image": "https://images.pexels.com/photos/12280754/pexels-photo-12280754.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
           "items": [
             {
               "id": "mint_mojito",
               "name": "Mint Mojito",
               "price": 140,
-              "image": "https://foodish-api.com/images/pasta/pasta31.jpg"
+              "image": "https://images.pexels.com/photos/4051250/pexels-photo-4051250.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "blue_lagoon",
               "name": "Blue Lagoon",
               "price": 160,
-              "image": "https://foodish-api.com/images/rice/rice1.jpg"
+              "image": "https://images.pexels.com/photos/8771967/pexels-photo-8771967.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "strawberry_mojito",
               "name": "Strawberry Mojito",
               "price": 150,
-              "image": "https://foodish-api.com/images/dosa/dosa34.jpg"
+              "image": "https://images.pexels.com/photos/30412118/pexels-photo-30412118.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "lemon_ice_tea",
               "name": "Lemon Ice Tea",
               "price": 90,
-              "image": "https://foodish-api.com/images/rice/rice35.jpg"
+              "image": "https://images.pexels.com/photos/33840581/pexels-photo-33840581.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             }
           ]
         }
@@ -708,30 +708,30 @@
     {
       "id": "smoothies",
       "name": "Smoothies",
-      "image": "https://foodish-api.com/images/pizza/pizza71.jpg",
+      "image": "https://images.pexels.com/photos/12119029/pexels-photo-12119029.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "categories": [
         {
           "id": "smoothies_all",
           "name": "All Items",
-          "image": "https://foodish-api.com/images/rice/rice30.jpg",
+          "image": "https://images.pexels.com/photos/8805139/pexels-photo-8805139.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
           "items": [
             {
               "id": "banana_smoothie",
               "name": "Banana Smoothie",
               "price": 120,
-              "image": "https://foodish-api.com/images/samosa/samosa3.jpg"
+              "image": "https://images.pexels.com/photos/4051777/pexels-photo-4051777.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "mango_smoothie",
               "name": "Mango Smoothie",
               "price": 140,
-              "image": "https://foodish-api.com/images/dessert/dessert7.jpg"
+              "image": "https://images.pexels.com/photos/14930492/pexels-photo-14930492.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "berry_smoothie",
               "name": "Berry Smoothie",
               "price": 160,
-              "image": "https://foodish-api.com/images/pizza/pizza70.jpg"
+              "image": "https://images.pexels.com/photos/20791352/pexels-photo-20791352.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             }
           ]
         }
@@ -740,36 +740,36 @@
     {
       "id": "hot_drinks",
       "name": "Hot Drinks",
-      "image": "https://foodish-api.com/images/rice/rice29.jpg",
+      "image": "https://images.pexels.com/photos/17874782/pexels-photo-17874782.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "categories": [
         {
           "id": "hot_drinks_all",
           "name": "All Items",
-          "image": "https://foodish-api.com/images/rice/rice28.jpg",
+          "image": "https://images.pexels.com/photos/28445280/pexels-photo-28445280.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
           "items": [
             {
               "id": "tea",
               "name": "Tea",
               "price": 15,
-              "image": "https://foodish-api.com/images/rice/rice26.jpg"
+              "image": "https://images.pexels.com/photos/32993269/pexels-photo-32993269.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "coffee",
               "name": "Coffee",
               "price": 20,
-              "image": "https://foodish-api.com/images/rice/rice28.jpg"
+              "image": "https://images.pexels.com/photos/997670/pexels-photo-997670.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "masala_tea",
               "name": "Masala Tea",
               "price": 25,
-              "image": "https://foodish-api.com/images/rice/rice16.jpg"
+              "image": "https://images.pexels.com/photos/34324342/pexels-photo-34324342.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "hot_chocolate",
               "name": "Hot Chocolate",
               "price": 80,
-              "image": "https://foodish-api.com/images/rice/rice10.jpg"
+              "image": "https://images.pexels.com/photos/10406759/pexels-photo-10406759.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             }
           ]
         }
@@ -778,30 +778,184 @@
     {
       "id": "cold_drinks",
       "name": "Cold Drinks",
-      "image": "https://foodish-api.com/images/rice/rice18.jpg",
+      "image": "https://images.pexels.com/photos/37925075/pexels-photo-37925075.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "categories": [
         {
           "id": "cold_drinks_all",
           "name": "All Items",
-          "image": "https://foodish-api.com/images/rice/rice28.jpg",
+          "image": "https://images.pexels.com/photos/29409104/pexels-photo-29409104.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
           "items": [
             {
               "id": "cola",
               "name": "Cola",
               "price": 40,
-              "image": "https://foodish-api.com/images/rice/rice13.jpg"
+              "image": "https://images.pexels.com/photos/15205136/pexels-photo-15205136.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "soda",
               "name": "Soda",
               "price": 20,
-              "image": "https://foodish-api.com/images/samosa/samosa14.jpg"
+              "image": "https://images.pexels.com/photos/8880727/pexels-photo-8880727.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             },
             {
               "id": "energy_drink",
               "name": "Energy Drink",
               "price": 90,
-              "image": "https://foodish-api.com/images/rice/rice4.jpg"
+              "image": "https://images.pexels.com/photos/17423277/pexels-photo-17423277.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tasty_under_30",
+      "name": "Tasty (Under 30 Mins)",
+      "image": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/45b4efeb5d2c4d29970344ae165615ab/FixedFBFinal.jpg",
+      "categories": [
+        {
+          "id": "tasty_recipes",
+          "name": "Quick Recipes",
+          "image": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/1d47125afffa461a9711758f632306b8/BFV12484_3-IngredientDinners-FB1080SQ.jpg",
+          "items": [
+            {
+              "id": "tasty_4704",
+              "name": "Low-Carb Avocado Chicken Salad",
+              "description": "This chicken salad is a lunchtime delight! Packed with creamy avocado, tender chicken, and crunchy v...",
+              "price": 156,
+              "image": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/45b4efeb5d2c4d29970344ae165615ab/FixedFBFinal.jpg"
+            },
+            {
+              "id": "tasty_1508",
+              "name": "3-Ingredient Teriyaki Chicken",
+              "description": "Even though this chicken teriyaki dish uses just three ingredients, the flavor is outstanding, and y...",
+              "price": 179,
+              "image": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/1d47125afffa461a9711758f632306b8/BFV12484_3-IngredientDinners-FB1080SQ.jpg"
+            },
+            {
+              "id": "tasty_47",
+              "name": "One-Pot Lemon Garlic Shrimp Pasta",
+              "description": "This easy 30-minute pasta recipe transforms ingredients that you already have in your kitchen into a...",
+              "price": 230,
+              "image": "https://img.buzzfeed.com/video-api-prod/assets/9ee2dadcbfcb4095872e6cdbaa24ff14/Thumb_A_FB.jpg"
+            },
+            {
+              "id": "tasty_5466",
+              "name": "Tomato And Anchovy Pasta",
+              "description": "Savor the bold flavors of this Tomato and Anchovy Pasta, a perfect weeknight meal that's both simple...",
+              "price": 272,
+              "image": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/216182.jpg"
+            },
+            {
+              "id": "tasty_1565",
+              "name": "Garlic Shrimp Bacon Alfredo",
+              "description": "This garlic bacon shrimp alfredo is the ultimate weeknight indulgence, with succulent shrimp, smoky ...",
+              "price": 286,
+              "image": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/1c17e86f91b94748bf4cf52ba781c789/BFV16661_ShrimpAlfredoDinnerForTwoFINAL.jpg"
+            },
+            {
+              "id": "tasty_1685",
+              "name": "Chocolate Mug Cake",
+              "description": "This single-serving chocolate mug cake delivers on all counts and surpasses all expections! It's an ...",
+              "price": 155,
+              "image": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/d33059f213074dda896f7e2f96450be2/BFV18819_MugCakesFourWays-FB.jpg"
+            },
+            {
+              "id": "tasty_788",
+              "name": "3-Ingredient Peanut Butter Cookies",
+              "description": "Indulge in the simplest yet most satisfying treat with these 3-Ingredient Peanut Butter Cookies. Mad...",
+              "price": 186,
+              "image": "https://img.buzzfeed.com/video-api-prod/assets/334c9eee7f37412fba5111e291dd6cb1/YT_Thumb.jpg"
+            },
+            {
+              "id": "tasty_48",
+              "name": "Creamy Chicken Penne Pasta",
+              "description": "If you're in need of a hug in a bowl, this creamy chicken penne pasta is just the ticket. With tende...",
+              "price": 192,
+              "image": "https://img.buzzfeed.com/video-api-prod/assets/641e3c1a5f2a48f29b605bff9cbe72b6/BFV10263_CreamyChickenPenne-Thumb1080.jpg"
+            },
+            {
+              "id": "tasty_6124",
+              "name": "Whipped Coffee",
+              "description": "Embark on a caffeinated adventure with whipped coffee, a viral sensation that's taken the world by s...",
+              "price": 303,
+              "image": "https://s3.amazonaws.com/video-api-prod/assets/e88c307523d249688034912c640f6630/whipped_coffee.jpg"
+            },
+            {
+              "id": "tasty_3066",
+              "name": "Easy One-Pot Mac ‘n’ Cheese",
+              "description": "This easy mac and cheese is a quick and delicious dinner option for busy weeknights! Elbow macaroni ...",
+              "price": 168,
+              "image": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/3c0710e0531b41b7804acf4a52ee15be/FB_04forpkg.jpg"
+            },
+            {
+              "id": "tasty_4870",
+              "name": "Creamy Cajun Pasta",
+              "description": "Say hello to a taste of the bayou with this creamy Cajun pasta! Savory sausage and a bevy of vegetab...",
+              "price": 291,
+              "image": "https://img.buzzfeed.com/tasty-app-user-assets-prod-us-east-1/recipes/6d9b54963ad9442aa9320076a7bbf0bf.jpeg"
+            },
+            {
+              "id": "tasty_1686",
+              "name": "Birthday Cake Mug Cake",
+              "description": "We’ve got news for you: You can celebrate your birthday any day of the year, thanks to this single-s...",
+              "price": 206,
+              "image": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/d3e827192dcf4194bf61a6c151ffab52/BFV18819_MugCakesFourWays-FB.jpg"
+            },
+            {
+              "id": "tasty_1299",
+              "name": "Garlic Shrimp Scampi",
+              "description": "This garlic shrimp scampi is a flavor explosion in your mouth! The succulent shrimp is cooked to per...",
+              "price": 307,
+              "image": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/1320d1aa7714494cb4a8fe01faf71465/BFV9208_Spaghetti4Ways.jpg"
+            },
+            {
+              "id": "tasty_1008",
+              "name": "Weekday Meal-Prep Pesto Chicken & Veggies",
+              "description": "This pesto chicken and veggies meal prep is a lifesaver for anyone who's looking for a quick and eas...",
+              "price": 326,
+              "image": "https://img.buzzfeed.com/video-api-prod/assets/29f6cbb3a6c44658ba03d3421e8d2204/BFV13595_One-PanPestoChickenAndGreenBeans-ThumbTextless1080.jpg"
+            },
+            {
+              "id": "tasty_539",
+              "name": "Weekday Meal-Prep Chicken Teriyaki Stir-Fry",
+              "description": "Weekday meal prep just got easier with this chicken teriyaki stir-fry! It's quick, easy, and full of...",
+              "price": 237,
+              "image": "https://img.buzzfeed.com/video-api-prod/assets/3c1cf37334724e45ba15701c598f55ed/BFV12731_WeekdayMeal-PrepChickenAndVeggieTeriyakiStir-FryBowl-ThumbTextless1080.jpg"
+            },
+            {
+              "id": "tasty_1509",
+              "name": "3-ingredient Mac & Cheese",
+              "description": "Eating a bowl of mac and cheese is like taking a trip down memory lane. Think back to those childhoo...",
+              "price": 221,
+              "image": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/6f1f6e8541404c6db1f0fa9c0d6de7f8/BFV12484_3-IngredientDinners-FB1080SQ.jpg"
+            },
+            {
+              "id": "tasty_1655",
+              "name": "Healthy Banana Pancakes",
+              "description": "These pancakes are fluffy, moist, and delicious, and best of all, they're healthy! Made with ripe ba...",
+              "price": 201,
+              "image": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/5f6e823f41bb4779829a1486cbbbfa12/BFV18275_HealthyPancakes4Ways_FB1080SQ.jpg"
+            },
+            {
+              "id": "tasty_1029",
+              "name": "Honey Garlic Shrimp Stir-Fry",
+              "description": "Make this delectable shrimp stir-fry with honey and garlic for a speedy and satisfying weeknight din...",
+              "price": 281,
+              "image": "https://img.buzzfeed.com/video-api-prod/assets/cb91d8637d9340f79c63160f0f9cd196/Thumb_A.jpg"
+            },
+            {
+              "id": "tasty_5533",
+              "name": "Peanut Butter Energy Bites",
+              "description": "These little bites of bliss are the perfect pick-me-up for when you need a quick and satisfying snac...",
+              "price": 287,
+              "image": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/230779.jpg"
+            },
+            {
+              "id": "tasty_2663",
+              "name": "Microwave 5-Minute Mac 'N' Cheese",
+              "description": "The Microwave 5-Minute Mac N Cheese is a classic comfort food that can be made in just 5 minutes. Th...",
+              "price": 288,
+              "image": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/6b167c747784401fbf0528c3870ab19a/BFV28873_6MicrowaveMealsHACK.jpg"
             }
           ]
         }
@@ -819,7 +973,7 @@
         "mocktails"
       ],
       "rating": 3.9,
-      "image": "https://foodish-api.com/images/dosa/dosa6.jpg",
+      "image": "https://images.pexels.com/photos/12280754/pexels-photo-12280754.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_thiruvananthapuram_1"
     },
     {
@@ -832,7 +986,7 @@
         "cold_drinks"
       ],
       "rating": 3.4,
-      "image": "https://foodish-api.com/images/butter-chicken/butter-chicken4.jpg",
+      "image": "https://images.pexels.com/photos/12360556/pexels-photo-12360556.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_thiruvananthapuram_2"
     },
     {
@@ -845,7 +999,7 @@
         "bakery_cafe"
       ],
       "rating": 4.6,
-      "image": "https://foodish-api.com/images/pasta/pasta27.jpg",
+      "image": "https://images.pexels.com/photos/29845005/pexels-photo-29845005.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_thiruvananthapuram_3"
     },
     {
@@ -858,7 +1012,7 @@
         "south_indian"
       ],
       "rating": 4.3,
-      "image": "https://foodish-api.com/images/pasta/pasta12.jpg",
+      "image": "https://images.pexels.com/photos/18177440/pexels-photo-18177440.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_thiruvananthapuram_4"
     },
     {
@@ -871,7 +1025,7 @@
         "mocktails"
       ],
       "rating": 3.7,
-      "image": "https://foodish-api.com/images/samosa/samosa11.jpg",
+      "image": "https://images.pexels.com/photos/12280754/pexels-photo-12280754.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_thiruvananthapuram_5"
     },
     {
@@ -884,7 +1038,7 @@
         "juices"
       ],
       "rating": 4.2,
-      "image": "https://foodish-api.com/images/butter-chicken/butter-chicken11.jpg",
+      "image": "https://images.pexels.com/photos/31822992/pexels-photo-31822992.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_thiruvananthapuram_6"
     },
     {
@@ -897,7 +1051,7 @@
         "desserts"
       ],
       "rating": 4,
-      "image": "https://foodish-api.com/images/samosa/samosa10.jpg",
+      "image": "https://images.pexels.com/photos/28376177/pexels-photo-28376177.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_thiruvananthapuram_7"
     },
     {
@@ -910,7 +1064,7 @@
         "ice_cream"
       ],
       "rating": 4.6,
-      "image": "https://foodish-api.com/images/rice/rice34.jpg",
+      "image": "https://images.pexels.com/photos/752853/pexels-photo-752853.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_thiruvananthapuram_8"
     },
     {
@@ -923,7 +1077,7 @@
         "ice_cream"
       ],
       "rating": 3.3,
-      "image": "https://foodish-api.com/images/butter-chicken/butter-chicken13.jpg",
+      "image": "https://images.pexels.com/photos/752853/pexels-photo-752853.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_thiruvananthapuram_9"
     },
     {
@@ -936,7 +1090,7 @@
         "bakery_cafe"
       ],
       "rating": 4.6,
-      "image": "https://foodish-api.com/images/biryani/biryani41.jpg",
+      "image": "https://images.pexels.com/photos/29845005/pexels-photo-29845005.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_thiruvananthapuram_10"
     },
     {
@@ -949,7 +1103,7 @@
         "desserts"
       ],
       "rating": 4.8,
-      "image": "https://foodish-api.com/images/butter-chicken/butter-chicken4.jpg",
+      "image": "https://images.pexels.com/photos/28376177/pexels-photo-28376177.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_kollam_1"
     },
     {
@@ -962,7 +1116,7 @@
         "smoothies"
       ],
       "rating": 4.4,
-      "image": "https://foodish-api.com/images/butter-chicken/butter-chicken20.jpg",
+      "image": "https://images.pexels.com/photos/14333987/pexels-photo-14333987.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_kollam_2"
     },
     {
@@ -975,7 +1129,7 @@
         "south_indian"
       ],
       "rating": 3.5,
-      "image": "https://foodish-api.com/images/burger/burger2.jpg",
+      "image": "https://images.pexels.com/photos/18177440/pexels-photo-18177440.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_kollam_3"
     },
     {
@@ -988,7 +1142,7 @@
         "south_indian"
       ],
       "rating": 3.3,
-      "image": "https://foodish-api.com/images/pasta/pasta7.jpg",
+      "image": "https://images.pexels.com/photos/18177440/pexels-photo-18177440.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_kollam_4"
     },
     {
@@ -1001,7 +1155,7 @@
         "north_indian"
       ],
       "rating": 4.5,
-      "image": "https://foodish-api.com/images/dessert/dessert17.jpg",
+      "image": "https://images.pexels.com/photos/20513620/pexels-photo-20513620.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_kollam_5"
     },
     {
@@ -1014,7 +1168,7 @@
         "north_indian"
       ],
       "rating": 3.5,
-      "image": "https://foodish-api.com/images/dessert/dessert18.jpg",
+      "image": "https://images.pexels.com/photos/20513620/pexels-photo-20513620.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_kollam_6"
     },
     {
@@ -1027,7 +1181,7 @@
         "desserts"
       ],
       "rating": 4.6,
-      "image": "https://foodish-api.com/images/dessert/dessert31.jpg",
+      "image": "https://images.pexels.com/photos/28376177/pexels-photo-28376177.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_kollam_7"
     },
     {
@@ -1040,7 +1194,7 @@
         "south_indian"
       ],
       "rating": 3.4,
-      "image": "https://foodish-api.com/images/dosa/dosa46.jpg",
+      "image": "https://images.pexels.com/photos/18177440/pexels-photo-18177440.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_kollam_8"
     },
     {
@@ -1053,7 +1207,7 @@
         "north_indian"
       ],
       "rating": 3.3,
-      "image": "https://foodish-api.com/images/samosa/samosa10.jpg",
+      "image": "https://images.pexels.com/photos/20513620/pexels-photo-20513620.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_kollam_9"
     },
     {
@@ -1066,7 +1220,7 @@
         "desserts"
       ],
       "rating": 3.5,
-      "image": "https://foodish-api.com/images/burger/burger52.jpg",
+      "image": "https://images.pexels.com/photos/28376177/pexels-photo-28376177.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_kollam_10"
     },
     {
@@ -1079,7 +1233,7 @@
         "ice_cream"
       ],
       "rating": 3.7,
-      "image": "https://foodish-api.com/images/dosa/dosa51.jpg",
+      "image": "https://images.pexels.com/photos/752853/pexels-photo-752853.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_pathanamthitta_1"
     },
     {
@@ -1092,7 +1246,7 @@
         "mocktails"
       ],
       "rating": 5,
-      "image": "https://foodish-api.com/images/butter-chicken/butter-chicken3.jpg",
+      "image": "https://images.pexels.com/photos/12280754/pexels-photo-12280754.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_pathanamthitta_2"
     },
     {
@@ -1105,7 +1259,7 @@
         "cold_drinks"
       ],
       "rating": 3,
-      "image": "https://foodish-api.com/images/rice/rice33.jpg",
+      "image": "https://images.pexels.com/photos/12360556/pexels-photo-12360556.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_pathanamthitta_3"
     },
     {
@@ -1118,7 +1272,7 @@
         "desserts"
       ],
       "rating": 3.3,
-      "image": "https://foodish-api.com/images/rice/rice29.jpg",
+      "image": "https://images.pexels.com/photos/28376177/pexels-photo-28376177.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_pathanamthitta_4"
     },
     {
@@ -1131,7 +1285,7 @@
         "juices"
       ],
       "rating": 4.4,
-      "image": "https://foodish-api.com/images/dessert/dessert6.jpg",
+      "image": "https://images.pexels.com/photos/31822992/pexels-photo-31822992.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_pathanamthitta_5"
     },
     {
@@ -1144,7 +1298,7 @@
         "milkshakes"
       ],
       "rating": 4.1,
-      "image": "https://foodish-api.com/images/butter-chicken/butter-chicken8.jpg",
+      "image": "https://images.pexels.com/photos/17429538/pexels-photo-17429538.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_pathanamthitta_6"
     },
     {
@@ -1157,7 +1311,7 @@
         "south_indian"
       ],
       "rating": 4,
-      "image": "https://foodish-api.com/images/biryani/biryani65.jpg",
+      "image": "https://images.pexels.com/photos/18177440/pexels-photo-18177440.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_pathanamthitta_7"
     },
     {
@@ -1170,7 +1324,7 @@
         "milkshakes"
       ],
       "rating": 3.9,
-      "image": "https://foodish-api.com/images/rice/rice34.jpg",
+      "image": "https://images.pexels.com/photos/17429538/pexels-photo-17429538.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_pathanamthitta_8"
     },
     {
@@ -1183,7 +1337,7 @@
         "desserts"
       ],
       "rating": 3.3,
-      "image": "https://foodish-api.com/images/biryani/biryani59.jpg",
+      "image": "https://images.pexels.com/photos/28376177/pexels-photo-28376177.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_pathanamthitta_9"
     },
     {
@@ -1196,7 +1350,7 @@
         "bakery_cafe"
       ],
       "rating": 4.4,
-      "image": "https://foodish-api.com/images/rice/rice17.jpg",
+      "image": "https://images.pexels.com/photos/29845005/pexels-photo-29845005.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_pathanamthitta_10"
     },
     {
@@ -1209,7 +1363,7 @@
         "desserts"
       ],
       "rating": 4.3,
-      "image": "https://foodish-api.com/images/burger/burger11.jpg",
+      "image": "https://images.pexels.com/photos/28376177/pexels-photo-28376177.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_alappuzha_1"
     },
     {
@@ -1222,7 +1376,7 @@
         "south_indian"
       ],
       "rating": 4.5,
-      "image": "https://foodish-api.com/images/dessert/dessert23.jpg",
+      "image": "https://images.pexels.com/photos/18177440/pexels-photo-18177440.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_alappuzha_2"
     },
     {
@@ -1235,7 +1389,7 @@
         "arabian"
       ],
       "rating": 4,
-      "image": "https://foodish-api.com/images/dosa/dosa20.jpg",
+      "image": "https://images.pexels.com/photos/19676848/pexels-photo-19676848.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_alappuzha_3"
     },
     {
@@ -1248,7 +1402,7 @@
         "smoothies"
       ],
       "rating": 4.8,
-      "image": "https://foodish-api.com/images/burger/burger22.jpg",
+      "image": "https://images.pexels.com/photos/14333987/pexels-photo-14333987.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_alappuzha_4"
     },
     {
@@ -1261,7 +1415,7 @@
         "kerala"
       ],
       "rating": 4.1,
-      "image": "https://foodish-api.com/images/rice/rice34.jpg",
+      "image": "https://images.pexels.com/photos/33902511/pexels-photo-33902511.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_alappuzha_5"
     },
     {
@@ -1274,7 +1428,7 @@
         "cold_drinks"
       ],
       "rating": 3.8,
-      "image": "https://foodish-api.com/images/biryani/biryani39.jpg",
+      "image": "https://images.pexels.com/photos/12360556/pexels-photo-12360556.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_alappuzha_6"
     },
     {
@@ -1287,7 +1441,7 @@
         "milkshakes"
       ],
       "rating": 4.6,
-      "image": "https://foodish-api.com/images/dosa/dosa53.jpg",
+      "image": "https://images.pexels.com/photos/17429538/pexels-photo-17429538.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_alappuzha_7"
     },
     {
@@ -1300,7 +1454,7 @@
         "desserts"
       ],
       "rating": 4.5,
-      "image": "https://foodish-api.com/images/samosa/samosa18.jpg",
+      "image": "https://images.pexels.com/photos/28376177/pexels-photo-28376177.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_alappuzha_8"
     },
     {
@@ -1313,7 +1467,7 @@
         "juices"
       ],
       "rating": 3.9,
-      "image": "https://foodish-api.com/images/dessert/dessert14.jpg",
+      "image": "https://images.pexels.com/photos/31822992/pexels-photo-31822992.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_alappuzha_9"
     },
     {
@@ -1326,7 +1480,7 @@
         "bakery_cafe"
       ],
       "rating": 3.5,
-      "image": "https://foodish-api.com/images/dosa/dosa69.jpg",
+      "image": "https://images.pexels.com/photos/29845005/pexels-photo-29845005.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_alappuzha_10"
     },
     {
@@ -1339,7 +1493,7 @@
         "hot_drinks"
       ],
       "rating": 4.1,
-      "image": "https://foodish-api.com/images/butter-chicken/butter-chicken14.jpg",
+      "image": "https://images.pexels.com/photos/12065520/pexels-photo-12065520.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_kottayam_1"
     },
     {
@@ -1352,7 +1506,7 @@
         "chinese"
       ],
       "rating": 4,
-      "image": "https://foodish-api.com/images/butter-chicken/butter-chicken13.jpg",
+      "image": "https://images.pexels.com/photos/35415466/pexels-photo-35415466.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_kottayam_2"
     },
     {
@@ -1365,7 +1519,7 @@
         "smoothies"
       ],
       "rating": 4.9,
-      "image": "https://foodish-api.com/images/pasta/pasta7.jpg",
+      "image": "https://images.pexels.com/photos/14333987/pexels-photo-14333987.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_kottayam_3"
     },
     {
@@ -1378,7 +1532,7 @@
         "smoothies"
       ],
       "rating": 4.3,
-      "image": "https://foodish-api.com/images/rice/rice29.jpg",
+      "image": "https://images.pexels.com/photos/14333987/pexels-photo-14333987.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_kottayam_4"
     },
     {
@@ -1391,7 +1545,7 @@
         "south_indian"
       ],
       "rating": 4.8,
-      "image": "https://foodish-api.com/images/rice/rice12.jpg",
+      "image": "https://images.pexels.com/photos/18177440/pexels-photo-18177440.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_kottayam_5"
     },
     {
@@ -1404,7 +1558,7 @@
         "smoothies"
       ],
       "rating": 4.4,
-      "image": "https://foodish-api.com/images/biryani/biryani52.jpg",
+      "image": "https://images.pexels.com/photos/14333987/pexels-photo-14333987.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_kottayam_6"
     },
     {
@@ -1417,7 +1571,7 @@
         "mocktails"
       ],
       "rating": 3.3,
-      "image": "https://foodish-api.com/images/pasta/pasta25.jpg",
+      "image": "https://images.pexels.com/photos/12280754/pexels-photo-12280754.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_kottayam_7"
     },
     {
@@ -1430,7 +1584,7 @@
         "kerala"
       ],
       "rating": 4,
-      "image": "https://foodish-api.com/images/pasta/pasta19.jpg",
+      "image": "https://images.pexels.com/photos/33902511/pexels-photo-33902511.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_kottayam_8"
     },
     {
@@ -1443,7 +1597,7 @@
         "ice_cream"
       ],
       "rating": 3.7,
-      "image": "https://foodish-api.com/images/samosa/samosa17.jpg",
+      "image": "https://images.pexels.com/photos/752853/pexels-photo-752853.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_kottayam_9"
     },
     {
@@ -1456,7 +1610,7 @@
         "chinese"
       ],
       "rating": 5,
-      "image": "https://foodish-api.com/images/pasta/pasta29.jpg",
+      "image": "https://images.pexels.com/photos/35415466/pexels-photo-35415466.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_kottayam_10"
     },
     {
@@ -1469,7 +1623,7 @@
         "south_indian"
       ],
       "rating": 3.6,
-      "image": "https://foodish-api.com/images/butter-chicken/butter-chicken13.jpg",
+      "image": "https://images.pexels.com/photos/18177440/pexels-photo-18177440.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_idukki_1"
     },
     {
@@ -1482,7 +1636,7 @@
         "hot_drinks"
       ],
       "rating": 4.1,
-      "image": "https://foodish-api.com/images/dessert/dessert21.jpg",
+      "image": "https://images.pexels.com/photos/12065520/pexels-photo-12065520.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_idukki_2"
     },
     {
@@ -1495,7 +1649,7 @@
         "smoothies"
       ],
       "rating": 4.8,
-      "image": "https://foodish-api.com/images/samosa/samosa11.jpg",
+      "image": "https://images.pexels.com/photos/14333987/pexels-photo-14333987.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_idukki_3"
     },
     {
@@ -1508,7 +1662,7 @@
         "arabian"
       ],
       "rating": 4.7,
-      "image": "https://foodish-api.com/images/dosa/dosa31.jpg",
+      "image": "https://images.pexels.com/photos/19676848/pexels-photo-19676848.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_idukki_4"
     },
     {
@@ -1521,7 +1675,7 @@
         "south_indian"
       ],
       "rating": 4.6,
-      "image": "https://foodish-api.com/images/pasta/pasta3.jpg",
+      "image": "https://images.pexels.com/photos/18177440/pexels-photo-18177440.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_idukki_5"
     },
     {
@@ -1534,7 +1688,7 @@
         "milkshakes"
       ],
       "rating": 4.3,
-      "image": "https://foodish-api.com/images/pasta/pasta12.jpg",
+      "image": "https://images.pexels.com/photos/17429538/pexels-photo-17429538.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_idukki_6"
     },
     {
@@ -1547,7 +1701,7 @@
         "chinese"
       ],
       "rating": 3.4,
-      "image": "https://foodish-api.com/images/rice/rice2.jpg",
+      "image": "https://images.pexels.com/photos/35415466/pexels-photo-35415466.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_idukki_7"
     },
     {
@@ -1560,7 +1714,7 @@
         "south_indian"
       ],
       "rating": 4.3,
-      "image": "https://foodish-api.com/images/pasta/pasta3.jpg",
+      "image": "https://images.pexels.com/photos/18177440/pexels-photo-18177440.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_idukki_8"
     },
     {
@@ -1573,7 +1727,7 @@
         "juices"
       ],
       "rating": 4.7,
-      "image": "https://foodish-api.com/images/dosa/dosa25.jpg",
+      "image": "https://images.pexels.com/photos/31822992/pexels-photo-31822992.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_idukki_9"
     },
     {
@@ -1586,7 +1740,7 @@
         "north_indian"
       ],
       "rating": 3.7,
-      "image": "https://foodish-api.com/images/idly/idly54.jpg",
+      "image": "https://images.pexels.com/photos/20513620/pexels-photo-20513620.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_idukki_10"
     },
     {
@@ -1599,7 +1753,7 @@
         "arabian"
       ],
       "rating": 3.5,
-      "image": "https://foodish-api.com/images/idly/idly17.jpg",
+      "image": "https://images.pexels.com/photos/19676848/pexels-photo-19676848.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_ernakulam_1"
     },
     {
@@ -1612,7 +1766,7 @@
         "kerala"
       ],
       "rating": 3.4,
-      "image": "https://foodish-api.com/images/butter-chicken/butter-chicken19.jpg",
+      "image": "https://images.pexels.com/photos/33902511/pexels-photo-33902511.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_ernakulam_2"
     },
     {
@@ -1625,7 +1779,7 @@
         "kerala"
       ],
       "rating": 3,
-      "image": "https://foodish-api.com/images/pasta/pasta25.jpg",
+      "image": "https://images.pexels.com/photos/33902511/pexels-photo-33902511.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_ernakulam_3"
     },
     {
@@ -1638,7 +1792,7 @@
         "bakery_cafe"
       ],
       "rating": 4.1,
-      "image": "https://foodish-api.com/images/dosa/dosa42.jpg",
+      "image": "https://images.pexels.com/photos/29845005/pexels-photo-29845005.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_ernakulam_4"
     },
     {
@@ -1651,7 +1805,7 @@
         "desserts"
       ],
       "rating": 3.7,
-      "image": "https://foodish-api.com/images/pasta/pasta10.jpg",
+      "image": "https://images.pexels.com/photos/28376177/pexels-photo-28376177.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_ernakulam_5"
     },
     {
@@ -1664,7 +1818,7 @@
         "desserts"
       ],
       "rating": 4.6,
-      "image": "https://foodish-api.com/images/butter-chicken/butter-chicken8.jpg",
+      "image": "https://images.pexels.com/photos/28376177/pexels-photo-28376177.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_ernakulam_6"
     },
     {
@@ -1677,7 +1831,7 @@
         "arabian"
       ],
       "rating": 5,
-      "image": "https://foodish-api.com/images/dessert/dessert30.jpg",
+      "image": "https://images.pexels.com/photos/19676848/pexels-photo-19676848.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_ernakulam_7"
     },
     {
@@ -1690,7 +1844,7 @@
         "cold_drinks"
       ],
       "rating": 4.7,
-      "image": "https://foodish-api.com/images/samosa/samosa1.jpg",
+      "image": "https://images.pexels.com/photos/12360556/pexels-photo-12360556.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_ernakulam_8"
     },
     {
@@ -1703,7 +1857,7 @@
         "chinese"
       ],
       "rating": 4.9,
-      "image": "https://foodish-api.com/images/butter-chicken/butter-chicken15.jpg",
+      "image": "https://images.pexels.com/photos/35415466/pexels-photo-35415466.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_ernakulam_9"
     },
     {
@@ -1716,7 +1870,7 @@
         "milkshakes"
       ],
       "rating": 3.8,
-      "image": "https://foodish-api.com/images/butter-chicken/butter-chicken11.jpg",
+      "image": "https://images.pexels.com/photos/17429538/pexels-photo-17429538.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_ernakulam_10"
     },
     {
@@ -1729,7 +1883,7 @@
         "north_indian"
       ],
       "rating": 3.4,
-      "image": "https://foodish-api.com/images/biryani/biryani43.jpg",
+      "image": "https://images.pexels.com/photos/20513620/pexels-photo-20513620.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_thrissur_1"
     },
     {
@@ -1742,7 +1896,7 @@
         "milkshakes"
       ],
       "rating": 4.3,
-      "image": "https://foodish-api.com/images/pasta/pasta15.jpg",
+      "image": "https://images.pexels.com/photos/17429538/pexels-photo-17429538.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_thrissur_2"
     },
     {
@@ -1755,7 +1909,7 @@
         "chinese"
       ],
       "rating": 4.4,
-      "image": "https://foodish-api.com/images/butter-chicken/butter-chicken22.jpg",
+      "image": "https://images.pexels.com/photos/35415466/pexels-photo-35415466.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_thrissur_3"
     },
     {
@@ -1768,7 +1922,7 @@
         "mocktails"
       ],
       "rating": 4.6,
-      "image": "https://foodish-api.com/images/dosa/dosa12.jpg",
+      "image": "https://images.pexels.com/photos/12280754/pexels-photo-12280754.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_thrissur_4"
     },
     {
@@ -1781,7 +1935,7 @@
         "hot_drinks"
       ],
       "rating": 5,
-      "image": "https://foodish-api.com/images/rice/rice10.jpg",
+      "image": "https://images.pexels.com/photos/12065520/pexels-photo-12065520.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_thrissur_5"
     },
     {
@@ -1791,10 +1945,11 @@
       "district": "Thrissur",
       "locality": "Downtown",
       "cuisines": [
-        "chinese"
+        "chinese",
+        "tasty_under_30"
       ],
       "rating": 4.9,
-      "image": "https://foodish-api.com/images/samosa/samosa4.jpg",
+      "image": "https://images.pexels.com/photos/35415466/pexels-photo-35415466.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_thrissur_6"
     },
     {
@@ -1807,7 +1962,7 @@
         "smoothies"
       ],
       "rating": 3,
-      "image": "https://foodish-api.com/images/butter-chicken/butter-chicken21.jpg",
+      "image": "https://images.pexels.com/photos/14333987/pexels-photo-14333987.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_thrissur_7"
     },
     {
@@ -1820,7 +1975,7 @@
         "smoothies"
       ],
       "rating": 4.2,
-      "image": "https://foodish-api.com/images/idly/idly57.jpg",
+      "image": "https://images.pexels.com/photos/14333987/pexels-photo-14333987.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_thrissur_8"
     },
     {
@@ -1833,7 +1988,7 @@
         "chinese"
       ],
       "rating": 3.1,
-      "image": "https://foodish-api.com/images/dosa/dosa3.jpg",
+      "image": "https://images.pexels.com/photos/35415466/pexels-photo-35415466.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_thrissur_9"
     },
     {
@@ -1846,7 +2001,7 @@
         "ice_cream"
       ],
       "rating": 3.3,
-      "image": "https://foodish-api.com/images/dessert/dessert6.jpg",
+      "image": "https://images.pexels.com/photos/752853/pexels-photo-752853.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_thrissur_10"
     },
     {
@@ -1859,7 +2014,7 @@
         "mocktails"
       ],
       "rating": 4.5,
-      "image": "https://foodish-api.com/images/biryani/biryani46.jpg",
+      "image": "https://images.pexels.com/photos/12280754/pexels-photo-12280754.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_palakkad_1"
     },
     {
@@ -1872,7 +2027,7 @@
         "arabian"
       ],
       "rating": 4.4,
-      "image": "https://foodish-api.com/images/biryani/biryani40.jpg",
+      "image": "https://images.pexels.com/photos/19676848/pexels-photo-19676848.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_palakkad_2"
     },
     {
@@ -1882,10 +2037,11 @@
       "district": "Palakkad",
       "locality": "Downtown",
       "cuisines": [
-        "arabian"
+        "arabian",
+        "tasty_under_30"
       ],
       "rating": 3.8,
-      "image": "https://foodish-api.com/images/pasta/pasta13.jpg",
+      "image": "https://images.pexels.com/photos/19676848/pexels-photo-19676848.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_palakkad_3"
     },
     {
@@ -1898,7 +2054,7 @@
         "south_indian"
       ],
       "rating": 4,
-      "image": "https://foodish-api.com/images/rice/rice30.jpg",
+      "image": "https://images.pexels.com/photos/18177440/pexels-photo-18177440.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_palakkad_4"
     },
     {
@@ -1911,7 +2067,7 @@
         "chinese"
       ],
       "rating": 3.9,
-      "image": "https://foodish-api.com/images/dosa/dosa45.jpg",
+      "image": "https://images.pexels.com/photos/35415466/pexels-photo-35415466.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_palakkad_5"
     },
     {
@@ -1924,7 +2080,7 @@
         "north_indian"
       ],
       "rating": 3.1,
-      "image": "https://foodish-api.com/images/burger/burger57.jpg",
+      "image": "https://images.pexels.com/photos/20513620/pexels-photo-20513620.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_palakkad_6"
     },
     {
@@ -1937,7 +2093,7 @@
         "ice_cream"
       ],
       "rating": 4.6,
-      "image": "https://foodish-api.com/images/dosa/dosa38.jpg",
+      "image": "https://images.pexels.com/photos/752853/pexels-photo-752853.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_palakkad_7"
     },
     {
@@ -1950,7 +2106,7 @@
         "chinese"
       ],
       "rating": 3.1,
-      "image": "https://foodish-api.com/images/rice/rice31.jpg",
+      "image": "https://images.pexels.com/photos/35415466/pexels-photo-35415466.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_palakkad_8"
     },
     {
@@ -1960,10 +2116,11 @@
       "district": "Palakkad",
       "locality": "Downtown",
       "cuisines": [
-        "bakery_cafe"
+        "bakery_cafe",
+        "tasty_under_30"
       ],
       "rating": 4.3,
-      "image": "https://foodish-api.com/images/pasta/pasta26.jpg",
+      "image": "https://images.pexels.com/photos/29845005/pexels-photo-29845005.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_palakkad_9"
     },
     {
@@ -1976,7 +2133,7 @@
         "milkshakes"
       ],
       "rating": 4.4,
-      "image": "https://foodish-api.com/images/rice/rice9.jpg",
+      "image": "https://images.pexels.com/photos/17429538/pexels-photo-17429538.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_palakkad_10"
     },
     {
@@ -1989,7 +2146,7 @@
         "smoothies"
       ],
       "rating": 4.8,
-      "image": "https://foodish-api.com/images/dessert/dessert4.jpg",
+      "image": "https://images.pexels.com/photos/14333987/pexels-photo-14333987.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_malappuram_1"
     },
     {
@@ -2002,7 +2159,7 @@
         "milkshakes"
       ],
       "rating": 4.4,
-      "image": "https://foodish-api.com/images/rice/rice2.jpg",
+      "image": "https://images.pexels.com/photos/17429538/pexels-photo-17429538.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_malappuram_2"
     },
     {
@@ -2015,7 +2172,7 @@
         "hot_drinks"
       ],
       "rating": 3.3,
-      "image": "https://foodish-api.com/images/rice/rice9.jpg",
+      "image": "https://images.pexels.com/photos/12065520/pexels-photo-12065520.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_malappuram_3"
     },
     {
@@ -2028,7 +2185,7 @@
         "milkshakes"
       ],
       "rating": 3.3,
-      "image": "https://foodish-api.com/images/pasta/pasta11.jpg",
+      "image": "https://images.pexels.com/photos/17429538/pexels-photo-17429538.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_malappuram_4"
     },
     {
@@ -2041,7 +2198,7 @@
         "north_indian"
       ],
       "rating": 3.7,
-      "image": "https://foodish-api.com/images/pasta/pasta10.jpg",
+      "image": "https://images.pexels.com/photos/20513620/pexels-photo-20513620.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_malappuram_5"
     },
     {
@@ -2054,7 +2211,7 @@
         "chinese"
       ],
       "rating": 3.1,
-      "image": "https://foodish-api.com/images/rice/rice23.jpg",
+      "image": "https://images.pexels.com/photos/35415466/pexels-photo-35415466.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_malappuram_6"
     },
     {
@@ -2067,7 +2224,7 @@
         "cold_drinks"
       ],
       "rating": 3.7,
-      "image": "https://foodish-api.com/images/dessert/dessert20.jpg",
+      "image": "https://images.pexels.com/photos/12360556/pexels-photo-12360556.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_malappuram_7"
     },
     {
@@ -2080,7 +2237,7 @@
         "mocktails"
       ],
       "rating": 5,
-      "image": "https://foodish-api.com/images/pasta/pasta31.jpg",
+      "image": "https://images.pexels.com/photos/12280754/pexels-photo-12280754.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_malappuram_8"
     },
     {
@@ -2093,7 +2250,7 @@
         "ice_cream"
       ],
       "rating": 4.7,
-      "image": "https://foodish-api.com/images/dosa/dosa13.jpg",
+      "image": "https://images.pexels.com/photos/752853/pexels-photo-752853.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_malappuram_9"
     },
     {
@@ -2106,7 +2263,7 @@
         "chinese"
       ],
       "rating": 4.7,
-      "image": "https://foodish-api.com/images/samosa/samosa9.jpg",
+      "image": "https://images.pexels.com/photos/35415466/pexels-photo-35415466.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_malappuram_10"
     },
     {
@@ -2119,7 +2276,7 @@
         "mocktails"
       ],
       "rating": 3.8,
-      "image": "https://foodish-api.com/images/biryani/biryani16.jpg",
+      "image": "https://images.pexels.com/photos/12280754/pexels-photo-12280754.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_kozhikode_1"
     },
     {
@@ -2132,7 +2289,7 @@
         "bakery_cafe"
       ],
       "rating": 4.2,
-      "image": "https://foodish-api.com/images/pizza/pizza22.jpg",
+      "image": "https://images.pexels.com/photos/29845005/pexels-photo-29845005.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_kozhikode_2"
     },
     {
@@ -2145,7 +2302,7 @@
         "arabian"
       ],
       "rating": 4.5,
-      "image": "https://foodish-api.com/images/dosa/dosa51.jpg",
+      "image": "https://images.pexels.com/photos/19676848/pexels-photo-19676848.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_kozhikode_3"
     },
     {
@@ -2158,7 +2315,7 @@
         "juices"
       ],
       "rating": 3.9,
-      "image": "https://foodish-api.com/images/samosa/samosa7.jpg",
+      "image": "https://images.pexels.com/photos/31822992/pexels-photo-31822992.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_kozhikode_4"
     },
     {
@@ -2168,10 +2325,11 @@
       "district": "Kozhikode",
       "locality": "Downtown",
       "cuisines": [
-        "north_indian"
+        "north_indian",
+        "tasty_under_30"
       ],
       "rating": 3.8,
-      "image": "https://foodish-api.com/images/dosa/dosa53.jpg",
+      "image": "https://images.pexels.com/photos/20513620/pexels-photo-20513620.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_kozhikode_5"
     },
     {
@@ -2184,7 +2342,7 @@
         "kerala"
       ],
       "rating": 3.1,
-      "image": "https://foodish-api.com/images/dessert/dessert33.jpg",
+      "image": "https://images.pexels.com/photos/33902511/pexels-photo-33902511.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_kozhikode_6"
     },
     {
@@ -2197,7 +2355,7 @@
         "desserts"
       ],
       "rating": 3.1,
-      "image": "https://foodish-api.com/images/rice/rice14.jpg",
+      "image": "https://images.pexels.com/photos/28376177/pexels-photo-28376177.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_kozhikode_7"
     },
     {
@@ -2210,7 +2368,7 @@
         "bakery_cafe"
       ],
       "rating": 4.6,
-      "image": "https://foodish-api.com/images/idly/idly54.jpg",
+      "image": "https://images.pexels.com/photos/29845005/pexels-photo-29845005.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_kozhikode_8"
     },
     {
@@ -2223,7 +2381,7 @@
         "smoothies"
       ],
       "rating": 3.2,
-      "image": "https://foodish-api.com/images/dessert/dessert31.jpg",
+      "image": "https://images.pexels.com/photos/14333987/pexels-photo-14333987.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_kozhikode_9"
     },
     {
@@ -2236,7 +2394,7 @@
         "hot_drinks"
       ],
       "rating": 3.4,
-      "image": "https://foodish-api.com/images/samosa/samosa9.jpg",
+      "image": "https://images.pexels.com/photos/12065520/pexels-photo-12065520.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_kozhikode_10"
     },
     {
@@ -2249,7 +2407,7 @@
         "bakery_cafe"
       ],
       "rating": 4.3,
-      "image": "https://foodish-api.com/images/dessert/dessert26.jpg",
+      "image": "https://images.pexels.com/photos/29845005/pexels-photo-29845005.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_wayanad_1"
     },
     {
@@ -2262,7 +2420,7 @@
         "ice_cream"
       ],
       "rating": 3.7,
-      "image": "https://foodish-api.com/images/burger/burger78.jpg",
+      "image": "https://images.pexels.com/photos/752853/pexels-photo-752853.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_wayanad_2"
     },
     {
@@ -2275,7 +2433,7 @@
         "mocktails"
       ],
       "rating": 4.5,
-      "image": "https://foodish-api.com/images/dessert/dessert13.jpg",
+      "image": "https://images.pexels.com/photos/12280754/pexels-photo-12280754.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_wayanad_3"
     },
     {
@@ -2288,7 +2446,7 @@
         "juices"
       ],
       "rating": 4.9,
-      "image": "https://foodish-api.com/images/dosa/dosa17.jpg",
+      "image": "https://images.pexels.com/photos/31822992/pexels-photo-31822992.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_wayanad_4"
     },
     {
@@ -2301,7 +2459,7 @@
         "cold_drinks"
       ],
       "rating": 3.1,
-      "image": "https://foodish-api.com/images/dosa/dosa26.jpg",
+      "image": "https://images.pexels.com/photos/12360556/pexels-photo-12360556.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_wayanad_5"
     },
     {
@@ -2314,7 +2472,7 @@
         "desserts"
       ],
       "rating": 4.3,
-      "image": "https://foodish-api.com/images/butter-chicken/butter-chicken20.jpg",
+      "image": "https://images.pexels.com/photos/28376177/pexels-photo-28376177.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_wayanad_6"
     },
     {
@@ -2327,7 +2485,7 @@
         "bakery_cafe"
       ],
       "rating": 4.5,
-      "image": "https://foodish-api.com/images/butter-chicken/butter-chicken5.jpg",
+      "image": "https://images.pexels.com/photos/29845005/pexels-photo-29845005.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_wayanad_7"
     },
     {
@@ -2340,7 +2498,7 @@
         "juices"
       ],
       "rating": 3.2,
-      "image": "https://foodish-api.com/images/pasta/pasta6.jpg",
+      "image": "https://images.pexels.com/photos/31822992/pexels-photo-31822992.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_wayanad_8"
     },
     {
@@ -2353,7 +2511,7 @@
         "arabian"
       ],
       "rating": 3.3,
-      "image": "https://foodish-api.com/images/dessert/dessert15.jpg",
+      "image": "https://images.pexels.com/photos/19676848/pexels-photo-19676848.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_wayanad_9"
     },
     {
@@ -2366,7 +2524,7 @@
         "smoothies"
       ],
       "rating": 3.4,
-      "image": "https://foodish-api.com/images/biryani/biryani2.jpg",
+      "image": "https://images.pexels.com/photos/14333987/pexels-photo-14333987.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_wayanad_10"
     },
     {
@@ -2379,7 +2537,7 @@
         "arabian"
       ],
       "rating": 4.5,
-      "image": "https://foodish-api.com/images/dessert/dessert9.jpg",
+      "image": "https://images.pexels.com/photos/19676848/pexels-photo-19676848.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_kannur_1"
     },
     {
@@ -2392,7 +2550,7 @@
         "juices"
       ],
       "rating": 4.8,
-      "image": "https://foodish-api.com/images/butter-chicken/butter-chicken9.jpg",
+      "image": "https://images.pexels.com/photos/31822992/pexels-photo-31822992.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_kannur_2"
     },
     {
@@ -2405,7 +2563,7 @@
         "north_indian"
       ],
       "rating": 4.8,
-      "image": "https://foodish-api.com/images/dosa/dosa43.jpg",
+      "image": "https://images.pexels.com/photos/20513620/pexels-photo-20513620.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_kannur_3"
     },
     {
@@ -2418,7 +2576,7 @@
         "north_indian"
       ],
       "rating": 4.4,
-      "image": "https://foodish-api.com/images/burger/burger34.jpg",
+      "image": "https://images.pexels.com/photos/20513620/pexels-photo-20513620.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_kannur_4"
     },
     {
@@ -2431,7 +2589,7 @@
         "arabian"
       ],
       "rating": 4.8,
-      "image": "https://foodish-api.com/images/rice/rice27.jpg",
+      "image": "https://images.pexels.com/photos/19676848/pexels-photo-19676848.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_kannur_5"
     },
     {
@@ -2444,7 +2602,7 @@
         "kerala"
       ],
       "rating": 5,
-      "image": "https://foodish-api.com/images/biryani/biryani18.jpg",
+      "image": "https://images.pexels.com/photos/33902511/pexels-photo-33902511.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_kannur_6"
     },
     {
@@ -2457,7 +2615,7 @@
         "arabian"
       ],
       "rating": 4.2,
-      "image": "https://foodish-api.com/images/burger/burger11.jpg",
+      "image": "https://images.pexels.com/photos/19676848/pexels-photo-19676848.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_kannur_7"
     },
     {
@@ -2470,7 +2628,7 @@
         "kerala"
       ],
       "rating": 4.9,
-      "image": "https://foodish-api.com/images/butter-chicken/butter-chicken19.jpg",
+      "image": "https://images.pexels.com/photos/33902511/pexels-photo-33902511.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_kannur_8"
     },
     {
@@ -2483,7 +2641,7 @@
         "hot_drinks"
       ],
       "rating": 4.8,
-      "image": "https://foodish-api.com/images/butter-chicken/butter-chicken8.jpg",
+      "image": "https://images.pexels.com/photos/12065520/pexels-photo-12065520.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_kannur_9"
     },
     {
@@ -2496,7 +2654,7 @@
         "juices"
       ],
       "rating": 4.3,
-      "image": "https://foodish-api.com/images/pasta/pasta8.jpg",
+      "image": "https://images.pexels.com/photos/31822992/pexels-photo-31822992.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_kannur_10"
     },
     {
@@ -2509,7 +2667,7 @@
         "chinese"
       ],
       "rating": 3.9,
-      "image": "https://foodish-api.com/images/dosa/dosa54.jpg",
+      "image": "https://images.pexels.com/photos/35415466/pexels-photo-35415466.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_kasaragod_1"
     },
     {
@@ -2522,7 +2680,7 @@
         "bakery_cafe"
       ],
       "rating": 3.9,
-      "image": "https://foodish-api.com/images/burger/burger27.jpg",
+      "image": "https://images.pexels.com/photos/29845005/pexels-photo-29845005.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_kasaragod_2"
     },
     {
@@ -2535,7 +2693,7 @@
         "mocktails"
       ],
       "rating": 4.4,
-      "image": "https://foodish-api.com/images/butter-chicken/butter-chicken3.jpg",
+      "image": "https://images.pexels.com/photos/12280754/pexels-photo-12280754.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_kasaragod_3"
     },
     {
@@ -2548,7 +2706,7 @@
         "north_indian"
       ],
       "rating": 3.2,
-      "image": "https://foodish-api.com/images/rice/rice12.jpg",
+      "image": "https://images.pexels.com/photos/20513620/pexels-photo-20513620.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_kasaragod_4"
     },
     {
@@ -2561,7 +2719,7 @@
         "arabian"
       ],
       "rating": 4.4,
-      "image": "https://foodish-api.com/images/samosa/samosa20.jpg",
+      "image": "https://images.pexels.com/photos/19676848/pexels-photo-19676848.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_kasaragod_5"
     },
     {
@@ -2574,7 +2732,7 @@
         "kerala"
       ],
       "rating": 3.1,
-      "image": "https://foodish-api.com/images/rice/rice9.jpg",
+      "image": "https://images.pexels.com/photos/33902511/pexels-photo-33902511.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_kasaragod_6"
     },
     {
@@ -2587,7 +2745,7 @@
         "mocktails"
       ],
       "rating": 4.7,
-      "image": "https://foodish-api.com/images/burger/burger64.jpg",
+      "image": "https://images.pexels.com/photos/12280754/pexels-photo-12280754.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_kasaragod_7"
     },
     {
@@ -2597,10 +2755,11 @@
       "district": "Kasaragod",
       "locality": "Downtown",
       "cuisines": [
-        "mocktails"
+        "mocktails",
+        "tasty_under_30"
       ],
       "rating": 3,
-      "image": "https://foodish-api.com/images/biryani/biryani39.jpg",
+      "image": "https://images.pexels.com/photos/12280754/pexels-photo-12280754.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_kasaragod_8"
     },
     {
@@ -2613,7 +2772,7 @@
         "kerala"
       ],
       "rating": 3.1,
-      "image": "https://foodish-api.com/images/burger/burger11.jpg",
+      "image": "https://images.pexels.com/photos/33902511/pexels-photo-33902511.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_kasaragod_9"
     },
     {
@@ -2626,7 +2785,7 @@
         "desserts"
       ],
       "rating": 4,
-      "image": "https://foodish-api.com/images/butter-chicken/butter-chicken20.jpg",
+      "image": "https://images.pexels.com/photos/28376177/pexels-photo-28376177.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "menu": "/api/menu/restaurant_kasaragod_10"
     }
   ]
