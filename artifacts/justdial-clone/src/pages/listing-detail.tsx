@@ -12,19 +12,24 @@ export default function ListingDetail({ params }: { params: { id: string } }) {
   const [, setLocation] = useLocation();
   const listingId = params.id;
 
+  const [listing, setListing] = useState<any>(null);
+  const [loading, setLoading] = useState(true);
+  const [apiMenus, setApiMenus] = useState<any[]>([]);
+
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, [listingId]);
+    setLoading(true);
 
-  // Search across all states, attractions, hotels, and restaurants to find our listing
-  const listing = useMemo(() => {
+    let foundListing: any = null;
+
+    // Search across all states, attractions, hotels, and restaurants to find our listing
     for (const stateCode of Object.keys(tourismData)) {
       const stateObj = tourismData[stateCode];
       
       // Check attractions
       const attraction = stateObj.attractions.find(a => a.id === listingId);
       if (attraction) {
-        return {
+        foundListing = {
           ...attraction,
           type: "Attraction",
           stateCode,
@@ -37,12 +42,13 @@ export default function ListingDetail({ params }: { params: { id: string } }) {
             `Recommended time to spend: 2-3 hours`
           ]
         };
+        break;
       }
 
       // Check hotels
       const hotel = stateObj.hotels.find(h => h.id === listingId);
       if (hotel) {
-        return {
+        foundListing = {
           ...hotel,
           type: "Hotel",
           stateCode,
@@ -56,12 +62,13 @@ export default function ListingDetail({ params }: { params: { id: string } }) {
             `Key amenities: Free Wi-Fi, Room Service, Air Conditioning`
           ]
         };
+        break;
       }
 
       // Check restaurants
       const restaurant = stateObj.restaurants.find(r => r.id === listingId);
       if (restaurant) {
-        return {
+        foundListing = {
           ...restaurant,
           type: "Restaurant",
           stateCode,
@@ -75,12 +82,13 @@ export default function ListingDetail({ params }: { params: { id: string } }) {
             `Ambiance: Family friendly, casual dining`
           ]
         };
+        break;
       }
     }
 
     // Fallback if not found (specifically for Magnetic Hill)
-    if (listingId === "la_att_1") {
-      return {
+    if (!foundListing && listingId === "la_att_1") {
+      foundListing = {
         id: "la_att_1",
         title: "Magnetic Hill",
         locality: "Leh-Kargil National Highway (NH 1), Leh",
@@ -103,7 +111,49 @@ export default function ListingDetail({ params }: { params: { id: string } }) {
       };
     }
 
-    return null;
+    if (foundListing) {
+      setListing(foundListing);
+      setLoading(false);
+      return;
+    }
+
+    // Check apiData.json for global API restaurants
+    fetch("/apiData.json")
+      .then(res => res.json())
+      .then(json => {
+        // ID could be "kasaragod_1" so we check against "restaurant_kasaragod_1"
+        const apiRest = json.restaurants?.find((r: any) => r.id === listingId || r.id === `restaurant_${listingId}`);
+        if (apiRest) {
+          setListing({
+            ...apiRest,
+            title: apiRest.name,
+            type: "Restaurant",
+            stateCode: "KL",
+            stateName: "Kerala", // Mocked as Kerala
+            address: `${apiRest.locality}, ${apiRest.district}, India`,
+            details: `A top-rated dining spot located in ${apiRest.locality}, ${apiRest.district}. Known for offering exquisite ${apiRest.cuisines.join(", ")} cuisines.`,
+            timing: "11:00 AM - 11:30 PM",
+            additionalInfo: [
+              `Cuisines: ${apiRest.cuisines.join(", ")}`,
+              `Ambiance: Casual Dining, Family Friendly`,
+              `Payment: Cash, Cards, UPI Accepted`
+            ]
+          });
+
+          // Fetch the menus that match the cuisines
+          const restaurantCuisines = json.cuisines.filter((c: any) => apiRest.cuisines.includes(c.name));
+          setApiMenus(restaurantCuisines);
+        } else {
+          setListing(null);
+        }
+        setLoading(false);
+      })
+      .catch(err => {
+        console.error("Failed to fetch apiData.json", err);
+        setListing(null);
+        setLoading(false);
+      });
+
   }, [listingId]);
 
   // Form states
@@ -120,7 +170,15 @@ export default function ListingDetail({ params }: { params: { id: string } }) {
   const [reviewSubmitted, setReviewSubmitted] = useState(false);
 
   // Tab State
-  const [activeTab, setActiveTab] = useState<"overview" | "photos" | "reviews">("overview");
+  const [activeTab, setActiveTab] = useState<"overview" | "photos" | "reviews" | "menu">("overview");
+
+  if (loading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-slate-50">
+        <div className="w-8 h-8 border-4 border-primary border-t-transparent rounded-full animate-spin"></div>
+      </div>
+    );
+  }
 
   if (!listing) {
     return (
@@ -315,6 +373,16 @@ export default function ListingDetail({ params }: { params: { id: string } }) {
               >
                 Reviews ({reviewsList.length})
               </button>
+              {apiMenus.length > 0 && (
+                <button 
+                  onClick={() => setActiveTab("menu")}
+                  className={`pb-3 font-extrabold text-sm border-b-2 transition-all ${
+                    activeTab === "menu" ? 'border-primary text-primary' : 'border-transparent text-gray-500 hover:text-gray-900'
+                  }`}
+                >
+                  Menu Highlights
+                </button>
+              )}
             </div>
 
             {/* TAB CONTENTS */}
@@ -444,6 +512,51 @@ export default function ListingDetail({ params }: { params: { id: string } }) {
                   </div>
                 </div>
 
+              </div>
+            )}
+
+            {activeTab === "menu" && (
+              <div className="bg-white border border-gray-100 rounded-3xl p-6 md:p-8 shadow-sm space-y-8">
+                <div>
+                  <h3 className="text-xl font-black text-gray-900 mb-2">Menu Highlights</h3>
+                  <p className="text-sm text-gray-500">Explore the exquisite cuisines and dishes offered at {listing.title}.</p>
+                </div>
+                
+                <div className="space-y-10">
+                  {apiMenus.map(cuisine => (
+                    <div key={cuisine.id} className="space-y-6">
+                      <div className="flex items-center gap-4">
+                        <img src={cuisine.image} alt={cuisine.name} className="w-12 h-12 rounded-full object-cover shadow-sm" />
+                        <h4 className="text-lg font-bold text-gray-900 border-b-2 border-primary/20 pb-1">{cuisine.name} Cuisine</h4>
+                      </div>
+                      
+                      <div className="space-y-8 pl-4 border-l-2 border-gray-100">
+                        {cuisine.categories.map((cat: any) => (
+                          <div key={cat.id} className="space-y-4">
+                            <h5 className="font-bold text-gray-700 flex items-center gap-2">
+                              <img src={cat.image} className="w-6 h-6 rounded-md object-cover" />
+                              {cat.name}
+                            </h5>
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                              {cat.items.map((item: any) => (
+                                <div key={item.id} className="bg-slate-50 border border-gray-100 rounded-2xl p-4 flex gap-4 hover:shadow-md transition-shadow">
+                                  <img src={item.image} alt={item.name} className="w-20 h-20 rounded-xl object-cover bg-gray-200" />
+                                  <div className="flex-1 flex flex-col justify-center">
+                                    <h6 className="font-bold text-sm text-gray-900">{item.name}</h6>
+                                    <p className="text-xs text-gray-500 mt-1 line-clamp-2">{item.description}</p>
+                                    <div className="mt-2 font-black text-emerald-600 bg-emerald-50 w-fit px-2 py-0.5 rounded-md text-xs">
+                                      ₹{item.price}
+                                    </div>
+                                  </div>
+                                </div>
+                              ))}
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  ))}
+                </div>
               </div>
             )}
 
