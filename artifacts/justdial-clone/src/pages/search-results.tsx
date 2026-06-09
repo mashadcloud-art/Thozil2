@@ -68,11 +68,11 @@ function Dropdown({ id, active, setActive, trigger, children }: any) {
   );
 }
 
-export default function SearchResults() {
+export default function SearchResults({ params }: { params?: { state?: string; cuisine?: string } }) {
   const [, setLocation] = useLocation();
   const searchParams = new URLSearchParams(typeof window !== "undefined" ? window.location.search : "");
-  const query = searchParams.get("q") || "";
-  const state = searchParams.get("state") || "KL";
+  const query = params?.cuisine ? decodeURIComponent(params.cuisine).replace(/-/g, " ") : (searchParams.get("q") || "");
+  const state = params?.state?.toUpperCase() || searchParams.get("state") || "KL";
 
   const [searchTerm, setSearchTerm] = useState(query);
   const [active, setActive] = useState<string | null>(null);

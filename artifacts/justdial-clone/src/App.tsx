@@ -28,6 +28,8 @@ function Router() {
       <Route path="/Restaurants" component={Restaurants} />
       <Route path="/restaurants" component={Restaurants} />
       <Route path="/restaurant-collections" component={RestaurantCollections} />
+      <Route path="/:state/restaurants/:cuisine" component={SearchResults} />
+      <Route path="/restaurants/:state/:cuisine" component={SearchResults} />
       <Route component={NotFound} />
     </Switch>
   );

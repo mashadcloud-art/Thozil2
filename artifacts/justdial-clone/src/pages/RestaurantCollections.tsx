@@ -274,7 +274,7 @@ export default function RestaurantCollections({ params }: { params?: { state?: s
                   <div>
                     {/* Header Image */}
                     <Link 
-                      href={`/search?q=${encodeURIComponent(cat.title)}&state=${stateKey}&district=${selectedDistrict}`}
+                      href={`/${stateKey}/restaurants/${encodeURIComponent(cat.title.replace(/\s+/g, '-'))}`}
                       className="block h-44 w-full overflow-hidden relative cursor-pointer"
                     >
                       <img 
@@ -285,7 +285,7 @@ export default function RestaurantCollections({ params }: { params?: { state?: s
                     </Link>
 
                     <div className="p-6">
-                      <Link href={`/search?q=${encodeURIComponent(cat.title)}&state=${stateKey}&district=${selectedDistrict}`}>
+                      <Link href={`/${stateKey}/restaurants/${encodeURIComponent(cat.title.replace(/\s+/g, '-'))}`}>
                         <h3 className="font-bold text-gray-900 text-lg mb-3 tracking-tight hover:text-primary transition-colors cursor-pointer">{cat.title}</h3>
                       </Link>
                       {/* Subcategories list */}
@@ -293,7 +293,7 @@ export default function RestaurantCollections({ params }: { params?: { state?: s
                         {cat.items.map((sub, sidx) => (
                           <li key={sidx}>
                             <Link 
-                              href={`/search?q=${encodeURIComponent(sub.query)}&state=${stateKey}&district=${selectedDistrict}`}
+                              href={`/${stateKey}/restaurants/${encodeURIComponent(sub.query.replace(/\s+/g, '-'))}`}
                               className="text-sm text-gray-600 hover:text-primary transition-colors flex items-center gap-1"
                             >
                               - {sub.name}
@@ -303,8 +303,8 @@ export default function RestaurantCollections({ params }: { params?: { state?: s
                         {cat.moreLink && (
                           <li>
                             <Link 
-                              href={`/search?q=Restaurants&state=${stateKey}&district=${selectedDistrict}`}
-                              className="text-sm text-blue-600 hover:underline hover:text-blue-800 transition-colors"
+                              href={`/${stateKey}/restaurants/${encodeURIComponent(cat.moreLink.replace(/\s+/g, '-'))}`}
+                              className="text-sm text-primary font-semibold hover:text-orange-600 transition-colors inline-block mt-1"
                             >
                               - More
                             </Link>
