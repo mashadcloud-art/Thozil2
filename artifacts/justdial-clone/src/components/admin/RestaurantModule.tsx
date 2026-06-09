@@ -229,13 +229,29 @@ export default function RestaurantModule() {
                       />
                     </div>
                     <div className="md:col-span-2">
-                      <label className="block text-xs font-bold text-gray-500 mb-1">Cuisines Offered (Comma separated)</label>
-                      <input 
-                        type="text" 
-                        value={selectedRestaurant.cuisines.join(", ")}
-                        onChange={(e) => updateRestaurant("cuisines", e.target.value.split(",").map(s => s.trim()))}
-                        className="w-full bg-slate-50 border border-gray-200 rounded-xl px-3.5 py-2 text-sm focus:outline-none focus:border-primary"
-                      />
+                      <label className="block text-xs font-bold text-gray-500 mb-2">Cuisines Offered</label>
+                      <div className="flex flex-wrap gap-2">
+                        {data.cuisines.map(c => {
+                          const isSelected = selectedRestaurant.cuisines.includes(c.name);
+                          return (
+                            <label key={c.id} className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg border text-xs font-bold cursor-pointer transition-colors ${isSelected ? "bg-orange-50 border-primary/30 text-primary" : "bg-white border-gray-200 text-gray-600 hover:bg-slate-50"}`}>
+                              <input 
+                                type="checkbox"
+                                className="hidden"
+                                checked={isSelected}
+                                onChange={(e) => {
+                                  if (e.target.checked) {
+                                    updateRestaurant("cuisines", [...selectedRestaurant.cuisines, c.name]);
+                                  } else {
+                                    updateRestaurant("cuisines", selectedRestaurant.cuisines.filter((name: string) => name !== c.name));
+                                  }
+                                }}
+                              />
+                              {c.name}
+                            </label>
+                          );
+                        })}
+                      </div>
                     </div>
                     <div className="md:col-span-2">
                       <label className="block text-xs font-bold text-gray-500 mb-1">Linked Menu API Endpoint</label>
