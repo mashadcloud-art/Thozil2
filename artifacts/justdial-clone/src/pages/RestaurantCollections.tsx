@@ -9,6 +9,7 @@ import {
 } from "lucide-react";
 import { stateNames } from "@/lib/locationData";
 import BrowseByFlavour from "@/components/BrowseByFlavour";
+import AllCategoriesDirectory from "@/components/AllCategoriesDirectory";
 
 // Structure for the restaurant collection categories
 interface SubCategoryItem {
@@ -258,7 +259,9 @@ export default function RestaurantCollections({ params }: { params?: { state?: s
             CATEGORIES GRID SECTION (New Animated Design)
             ========================================== */}
         <section className="space-y-6 mb-12">
-          <BrowseByFlavour stateKey={stateKey} />          {/* View All Categories Button */}
+          <BrowseByFlavour stateKey={stateKey} />
+          <AllCategoriesDirectory stateKey={stateKey} />          
+          {/* View All Categories Button */}
           <div className="flex justify-center pt-6">
             <Link
               href={`/search?q=Restaurants&state=${stateKey}&district=${selectedDistrict}`}
