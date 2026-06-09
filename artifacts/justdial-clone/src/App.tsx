@@ -10,7 +10,9 @@ import StateTourism from "@/pages/state/StateTourism";
 import AdminDashboard from "@/pages/admin/AdminDashboard";
 import ListingDetail from "@/pages/listing-detail";
 import RegisterBusiness from "@/pages/RegisterBusiness";
+import ListingDetails from "@/pages/ListingDetails";
 import RestaurantCollections from "@/pages/RestaurantCollections";
+import AllCategoriesPage from "@/pages/AllCategoriesPage";
 import Restaurants from "@/pages/Restaurants";
 
 const queryClient = new QueryClient();
@@ -25,6 +27,7 @@ function Router() {
       <Route path="/admin" component={AdminDashboard} />
       <Route path="/register-business" component={RegisterBusiness} />
       <Route path="/:state/restaurant-collections" component={RestaurantCollections} />
+      <Route path="/:state/restaurants/all-categories" component={AllCategoriesPage} />
       <Route path="/Restaurants" component={Restaurants} />
       <Route path="/restaurants" component={Restaurants} />
       <Route path="/restaurant-collections" component={RestaurantCollections} />
