@@ -220,7 +220,10 @@ export default function SearchResults() {
           background: `linear-gradient(to right, rgba(15, 27, 45, 0.85), rgba(15, 27, 45, 0.4)), url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1600&q=80')`,
           backgroundSize: "cover",
           backgroundPosition: "center",
-          position: "relative"
+          position: "relative",
+          borderBottomLeftRadius: 32,
+          borderBottomRightRadius: 32,
+          overflow: "hidden"
         }}>
           <div style={{ maxWidth: 920, margin: "0 auto", padding: "48px 24px 40px", position: "relative", zIndex: 10 }}>
             <div style={{ display:"flex", alignItems:"center", gap:8, marginBottom:8 }}>
@@ -231,7 +234,7 @@ export default function SearchResults() {
               <span style={{ color:"#7A90A8", fontSize:13, fontWeight:500 }}>Search</span>
             </div>
             <h1 style={{ color:"#fff", fontSize:28, fontWeight:800, margin:"0 0 18px", letterSpacing:"-0.02em" }}>
-              Find what you're looking for
+              {(query || "").toLowerCase() === "restaurants" ? "Discover the best local dining & food" : "Find what you're looking for"}
             </h1>
             <div style={{ position:"relative", maxWidth:540 }}>
               <Search style={{ position:"absolute", left:14, top:"50%", transform:"translateY(-50%)", color:"#5A7A9A", width:17, height:17 }} />
