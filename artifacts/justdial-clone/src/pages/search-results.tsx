@@ -173,21 +173,22 @@ export default function SearchResults() {
       const nightlife = ["lounge", "bar", "candle light", "nightlife"];
       const quickBites = ["bakery", "coffee shop", "cafe", "quick bites"];
 
+      const safeCategory = (r.category || "").toLowerCase();
       let expandedSearchMatch = false;
       if (searchLower === "indian flavours") {
-         expandedSearchMatch = indianFlavours.includes(r.category.toLowerCase());
+         expandedSearchMatch = indianFlavours.includes(safeCategory);
       } else if (searchLower === "global cuisines") {
-         expandedSearchMatch = globalCuisines.includes(r.category.toLowerCase());
+         expandedSearchMatch = globalCuisines.includes(safeCategory);
       } else if (searchLower === "nightlife") {
-         expandedSearchMatch = nightlife.some(c => r.category.toLowerCase().includes(c));
+         expandedSearchMatch = nightlife.some(c => safeCategory.includes(c));
       } else if (searchLower === "quick bites") {
-         expandedSearchMatch = quickBites.some(c => r.category.toLowerCase().includes(c));
+         expandedSearchMatch = quickBites.some(c => safeCategory.includes(c));
       }
 
       const matchSearch = !searchLower || 
                           expandedSearchMatch ||
-                          r.name.toLowerCase().includes(searchLower) || 
-                          r.category.toLowerCase().includes(searchLower) ||
+                          (r.name && r.name.toLowerCase().includes(searchLower)) || 
+                          safeCategory.includes(searchLower) ||
                           (r.tags && r.tags.some((t: string) => t.toLowerCase().includes(searchLower)));
       const matchArea = selectedArea ? r.area === selectedArea : true;
       const matchCuisine = selectedCuisine ? r.category === selectedCuisine : true;
