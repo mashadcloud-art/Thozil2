@@ -1,0 +1,280 @@
+{
+  "version": 1,
+  "last_updated": "2026-06-09T00:00:00Z",
+  "cuisines": [
+    {
+      "id": "kerala",
+      "name": "Kerala",
+      "categories": [
+        {
+          "id": "kerala_starters",
+          "name": "Starters",
+          "items": [
+            { "id": "beef_fry", "name": "Beef Fry", "description": "Spicy Kerala-style beef fry with coconut slices.", "price": 220, "image": "AUTO_IMAGE:kerala beef fry" },
+            { "id": "kerala_fish_fry", "name": "Kerala Fish Fry", "description": "Seer fish marinated in spices and shallow fried.", "price": 200, "image": "AUTO_IMAGE:kerala fish fry" },
+            { "id": "pazham_pori", "name": "Pazham Pori", "description": "Ripe banana fritters coated in batter.", "price": 40, "image": "AUTO_IMAGE:pazham pori" },
+            { "id": "parippu_vada", "name": "Parippu Vada", "description": "Crispy lentil fritters served hot.", "price": 30, "image": "AUTO_IMAGE:parippu vada" }
+          ]
+        },
+        {
+          "id": "kerala_main_course",
+          "name": "Main Course",
+          "items": [
+            { "id": "kerala_meals", "name": "Kerala Meals", "description": "Traditional Kerala rice meals with curries and sides.", "price": 140, "image": "AUTO_IMAGE:kerala meals" },
+            { "id": "kappa_meen_curry", "name": "Kappa & Meen Curry", "description": "Tapioca with spicy fish curry.", "price": 180, "image": "AUTO_IMAGE:kappa meen curry" },
+            { "id": "kerala_chicken_roast", "name": "Chicken Roast", "description": "Slow-roasted chicken in Kerala spices.", "price": 220, "image": "AUTO_IMAGE:kerala chicken roast" },
+            { "id": "kerala_fish_curry", "name": "Kerala Fish Curry", "description": "Tangy coconut-based fish curry.", "price": 190, "image": "AUTO_IMAGE:kerala fish curry" }
+          ]
+        },
+        {
+          "id": "kerala_breakfast",
+          "name": "Breakfast",
+          "items": [
+            { "id": "appam", "name": "Appam", "description": "Soft hoppers made with fermented rice batter.", "price": 15, "image": "AUTO_IMAGE:appam" },
+            { "id": "idiyappam", "name": "Idiyappam", "description": "String hoppers served with curry.", "price": 20, "image": "AUTO_IMAGE:idiyappam" },
+            { "id": "puttu", "name": "Puttu", "description": "Steamed rice flour cylinders with coconut.", "price": 25, "image": "AUTO_IMAGE:puttu" },
+            { "id": "egg_roast", "name": "Egg Roast", "description": "Boiled eggs in spicy onion-tomato masala.", "price": 70, "image": "AUTO_IMAGE:egg roast kerala" }
+          ]
+        },
+        {
+          "id": "kerala_breads",
+          "name": "Breads",
+          "items": [
+            { "id": "porotta", "name": "Porotta", "description": "Flaky layered Kerala porotta.", "price": 15, "image": "AUTO_IMAGE:kerala porotta" },
+            { "id": "chapathi", "name": "Chapathi", "description": "Soft whole wheat flatbread.", "price": 12, "image": "AUTO_IMAGE:chapathi" }
+          ]
+        },
+        {
+          "id": "kerala_snacks",
+          "name": "Snacks",
+          "items": [
+            { "id": "banana_chips", "name": "Banana Chips", "description": "Crispy fried raw banana slices.", "price": 50, "image": "AUTO_IMAGE:kerala banana chips" },
+            { "id": "unniyappam", "name": "Unniyappam", "description": "Sweet rice and jaggery fritters.", "price": 45, "image": "AUTO_IMAGE:unniyappam" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "south_indian",
+      "name": "South Indian",
+      "categories": [
+        {
+          "id": "south_breakfast",
+          "name": "Breakfast",
+          "items": [
+            { "id": "idli", "name": "Idli", "description": "Steamed rice cakes served with chutney and sambar.", "price": 35, "image": "AUTO_IMAGE:idli" },
+            { "id": "plain_dosa", "name": "Plain Dosa", "description": "Crispy rice crepe served with chutney and sambar.", "price": 50, "image": "AUTO_IMAGE:plain dosa" },
+            { "id": "masala_dosa", "name": "Masala Dosa", "description": "Dosa stuffed with spiced potato masala.", "price": 80, "image": "AUTO_IMAGE:masala dosa" },
+            { "id": "vada", "name": "Vada", "description": "Crispy lentil doughnuts served with sambar.", "price": 30, "image": "AUTO_IMAGE:medu vada" },
+            { "id": "pongal", "name": "Pongal", "description": "Comforting rice and lentil dish with ghee.", "price": 70, "image": "AUTO_IMAGE:pongal" }
+          ]
+        },
+        {
+          "id": "south_rice_items",
+          "name": "Rice Items",
+          "items": [
+            { "id": "sambar_rice", "name": "Sambar Rice", "description": "Rice mixed with flavorful sambar.", "price": 90, "image": "AUTO_IMAGE:sambar rice" },
+            { "id": "curd_rice", "name": "Curd Rice", "description": "Rice mixed with yogurt and tempered spices.", "price": 70, "image": "AUTO_IMAGE:curd rice" },
+            { "id": "lemon_rice", "name": "Lemon Rice", "description": "Tangy rice tempered with mustard and peanuts.", "price": 80, "image": "AUTO_IMAGE:lemon rice" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "north_indian",
+      "name": "North Indian",
+      "categories": [
+        {
+          "id": "north_starters",
+          "name": "Starters",
+          "items": [
+            { "id": "chicken_tikka", "name": "Chicken Tikka", "description": "Boneless chicken marinated and grilled in tandoor.", "price": 260, "image": "AUTO_IMAGE:chicken tikka" },
+            { "id": "paneer_tikka", "name": "Paneer Tikka", "description": "Grilled cottage cheese cubes with spices.", "price": 230, "image": "AUTO_IMAGE:paneer tikka" }
+          ]
+        },
+        {
+          "id": "north_main_course",
+          "name": "Main Course",
+          "items": [
+            { "id": "butter_chicken", "name": "Butter Chicken", "description": "Creamy tomato-based chicken curry.", "price": 320, "image": "AUTO_IMAGE:butter chicken" },
+            { "id": "paneer_butter_masala", "name": "Paneer Butter Masala", "description": "Rich tomato gravy with paneer cubes.", "price": 280, "image": "AUTO_IMAGE:paneer butter masala" },
+            { "id": "dal_makhani", "name": "Dal Makhani", "description": "Slow-cooked black lentils in creamy gravy.", "price": 220, "image": "AUTO_IMAGE:dal makhani" }
+          ]
+        },
+        {
+          "id": "north_breads",
+          "name": "Breads",
+          "items": [
+            { "id": "naan", "name": "Naan", "description": "Soft tandoor-baked flatbread.", "price": 35, "image": "AUTO_IMAGE:naan" },
+            { "id": "butter_naan", "name": "Butter Naan", "description": "Naan brushed with butter.", "price": 45, "image": "AUTO_IMAGE:butter naan" },
+            { "id": "tandoori_roti", "name": "Tandoori Roti", "description": "Whole wheat flatbread cooked in tandoor.", "price": 30, "image": "AUTO_IMAGE:tandoori roti" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chinese",
+      "name": "Chinese",
+      "categories": [
+        {
+          "id": "chinese_rice",
+          "name": "Rice",
+          "items": [
+            { "id": "veg_fried_rice", "name": "Veg Fried Rice", "description": "Stir-fried rice with mixed vegetables.", "price": 150, "image": "AUTO_IMAGE:veg fried rice" },
+            { "id": "chicken_fried_rice", "name": "Chicken Fried Rice", "description": "Fried rice with chicken and veggies.", "price": 180, "image": "AUTO_IMAGE:chicken fried rice" }
+          ]
+        },
+        {
+          "id": "chinese_noodles",
+          "name": "Noodles",
+          "items": [
+            { "id": "veg_noodles", "name": "Veg Noodles", "description": "Stir-fried noodles with vegetables.", "price": 150, "image": "AUTO_IMAGE:veg noodles" },
+            { "id": "chicken_noodles", "name": "Chicken Noodles", "description": "Noodles tossed with chicken and sauces.", "price": 180, "image": "AUTO_IMAGE:chicken noodles" }
+          ]
+        },
+        {
+          "id": "chinese_starters",
+          "name": "Starters",
+          "items": [
+            { "id": "gobi_manchurian", "name": "Gobi Manchurian", "description": "Crispy cauliflower tossed in Indo-Chinese sauce.", "price": 160, "image": "AUTO_IMAGE:gobi manchurian" },
+            { "id": "chilli_chicken", "name": "Chilli Chicken", "description": "Spicy chicken starter with capsicum and onions.", "price": 210, "image": "AUTO_IMAGE:chilli chicken" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arabian",
+      "name": "Arabian",
+      "categories": [
+        {
+          "id": "arabian_grills",
+          "name": "Grills",
+          "items": [
+            { "id": "alfaham", "name": "Alfaham", "description": "Charcoal-grilled marinated chicken.", "price": 320, "image": "AUTO_IMAGE:alfaham" },
+            { "id": "shawarma_roll", "name": "Shawarma Roll", "description": "Shredded chicken wrapped in kuboos with garlic sauce.", "price": 120, "image": "AUTO_IMAGE:chicken shawarma roll" }
+          ]
+        },
+        {
+          "id": "arabian_rice",
+          "name": "Rice",
+          "items": [
+            { "id": "chicken_mandi", "name": "Chicken Mandi", "description": "Arabic-style spiced rice with chicken.", "price": 320, "image": "AUTO_IMAGE:chicken mandi" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bakery_cafe",
+      "name": "Bakery & Cafe",
+      "categories": [
+        {
+          "id": "cakes",
+          "name": "Cakes",
+          "items": [
+            { "id": "black_forest_cake", "name": "Black Forest Cake", "description": "Chocolate sponge layered with cream and cherries.", "price": 450, "image": "AUTO_IMAGE:black forest cake" },
+            { "id": "cheesecake", "name": "Cheesecake", "description": "Creamy baked cheesecake slice.", "price": 280, "image": "AUTO_IMAGE:cheesecake" }
+          ]
+        },
+        {
+          "id": "coffee",
+          "name": "Coffee",
+          "items": [
+            { "id": "cappuccino", "name": "Cappuccino", "description": "Espresso with steamed milk and foam.", "price": 140, "image": "AUTO_IMAGE:cappuccino" },
+            { "id": "latte", "name": "Latte", "description": "Smooth espresso with steamed milk.", "price": 150, "image": "AUTO_IMAGE:latte" }
+          ]
+        },
+        {
+          "id": "snacks_bakery",
+          "name": "Snacks",
+          "items": [
+            { "id": "veg_sandwich", "name": "Veg Sandwich", "description": "Grilled sandwich with fresh veggies.", "price": 120, "image": "AUTO_IMAGE:veg sandwich" },
+            { "id": "chicken_sandwich", "name": "Chicken Sandwich", "description": "Grilled sandwich with chicken filling.", "price": 150, "image": "AUTO_IMAGE:chicken sandwich" }
+          ]
+        }
+      ]
+    }
+  ],
+  "global_extra_categories": [
+    {
+      "id": "juices",
+      "name": "Juices",
+      "items": [
+        { "id": "orange_juice", "name": "Orange Juice", "price": 80, "image": "AUTO_IMAGE:orange juice" },
+        { "id": "lime_juice", "name": "Lime Juice", "price": 40, "image": "AUTO_IMAGE:lime juice" },
+        { "id": "watermelon_juice", "name": "Watermelon Juice", "price": 70, "image": "AUTO_IMAGE:watermelon juice" },
+        { "id": "apple_juice", "name": "Apple Juice", "price": 90, "image": "AUTO_IMAGE:apple juice" },
+        { "id": "pineapple_juice", "name": "Pineapple Juice", "price": 85, "image": "AUTO_IMAGE:pineapple juice" }
+      ]
+    },
+    {
+      "id": "ice_cream",
+      "name": "Ice Cream",
+      "items": [
+        { "id": "vanilla_icecream", "name": "Vanilla Ice Cream", "price": 60, "image": "AUTO_IMAGE:vanilla ice cream" },
+        { "id": "chocolate_icecream", "name": "Chocolate Ice Cream", "price": 70, "image": "AUTO_IMAGE:chocolate ice cream" },
+        { "id": "strawberry_icecream", "name": "Strawberry Ice Cream", "price": 70, "image": "AUTO_IMAGE:strawberry ice cream" },
+        { "id": "butterscotch_icecream", "name": "Butterscotch Ice Cream", "price": 80, "image": "AUTO_IMAGE:butterscotch ice cream" },
+        { "id": "kulfi", "name": "Kulfi", "price": 50, "image": "AUTO_IMAGE:kulfi" }
+      ]
+    },
+    {
+      "id": "desserts",
+      "name": "Desserts",
+      "items": [
+        { "id": "gulab_jamun", "name": "Gulab Jamun", "price": 60, "image": "AUTO_IMAGE:gulab jamun" },
+        { "id": "brownie", "name": "Chocolate Brownie", "price": 120, "image": "AUTO_IMAGE:chocolate brownie" },
+        { "id": "falooda", "name": "Falooda", "price": 150, "image": "AUTO_IMAGE:falooda" },
+        { "id": "carrot_halwa", "name": "Carrot Halwa", "price": 90, "image": "AUTO_IMAGE:carrot halwa" },
+        { "id": "payasam", "name": "Payasam", "price": 80, "image": "AUTO_IMAGE:payasam" }
+      ]
+    },
+    {
+      "id": "milkshakes",
+      "name": "Milkshakes",
+      "items": [
+        { "id": "chocolate_shake", "name": "Chocolate Shake", "price": 120, "image": "AUTO_IMAGE:chocolate milkshake" },
+        { "id": "vanilla_shake", "name": "Vanilla Shake", "price": 110, "image": "AUTO_IMAGE:vanilla milkshake" },
+        { "id": "strawberry_shake", "name": "Strawberry Shake", "price": 130, "image": "AUTO_IMAGE:strawberry milkshake" },
+        { "id": "oreo_shake", "name": "Oreo Shake", "price": 150, "image": "AUTO_IMAGE:oreo milkshake" }
+      ]
+    },
+    {
+      "id": "mocktails",
+      "name": "Mocktails",
+      "items": [
+        { "id": "mint_mojito", "name": "Mint Mojito", "price": 140, "image": "AUTO_IMAGE:mint mojito" },
+        { "id": "blue_lagoon", "name": "Blue Lagoon", "price": 160, "image": "AUTO_IMAGE:blue lagoon drink" },
+        { "id": "strawberry_mojito", "name": "Strawberry Mojito", "price": 150, "image": "AUTO_IMAGE:strawberry mojito" },
+        { "id": "lemon_ice_tea", "name": "Lemon Ice Tea", "price": 90, "image": "AUTO_IMAGE:lemon ice tea" }
+      ]
+    },
+    {
+      "id": "smoothies",
+      "name": "Smoothies",
+      "items": [
+        { "id": "banana_smoothie", "name": "Banana Smoothie", "price": 120, "image": "AUTO_IMAGE:banana smoothie" },
+        { "id": "mango_smoothie", "name": "Mango Smoothie", "price": 140, "image": "AUTO_IMAGE:mango smoothie" },
+        { "id": "berry_smoothie", "name": "Berry Smoothie", "price": 160, "image": "AUTO_IMAGE:berry smoothie" }
+      ]
+    },
+    {
+      "id": "hot_drinks",
+      "name": "Hot Drinks",
+      "items": [
+        { "id": "tea", "name": "Tea", "price": 15, "image": "AUTO_IMAGE:tea" },
+        { "id": "coffee", "name": "Coffee", "price": 20, "image": "AUTO_IMAGE:coffee" },
+        { "id": "masala_tea", "name": "Masala Tea", "price": 25, "image": "AUTO_IMAGE:masala tea" },
+        { "id": "hot_chocolate", "name": "Hot Chocolate", "price": 80, "image": "AUTO_IMAGE:hot chocolate" }
+      ]
+    },
+    {
+      "id": "cold_drinks",
+      "name": "Cold Drinks",
+      "items": [
+        { "id": "cola", "name": "Cola", "price": 40, "image": "AUTO_IMAGE:cola" },
+        { "id": "soda", "name": "Soda", "price": 20, "image": "AUTO_IMAGE:soda" },
+        { "id": "energy_drink", "name": "Energy Drink", "price": 90, "image": "AUTO_IMAGE:energy drink" }
+      ]
+    }
+  ]
+}
