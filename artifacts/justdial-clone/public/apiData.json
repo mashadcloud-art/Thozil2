@@ -9977,7 +9977,9 @@
       "district": "Thiruvananthapuram",
       "locality": "Downtown",
       "cuisines": [
-        "Japanese"
+        "Japanese",
+        "Kerala",
+        "South Indian"
       ],
       "rating": 3.9,
       "image": "https://images.unsplash.com/photo-1606491956689-2ea866880c84?auto=format&fit=crop&w=400&q=80",
