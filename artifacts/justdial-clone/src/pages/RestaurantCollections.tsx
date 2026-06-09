@@ -8,6 +8,7 @@ import {
   Utensils, Globe, GlassWater, Zap, Candy, ChefHat
 } from "lucide-react";
 import { stateNames } from "@/lib/locationData";
+import BrowseByFlavour from "@/components/BrowseByFlavour";
 
 // Structure for the restaurant collection categories
 interface SubCategoryItem {
@@ -254,71 +255,10 @@ export default function RestaurantCollections({ params }: { params?: { state?: s
         </section>
 
         {/* ==========================================
-            CATEGORIES GRID SECTION
+            CATEGORIES GRID SECTION (New Animated Design)
             ========================================== */}
         <section className="space-y-6 mb-12">
-          <div className="flex items-center justify-between border-b border-gray-200 pb-3">
-            <h2 className="text-2xl font-black text-gray-900 tracking-tight flex items-center gap-2">
-              <Utensils className="w-6 h-6 text-primary" />
-              Restaurant Collections in {stateName}
-            </h2>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {categories.map((cat, idx) => {
-              return (
-                <div 
-                  key={idx} 
-                  className="bg-white border border-gray-200 rounded-3xl overflow-hidden shadow-sm hover:shadow-md transition-shadow group flex flex-col justify-between"
-                >
-                  <div>
-                    {/* Header Image */}
-                    <Link 
-                      href={`/${stateKey}/restaurants/${encodeURIComponent(cat.title.replace(/\s+/g, '-'))}`}
-                      className="block h-44 w-full overflow-hidden relative cursor-pointer"
-                    >
-                      <img 
-                        src={cat.image} 
-                        alt={cat.title} 
-                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" 
-                      />
-                    </Link>
-
-                    <div className="p-6">
-                      <Link href={`/${stateKey}/restaurants/${encodeURIComponent(cat.title.replace(/\s+/g, '-'))}`}>
-                        <h3 className="font-bold text-gray-900 text-lg mb-3 tracking-tight hover:text-primary transition-colors cursor-pointer">{cat.title}</h3>
-                      </Link>
-                      {/* Subcategories list */}
-                      <ul className="space-y-2">
-                        {cat.items.map((sub, sidx) => (
-                          <li key={sidx}>
-                            <Link 
-                              href={`/${stateKey}/restaurants/${encodeURIComponent(sub.query.replace(/\s+/g, '-'))}`}
-                              className="text-sm text-gray-600 hover:text-primary transition-colors flex items-center gap-1"
-                            >
-                              - {sub.name}
-                            </Link>
-                          </li>
-                        ))}
-                        {cat.moreLink && (
-                          <li>
-                            <Link 
-                              href={`/${stateKey}/restaurants/${encodeURIComponent(cat.moreLink.replace(/\s+/g, '-'))}`}
-                              className="text-sm text-primary font-semibold hover:text-orange-600 transition-colors inline-block mt-1"
-                            >
-                              - More
-                            </Link>
-                          </li>
-                        )}
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              );
-            })}
-          </div>
-
-          {/* View All Categories Button */}
+          <BrowseByFlavour stateKey={stateKey} />          {/* View All Categories Button */}
           <div className="flex justify-center pt-6">
             <Link
               href={`/search?q=Restaurants&state=${stateKey}&district=${selectedDistrict}`}
