@@ -1,6 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
+const path = require('path');
 require('dotenv').config();
 
 // =========================
@@ -32,6 +33,7 @@ const Tourism = require("./models/Tourism");
 const app = express();
 app.use(cors());
 app.use(express.json());
+app.use('/api', express.static(path.join(__dirname, 'public')));
 
 // =========================
 // USE ADMIN ROUTES

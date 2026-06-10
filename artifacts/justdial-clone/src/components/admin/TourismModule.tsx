@@ -22,6 +22,7 @@ export default function TourismModule() {
   const [saving, setSaving] = useState(false);
   const [uploadingField, setUploadingField] = useState<UploadingState | null>(null);
   const [statusMessage, setStatusMessage] = useState<{ type: "success" | "error"; text: string } | null>(null);
+  const [enlargedImage, setEnlargedImage] = useState<string | null>(null);
 
   const stateKeys = ["KL", "TN", "RJ", "GA", "KA"];
 
@@ -360,8 +361,13 @@ export default function TourismModule() {
                               onChange={(e) => handleFileUpload(e, "gallery", idx)}
                             />
                           </label>
-                          {url && (
-                            <img src={url} alt="Preview" className="w-10 h-10 object-cover rounded-lg border border-gray-200" />
+                           {url && (
+                            <img 
+                              src={url} 
+                              alt="Preview" 
+                              className="w-10 h-10 object-cover rounded-lg border border-gray-200 cursor-zoom-in hover:scale-105 transition-transform" 
+                              onClick={() => setEnlargedImage(url)}
+                            />
                           )}
                         </div>
                       </div>
@@ -494,8 +500,13 @@ export default function TourismModule() {
                                 onChange={(e) => handleFileUpload(e, "image", idx, "attractions")}
                               />
                             </label>
-                            {att.image && (
-                              <img src={att.image} alt="Preview" className="w-10 h-10 object-cover rounded-lg border border-gray-200" />
+                             {att.image && (
+                              <img 
+                                src={att.image} 
+                                alt="Preview" 
+                                className="w-10 h-10 object-cover rounded-lg border border-gray-200 cursor-zoom-in hover:scale-105 transition-transform" 
+                                onClick={() => setEnlargedImage(att.image)}
+                              />
                             )}
                           </div>
                         </div>
@@ -612,8 +623,13 @@ export default function TourismModule() {
                                 onChange={(e) => handleFileUpload(e, "image", idx, "hotels")}
                               />
                             </label>
-                            {hotel.image && (
-                              <img src={hotel.image} alt="Preview" className="w-10 h-10 object-cover rounded-lg border border-gray-200" />
+                             {hotel.image && (
+                              <img 
+                                src={hotel.image} 
+                                alt="Preview" 
+                                className="w-10 h-10 object-cover rounded-lg border border-gray-200 cursor-zoom-in hover:scale-105 transition-transform" 
+                                onClick={() => setEnlargedImage(hotel.image)}
+                              />
                             )}
                           </div>
                         </div>
@@ -739,8 +755,13 @@ export default function TourismModule() {
                                 onChange={(e) => handleFileUpload(e, "image", idx, "restaurants")}
                               />
                             </label>
-                            {rest.image && (
-                              <img src={rest.image} alt="Preview" className="w-10 h-10 object-cover rounded-lg border border-gray-200" />
+                             {rest.image && (
+                              <img 
+                                src={rest.image} 
+                                alt="Preview" 
+                                className="w-10 h-10 object-cover rounded-lg border border-gray-200 cursor-zoom-in hover:scale-105 transition-transform" 
+                                onClick={() => setEnlargedImage(rest.image)}
+                              />
                             )}
                           </div>
                         </div>
@@ -764,6 +785,31 @@ export default function TourismModule() {
             )}
           </div>
         </div>
-    </div>
+
+        {/* Lightbox Modal for Enlarge Image */}
+        {enlargedImage && (
+          <div 
+            onClick={() => setEnlargedImage(null)}
+            className="fixed inset-0 z-[100] bg-black/85 flex items-center justify-center p-4 cursor-zoom-out backdrop-blur-sm animate-fade-in"
+          >
+            <div 
+              onClick={(e) => e.stopPropagation()}
+              className="relative max-w-4xl max-h-[90vh] overflow-hidden rounded-3xl bg-white p-2 shadow-2xl animate-scale-up"
+            >
+              <img 
+                src={enlargedImage} 
+                className="max-w-full max-h-[80vh] object-contain rounded-2xl" 
+                alt="Enlarged preview" 
+              />
+              <button 
+                onClick={() => setEnlargedImage(null)}
+                className="absolute top-4 right-4 w-9 h-9 bg-black/60 hover:bg-black/80 text-white rounded-full flex items-center justify-center font-bold transition-all shadow-md"
+              >
+                ✕
+              </button>
+            </div>
+          </div>
+        )}
+      </div>
   );
 }

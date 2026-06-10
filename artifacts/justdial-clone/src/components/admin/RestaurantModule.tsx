@@ -11,6 +11,7 @@ export default function RestaurantModule() {
   const [activeTab, setActiveTab] = useState<"restaurants" | "cuisines">("restaurants");
   const [searchQuery, setSearchQuery] = useState("");
   const [statusMessage, setStatusMessage] = useState<{ type: "success" | "error"; text: string } | null>(null);
+  const [enlargedImage, setEnlargedImage] = useState<string | null>(null);
 
   // Selected entities for editing
   const [selectedRestaurantIndex, setSelectedRestaurantIndex] = useState<number | null>(null);
@@ -294,7 +295,15 @@ export default function RestaurantModule() {
                   className="flex items-center gap-4 cursor-pointer"
                   onClick={() => setSelectedCuisineIndex(selectedCuisineIndex === cIdx ? null : cIdx)}
                 >
-                  <img src={cuisine.image} alt={cuisine.name} className="w-12 h-12 rounded-lg object-cover bg-gray-200" />
+                  <img 
+                    src={cuisine.image} 
+                    alt={cuisine.name} 
+                    className="w-12 h-12 rounded-lg object-cover bg-gray-200 cursor-zoom-in hover:scale-105 transition-transform" 
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      setEnlargedImage(cuisine.image);
+                    }}
+                  />
                   <div className="flex-1">
                     <h3 className="text-sm font-bold text-gray-900">{cuisine.name}</h3>
                     <p className="text-xs text-gray-500">{cuisine.categories.length} Categories • {cuisine.categories.reduce((acc: number, cat: any) => acc + cat.items.length, 0)} Items</p>
@@ -308,15 +317,29 @@ export default function RestaurantModule() {
                       <div key={cat.id} className="bg-white border border-gray-200 rounded-xl p-4 shadow-sm">
                         <div className="flex items-center justify-between mb-3 border-b border-gray-100 pb-2">
                           <h4 className="font-bold text-sm text-gray-900 flex items-center gap-2">
-                            <img src={cat.image} className="w-6 h-6 rounded object-cover" />
+                            <img 
+                              src={cat.image} 
+                              className="w-6 h-6 rounded object-cover cursor-zoom-in hover:scale-105 transition-transform" 
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                setEnlargedImage(cat.image);
+                              }}
+                            />
                             {cat.name}
                           </h4>
                           <span className="text-[10px] font-bold bg-slate-100 text-slate-600 px-2 py-0.5 rounded-md">{cat.items.length} items</span>
                         </div>
                         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3">
                           {cat.items.map((item: any) => (
-                            <div key={item.id} className="flex gap-3 items-center bg-slate-50 p-2.5 rounded-lg border border-transparent hover:border-gray-200 transition-colors cursor-pointer">
-                              <img src={item.image} className="w-10 h-10 rounded-md object-cover" />
+                            <div key={item.id} className="flex gap-3 items-center bg-slate-50 p-2.5 rounded-lg border border-transparent hover:border-gray-200 transition-colors">
+                              <img 
+                                src={item.image} 
+                                className="w-10 h-10 rounded-md object-cover cursor-zoom-in hover:scale-105 transition-transform" 
+                                onClick={(e) => {
+                                  e.stopPropagation();
+                                  setEnlargedImage(item.image);
+                                }}
+                              />
                               <div className="flex-1 min-w-0">
                                 <h5 className="text-xs font-bold text-gray-900 truncate">{item.name}</h5>
                                 <div className="flex justify-between items-center mt-0.5">
@@ -333,6 +356,30 @@ export default function RestaurantModule() {
                 )}
               </div>
             ))}
+          </div>
+        </div>
+      )}
+      {/* Lightbox Modal for Enlarge Image */}
+      {enlargedImage && (
+        <div 
+          onClick={() => setEnlargedImage(null)}
+          className="fixed inset-0 z-[100] bg-black/85 flex items-center justify-center p-4 cursor-zoom-out backdrop-blur-sm animate-fade-in"
+        >
+          <div 
+            onClick={(e) => e.stopPropagation()}
+            className="relative max-w-4xl max-h-[90vh] overflow-hidden rounded-3xl bg-white p-2 shadow-2xl animate-scale-up"
+          >
+            <img 
+              src={enlargedImage} 
+              className="max-w-full max-h-[80vh] object-contain rounded-2xl" 
+              alt="Enlarged food" 
+            />
+            <button 
+              onClick={() => setEnlargedImage(null)}
+              className="absolute top-4 right-4 w-9 h-9 bg-black/60 hover:bg-black/80 text-white rounded-full flex items-center justify-center font-bold transition-all shadow-md"
+            >
+              ✕
+            </button>
           </div>
         </div>
       )}
