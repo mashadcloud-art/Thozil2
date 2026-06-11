@@ -1,0 +1,1407 @@
+[
+  {
+    "id": "kerala",
+    "name": "Kerala",
+    "main_categories": [
+      {
+        "id": "kerala_breakfast",
+        "name": "Kerala Breakfast",
+        "child_categories": [
+          {
+            "id": "dosa_varieties",
+            "name": "Dosa Varieties",
+            "items": [
+              { "id": "masala_dosa", "name": "Masala Dosa" },
+              { "id": "ghee_roast", "name": "Ghee Roast" },
+              { "id": "onion_dosa", "name": "Onion Dosa" },
+              { "id": "set_dosa", "name": "Set Dosa" },
+              { "id": "neer_dosa", "name": "Neer Dosa" }
+            ]
+          },
+          {
+            "id": "idli_varieties",
+            "name": "Idli Varieties",
+            "items": [
+              { "id": "idli", "name": "Idli" },
+              { "id": "rava_idli", "name": "Rava Idli" },
+              { "id": "thatte_idli", "name": "Thatte Idli" }
+            ]
+          },
+          {
+            "id": "puttu_appam",
+            "name": "Puttu & Appam",
+            "items": [
+              { "id": "puttu", "name": "Puttu" },
+              { "id": "kadala_curry", "name": "Kadala Curry" },
+              { "id": "appam", "name": "Appam" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kerala_breads",
+        "name": "Kerala Breads",
+        "child_categories": [
+          {
+            "id": "parotta",
+            "name": "Parotta",
+            "items": [
+              { "id": "malabar_parotta", "name": "Malabar Parotta" },
+              { "id": "coin_parotta", "name": "Coin Parotta" }
+            ]
+          },
+          {
+            "id": "chapati_roti",
+            "name": "Chapati & Roti",
+            "items": [
+              { "id": "kerala_chapati", "name": "Kerala Chapati" },
+              { "id": "wheat_roti", "name": "Wheat Roti" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kerala_meals",
+        "name": "Kerala Meals",
+        "child_categories": [
+          {
+            "id": "veg_meals",
+            "name": "Veg Meals",
+            "items": [
+              { "id": "kerala_veg_meals", "name": "Kerala Veg Meals" }
+            ]
+          },
+          {
+            "id": "nonveg_meals",
+            "name": "Non-Veg Meals",
+            "items": [
+              { "id": "fish_meals", "name": "Fish Meals" },
+              { "id": "chicken_meals", "name": "Chicken Meals" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kerala_seafood",
+        "name": "Kerala Seafood",
+        "child_categories": [
+          {
+            "id": "fish_fry",
+            "name": "Fish Fry",
+            "items": [
+              { "id": "ayala_fry", "name": "Ayala Fry" },
+              { "id": "king_fish_fry", "name": "King Fish Fry" }
+            ]
+          },
+          {
+            "id": "fish_curry",
+            "name": "Fish Curry",
+            "items": [
+              { "id": "meen_curry", "name": "Kerala Meen Curry" },
+              { "id": "malabar_fish_curry", "name": "Malabar Fish Curry" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tamil_nadu",
+    "name": "Tamil Nadu",
+    "main_categories": [
+      {
+        "id": "tn_breakfast",
+        "name": "Tamil Breakfast",
+        "child_categories": [
+          {
+            "id": "idli_varieties",
+            "name": "Idli Varieties",
+            "items": [
+              { "id": "idli", "name": "Idli" },
+              { "id": "kanchipuram_idli", "name": "Kanchipuram Idli" }
+            ]
+          },
+          {
+            "id": "dosa_varieties",
+            "name": "Dosa Varieties",
+            "items": [
+              { "id": "kal_dosa", "name": "Kal Dosa" },
+              { "id": "podi_dosa", "name": "Podi Dosa" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "chettinad",
+        "name": "Chettinad Specials",
+        "child_categories": [
+          {
+            "id": "chettinad_chicken",
+            "name": "Chicken",
+            "items": [
+              { "id": "chettinad_chicken", "name": "Chettinad Chicken" }
+            ]
+          },
+          {
+            "id": "chettinad_mutton",
+            "name": "Mutton",
+            "items": [
+              { "id": "mutton_chukka", "name": "Mutton Chukka" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "karnataka",
+    "name": "Karnataka",
+    "main_categories": [
+      {
+        "id": "kar_breakfast",
+        "name": "Karnataka Breakfast",
+        "child_categories": [
+          {
+            "id": "dosa_varieties",
+            "name": "Dosa Varieties",
+            "items": [
+              { "id": "set_dosa", "name": "Set Dosa" },
+              { "id": "benne_dosa", "name": "Benne Dosa" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "andhra_pradesh",
+    "name": "Andhra Pradesh",
+    "main_categories": [
+      {
+        "id": "andhra_meals",
+        "name": "Andhra Meals",
+        "child_categories": [
+          {
+            "id": "veg_meals",
+            "name": "Veg Meals",
+            "items": [
+              { "id": "andhra_veg_meals", "name": "Andhra Veg Meals" }
+            ]
+          },
+          {
+            "id": "nonveg_meals",
+            "name": "Non-Veg Meals",
+            "items": [
+              { "id": "andhra_chicken_meals", "name": "Chicken Meals" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "telangana",
+    "name": "Telangana",
+    "main_categories": [
+      {
+        "id": "hyderabadi_biryani",
+        "name": "Hyderabadi Biryani",
+        "child_categories": [
+          {
+            "id": "biryani_types",
+            "name": "Biryani Types",
+            "items": [
+              { "id": "chicken_biryani", "name": "Chicken Biryani" },
+              { "id": "mutton_biryani", "name": "Mutton Biryani" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "punjab",
+    "name": "Punjab",
+    "main_categories": [
+      {
+        "id": "punjabi_meals",
+        "name": "Punjabi Meals",
+        "child_categories": [
+          {
+            "id": "veg_curries",
+            "name": "Veg Curries",
+            "items": [
+              { "id": "paneer_butter_masala", "name": "Paneer Butter Masala" },
+              { "id": "dal_makhani", "name": "Dal Makhani" }
+            ]
+          },
+          {
+            "id": "nonveg_curries",
+            "name": "Non-Veg Curries",
+            "items": [
+              { "id": "butter_chicken", "name": "Butter Chicken" },
+              { "id": "amritsari_chicken", "name": "Amritsari Chicken" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "punjabi_breads",
+        "name": "Punjabi Breads",
+        "child_categories": [
+          {
+            "id": "tandoor_breads",
+            "name": "Tandoor Breads",
+            "items": [
+              { "id": "naan", "name": "Naan" },
+              { "id": "tandoori_roti", "name": "Tandoori Roti" },
+              { "id": "kulcha", "name": "Kulcha" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "delhi",
+    "name": "Delhi",
+    "main_categories": [
+      {
+        "id": "delhi_street_food",
+        "name": "Delhi Street Food",
+        "child_categories": [
+          {
+            "id": "chaat",
+            "name": "Chaat",
+            "items": [
+              { "id": "golgappa", "name": "Golgappa" },
+              { "id": "aloo_tikki", "name": "Aloo Tikki" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "uttar_pradesh",
+    "name": "Uttar Pradesh",
+    "main_categories": [
+      {
+        "id": "awadhi_cuisine",
+        "name": "Awadhi Cuisine",
+        "child_categories": [
+          {
+            "id": "biryani",
+            "name": "Biryani",
+            "items": [
+              { "id": "lucknowi_biryani", "name": "Lucknowi Biryani" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rajasthan",
+    "name": "Rajasthan",
+    "main_categories": [
+      {
+        "id": "rajasthani_thali",
+        "name": "Rajasthani Thali",
+        "child_categories": [
+          {
+            "id": "veg_items",
+            "name": "Veg Items",
+            "items": [
+              { "id": "dal_baati", "name": "Dal Baati Churma" },
+              { "id": "gatte_ki_sabzi", "name": "Gatte Ki Sabzi" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gujarat",
+    "name": "Gujarat",
+    "main_categories": [
+      {
+        "id": "gujarati_snacks",
+        "name": "Gujarati Snacks",
+        "child_categories": [
+          {
+            "id": "dhokla_varieties",
+            "name": "Dhokla Varieties",
+            "items": [
+              { "id": "khaman_dhokla", "name": "Khaman Dhokla" },
+              { "id": "nylon_dhokla", "name": "Nylon Dhokla" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kashmir",
+    "name": "Kashmir",
+    "main_categories": [
+      {
+        "id": "wazwan",
+        "name": "Wazwan",
+        "child_categories": [
+          {
+            "id": "meat_dishes",
+            "name": "Meat Dishes",
+            "items": [
+              { "id": "rogan_josh", "name": "Rogan Josh" },
+              { "id": "gushtaba", "name": "Gushtaba" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "west_bengal",
+    "name": "West Bengal",
+    "main_categories": [
+      {
+        "id": "bengali_fish",
+        "name": "Bengali Fish Dishes",
+        "child_categories": [
+          {
+            "id": "hilsa_dishes",
+            "name": "Hilsa Specials",
+            "items": [
+              { "id": "ilish_bhapa", "name": "Ilish Bhapa" },
+              { "id": "ilish_jhol", "name": "Ilish Jhol" }
+            ]
+          },
+          {
+            "id": "rohu_dishes",
+            "name": "Rohu Specials",
+            "items": [
+              { "id": "rohu_kalia", "name": "Rohu Kalia" },
+              { "id": "rohu_jhol", "name": "Rohu Jhol" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "odisha",
+    "name": "Odisha",
+    "main_categories": [
+      {
+        "id": "odia_meals",
+        "name": "Odia Meals",
+        "child_categories": [
+          {
+            "id": "veg_items",
+            "name": "Veg Items",
+            "items": [
+              { "id": "dalma", "name": "Dalma" },
+              { "id": "pakhala_bhata", "name": "Pakhala Bhata" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "assam",
+    "name": "Assam",
+    "main_categories": [
+      {
+        "id": "assamese_specials",
+        "name": "Assamese Specials",
+        "child_categories": [
+          {
+            "id": "fish_items",
+            "name": "Fish Items",
+            "items": [
+              { "id": "masor_tenga", "name": "Masor Tenga" },
+              { "id": "assam_fish_curry", "name": "Assam Fish Curry" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "goa",
+    "name": "Goa",
+    "main_categories": [
+      {
+        "id": "goan_seafood",
+        "name": "Goan Seafood",
+        "child_categories": [
+          {
+            "id": "fish_curries",
+            "name": "Fish Curries",
+            "items": [
+              { "id": "goan_fish_curry", "name": "Goan Fish Curry" },
+              { "id": "prawn_curry", "name": "Prawn Curry" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "maharashtra",
+    "name": "Maharashtra",
+    "main_categories": [
+      {
+        "id": "maharashtrian_meals",
+        "name": "Maharashtrian Meals",
+        "child_categories": [
+          {
+            "id": "veg_items",
+            "name": "Veg Items",
+            "items": [
+              { "id": "pithla_bhakri", "name": "Pithla Bhakri" },
+              { "id": "misal_pav", "name": "Misal Pav" }
+            ]
+          },
+          {
+            "id": "nonveg_items",
+            "name": "Non-Veg Items",
+            "items": [
+              { "id": "kolhapuri_chicken", "name": "Kolhapuri Chicken" },
+              { "id": "bombil_fry", "name": "Bombil Fry" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "madhya_pradesh",
+    "name": "Madhya Pradesh",
+    "main_categories": [
+      {
+        "id": "mp_specials",
+        "name": "MP Specials",
+        "child_categories": [
+          {
+            "id": "street_food",
+            "name": "Street Food",
+            "items": [
+              { "id": "poha_jalebi", "name": "Poha Jalebi" },
+              { "id": "bhutte_ka_khees", "name": "Bhutte Ka Khees" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bihar",
+    "name": "Bihar",
+    "main_categories": [
+      {
+        "id": "bihari_specials",
+        "name": "Bihari Specials",
+        "child_categories": [
+          {
+            "id": "veg_items",
+            "name": "Veg Items",
+            "items": [
+              { "id": "litti_chokha", "name": "Litti Chokha" },
+              { "id": "sattu_paratha", "name": "Sattu Paratha" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jharkhand",
+    "name": "Jharkhand",
+    "main_categories": [
+      {
+        "id": "jharkhand_specials",
+        "name": "Jharkhand Specials",
+        "child_categories": [
+          {
+            "id": "local_items",
+            "name": "Local Items",
+            "items": [
+              { "id": "dhuska", "name": "Dhuska" },
+              { "id": "thekua", "name": "Thekua" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "chhattisgarh",
+    "name": "Chhattisgarh",
+    "main_categories": [
+      {
+        "id": "cg_specials",
+        "name": "Chhattisgarh Specials",
+        "child_categories": [
+          {
+            "id": "rice_items",
+            "name": "Rice Items",
+            "items": [
+              { "id": "bafauri", "name": "Bafauri" },
+              { "id": "chousela", "name": "Chousela" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "northeast_india",
+    "name": "North East India",
+    "main_categories": [
+      {
+        "id": "ne_specials",
+        "name": "North East Specials",
+        "child_categories": [
+          {
+            "id": "meat_items",
+            "name": "Meat Items",
+            "items": [
+              { "id": "smoked_pork", "name": "Smoked Pork" },
+              { "id": "axone_pork", "name": "Axone Pork" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "chinese",
+    "name": "Chinese",
+    "main_categories": [
+      {
+        "id": "chinese_starters",
+        "name": "Starters",
+        "child_categories": [
+          {
+            "id": "fried_starters",
+            "name": "Fried Starters",
+            "items": [
+              { "id": "spring_rolls", "name": "Spring Rolls" },
+              { "id": "chicken_lollipop", "name": "Chicken Lollipop" }
+            ]
+          },
+          {
+            "id": "dimsum",
+            "name": "Dimsum",
+            "items": [
+              { "id": "veg_dumplings", "name": "Veg Dumplings" },
+              { "id": "chicken_dumplings", "name": "Chicken Dumplings" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "chinese_maincourse",
+        "name": "Main Course",
+        "child_categories": [
+          {
+            "id": "noodles",
+            "name": "Noodles",
+            "items": [
+              { "id": "hakka_noodles", "name": "Hakka Noodles" },
+              { "id": "schezwan_noodles", "name": "Schezwan Noodles" }
+            ]
+          },
+          {
+            "id": "gravies",
+            "name": "Gravies",
+            "items": [
+              { "id": "manchurian_gravy", "name": "Veg Manchurian Gravy" },
+              { "id": "chilli_chicken", "name": "Chilli Chicken" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "japanese",
+    "name": "Japanese",
+    "main_categories": [
+      {
+        "id": "sushi",
+        "name": "Sushi",
+        "child_categories": [
+          {
+            "id": "maki_rolls",
+            "name": "Maki Rolls",
+            "items": [
+              { "id": "california_roll", "name": "California Roll" },
+              { "id": "spicy_tuna_roll", "name": "Spicy Tuna Roll" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ramen",
+        "name": "Ramen",
+        "child_categories": [
+          {
+            "id": "ramen_types",
+            "name": "Ramen Types",
+            "items": [
+              { "id": "shoyu_ramen", "name": "Shoyu Ramen" },
+              { "id": "tonkotsu_ramen", "name": "Tonkotsu Ramen" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "korean",
+    "name": "Korean",
+    "main_categories": [
+      {
+        "id": "korean_bbq",
+        "name": "Korean BBQ",
+        "child_categories": [
+          {
+            "id": "bbq_meats",
+            "name": "BBQ Meats",
+            "items": [
+              { "id": "bulgogi", "name": "Bulgogi" },
+              { "id": "samgyeopsal", "name": "Samgyeopsal" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "korean_stews",
+        "name": "Stews",
+        "child_categories": [
+          {
+            "id": "jjigae",
+            "name": "Jjigae",
+            "items": [
+              { "id": "kimchi_jjigae", "name": "Kimchi Jjigae" },
+              { "id": "soondubu_jjigae", "name": "Soondubu Jjigae" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "thai",
+    "name": "Thai",
+    "main_categories": [
+      {
+        "id": "thai_curries",
+        "name": "Thai Curries",
+        "child_categories": [
+          {
+            "id": "curry_types",
+            "name": "Curry Types",
+            "items": [
+              { "id": "green_curry", "name": "Green Curry" },
+              { "id": "red_curry", "name": "Red Curry" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "thai_noodles",
+        "name": "Thai Noodles",
+        "child_categories": [
+          {
+            "id": "noodle_types",
+            "name": "Noodle Types",
+            "items": [
+              { "id": "pad_thai", "name": "Pad Thai" },
+              { "id": "pad_see_ew", "name": "Pad See Ew" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vietnamese",
+    "name": "Vietnamese",
+    "main_categories": [
+      {
+        "id": "pho",
+        "name": "Pho",
+        "child_categories": [
+          {
+            "id": "pho_types",
+            "name": "Pho Types",
+            "items": [
+              { "id": "pho_beef", "name": "Pho Beef" },
+              { "id": "pho_chicken", "name": "Pho Chicken" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "banh_mi",
+        "name": "Banh Mi",
+        "child_categories": [
+          {
+            "id": "banhmi_types",
+            "name": "Banh Mi Types",
+            "items": [
+              { "id": "banhmi_pork", "name": "Banh Mi Pork" },
+              { "id": "banhmi_veg", "name": "Banh Mi Veg" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "indonesian",
+    "name": "Indonesian",
+    "main_categories": [
+      {
+        "id": "indonesian_rice",
+        "name": "Rice Dishes",
+        "child_categories": [
+          {
+            "id": "nasi_items",
+            "name": "Nasi Items",
+            "items": [
+              { "id": "nasi_goreng", "name": "Nasi Goreng" },
+              { "id": "nasi_lemak", "name": "Nasi Lemak" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "filipino",
+    "name": "Filipino",
+    "main_categories": [
+      {
+        "id": "filipino_classics",
+        "name": "Filipino Classics",
+        "child_categories": [
+          {
+            "id": "classic_items",
+            "name": "Classic Items",
+            "items": [
+              { "id": "adobo", "name": "Chicken Adobo" },
+              { "id": "sinigang", "name": "Sinigang" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "malaysian",
+    "name": "Malaysian",
+    "main_categories": [
+      {
+        "id": "malaysian_noodles",
+        "name": "Noodles",
+        "child_categories": [
+          {
+            "id": "noodle_items",
+            "name": "Noodle Items",
+            "items": [
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "italian",
+    "name": "Italian",
+    "main_categories": [
+      {
+        "id": "italian_pizza",
+        "name": "Pizza",
+        "child_categories": [
+          {
+            "id": "pizza_types",
+            "name": "Pizza Types",
+            "items": [
+              { "id": "margherita", "name": "Margherita" },
+              { "id": "pepperoni", "name": "Pepperoni" },
+              { "id": "four_cheese", "name": "Four Cheese Pizza" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "italian_pasta",
+        "name": "Pasta",
+        "child_categories": [
+          {
+            "id": "pasta_types",
+            "name": "Pasta Types",
+            "items": [
+              { "id": "spaghetti_carbonara", "name": "Spaghetti Carbonara" },
+              { "id": "penne_arrabiata", "name": "Penne Arrabiata" },
+              { "id": "fettuccine_alfredo", "name": "Fettuccine Alfredo" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "french",
+    "name": "French",
+    "main_categories": [
+      {
+        "id": "french_classics",
+        "name": "French Classics",
+        "child_categories": [
+          {
+            "id": "classic_dishes",
+            "name": "Classic Dishes",
+            "items": [
+              { "id": "ratatouille", "name": "Ratatouille" },
+              { "id": "coq_au_vin", "name": "Coq au Vin" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "french_bakery",
+        "name": "Bakery",
+        "child_categories": [
+          {
+            "id": "pastries",
+            "name": "Pastries",
+            "items": [
+              { "id": "croissant", "name": "Croissant" },
+              { "id": "pain_au_chocolat", "name": "Pain au Chocolat" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "spanish",
+    "name": "Spanish",
+    "main_categories": [
+      {
+        "id": "spanish_rice",
+        "name": "Rice Dishes",
+        "child_categories": [
+          {
+            "id": "paella_types",
+            "name": "Paella Types",
+            "items": [
+              { "id": "paella_valenciana", "name": "Paella Valenciana" },
+              { "id": "seafood_paella", "name": "Seafood Paella" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "spanish_tapas",
+        "name": "Tapas",
+        "child_categories": [
+          {
+            "id": "tapas_items",
+            "name": "Tapas Items",
+            "items": [
+              { "id": "patatas_bravas", "name": "Patatas Bravas" },
+              { "id": "gambas_al_ajillo", "name": "Gambas al Ajillo" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "greek",
+    "name": "Greek",
+    "main_categories": [
+      {
+        "id": "greek_grill",
+        "name": "Grill",
+        "child_categories": [
+          {
+            "id": "grill_items",
+            "name": "Grill Items",
+            "items": [
+              { "id": "souvlaki", "name": "Souvlaki" },
+              { "id": "gyros", "name": "Gyros" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "greek_salads",
+        "name": "Salads",
+        "child_categories": [
+          {
+            "id": "salad_items",
+            "name": "Salad Items",
+            "items": [
+              { "id": "greek_salad", "name": "Greek Salad" },
+              { "id": "dakos", "name": "Dakos" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mediterranean",
+    "name": "Mediterranean",
+    "main_categories": [
+      {
+        "id": "med_mains",
+        "name": "Main Dishes",
+        "child_categories": [
+          {
+            "id": "med_items",
+            "name": "Mediterranean Items",
+            "items": [
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "turkish",
+    "name": "Turkish",
+    "main_categories": [
+      {
+        "id": "turkish_grill",
+        "name": "Grill",
+        "child_categories": [
+          {
+            "id": "grill_items",
+            "name": "Grill Items",
+            "items": [
+              { "id": "doner_kebab", "name": "Doner Kebab" },
+              { "id": "adana_kebab", "name": "Adana Kebab" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "turkish_breads",
+        "name": "Breads",
+        "child_categories": [
+          {
+            "id": "bread_items",
+            "name": "Bread Items",
+            "items": [
+              { "id": "pide", "name": "Pide" },
+              { "id": "simit", "name": "Simit" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "arabian",
+    "name": "Arabian",
+    "main_categories": [
+      {
+        "id": "arabian_grill",
+        "name": "Grill",
+        "child_categories": [
+          {
+            "id": "grill_items",
+            "name": "Grill Items",
+            "items": [
+              { "id": "chicken_kebab", "name": "Chicken Kebab" },
+              { "id": "mutton_kebab", "name": "Mutton Kebab" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "arabian_rice",
+        "name": "Rice Dishes",
+        "child_categories": [
+          {
+            "id": "rice_items",
+            "name": "Rice Items",
+            "items": [
+              { "id": "mandi", "name": "Chicken Mandi" },
+              { "id": "kabsa", "name": "Kabsa" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lebanese",
+    "name": "Lebanese",
+    "main_categories": [
+      {
+        "id": "lebanese_mezze",
+        "name": "Mezze",
+        "child_categories": [
+          {
+            "id": "mezze_items",
+            "name": "Mezze Items",
+            "items": [
+              { "id": "hummus", "name": "Hummus" },
+              { "id": "baba_ganoush", "name": "Baba Ganoush" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "lebanese_grill",
+        "name": "Grill",
+        "child_categories": [
+          {
+            "id": "grill_items",
+            "name": "Grill Items",
+            "items": [
+              { "id": "shish_tawook", "name": "Shish Tawook" },
+              { "id": "kafta", "name": "Kafta" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iranian",
+    "name": "Iranian",
+    "main_categories": [
+      {
+        "id": "iranian_kebabs",
+        "name": "Kebabs",
+        "child_categories": [
+          {
+            "id": "kebab_items",
+            "name": "Kebab Items",
+            "items": [
+              { "id": "chelo_kebab", "name": "Chelo Kebab" },
+              { "id": "koobideh", "name": "Koobideh" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "iranian_rice",
+        "name": "Rice Dishes",
+        "child_categories": [
+          {
+            "id": "rice_items",
+            "name": "Rice Items",
+            "items": [
+              { "id": "zereshk_polo", "name": "Zereshk Polo" },
+              { "id": "sabzi_polo", "name": "Sabzi Polo" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "afghan",
+    "name": "Afghan",
+    "main_categories": [
+      {
+        "id": "afghan_rice",
+        "name": "Rice Dishes",
+        "child_categories": [
+          {
+            "id": "rice_items",
+            "name": "Rice Items",
+            "items": [
+              { "id": "kabuli_pulao", "name": "Kabuli Pulao" },
+              { "id": "afghan_pilaf", "name": "Afghan Pilaf" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "afghan_grill",
+        "name": "Grill",
+        "child_categories": [
+          {
+            "id": "grill_items",
+            "name": "Grill Items",
+            "items": [
+              { "id": "chapli_kebab", "name": "Chapli Kebab" },
+              { "id": "seekh_kebab", "name": "Seekh Kebab" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "african",
+    "name": "African",
+    "main_categories": [
+      {
+        "id": "ethiopian",
+        "name": "Ethiopian",
+        "child_categories": [
+          {
+            "id": "ethiopian_items",
+            "name": "Ethiopian Items",
+            "items": [
+              { "id": "injera", "name": "Injera" },
+              { "id": "doro_wat", "name": "Doro Wat" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "moroccan",
+        "name": "Moroccan",
+        "child_categories": [
+          {
+            "id": "moroccan_items",
+            "name": "Moroccan Items",
+            "items": [
+              { "id": "tagine", "name": "Tagine" },
+              { "id": "couscous", "name": "Couscous" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "nigerian",
+        "name": "Nigerian",
+        "child_categories": [
+          {
+            "id": "nigerian_items",
+            "name": "Nigerian Items",
+            "items": [
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "american",
+    "name": "American",
+    "main_categories": [
+      {
+        "id": "american_burgers",
+        "name": "Burgers",
+        "child_categories": [
+          {
+            "id": "burger_types",
+            "name": "Burger Types",
+            "items": [
+              { "id": "cheeseburger", "name": "Cheeseburger" },
+              { "id": "double_patty_burger", "name": "Double Patty Burger" },
+              { "id": "bbq_burger", "name": "BBQ Burger" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "american_grill",
+        "name": "Grill",
+        "child_categories": [
+          {
+            "id": "grill_items",
+            "name": "Grill Items",
+            "items": [
+              { "id": "grilled_chicken", "name": "Grilled Chicken" },
+              { "id": "bbq_ribs", "name": "BBQ Ribs" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mexican",
+    "name": "Mexican",
+    "main_categories": [
+      {
+        "id": "mexican_tacos",
+        "name": "Tacos",
+        "child_categories": [
+          {
+            "id": "taco_types",
+            "name": "Taco Types",
+            "items": [
+              { "id": "chicken_taco", "name": "Chicken Taco" },
+              { "id": "beef_taco", "name": "Beef Taco" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "mexican_burritos",
+        "name": "Burritos",
+        "child_categories": [
+          {
+            "id": "burrito_types",
+            "name": "Burrito Types",
+            "items": [
+              { "id": "veg_burrito", "name": "Veg Burrito" },
+              { "id": "chicken_burrito", "name": "Chicken Burrito" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "brazilian",
+    "name": "Brazilian",
+    "main_categories": [
+      {
+        "id": "brazilian_grill",
+        "name": "Brazilian Grill",
+        "child_categories": [
+          {
+            "id": "grill_items",
+            "name": "Grill Items",
+            "items": [
+              { "id": "picanha", "name": "Picanha" },
+              { "id": "frango_assado", "name": "Frango Assado" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "caribbean",
+    "name": "Caribbean",
+    "main_categories": [
+      {
+        "id": "caribbean_specials",
+        "name": "Caribbean Specials",
+        "child_categories": [
+          {
+            "id": "special_items",
+            "name": "Special Items",
+            "items": [
+              { "id": "jerk_chicken", "name": "Jerk Chicken" },
+              { "id": "curry_goat", "name": "Curry Goat" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fast_food",
+    "name": "Fast Food",
+    "main_categories": [
+      {
+        "id": "fastfood_burgers",
+        "name": "Burgers",
+        "child_categories": [
+          {
+            "id": "burger_items",
+            "name": "Burger Items",
+            "items": [
+              { "id": "crispy_chicken_burger", "name": "Crispy Chicken Burger" },
+              { "id": "veg_burger", "name": "Veg Burger" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "fastfood_fries",
+        "name": "Fries",
+        "child_categories": [
+          {
+            "id": "fries_items",
+            "name": "Fries Items",
+            "items": [
+              { "id": "french_fries", "name": "French Fries" },
+              { "id": "peri_peri_fries", "name": "Peri Peri Fries" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bakery",
+    "name": "Bakery",
+    "main_categories": [
+      {
+        "id": "cakes",
+        "name": "Cakes",
+        "child_categories": [
+          {
+            "id": "cake_types",
+            "name": "Cake Types",
+            "items": [
+              { "id": "chocolate_cake", "name": "Chocolate Cake" },
+              { "id": "red_velvet_cake", "name": "Red Velvet Cake" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "breads",
+        "name": "Breads",
+        "child_categories": [
+          {
+            "id": "bread_types",
+            "name": "Bread Types",
+            "items": [
+              { "id": "garlic_bread", "name": "Garlic Bread" },
+              { "id": "baguette", "name": "Baguette" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "desserts",
+    "name": "Desserts",
+    "main_categories": [
+      {
+        "id": "icecreams",
+        "name": "Ice Creams",
+        "child_categories": [
+          {
+            "id": "icecream_types",
+            "name": "Ice Cream Types",
+            "items": [
+              { "id": "vanilla_icecream", "name": "Vanilla Ice Cream" },
+              { "id": "chocolate_icecream", "name": "Chocolate Ice Cream" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sweets",
+        "name": "Sweets",
+        "child_categories": [
+          {
+            "id": "sweet_items",
+            "name": "Sweet Items",
+            "items": [
+              { "id": "brownie", "name": "Brownie" },
+              { "id": "cheesecake", "name": "Cheesecake" }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

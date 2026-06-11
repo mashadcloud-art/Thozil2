@@ -1,0 +1,4374 @@
+[
+  {
+    "id": "indian",
+    "name": "Indian",
+    "main_categories": [
+      {
+        "id": "global_cuisine",
+        "name": "Global Cuisine",
+        "child_categories": [
+          {
+            "id": "breads",
+            "name": "Breads",
+            "items": [
+              {
+                "id": "parotta",
+                "name": "Parotta"
+              },
+              {
+                "id": "chapati",
+                "name": "Chapati"
+              },
+              {
+                "id": "naan",
+                "name": "Naan"
+              },
+              {
+                "id": "poori",
+                "name": "Poori"
+              },
+              {
+                "id": "bhatura",
+                "name": "Bhatura"
+              },
+              {
+                "id": "kulcha",
+                "name": "Kulcha"
+              },
+              {
+                "id": "rumali_roti",
+                "name": "Rumali Roti"
+              }
+            ]
+          },
+          {
+            "id": "rice_biryani",
+            "name": "Rice & Biryani",
+            "items": [
+              {
+                "id": "hyderabadi_biryani",
+                "name": "Hyderabadi Biryani"
+              },
+              {
+                "id": "malabar_biryani",
+                "name": "Malabar Biryani"
+              },
+              {
+                "id": "lucknowi_biryani",
+                "name": "Lucknowi Biryani"
+              },
+              {
+                "id": "veg_pulao",
+                "name": "Veg Pulao"
+              },
+              {
+                "id": "curd_rice",
+                "name": "Curd Rice"
+              }
+            ]
+          },
+          {
+            "id": "curries",
+            "name": "Curries",
+            "items": [
+              {
+                "id": "butter_chicken",
+                "name": "Butter Chicken"
+              },
+              {
+                "id": "paneer_masala",
+                "name": "Paneer Masala"
+              },
+              {
+                "id": "dal_tadka",
+                "name": "Dal Tadka"
+              },
+              {
+                "id": "chole",
+                "name": "Chole"
+              },
+              {
+                "id": "fish_curry",
+                "name": "Fish Curry"
+              },
+              {
+                "id": "avial",
+                "name": "Avial"
+              }
+            ]
+          },
+          {
+            "id": "snacks",
+            "name": "Snacks",
+            "items": [
+              {
+                "id": "samosa",
+                "name": "Samosa"
+              },
+              {
+                "id": "pakora",
+                "name": "Pakora"
+              },
+              {
+                "id": "cutlet",
+                "name": "Cutlet"
+              },
+              {
+                "id": "vada_pav",
+                "name": "Vada Pav"
+              },
+              {
+                "id": "bhel_puri",
+                "name": "Bhel Puri"
+              }
+            ]
+          },
+          {
+            "id": "desserts",
+            "name": "Desserts",
+            "items": [
+              {
+                "id": "payasam",
+                "name": "Payasam"
+              },
+              {
+                "id": "gulab_jamun",
+                "name": "Gulab Jamun"
+              },
+              {
+                "id": "rasmalai",
+                "name": "Rasmalai"
+              },
+              {
+                "id": "halwa",
+                "name": "Halwa"
+              },
+              {
+                "id": "barfi",
+                "name": "Barfi"
+              },
+              {
+                "id": "jalebi",
+                "name": "Jalebi"
+              }
+            ]
+          },
+          {
+            "id": "juices_drinks",
+            "name": "Juices & Drinks",
+            "items": [
+              {
+                "id": "mango_lassi",
+                "name": "Mango Lassi"
+              },
+              {
+                "id": "masala_chai",
+                "name": "Masala Chai"
+              },
+              {
+                "id": "filter_coffee",
+                "name": "Filter Coffee"
+              },
+              {
+                "id": "tender_coconut",
+                "name": "Tender Coconut"
+              },
+              {
+                "id": "badam_milk",
+                "name": "Badam Milk"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "global_juices_and_beverages",
+        "name": "Global Juices And Beverages",
+        "child_categories": [
+          {
+            "id": "fresh_juices",
+            "name": "Fresh Juices",
+            "items": [
+              {
+                "id": "mango_juice",
+                "name": "Mango Juice"
+              },
+              {
+                "id": "pineapple_juice",
+                "name": "Pineapple Juice"
+              },
+              {
+                "id": "watermelon_juice",
+                "name": "Watermelon Juice"
+              },
+              {
+                "id": "tender_coconut",
+                "name": "Tender Coconut"
+              },
+              {
+                "id": "sugarcane_juice",
+                "name": "Sugarcane Juice"
+              },
+              {
+                "id": "lime_soda",
+                "name": "Lime Soda"
+              }
+            ]
+          },
+          {
+            "id": "milk_drinks",
+            "name": "Milk Drinks",
+            "items": [
+              {
+                "id": "badam_milk",
+                "name": "Badam Milk"
+              },
+              {
+                "id": "rose_milk",
+                "name": "Rose Milk"
+              },
+              {
+                "id": "falooda",
+                "name": "Falooda"
+              },
+              {
+                "id": "lassi",
+                "name": "Lassi"
+              },
+              {
+                "id": "mango_shake",
+                "name": "Mango Shake"
+              }
+            ]
+          },
+          {
+            "id": "hot_beverages",
+            "name": "Hot Beverages",
+            "items": [
+              {
+                "id": "masala_chai",
+                "name": "Masala Chai"
+              },
+              {
+                "id": "filter_coffee",
+                "name": "Filter Coffee"
+              },
+              {
+                "id": "green_tea",
+                "name": "Green Tea"
+              }
+            ]
+          },
+          {
+            "id": "regional_specials",
+            "name": "Regional Specials",
+            "items": [
+              {
+                "id": "panakam_south_india",
+                "name": "Panakam (South India)"
+              },
+              {
+                "id": "solkadhi_maharashtra",
+                "name": "Solkadhi (Maharashtra)"
+              },
+              {
+                "id": "thandai_north_india",
+                "name": "Thandai (North India)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "global_desserts_and_bakery",
+        "name": "Global Desserts And Bakery",
+        "child_categories": [
+          {
+            "id": "traditional_sweets",
+            "name": "Traditional Sweets",
+            "items": [
+              {
+                "id": "gulab_jamun",
+                "name": "Gulab Jamun"
+              },
+              {
+                "id": "rasmalai",
+                "name": "Rasmalai"
+              },
+              {
+                "id": "barfi",
+                "name": "Barfi"
+              },
+              {
+                "id": "laddu",
+                "name": "Laddu"
+              },
+              {
+                "id": "halwa",
+                "name": "Halwa"
+              },
+              {
+                "id": "jalebi",
+                "name": "Jalebi"
+              },
+              {
+                "id": "payasam",
+                "name": "Payasam"
+              }
+            ]
+          },
+          {
+            "id": "regional_specials",
+            "name": "Regional Specials",
+            "items": [
+              {
+                "id": "mysore_pak_karnataka",
+                "name": "Mysore Pak (Karnataka)"
+              },
+              {
+                "id": "ghevar_rajasthan",
+                "name": "Ghevar (Rajasthan)"
+              },
+              {
+                "id": "phirni_punjab",
+                "name": "Phirni (Punjab)"
+              },
+              {
+                "id": "unniyappam_kerala",
+                "name": "Unniyappam (Kerala)"
+              }
+            ]
+          },
+          {
+            "id": "bakery_cakes",
+            "name": "Bakery & Cakes",
+            "items": [
+              {
+                "id": "fruit_cake",
+                "name": "Fruit Cake"
+              },
+              {
+                "id": "black_forest",
+                "name": "Black Forest"
+              },
+              {
+                "id": "honey_cake",
+                "name": "Honey Cake"
+              }
+            ]
+          },
+          {
+            "id": "frozen_desserts",
+            "name": "Frozen Desserts",
+            "items": [
+              {
+                "id": "kulfi",
+                "name": "Kulfi"
+              },
+              {
+                "id": "ice_cream",
+                "name": "Ice Cream"
+              },
+              {
+                "id": "falooda",
+                "name": "Falooda"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "global_street_food_and_fusion",
+        "name": "Global Street Food And Fusion",
+        "child_categories": [
+          {
+            "id": "street_food",
+            "name": "Street Food",
+            "items": [
+              {
+                "id": "pani_puri",
+                "name": "Pani Puri"
+              },
+              {
+                "id": "chaat",
+                "name": "Chaat"
+              },
+              {
+                "id": "vada_pav",
+                "name": "Vada Pav"
+              },
+              {
+                "id": "pav_bhaji",
+                "name": "Pav Bhaji"
+              },
+              {
+                "id": "samosa",
+                "name": "Samosa"
+              },
+              {
+                "id": "kachori",
+                "name": "Kachori"
+              },
+              {
+                "id": "bhel_puri",
+                "name": "Bhel Puri"
+              }
+            ]
+          },
+          {
+            "id": "snacks",
+            "name": "Snacks",
+            "items": [
+              {
+                "id": "pakora",
+                "name": "Pakora"
+              },
+              {
+                "id": "cutlet",
+                "name": "Cutlet"
+              },
+              {
+                "id": "murukku",
+                "name": "Murukku"
+              },
+              {
+                "id": "mixture",
+                "name": "Mixture"
+              },
+              {
+                "id": "banana_chips",
+                "name": "Banana Chips"
+              }
+            ]
+          },
+          {
+            "id": "fusion",
+            "name": "Fusion",
+            "items": [
+              {
+                "id": "paneer_tacos",
+                "name": "Paneer Tacos"
+              },
+              {
+                "id": "butter_chicken_pizza",
+                "name": "Butter Chicken Pizza"
+              },
+              {
+                "id": "masala_pasta",
+                "name": "Masala Pasta"
+              },
+              {
+                "id": "indo_chinese_fried_rice",
+                "name": "Indo-Chinese Fried Rice"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "global_seafood_and_grilled_specials",
+        "name": "Global Seafood And Grilled Specials",
+        "child_categories": [
+          {
+            "id": "seafood",
+            "name": "Seafood",
+            "items": [
+              {
+                "id": "fish_curry",
+                "name": "Fish Curry"
+              },
+              {
+                "id": "prawn_masala",
+                "name": "Prawn Masala"
+              },
+              {
+                "id": "crab_roast",
+                "name": "Crab Roast"
+              },
+              {
+                "id": "squid_fry",
+                "name": "Squid Fry"
+              },
+              {
+                "id": "meen_pollichathu",
+                "name": "Meen Pollichathu"
+              }
+            ]
+          },
+          {
+            "id": "grilled_bbq",
+            "name": "Grilled & BBQ",
+            "items": [
+              {
+                "id": "tandoori_chicken",
+                "name": "Tandoori Chicken"
+              },
+              {
+                "id": "seekh_kebab",
+                "name": "Seekh Kebab"
+              },
+              {
+                "id": "fish_tikka",
+                "name": "Fish Tikka"
+              },
+              {
+                "id": "paneer_tikka",
+                "name": "Paneer Tikka"
+              },
+              {
+                "id": "chicken_65",
+                "name": "Chicken 65"
+              }
+            ]
+          },
+          {
+            "id": "regional_specials",
+            "name": "Regional Specials",
+            "items": [
+              {
+                "id": "malabar_fish_curry_kerala",
+                "name": "Malabar Fish Curry (Kerala)"
+              },
+              {
+                "id": "goan_prawn_curry",
+                "name": "Goan Prawn Curry"
+              },
+              {
+                "id": "hyderabadi_grilled_chicken",
+                "name": "Hyderabadi Grilled Chicken"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "global_breakfast_and_healthy_options",
+        "name": "Global Breakfast And Healthy Options",
+        "child_categories": [
+          {
+            "id": "breakfast",
+            "name": "Breakfast",
+            "items": [
+              {
+                "id": "idli",
+                "name": "Idli"
+              },
+              {
+                "id": "dosa",
+                "name": "Dosa"
+              },
+              {
+                "id": "upma",
+                "name": "Upma"
+              },
+              {
+                "id": "poha",
+                "name": "Poha"
+              },
+              {
+                "id": "paratha",
+                "name": "Paratha"
+              },
+              {
+                "id": "puri_bhaji",
+                "name": "Puri Bhaji"
+              },
+              {
+                "id": "aloo_tikki",
+                "name": "Aloo Tikki"
+              }
+            ]
+          },
+          {
+            "id": "healthy_options",
+            "name": "Healthy Options",
+            "items": [
+              {
+                "id": "oats_upma",
+                "name": "Oats Upma"
+              },
+              {
+                "id": "vegetable_salad",
+                "name": "Vegetable Salad"
+              },
+              {
+                "id": "moong_dal_soup",
+                "name": "Moong Dal Soup"
+              },
+              {
+                "id": "fruit_bowl",
+                "name": "Fruit Bowl"
+              }
+            ]
+          },
+          {
+            "id": "drinks",
+            "name": "Drinks",
+            "items": [
+              {
+                "id": "masala_chai",
+                "name": "Masala Chai"
+              },
+              {
+                "id": "filter_coffee",
+                "name": "Filter Coffee"
+              },
+              {
+                "id": "lassi",
+                "name": "Lassi"
+              },
+              {
+                "id": "tender_coconut",
+                "name": "Tender Coconut"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "arabic",
+    "name": "Arabic",
+    "main_categories": [
+      {
+        "id": "global_cuisine",
+        "name": "Global Cuisine",
+        "child_categories": [
+          {
+            "id": "main_dishes",
+            "name": "Main Dishes",
+            "items": [
+              {
+                "id": "mandi",
+                "name": "Mandi"
+              },
+              {
+                "id": "kabsa",
+                "name": "Kabsa"
+              },
+              {
+                "id": "shawarma",
+                "name": "Shawarma"
+              },
+              {
+                "id": "falafel",
+                "name": "Falafel"
+              },
+              {
+                "id": "majboos",
+                "name": "Majboos"
+              }
+            ]
+          },
+          {
+            "id": "breads",
+            "name": "Breads",
+            "items": [
+              {
+                "id": "khubz",
+                "name": "Khubz"
+              },
+              {
+                "id": "samoon",
+                "name": "Samoon"
+              },
+              {
+                "id": "pita",
+                "name": "Pita"
+              }
+            ]
+          },
+          {
+            "id": "desserts",
+            "name": "Desserts",
+            "items": [
+              {
+                "id": "kunafa",
+                "name": "Kunafa"
+              },
+              {
+                "id": "baklava",
+                "name": "Baklava"
+              },
+              {
+                "id": "basbousa",
+                "name": "Basbousa"
+              }
+            ]
+          },
+          {
+            "id": "juices_drinks",
+            "name": "Juices & Drinks",
+            "items": [
+              {
+                "id": "mint_lemonade",
+                "name": "Mint Lemonade"
+              },
+              {
+                "id": "jallab",
+                "name": "Jallab"
+              },
+              {
+                "id": "qamar_al_deen",
+                "name": "Qamar Al-Deen"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "global_juices_and_beverages",
+        "name": "Global Juices And Beverages",
+        "child_categories": [
+          {
+            "id": "fresh_juices",
+            "name": "Fresh Juices",
+            "items": [
+              {
+                "id": "mint_lemonade",
+                "name": "Mint Lemonade"
+              },
+              {
+                "id": "pomegranate_juice",
+                "name": "Pomegranate Juice"
+              },
+              {
+                "id": "orange_juice",
+                "name": "Orange Juice"
+              },
+              {
+                "id": "carrot_juice",
+                "name": "Carrot Juice"
+              }
+            ]
+          },
+          {
+            "id": "milk_drinks",
+            "name": "Milk Drinks",
+            "items": [
+              {
+                "id": "camel_milk",
+                "name": "Camel Milk"
+              },
+              {
+                "id": "date_milkshake",
+                "name": "Date Milkshake"
+              }
+            ]
+          },
+          {
+            "id": "hot_beverages",
+            "name": "Hot Beverages",
+            "items": [
+              {
+                "id": "arabic_coffee_qahwa",
+                "name": "Arabic Coffee (Qahwa)"
+              },
+              {
+                "id": "mint_tea",
+                "name": "Mint Tea"
+              }
+            ]
+          },
+          {
+            "id": "specials",
+            "name": "Specials",
+            "items": [
+              {
+                "id": "jallab",
+                "name": "Jallab"
+              },
+              {
+                "id": "qamar_al_deen",
+                "name": "Qamar Al-Deen"
+              },
+              {
+                "id": "rose_water_drink",
+                "name": "Rose Water Drink"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "global_desserts_and_bakery",
+        "name": "Global Desserts And Bakery",
+        "child_categories": [
+          {
+            "id": "traditional_sweets",
+            "name": "Traditional Sweets",
+            "items": [
+              {
+                "id": "baklava",
+                "name": "Baklava"
+              },
+              {
+                "id": "kunafa",
+                "name": "Kunafa"
+              },
+              {
+                "id": "basbousa",
+                "name": "Basbousa"
+              },
+              {
+                "id": "maamoul",
+                "name": "Maamoul"
+              }
+            ]
+          },
+          {
+            "id": "modern_desserts",
+            "name": "Modern Desserts",
+            "items": [
+              {
+                "id": "date_cake",
+                "name": "Date Cake"
+              },
+              {
+                "id": "rose_milk_pudding",
+                "name": "Rose Milk Pudding"
+              }
+            ]
+          },
+          {
+            "id": "frozen_desserts",
+            "name": "Frozen Desserts",
+            "items": [
+              {
+                "id": "arabic_ice_cream_booza",
+                "name": "Arabic Ice Cream (Booza)"
+              },
+              {
+                "id": "pistachio_gelato",
+                "name": "Pistachio Gelato"
+              }
+            ]
+          },
+          {
+            "id": "bakery",
+            "name": "Bakery",
+            "items": [
+              {
+                "id": "semolina_cake",
+                "name": "Semolina Cake"
+              },
+              {
+                "id": "honey_pastry",
+                "name": "Honey Pastry"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "global_street_food_and_fusion",
+        "name": "Global Street Food And Fusion",
+        "child_categories": [
+          {
+            "id": "street_food",
+            "name": "Street Food",
+            "items": [
+              {
+                "id": "shawarma",
+                "name": "Shawarma"
+              },
+              {
+                "id": "falafel_roll",
+                "name": "Falafel Roll"
+              },
+              {
+                "id": "manakish",
+                "name": "Manakish"
+              },
+              {
+                "id": "sambousek",
+                "name": "Sambousek"
+              }
+            ]
+          },
+          {
+            "id": "snacks",
+            "name": "Snacks",
+            "items": [
+              {
+                "id": "hummus_with_pita",
+                "name": "Hummus with Pita"
+              },
+              {
+                "id": "labneh_dip",
+                "name": "Labneh Dip"
+              },
+              {
+                "id": "stuffed_grape_leaves",
+                "name": "Stuffed Grape Leaves"
+              }
+            ]
+          },
+          {
+            "id": "fusion",
+            "name": "Fusion",
+            "items": [
+              {
+                "id": "shawarma_burger",
+                "name": "Shawarma Burger"
+              },
+              {
+                "id": "falafel_wrap",
+                "name": "Falafel Wrap"
+              },
+              {
+                "id": "arabic_pizza",
+                "name": "Arabic Pizza"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "global_seafood_and_grilled_specials",
+        "name": "Global Seafood And Grilled Specials",
+        "child_categories": [
+          {
+            "id": "seafood",
+            "name": "Seafood",
+            "items": [
+              {
+                "id": "grilled_hammour",
+                "name": "Grilled Hammour"
+              },
+              {
+                "id": "shrimp_majboos",
+                "name": "Shrimp Majboos"
+              },
+              {
+                "id": "fish_mandi",
+                "name": "Fish Mandi"
+              }
+            ]
+          },
+          {
+            "id": "grilled_bbq",
+            "name": "Grilled & BBQ",
+            "items": [
+              {
+                "id": "shish_tawook",
+                "name": "Shish Tawook"
+              },
+              {
+                "id": "kofta_kebab",
+                "name": "Kofta Kebab"
+              },
+              {
+                "id": "lamb_chops",
+                "name": "Lamb Chops"
+              },
+              {
+                "id": "chicken_mandi",
+                "name": "Chicken Mandi"
+              }
+            ]
+          },
+          {
+            "id": "regional_specials",
+            "name": "Regional Specials",
+            "items": [
+              {
+                "id": "emirati_grilled_fish",
+                "name": "Emirati Grilled Fish"
+              },
+              {
+                "id": "lebanese_mixed_grill",
+                "name": "Lebanese Mixed Grill"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "global_breakfast_and_healthy_options",
+        "name": "Global Breakfast And Healthy Options",
+        "child_categories": [
+          {
+            "id": "breakfast",
+            "name": "Breakfast",
+            "items": [
+              {
+                "id": "manakish",
+                "name": "Manakish"
+              },
+              {
+                "id": "labneh_with_olive_oil",
+                "name": "Labneh with Olive Oil"
+              },
+              {
+                "id": "foul_medames",
+                "name": "Foul Medames"
+              },
+              {
+                "id": "hummus_with_pita",
+                "name": "Hummus with Pita"
+              }
+            ]
+          },
+          {
+            "id": "healthy_options",
+            "name": "Healthy Options",
+            "items": [
+              {
+                "id": "tabouleh",
+                "name": "Tabouleh"
+              },
+              {
+                "id": "fattoush",
+                "name": "Fattoush"
+              },
+              {
+                "id": "grilled_chicken_salad",
+                "name": "Grilled Chicken Salad"
+              }
+            ]
+          },
+          {
+            "id": "drinks",
+            "name": "Drinks",
+            "items": [
+              {
+                "id": "mint_tea",
+                "name": "Mint Tea"
+              },
+              {
+                "id": "arabic_coffee",
+                "name": "Arabic Coffee"
+              },
+              {
+                "id": "fresh_juice",
+                "name": "Fresh Juice"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "chinese",
+    "name": "Chinese",
+    "main_categories": [
+      {
+        "id": "global_cuisine",
+        "name": "Global Cuisine",
+        "child_categories": [
+          {
+            "id": "main_dishes",
+            "name": "Main Dishes",
+            "items": [
+              {
+                "id": "chow_mein",
+                "name": "Chow Mein"
+              },
+              {
+                "id": "fried_rice",
+                "name": "Fried Rice"
+              },
+              {
+                "id": "kung_pao_chicken",
+                "name": "Kung Pao Chicken"
+              },
+              {
+                "id": "manchurian",
+                "name": "Manchurian"
+              }
+            ]
+          },
+          {
+            "id": "soups",
+            "name": "Soups",
+            "items": [
+              {
+                "id": "hot_sour_soup",
+                "name": "Hot & Sour Soup"
+              },
+              {
+                "id": "sweet_corn_soup",
+                "name": "Sweet Corn Soup"
+              }
+            ]
+          },
+          {
+            "id": "desserts",
+            "name": "Desserts",
+            "items": [
+              {
+                "id": "sesame_balls",
+                "name": "Sesame Balls"
+              },
+              {
+                "id": "mango_pudding",
+                "name": "Mango Pudding"
+              }
+            ]
+          },
+          {
+            "id": "juices_drinks",
+            "name": "Juices & Drinks",
+            "items": [
+              {
+                "id": "lychee_juice",
+                "name": "Lychee Juice"
+              },
+              {
+                "id": "green_tea",
+                "name": "Green Tea"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "global_juices_and_beverages",
+        "name": "Global Juices And Beverages",
+        "child_categories": [
+          {
+            "id": "fresh_juices",
+            "name": "Fresh Juices",
+            "items": [
+              {
+                "id": "lychee_juice",
+                "name": "Lychee Juice"
+              },
+              {
+                "id": "pear_juice",
+                "name": "Pear Juice"
+              },
+              {
+                "id": "plum_juice",
+                "name": "Plum Juice"
+              }
+            ]
+          },
+          {
+            "id": "hot_beverages",
+            "name": "Hot Beverages",
+            "items": [
+              {
+                "id": "green_tea",
+                "name": "Green Tea"
+              },
+              {
+                "id": "oolong_tea",
+                "name": "Oolong Tea"
+              },
+              {
+                "id": "jasmine_tea",
+                "name": "Jasmine Tea"
+              }
+            ]
+          },
+          {
+            "id": "cold_drinks",
+            "name": "Cold Drinks",
+            "items": [
+              {
+                "id": "bubble_tea",
+                "name": "Bubble Tea"
+              },
+              {
+                "id": "soy_milk",
+                "name": "Soy Milk"
+              }
+            ]
+          },
+          {
+            "id": "specials",
+            "name": "Specials",
+            "items": [
+              {
+                "id": "chrysanthemum_tea",
+                "name": "Chrysanthemum Tea"
+              },
+              {
+                "id": "red_bean_drink",
+                "name": "Red Bean Drink"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "global_street_food_and_fusion",
+        "name": "Global Street Food And Fusion",
+        "child_categories": [
+          {
+            "id": "street_food",
+            "name": "Street Food",
+            "items": [
+              {
+                "id": "chow_mein",
+                "name": "Chow Mein"
+              },
+              {
+                "id": "spring_roll",
+                "name": "Spring Roll"
+              },
+              {
+                "id": "fried_rice",
+                "name": "Fried Rice"
+              },
+              {
+                "id": "baozi",
+                "name": "Baozi"
+              }
+            ]
+          },
+          {
+            "id": "snacks",
+            "name": "Snacks",
+            "items": [
+              {
+                "id": "dim_sum",
+                "name": "Dim Sum"
+              },
+              {
+                "id": "dumplings",
+                "name": "Dumplings"
+              },
+              {
+                "id": "sesame_balls",
+                "name": "Sesame Balls"
+              }
+            ]
+          },
+          {
+            "id": "fusion",
+            "name": "Fusion",
+            "items": [
+              {
+                "id": "chinese_bhel",
+                "name": "Chinese Bhel"
+              },
+              {
+                "id": "manchurian_pizza",
+                "name": "Manchurian Pizza"
+              },
+              {
+                "id": "chili_paneer_wrap",
+                "name": "Chili Paneer Wrap"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "italian",
+    "name": "Italian",
+    "main_categories": [
+      {
+        "id": "global_cuisine",
+        "name": "Global Cuisine",
+        "child_categories": [
+          {
+            "id": "pasta",
+            "name": "Pasta",
+            "items": [
+              {
+                "id": "spaghetti_carbonara",
+                "name": "Spaghetti Carbonara"
+              },
+              {
+                "id": "penne_arrabbiata",
+                "name": "Penne Arrabbiata"
+              },
+              {
+                "id": "lasagna",
+                "name": "Lasagna"
+              }
+            ]
+          },
+          {
+            "id": "pizza",
+            "name": "Pizza",
+            "items": [
+              {
+                "id": "margherita",
+                "name": "Margherita"
+              },
+              {
+                "id": "pepperoni",
+                "name": "Pepperoni"
+              },
+              {
+                "id": "four_cheese",
+                "name": "Four Cheese"
+              }
+            ]
+          },
+          {
+            "id": "desserts",
+            "name": "Desserts",
+            "items": [
+              {
+                "id": "tiramisu",
+                "name": "Tiramisu"
+              },
+              {
+                "id": "panna_cotta",
+                "name": "Panna Cotta"
+              },
+              {
+                "id": "cannoli",
+                "name": "Cannoli"
+              }
+            ]
+          },
+          {
+            "id": "juices_drinks",
+            "name": "Juices & Drinks",
+            "items": [
+              {
+                "id": "lemon_soda",
+                "name": "Lemon Soda"
+              },
+              {
+                "id": "espresso",
+                "name": "Espresso"
+              },
+              {
+                "id": "cappuccino",
+                "name": "Cappuccino"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "global_street_food_and_fusion",
+        "name": "Global Street Food And Fusion",
+        "child_categories": [
+          {
+            "id": "street_food",
+            "name": "Street Food",
+            "items": [
+              {
+                "id": "panini",
+                "name": "Panini"
+              },
+              {
+                "id": "arancini",
+                "name": "Arancini"
+              },
+              {
+                "id": "pizza_slice",
+                "name": "Pizza Slice"
+              }
+            ]
+          },
+          {
+            "id": "snacks",
+            "name": "Snacks",
+            "items": [
+              {
+                "id": "garlic_bread",
+                "name": "Garlic Bread"
+              },
+              {
+                "id": "bruschetta",
+                "name": "Bruschetta"
+              }
+            ]
+          },
+          {
+            "id": "fusion",
+            "name": "Fusion",
+            "items": [
+              {
+                "id": "pasta_burger",
+                "name": "Pasta Burger"
+              },
+              {
+                "id": "pizza_roll",
+                "name": "Pizza Roll"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "american",
+    "name": "American",
+    "main_categories": [
+      {
+        "id": "global_cuisine",
+        "name": "Global Cuisine",
+        "child_categories": [
+          {
+            "id": "fast_food",
+            "name": "Fast Food",
+            "items": [
+              {
+                "id": "burger",
+                "name": "Burger"
+              },
+              {
+                "id": "fries",
+                "name": "Fries"
+              },
+              {
+                "id": "hot_dog",
+                "name": "Hot Dog"
+              },
+              {
+                "id": "fried_chicken",
+                "name": "Fried Chicken"
+              }
+            ]
+          },
+          {
+            "id": "bbq",
+            "name": "BBQ",
+            "items": [
+              {
+                "id": "ribs",
+                "name": "Ribs"
+              },
+              {
+                "id": "brisket",
+                "name": "Brisket"
+              },
+              {
+                "id": "pulled_pork",
+                "name": "Pulled Pork"
+              }
+            ]
+          },
+          {
+            "id": "desserts",
+            "name": "Desserts",
+            "items": [
+              {
+                "id": "cheesecake",
+                "name": "Cheesecake"
+              },
+              {
+                "id": "brownie",
+                "name": "Brownie"
+              },
+              {
+                "id": "apple_pie",
+                "name": "Apple Pie"
+              }
+            ]
+          },
+          {
+            "id": "juices_drinks",
+            "name": "Juices & Drinks",
+            "items": [
+              {
+                "id": "orange_juice",
+                "name": "Orange Juice"
+              },
+              {
+                "id": "milkshake",
+                "name": "Milkshake"
+              },
+              {
+                "id": "iced_coffee",
+                "name": "Iced Coffee"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "global_juices_and_beverages",
+        "name": "Global Juices And Beverages",
+        "child_categories": [
+          {
+            "id": "fresh_juices",
+            "name": "Fresh Juices",
+            "items": [
+              {
+                "id": "orange_juice",
+                "name": "Orange Juice"
+              },
+              {
+                "id": "apple_juice",
+                "name": "Apple Juice"
+              },
+              {
+                "id": "cranberry_juice",
+                "name": "Cranberry Juice"
+              }
+            ]
+          },
+          {
+            "id": "milk_drinks",
+            "name": "Milk Drinks",
+            "items": [
+              {
+                "id": "milkshake",
+                "name": "Milkshake"
+              },
+              {
+                "id": "smoothie",
+                "name": "Smoothie"
+              },
+              {
+                "id": "iced_coffee",
+                "name": "Iced Coffee"
+              }
+            ]
+          },
+          {
+            "id": "hot_beverages",
+            "name": "Hot Beverages",
+            "items": [
+              {
+                "id": "coffee",
+                "name": "Coffee"
+              },
+              {
+                "id": "hot_chocolate",
+                "name": "Hot Chocolate"
+              },
+              {
+                "id": "tea",
+                "name": "Tea"
+              }
+            ]
+          },
+          {
+            "id": "mocktails",
+            "name": "Mocktails",
+            "items": [
+              {
+                "id": "virgin_mojito",
+                "name": "Virgin Mojito"
+              },
+              {
+                "id": "lemon_iced_tea",
+                "name": "Lemon Iced Tea"
+              },
+              {
+                "id": "berry_cooler",
+                "name": "Berry Cooler"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "global_desserts_and_bakery",
+        "name": "Global Desserts And Bakery",
+        "child_categories": [
+          {
+            "id": "classic_desserts",
+            "name": "Classic Desserts",
+            "items": [
+              {
+                "id": "cheesecake",
+                "name": "Cheesecake"
+              },
+              {
+                "id": "brownie",
+                "name": "Brownie"
+              },
+              {
+                "id": "apple_pie",
+                "name": "Apple Pie"
+              },
+              {
+                "id": "donut",
+                "name": "Donut"
+              }
+            ]
+          },
+          {
+            "id": "frozen_desserts",
+            "name": "Frozen Desserts",
+            "items": [
+              {
+                "id": "ice_cream_sundae",
+                "name": "Ice Cream Sundae"
+              },
+              {
+                "id": "milkshake",
+                "name": "Milkshake"
+              },
+              {
+                "id": "frozen_yogurt",
+                "name": "Frozen Yogurt"
+              }
+            ]
+          },
+          {
+            "id": "bakery",
+            "name": "Bakery",
+            "items": [
+              {
+                "id": "cupcake",
+                "name": "Cupcake"
+              },
+              {
+                "id": "chocolate_chip_cookie",
+                "name": "Chocolate Chip Cookie"
+              },
+              {
+                "id": "cinnamon_roll",
+                "name": "Cinnamon Roll"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "global_street_food_and_fusion",
+        "name": "Global Street Food And Fusion",
+        "child_categories": [
+          {
+            "id": "street_food",
+            "name": "Street Food",
+            "items": [
+              {
+                "id": "hot_dog",
+                "name": "Hot Dog"
+              },
+              {
+                "id": "burger",
+                "name": "Burger"
+              },
+              {
+                "id": "fries",
+                "name": "Fries"
+              },
+              {
+                "id": "corn_dog",
+                "name": "Corn Dog"
+              }
+            ]
+          },
+          {
+            "id": "snacks",
+            "name": "Snacks",
+            "items": [
+              {
+                "id": "nachos",
+                "name": "Nachos"
+              },
+              {
+                "id": "popcorn",
+                "name": "Popcorn"
+              },
+              {
+                "id": "pretzel",
+                "name": "Pretzel"
+              }
+            ]
+          },
+          {
+            "id": "fusion",
+            "name": "Fusion",
+            "items": [
+              {
+                "id": "bbq_pizza",
+                "name": "BBQ Pizza"
+              },
+              {
+                "id": "loaded_fries",
+                "name": "Loaded Fries"
+              },
+              {
+                "id": "cheese_burrito",
+                "name": "Cheese Burrito"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "global_seafood_and_grilled_specials",
+        "name": "Global Seafood And Grilled Specials",
+        "child_categories": [
+          {
+            "id": "seafood",
+            "name": "Seafood",
+            "items": [
+              {
+                "id": "grilled_salmon",
+                "name": "Grilled Salmon"
+              },
+              {
+                "id": "fish_tacos",
+                "name": "Fish Tacos"
+              },
+              {
+                "id": "shrimp_scampi",
+                "name": "Shrimp Scampi"
+              }
+            ]
+          },
+          {
+            "id": "bbq",
+            "name": "BBQ",
+            "items": [
+              {
+                "id": "ribs",
+                "name": "Ribs"
+              },
+              {
+                "id": "brisket",
+                "name": "Brisket"
+              },
+              {
+                "id": "pulled_pork",
+                "name": "Pulled Pork"
+              },
+              {
+                "id": "bbq_chicken",
+                "name": "BBQ Chicken"
+              }
+            ]
+          },
+          {
+            "id": "vegetarian_grill",
+            "name": "Vegetarian Grill",
+            "items": [
+              {
+                "id": "grilled_corn",
+                "name": "Grilled Corn"
+              },
+              {
+                "id": "bbq_veg_burger",
+                "name": "BBQ Veg Burger"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "global_breakfast_and_healthy_options",
+        "name": "Global Breakfast And Healthy Options",
+        "child_categories": [
+          {
+            "id": "breakfast",
+            "name": "Breakfast",
+            "items": [
+              {
+                "id": "scrambled_eggs",
+                "name": "Scrambled Eggs"
+              },
+              {
+                "id": "pancakes",
+                "name": "Pancakes"
+              },
+              {
+                "id": "waffles",
+                "name": "Waffles"
+              },
+              {
+                "id": "bagel_with_cream_cheese",
+                "name": "Bagel with Cream Cheese"
+              }
+            ]
+          },
+          {
+            "id": "healthy_options",
+            "name": "Healthy Options",
+            "items": [
+              {
+                "id": "oatmeal",
+                "name": "Oatmeal"
+              },
+              {
+                "id": "granola_bowl",
+                "name": "Granola Bowl"
+              },
+              {
+                "id": "egg_white_omelette",
+                "name": "Egg White Omelette"
+              }
+            ]
+          },
+          {
+            "id": "drinks",
+            "name": "Drinks",
+            "items": [
+              {
+                "id": "coffee",
+                "name": "Coffee"
+              },
+              {
+                "id": "milkshake",
+                "name": "Milkshake"
+              },
+              {
+                "id": "green_smoothie",
+                "name": "Green Smoothie"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mediterranean",
+    "name": "Mediterranean",
+    "main_categories": [
+      {
+        "id": "global_cuisine",
+        "name": "Global Cuisine",
+        "child_categories": [
+          {
+            "id": "greek",
+            "name": "Greek",
+            "items": [
+              {
+                "id": "gyros",
+                "name": "Gyros"
+              },
+              {
+                "id": "moussaka",
+                "name": "Moussaka"
+              },
+              {
+                "id": "greek_salad",
+                "name": "Greek Salad"
+              }
+            ]
+          },
+          {
+            "id": "spanish",
+            "name": "Spanish",
+            "items": [
+              {
+                "id": "paella",
+                "name": "Paella"
+              },
+              {
+                "id": "tapas",
+                "name": "Tapas"
+              },
+              {
+                "id": "churros",
+                "name": "Churros"
+              }
+            ]
+          },
+          {
+            "id": "desserts",
+            "name": "Desserts",
+            "items": [
+              {
+                "id": "baklava",
+                "name": "Baklava"
+              },
+              {
+                "id": "loukoumades",
+                "name": "Loukoumades"
+              }
+            ]
+          },
+          {
+            "id": "juices_drinks",
+            "name": "Juices & Drinks",
+            "items": [
+              {
+                "id": "fresh_orange",
+                "name": "Fresh Orange"
+              },
+              {
+                "id": "pomegranate_juice",
+                "name": "Pomegranate Juice"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "global_juices_and_beverages",
+        "name": "Global Juices And Beverages",
+        "child_categories": [
+          {
+            "id": "fresh_juices",
+            "name": "Fresh Juices",
+            "items": [
+              {
+                "id": "orange_juice",
+                "name": "Orange Juice"
+              },
+              {
+                "id": "pomegranate_juice",
+                "name": "Pomegranate Juice"
+              },
+              {
+                "id": "grape_juice",
+                "name": "Grape Juice"
+              }
+            ]
+          },
+          {
+            "id": "hot_beverages",
+            "name": "Hot Beverages",
+            "items": [
+              {
+                "id": "turkish_coffee",
+                "name": "Turkish Coffee"
+              },
+              {
+                "id": "greek_coffee",
+                "name": "Greek Coffee"
+              },
+              {
+                "id": "mint_tea",
+                "name": "Mint Tea"
+              }
+            ]
+          },
+          {
+            "id": "cold_drinks",
+            "name": "Cold Drinks",
+            "items": [
+              {
+                "id": "ayran",
+                "name": "Ayran"
+              },
+              {
+                "id": "lemonade",
+                "name": "Lemonade"
+              }
+            ]
+          },
+          {
+            "id": "specials",
+            "name": "Specials",
+            "items": [
+              {
+                "id": "rose_water_drink",
+                "name": "Rose Water Drink"
+              },
+              {
+                "id": "carob_juice",
+                "name": "Carob Juice"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "global_desserts_and_bakery",
+        "name": "Global Desserts And Bakery",
+        "child_categories": [
+          {
+            "id": "greek",
+            "name": "Greek",
+            "items": [
+              {
+                "id": "baklava",
+                "name": "Baklava"
+              },
+              {
+                "id": "loukoumades",
+                "name": "Loukoumades"
+              },
+              {
+                "id": "galaktoboureko",
+                "name": "Galaktoboureko"
+              }
+            ]
+          },
+          {
+            "id": "spanish",
+            "name": "Spanish",
+            "items": [
+              {
+                "id": "churros",
+                "name": "Churros"
+              },
+              {
+                "id": "flan",
+                "name": "Flan"
+              },
+              {
+                "id": "crema_catalana",
+                "name": "Crema Catalana"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "global_street_food_and_fusion",
+        "name": "Global Street Food And Fusion",
+        "child_categories": [
+          {
+            "id": "street_food",
+            "name": "Street Food",
+            "items": [
+              {
+                "id": "gyros",
+                "name": "Gyros"
+              },
+              {
+                "id": "kebab",
+                "name": "Kebab"
+              },
+              {
+                "id": "falafel",
+                "name": "Falafel"
+              },
+              {
+                "id": "pita_wrap",
+                "name": "Pita Wrap"
+              }
+            ]
+          },
+          {
+            "id": "snacks",
+            "name": "Snacks",
+            "items": [
+              {
+                "id": "greek_salad",
+                "name": "Greek Salad"
+              },
+              {
+                "id": "olive_tapenade",
+                "name": "Olive Tapenade"
+              }
+            ]
+          },
+          {
+            "id": "fusion",
+            "name": "Fusion",
+            "items": [
+              {
+                "id": "mediterranean_pizza",
+                "name": "Mediterranean Pizza"
+              },
+              {
+                "id": "hummus_burger",
+                "name": "Hummus Burger"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "global_seafood_and_grilled_specials",
+        "name": "Global Seafood And Grilled Specials",
+        "child_categories": [
+          {
+            "id": "seafood",
+            "name": "Seafood",
+            "items": [
+              {
+                "id": "grilled_sea_bass",
+                "name": "Grilled Sea Bass"
+              },
+              {
+                "id": "calamari",
+                "name": "Calamari"
+              },
+              {
+                "id": "shrimp_saganaki",
+                "name": "Shrimp Saganaki"
+              }
+            ]
+          },
+          {
+            "id": "grilled_bbq",
+            "name": "Grilled & BBQ",
+            "items": [
+              {
+                "id": "greek_souvlaki",
+                "name": "Greek Souvlaki"
+              },
+              {
+                "id": "turkish_doner",
+                "name": "Turkish Doner"
+              },
+              {
+                "id": "kebab_platter",
+                "name": "Kebab Platter"
+              }
+            ]
+          },
+          {
+            "id": "vegetarian_grill",
+            "name": "Vegetarian Grill",
+            "items": [
+              {
+                "id": "grilled_halloumi",
+                "name": "Grilled Halloumi"
+              },
+              {
+                "id": "vegetable_skewers",
+                "name": "Vegetable Skewers"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "global_breakfast_and_healthy_options",
+        "name": "Global Breakfast And Healthy Options",
+        "child_categories": [
+          {
+            "id": "breakfast",
+            "name": "Breakfast",
+            "items": [
+              {
+                "id": "greek_yogurt_with_honey",
+                "name": "Greek Yogurt with Honey"
+              },
+              {
+                "id": "olive_toast",
+                "name": "Olive Toast"
+              },
+              {
+                "id": "cheese_platter",
+                "name": "Cheese Platter"
+              }
+            ]
+          },
+          {
+            "id": "healthy_options",
+            "name": "Healthy Options",
+            "items": [
+              {
+                "id": "quinoa_salad",
+                "name": "Quinoa Salad"
+              },
+              {
+                "id": "grilled_vegetables",
+                "name": "Grilled Vegetables"
+              },
+              {
+                "id": "lentil_soup",
+                "name": "Lentil Soup"
+              }
+            ]
+          },
+          {
+            "id": "drinks",
+            "name": "Drinks",
+            "items": [
+              {
+                "id": "herbal_tea",
+                "name": "Herbal Tea"
+              },
+              {
+                "id": "fresh_orange_juice",
+                "name": "Fresh Orange Juice"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "thai",
+    "name": "Thai",
+    "main_categories": [
+      {
+        "id": "global_cuisine",
+        "name": "Global Cuisine",
+        "child_categories": [
+          {
+            "id": "curries",
+            "name": "Curries",
+            "items": [
+              {
+                "id": "green_curry",
+                "name": "Green Curry"
+              },
+              {
+                "id": "red_curry",
+                "name": "Red Curry"
+              },
+              {
+                "id": "massaman_curry",
+                "name": "Massaman Curry"
+              }
+            ]
+          },
+          {
+            "id": "street_food",
+            "name": "Street Food",
+            "items": [
+              {
+                "id": "pad_thai",
+                "name": "Pad Thai"
+              },
+              {
+                "id": "som_tam",
+                "name": "Som Tam"
+              }
+            ]
+          },
+          {
+            "id": "desserts",
+            "name": "Desserts",
+            "items": [
+              {
+                "id": "mango_sticky_rice",
+                "name": "Mango Sticky Rice"
+              },
+              {
+                "id": "coconut_ice_cream",
+                "name": "Coconut Ice Cream"
+              }
+            ]
+          },
+          {
+            "id": "juices_drinks",
+            "name": "Juices & Drinks",
+            "items": [
+              {
+                "id": "thai_iced_tea",
+                "name": "Thai Iced Tea"
+              },
+              {
+                "id": "lemongrass_juice",
+                "name": "Lemongrass Juice"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "global_juices_and_beverages",
+        "name": "Global Juices And Beverages",
+        "child_categories": [
+          {
+            "id": "fresh_juices",
+            "name": "Fresh Juices",
+            "items": [
+              {
+                "id": "lemongrass_juice",
+                "name": "Lemongrass Juice"
+              },
+              {
+                "id": "coconut_water",
+                "name": "Coconut Water"
+              },
+              {
+                "id": "mango_juice",
+                "name": "Mango Juice"
+              }
+            ]
+          },
+          {
+            "id": "milk_drinks",
+            "name": "Milk Drinks",
+            "items": [
+              {
+                "id": "thai_iced_tea",
+                "name": "Thai Iced Tea"
+              },
+              {
+                "id": "thai_coffee",
+                "name": "Thai Coffee"
+              }
+            ]
+          },
+          {
+            "id": "mocktails",
+            "name": "Mocktails",
+            "items": [
+              {
+                "id": "tamarind_cooler",
+                "name": "Tamarind Cooler"
+              },
+              {
+                "id": "pineapple_mint",
+                "name": "Pineapple Mint"
+              }
+            ]
+          },
+          {
+            "id": "specials",
+            "name": "Specials",
+            "items": [
+              {
+                "id": "butterfly_pea_tea",
+                "name": "Butterfly Pea Tea"
+              },
+              {
+                "id": "longan_juice",
+                "name": "Longan Juice"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "global_street_food_and_fusion",
+        "name": "Global Street Food And Fusion",
+        "child_categories": [
+          {
+            "id": "street_food",
+            "name": "Street Food",
+            "items": [
+              {
+                "id": "pad_thai",
+                "name": "Pad Thai"
+              },
+              {
+                "id": "som_tam",
+                "name": "Som Tam"
+              },
+              {
+                "id": "fried_banana",
+                "name": "Fried Banana"
+              },
+              {
+                "id": "satay",
+                "name": "Satay"
+              }
+            ]
+          },
+          {
+            "id": "snacks",
+            "name": "Snacks",
+            "items": [
+              {
+                "id": "spring_roll",
+                "name": "Spring Roll"
+              },
+              {
+                "id": "fish_cake",
+                "name": "Fish Cake"
+              }
+            ]
+          },
+          {
+            "id": "fusion",
+            "name": "Fusion",
+            "items": [
+              {
+                "id": "thai_pizza",
+                "name": "Thai Pizza"
+              },
+              {
+                "id": "coconut_curry_pasta",
+                "name": "Coconut Curry Pasta"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "japanese",
+    "name": "Japanese",
+    "main_categories": [
+      {
+        "id": "global_cuisine",
+        "name": "Global Cuisine",
+        "child_categories": [
+          {
+            "id": "main_dishes",
+            "name": "Main Dishes",
+            "items": [
+              {
+                "id": "sushi",
+                "name": "Sushi"
+              },
+              {
+                "id": "ramen",
+                "name": "Ramen"
+              },
+              {
+                "id": "tempura",
+                "name": "Tempura"
+              }
+            ]
+          },
+          {
+            "id": "desserts",
+            "name": "Desserts",
+            "items": [
+              {
+                "id": "mochi",
+                "name": "Mochi"
+              },
+              {
+                "id": "dorayaki",
+                "name": "Dorayaki"
+              }
+            ]
+          },
+          {
+            "id": "juices_drinks",
+            "name": "Juices & Drinks",
+            "items": [
+              {
+                "id": "matcha_tea",
+                "name": "Matcha Tea"
+              },
+              {
+                "id": "yuzu_juice",
+                "name": "Yuzu Juice"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "global_juices_and_beverages",
+        "name": "Global Juices And Beverages",
+        "child_categories": [
+          {
+            "id": "fresh_juices",
+            "name": "Fresh Juices",
+            "items": [
+              {
+                "id": "yuzu_juice",
+                "name": "Yuzu Juice"
+              },
+              {
+                "id": "melon_juice",
+                "name": "Melon Juice"
+              }
+            ]
+          },
+          {
+            "id": "hot_beverages",
+            "name": "Hot Beverages",
+            "items": [
+              {
+                "id": "matcha_tea",
+                "name": "Matcha Tea"
+              },
+              {
+                "id": "sencha",
+                "name": "Sencha"
+              },
+              {
+                "id": "hojicha",
+                "name": "Hojicha"
+              }
+            ]
+          },
+          {
+            "id": "cold_drinks",
+            "name": "Cold Drinks",
+            "items": [
+              {
+                "id": "ramune_soda",
+                "name": "Ramune Soda"
+              },
+              {
+                "id": "calpis_water",
+                "name": "Calpis Water"
+              }
+            ]
+          },
+          {
+            "id": "specials",
+            "name": "Specials",
+            "items": [
+              {
+                "id": "sakura_latte",
+                "name": "Sakura Latte"
+              },
+              {
+                "id": "genmaicha",
+                "name": "Genmaicha"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "global_street_food_and_fusion",
+        "name": "Global Street Food And Fusion",
+        "child_categories": [
+          {
+            "id": "street_food",
+            "name": "Street Food",
+            "items": [
+              {
+                "id": "takoyaki",
+                "name": "Takoyaki"
+              },
+              {
+                "id": "okonomiyaki",
+                "name": "Okonomiyaki"
+              },
+              {
+                "id": "yakitori",
+                "name": "Yakitori"
+              }
+            ]
+          },
+          {
+            "id": "snacks",
+            "name": "Snacks",
+            "items": [
+              {
+                "id": "rice_crackers",
+                "name": "Rice Crackers"
+              },
+              {
+                "id": "onigiri",
+                "name": "Onigiri"
+              }
+            ]
+          },
+          {
+            "id": "fusion",
+            "name": "Fusion",
+            "items": [
+              {
+                "id": "sushi_burrito",
+                "name": "Sushi Burrito"
+              },
+              {
+                "id": "ramen_burger",
+                "name": "Ramen Burger"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "korean",
+    "name": "Korean",
+    "main_categories": [
+      {
+        "id": "global_cuisine",
+        "name": "Global Cuisine",
+        "child_categories": [
+          {
+            "id": "main_dishes",
+            "name": "Main Dishes",
+            "items": [
+              {
+                "id": "bulgogi",
+                "name": "Bulgogi"
+              },
+              {
+                "id": "bibimbap",
+                "name": "Bibimbap"
+              },
+              {
+                "id": "tteokbokki",
+                "name": "Tteokbokki"
+              }
+            ]
+          },
+          {
+            "id": "desserts",
+            "name": "Desserts",
+            "items": [
+              {
+                "id": "hotteok",
+                "name": "Hotteok"
+              },
+              {
+                "id": "bingsu",
+                "name": "Bingsu"
+              }
+            ]
+          },
+          {
+            "id": "juices_drinks",
+            "name": "Juices & Drinks",
+            "items": [
+              {
+                "id": "ginseng_tea",
+                "name": "Ginseng Tea"
+              },
+              {
+                "id": "pear_juice",
+                "name": "Pear Juice"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "global_juices_and_beverages",
+        "name": "Global Juices And Beverages",
+        "child_categories": [
+          {
+            "id": "fresh_juices",
+            "name": "Fresh Juices",
+            "items": [
+              {
+                "id": "pear_juice",
+                "name": "Pear Juice"
+              },
+              {
+                "id": "citron_tea_yuja_cha",
+                "name": "Citron Tea (Yuja-cha)"
+              }
+            ]
+          },
+          {
+            "id": "hot_beverages",
+            "name": "Hot Beverages",
+            "items": [
+              {
+                "id": "ginseng_tea",
+                "name": "Ginseng Tea"
+              },
+              {
+                "id": "barley_tea",
+                "name": "Barley Tea"
+              }
+            ]
+          },
+          {
+            "id": "cold_drinks",
+            "name": "Cold Drinks",
+            "items": [
+              {
+                "id": "banana_milk",
+                "name": "Banana Milk"
+              },
+              {
+                "id": "sujeonggwa_cinnamon_punch",
+                "name": "Sujeonggwa (Cinnamon Punch)"
+              }
+            ]
+          },
+          {
+            "id": "specials",
+            "name": "Specials",
+            "items": [
+              {
+                "id": "omija_tea",
+                "name": "Omija Tea"
+              },
+              {
+                "id": "persimmon_punch",
+                "name": "Persimmon Punch"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "global_street_food_and_fusion",
+        "name": "Global Street Food And Fusion",
+        "child_categories": [
+          {
+            "id": "street_food",
+            "name": "Street Food",
+            "items": [
+              {
+                "id": "tteokbokki",
+                "name": "Tteokbokki"
+              },
+              {
+                "id": "kimbap",
+                "name": "Kimbap"
+              },
+              {
+                "id": "hotteok",
+                "name": "Hotteok"
+              }
+            ]
+          },
+          {
+            "id": "snacks",
+            "name": "Snacks",
+            "items": [
+              {
+                "id": "seaweed_chips",
+                "name": "Seaweed Chips"
+              },
+              {
+                "id": "fish_cake",
+                "name": "Fish Cake"
+              }
+            ]
+          },
+          {
+            "id": "fusion",
+            "name": "Fusion",
+            "items": [
+              {
+                "id": "korean_bbq_burger",
+                "name": "Korean BBQ Burger"
+              },
+              {
+                "id": "kimchi_pizza",
+                "name": "Kimchi Pizza"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "african",
+    "name": "African",
+    "main_categories": [
+      {
+        "id": "global_cuisine",
+        "name": "Global Cuisine",
+        "child_categories": [
+          {
+            "id": "north_african",
+            "name": "North African",
+            "items": [
+              {
+                "id": "couscous",
+                "name": "Couscous"
+              },
+              {
+                "id": "tagine",
+                "name": "Tagine"
+              },
+              {
+                "id": "harira",
+                "name": "Harira"
+              }
+            ]
+          },
+          {
+            "id": "west_african",
+            "name": "West African",
+            "items": [
+              {
+                "id": "jollof_rice",
+                "name": "Jollof Rice"
+              },
+              {
+                "id": "suya",
+                "name": "Suya"
+              },
+              {
+                "id": "egusi_soup",
+                "name": "Egusi Soup"
+              }
+            ]
+          },
+          {
+            "id": "desserts",
+            "name": "Desserts",
+            "items": [
+              {
+                "id": "mandazi",
+                "name": "Mandazi"
+              },
+              {
+                "id": "malva_pudding",
+                "name": "Malva Pudding"
+              }
+            ]
+          },
+          {
+            "id": "juices_drinks",
+            "name": "Juices & Drinks",
+            "items": [
+              {
+                "id": "hibiscus_juice",
+                "name": "Hibiscus Juice"
+              },
+              {
+                "id": "tamarind_drink",
+                "name": "Tamarind Drink"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "global_juices_and_beverages",
+        "name": "Global Juices And Beverages",
+        "child_categories": [
+          {
+            "id": "fresh_juices",
+            "name": "Fresh Juices",
+            "items": [
+              {
+                "id": "hibiscus_juice",
+                "name": "Hibiscus Juice"
+              },
+              {
+                "id": "tamarind_juice",
+                "name": "Tamarind Juice"
+              },
+              {
+                "id": "baobab_juice",
+                "name": "Baobab Juice"
+              }
+            ]
+          },
+          {
+            "id": "hot_beverages",
+            "name": "Hot Beverages",
+            "items": [
+              {
+                "id": "rooibos_tea",
+                "name": "Rooibos Tea"
+              },
+              {
+                "id": "spiced_coffee",
+                "name": "Spiced Coffee"
+              }
+            ]
+          },
+          {
+            "id": "cold_drinks",
+            "name": "Cold Drinks",
+            "items": [
+              {
+                "id": "ginger_beer",
+                "name": "Ginger Beer"
+              },
+              {
+                "id": "palm_wine",
+                "name": "Palm Wine"
+              }
+            ]
+          },
+          {
+            "id": "specials",
+            "name": "Specials",
+            "items": [
+              {
+                "id": "sobolo_ghana",
+                "name": "Sobolo (Ghana)"
+              },
+              {
+                "id": "zobo_nigeria",
+                "name": "Zobo (Nigeria)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "global_desserts_and_bakery",
+        "name": "Global Desserts And Bakery",
+        "child_categories": [
+          {
+            "id": "north_african",
+            "name": "North African",
+            "items": [
+              {
+                "id": "makroud",
+                "name": "Makroud"
+              },
+              {
+                "id": "chebakia",
+                "name": "Chebakia"
+              }
+            ]
+          },
+          {
+            "id": "west_african",
+            "name": "West African",
+            "items": [
+              {
+                "id": "puff_puff",
+                "name": "Puff-Puff"
+              },
+              {
+                "id": "coconut_candy",
+                "name": "Coconut Candy"
+              }
+            ]
+          },
+          {
+            "id": "south_african",
+            "name": "South African",
+            "items": [
+              {
+                "id": "malva_pudding",
+                "name": "Malva Pudding"
+              },
+              {
+                "id": "koeksister",
+                "name": "Koeksister"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "global_seafood_and_grilled_specials",
+        "name": "Global Seafood And Grilled Specials",
+        "child_categories": [
+          {
+            "id": "seafood",
+            "name": "Seafood",
+            "items": [
+              {
+                "id": "grilled_tilapia",
+                "name": "Grilled Tilapia"
+              },
+              {
+                "id": "fish_stew",
+                "name": "Fish Stew"
+              },
+              {
+                "id": "shrimp_pilau",
+                "name": "Shrimp Pilau"
+              }
+            ]
+          },
+          {
+            "id": "bbq",
+            "name": "BBQ",
+            "items": [
+              {
+                "id": "nyama_choma_kenya",
+                "name": "Nyama Choma (Kenya)"
+              },
+              {
+                "id": "braai_south_africa",
+                "name": "Braai (South Africa)"
+              },
+              {
+                "id": "suya_nigeria",
+                "name": "Suya (Nigeria)"
+              }
+            ]
+          },
+          {
+            "id": "vegetarian_grill",
+            "name": "Vegetarian Grill",
+            "items": [
+              {
+                "id": "grilled_plantain",
+                "name": "Grilled Plantain"
+              },
+              {
+                "id": "corn_on_cob",
+                "name": "Corn on Cob"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "global_breakfast_and_healthy_options",
+        "name": "Global Breakfast And Healthy Options",
+        "child_categories": [
+          {
+            "id": "breakfast",
+            "name": "Breakfast",
+            "items": [
+              {
+                "id": "mandazi",
+                "name": "Mandazi"
+              },
+              {
+                "id": "chapati",
+                "name": "Chapati"
+              },
+              {
+                "id": "egg_stew",
+                "name": "Egg Stew"
+              },
+              {
+                "id": "porridge",
+                "name": "Porridge"
+              }
+            ]
+          },
+          {
+            "id": "healthy_options",
+            "name": "Healthy Options",
+            "items": [
+              {
+                "id": "fruit_salad",
+                "name": "Fruit Salad"
+              },
+              {
+                "id": "vegetable_soup",
+                "name": "Vegetable Soup"
+              },
+              {
+                "id": "grilled_plantain",
+                "name": "Grilled Plantain"
+              }
+            ]
+          },
+          {
+            "id": "drinks",
+            "name": "Drinks",
+            "items": [
+              {
+                "id": "hibiscus_tea",
+                "name": "Hibiscus Tea"
+              },
+              {
+                "id": "tamarind_juice",
+                "name": "Tamarind Juice"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kerala",
+    "name": "Kerala",
+    "main_categories": [
+      {
+        "id": "regional_cuisine",
+        "name": "Regional Cuisine",
+        "child_categories": [
+          {
+            "id": "main_dishes",
+            "name": "Main Dishes",
+            "items": [
+              {
+                "id": "kerala_beef_fry",
+                "name": "Kerala Beef Fry"
+              },
+              {
+                "id": "fish_curry",
+                "name": "Fish Curry"
+              },
+              {
+                "id": "avial",
+                "name": "Avial"
+              },
+              {
+                "id": "thoran",
+                "name": "Thoran"
+              },
+              {
+                "id": "puttu",
+                "name": "Puttu"
+              },
+              {
+                "id": "appam",
+                "name": "Appam"
+              }
+            ]
+          },
+          {
+            "id": "breads",
+            "name": "Breads",
+            "items": [
+              {
+                "id": "parotta",
+                "name": "Parotta"
+              },
+              {
+                "id": "chapati",
+                "name": "Chapati"
+              },
+              {
+                "id": "pathiri",
+                "name": "Pathiri"
+              }
+            ]
+          },
+          {
+            "id": "rice_biryani",
+            "name": "Rice & Biryani",
+            "items": [
+              {
+                "id": "malabar_biryani",
+                "name": "Malabar Biryani"
+              },
+              {
+                "id": "ghee_rice",
+                "name": "Ghee Rice"
+              },
+              {
+                "id": "curd_rice",
+                "name": "Curd Rice"
+              }
+            ]
+          },
+          {
+            "id": "desserts",
+            "name": "Desserts",
+            "items": [
+              {
+                "id": "ada_pradhaman",
+                "name": "Ada Pradhaman"
+              },
+              {
+                "id": "paal_payasam",
+                "name": "Paal Payasam"
+              },
+              {
+                "id": "unniyappam",
+                "name": "Unniyappam"
+              }
+            ]
+          },
+          {
+            "id": "juices_drinks",
+            "name": "Juices & Drinks",
+            "items": [
+              {
+                "id": "tender_coconut",
+                "name": "Tender Coconut"
+              },
+              {
+                "id": "pineapple_juice",
+                "name": "Pineapple Juice"
+              },
+              {
+                "id": "lime_soda",
+                "name": "Lime Soda"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tamil_nadu",
+    "name": "Tamil Nadu",
+    "main_categories": [
+      {
+        "id": "regional_cuisine",
+        "name": "Regional Cuisine",
+        "child_categories": [
+          {
+            "id": "main_dishes",
+            "name": "Main Dishes",
+            "items": [
+              {
+                "id": "chettinad_chicken",
+                "name": "Chettinad Chicken"
+              },
+              {
+                "id": "kuzhambu",
+                "name": "Kuzhambu"
+              },
+              {
+                "id": "sambar",
+                "name": "Sambar"
+              },
+              {
+                "id": "rasam",
+                "name": "Rasam"
+              }
+            ]
+          },
+          {
+            "id": "breads",
+            "name": "Breads",
+            "items": [
+              {
+                "id": "parotta",
+                "name": "Parotta"
+              },
+              {
+                "id": "idiyappam",
+                "name": "Idiyappam"
+              }
+            ]
+          },
+          {
+            "id": "rice_biryani",
+            "name": "Rice & Biryani",
+            "items": [
+              {
+                "id": "dindigul_biryani",
+                "name": "Dindigul Biryani"
+              },
+              {
+                "id": "lemon_rice",
+                "name": "Lemon Rice"
+              },
+              {
+                "id": "curd_rice",
+                "name": "Curd Rice"
+              }
+            ]
+          },
+          {
+            "id": "desserts",
+            "name": "Desserts",
+            "items": [
+              {
+                "id": "kesari",
+                "name": "Kesari"
+              },
+              {
+                "id": "payasam",
+                "name": "Payasam"
+              },
+              {
+                "id": "jangiri",
+                "name": "Jangiri"
+              }
+            ]
+          },
+          {
+            "id": "juices_drinks",
+            "name": "Juices & Drinks",
+            "items": [
+              {
+                "id": "filter_coffee",
+                "name": "Filter Coffee"
+              },
+              {
+                "id": "buttermilk",
+                "name": "Buttermilk"
+              },
+              {
+                "id": "mango_juice",
+                "name": "Mango Juice"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "andhra_pradesh",
+    "name": "Andhra Pradesh",
+    "main_categories": [
+      {
+        "id": "regional_cuisine",
+        "name": "Regional Cuisine",
+        "child_categories": [
+          {
+            "id": "main_dishes",
+            "name": "Main Dishes",
+            "items": [
+              {
+                "id": "gongura_chicken",
+                "name": "Gongura Chicken"
+              },
+              {
+                "id": "pulusu",
+                "name": "Pulusu"
+              },
+              {
+                "id": "pesarattu",
+                "name": "Pesarattu"
+              }
+            ]
+          },
+          {
+            "id": "breads",
+            "name": "Breads",
+            "items": [
+              {
+                "id": "chapati",
+                "name": "Chapati"
+              },
+              {
+                "id": "poori",
+                "name": "Poori"
+              }
+            ]
+          },
+          {
+            "id": "rice_biryani",
+            "name": "Rice & Biryani",
+            "items": [
+              {
+                "id": "andhra_biryani",
+                "name": "Andhra Biryani"
+              },
+              {
+                "id": "tomato_rice",
+                "name": "Tomato Rice"
+              }
+            ]
+          },
+          {
+            "id": "desserts",
+            "name": "Desserts",
+            "items": [
+              {
+                "id": "pootharekulu",
+                "name": "Pootharekulu"
+              },
+              {
+                "id": "payasam",
+                "name": "Payasam"
+              }
+            ]
+          },
+          {
+            "id": "juices_drinks",
+            "name": "Juices & Drinks",
+            "items": [
+              {
+                "id": "lemon_soda",
+                "name": "Lemon Soda"
+              },
+              {
+                "id": "buttermilk",
+                "name": "Buttermilk"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "karnataka",
+    "name": "Karnataka",
+    "main_categories": [
+      {
+        "id": "regional_cuisine",
+        "name": "Regional Cuisine",
+        "child_categories": [
+          {
+            "id": "main_dishes",
+            "name": "Main Dishes",
+            "items": [
+              {
+                "id": "bisi_bele_bath",
+                "name": "Bisi Bele Bath"
+              },
+              {
+                "id": "ragi_mudde",
+                "name": "Ragi Mudde"
+              },
+              {
+                "id": "neer_dosa",
+                "name": "Neer Dosa"
+              }
+            ]
+          },
+          {
+            "id": "breads",
+            "name": "Breads",
+            "items": [
+              {
+                "id": "chapati",
+                "name": "Chapati"
+              },
+              {
+                "id": "akki_roti",
+                "name": "Akki Roti"
+              }
+            ]
+          },
+          {
+            "id": "rice_biryani",
+            "name": "Rice & Biryani",
+            "items": [
+              {
+                "id": "mangalore_biryani",
+                "name": "Mangalore Biryani"
+              },
+              {
+                "id": "puliyogare",
+                "name": "Puliyogare"
+              }
+            ]
+          },
+          {
+            "id": "desserts",
+            "name": "Desserts",
+            "items": [
+              {
+                "id": "mysore_pak",
+                "name": "Mysore Pak"
+              },
+              {
+                "id": "kesari_bath",
+                "name": "Kesari Bath"
+              }
+            ]
+          },
+          {
+            "id": "juices_drinks",
+            "name": "Juices & Drinks",
+            "items": [
+              {
+                "id": "filter_coffee",
+                "name": "Filter Coffee"
+              },
+              {
+                "id": "sugarcane_juice",
+                "name": "Sugarcane Juice"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "punjab",
+    "name": "Punjab",
+    "main_categories": [
+      {
+        "id": "regional_cuisine",
+        "name": "Regional Cuisine",
+        "child_categories": [
+          {
+            "id": "main_dishes",
+            "name": "Main Dishes",
+            "items": [
+              {
+                "id": "butter_chicken",
+                "name": "Butter Chicken"
+              },
+              {
+                "id": "dal_makhani",
+                "name": "Dal Makhani"
+              },
+              {
+                "id": "sarson_da_saag",
+                "name": "Sarson da Saag"
+              }
+            ]
+          },
+          {
+            "id": "breads",
+            "name": "Breads",
+            "items": [
+              {
+                "id": "naan",
+                "name": "Naan"
+              },
+              {
+                "id": "kulcha",
+                "name": "Kulcha"
+              },
+              {
+                "id": "paratha",
+                "name": "Paratha"
+              }
+            ]
+          },
+          {
+            "id": "rice_biryani",
+            "name": "Rice & Biryani",
+            "items": [
+              {
+                "id": "jeera_rice",
+                "name": "Jeera Rice"
+              },
+              {
+                "id": "veg_pulao",
+                "name": "Veg Pulao"
+              }
+            ]
+          },
+          {
+            "id": "desserts",
+            "name": "Desserts",
+            "items": [
+              {
+                "id": "phirni",
+                "name": "Phirni"
+              },
+              {
+                "id": "gulab_jamun",
+                "name": "Gulab Jamun"
+              },
+              {
+                "id": "lassi",
+                "name": "Lassi"
+              }
+            ]
+          },
+          {
+            "id": "juices_drinks",
+            "name": "Juices & Drinks",
+            "items": [
+              {
+                "id": "sweet_lassi",
+                "name": "Sweet Lassi"
+              },
+              {
+                "id": "mango_shake",
+                "name": "Mango Shake"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gujarat",
+    "name": "Gujarat",
+    "main_categories": [
+      {
+        "id": "regional_cuisine",
+        "name": "Regional Cuisine",
+        "child_categories": [
+          {
+            "id": "main_dishes",
+            "name": "Main Dishes",
+            "items": [
+              {
+                "id": "undhiyu",
+                "name": "Undhiyu"
+              },
+              {
+                "id": "kadhi",
+                "name": "Kadhi"
+              },
+              {
+                "id": "sev_tameta",
+                "name": "Sev Tameta"
+              }
+            ]
+          },
+          {
+            "id": "breads",
+            "name": "Breads",
+            "items": [
+              {
+                "id": "thepla",
+                "name": "Thepla"
+              },
+              {
+                "id": "rotla",
+                "name": "Rotla"
+              }
+            ]
+          },
+          {
+            "id": "rice_biryani",
+            "name": "Rice & Biryani",
+            "items": [
+              {
+                "id": "khichdi",
+                "name": "Khichdi"
+              },
+              {
+                "id": "dal_rice",
+                "name": "Dal Rice"
+              }
+            ]
+          },
+          {
+            "id": "desserts",
+            "name": "Desserts",
+            "items": [
+              {
+                "id": "shrikhand",
+                "name": "Shrikhand"
+              },
+              {
+                "id": "basundi",
+                "name": "Basundi"
+              }
+            ]
+          },
+          {
+            "id": "juices_drinks",
+            "name": "Juices & Drinks",
+            "items": [
+              {
+                "id": "chaas",
+                "name": "Chaas"
+              },
+              {
+                "id": "lemon_juice",
+                "name": "Lemon Juice"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rajasthan",
+    "name": "Rajasthan",
+    "main_categories": [
+      {
+        "id": "regional_cuisine",
+        "name": "Regional Cuisine",
+        "child_categories": [
+          {
+            "id": "main_dishes",
+            "name": "Main Dishes",
+            "items": [
+              {
+                "id": "dal_baati_churma",
+                "name": "Dal Baati Churma"
+              },
+              {
+                "id": "gatte_ki_sabzi",
+                "name": "Gatte ki Sabzi"
+              },
+              {
+                "id": "laal_maas",
+                "name": "Laal Maas"
+              }
+            ]
+          },
+          {
+            "id": "breads",
+            "name": "Breads",
+            "items": [
+              {
+                "id": "bajra_roti",
+                "name": "Bajra Roti"
+              },
+              {
+                "id": "missi_roti",
+                "name": "Missi Roti"
+              }
+            ]
+          },
+          {
+            "id": "rice_biryani",
+            "name": "Rice & Biryani",
+            "items": [
+              {
+                "id": "veg_pulao",
+                "name": "Veg Pulao"
+              },
+              {
+                "id": "jeera_rice",
+                "name": "Jeera Rice"
+              }
+            ]
+          },
+          {
+            "id": "desserts",
+            "name": "Desserts",
+            "items": [
+              {
+                "id": "ghevar",
+                "name": "Ghevar"
+              },
+              {
+                "id": "malpua",
+                "name": "Malpua"
+              }
+            ]
+          },
+          {
+            "id": "juices_drinks",
+            "name": "Juices & Drinks",
+            "items": [
+              {
+                "id": "buttermilk",
+                "name": "Buttermilk"
+              },
+              {
+                "id": "lemon_soda",
+                "name": "Lemon Soda"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bengal",
+    "name": "Bengal",
+    "main_categories": [
+      {
+        "id": "regional_cuisine",
+        "name": "Regional Cuisine",
+        "child_categories": [
+          {
+            "id": "main_dishes",
+            "name": "Main Dishes",
+            "items": [
+              {
+                "id": "macher_jhol",
+                "name": "Macher Jhol"
+              },
+              {
+                "id": "shorshe_ilish",
+                "name": "Shorshe Ilish"
+              },
+              {
+                "id": "chingri_malai_curry",
+                "name": "Chingri Malai Curry"
+              }
+            ]
+          },
+          {
+            "id": "breads",
+            "name": "Breads",
+            "items": [
+              {
+                "id": "luchi",
+                "name": "Luchi"
+              },
+              {
+                "id": "roti",
+                "name": "Roti"
+              }
+            ]
+          },
+          {
+            "id": "rice_biryani",
+            "name": "Rice & Biryani",
+            "items": [
+              {
+                "id": "kolkata_biryani",
+                "name": "Kolkata Biryani"
+              },
+              {
+                "id": "plain_rice",
+                "name": "Plain Rice"
+              }
+            ]
+          },
+          {
+            "id": "desserts",
+            "name": "Desserts",
+            "items": [
+              {
+                "id": "rasgulla",
+                "name": "Rasgulla"
+              },
+              {
+                "id": "mishti_doi",
+                "name": "Mishti Doi"
+              },
+              {
+                "id": "sandesh",
+                "name": "Sandesh"
+              }
+            ]
+          },
+          {
+            "id": "juices_drinks",
+            "name": "Juices & Drinks",
+            "items": [
+              {
+                "id": "sugarcane_juice",
+                "name": "Sugarcane Juice"
+              },
+              {
+                "id": "coconut_water",
+                "name": "Coconut Water"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hyderabad",
+    "name": "Hyderabad",
+    "main_categories": [
+      {
+        "id": "regional_cuisine",
+        "name": "Regional Cuisine",
+        "child_categories": [
+          {
+            "id": "main_dishes",
+            "name": "Main Dishes",
+            "items": [
+              {
+                "id": "hyderabadi_biryani",
+                "name": "Hyderabadi Biryani"
+              },
+              {
+                "id": "haleem",
+                "name": "Haleem"
+              },
+              {
+                "id": "mirchi_ka_salan",
+                "name": "Mirchi Ka Salan"
+              }
+            ]
+          },
+          {
+            "id": "breads",
+            "name": "Breads",
+            "items": [
+              {
+                "id": "rumali_roti",
+                "name": "Rumali Roti"
+              },
+              {
+                "id": "naan",
+                "name": "Naan"
+              }
+            ]
+          },
+          {
+            "id": "desserts",
+            "name": "Desserts",
+            "items": [
+              {
+                "id": "double_ka_meetha",
+                "name": "Double Ka Meetha"
+              },
+              {
+                "id": "qubani_ka_meetha",
+                "name": "Qubani Ka Meetha"
+              }
+            ]
+          },
+          {
+            "id": "juices_drinks",
+            "name": "Juices & Drinks",
+            "items": [
+              {
+                "id": "lemon_soda",
+                "name": "Lemon Soda"
+              },
+              {
+                "id": "falooda",
+                "name": "Falooda"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "european",
+    "name": "European",
+    "main_categories": [
+      {
+        "id": "global_juices_and_beverages",
+        "name": "Global Juices And Beverages",
+        "child_categories": [
+          {
+            "id": "fresh_juices",
+            "name": "Fresh Juices",
+            "items": [
+              {
+                "id": "apple_juice",
+                "name": "Apple Juice"
+              },
+              {
+                "id": "orange_juice",
+                "name": "Orange Juice"
+              },
+              {
+                "id": "berry_mix",
+                "name": "Berry Mix"
+              }
+            ]
+          },
+          {
+            "id": "hot_beverages",
+            "name": "Hot Beverages",
+            "items": [
+              {
+                "id": "espresso",
+                "name": "Espresso"
+              },
+              {
+                "id": "cappuccino",
+                "name": "Cappuccino"
+              },
+              {
+                "id": "latte",
+                "name": "Latte"
+              },
+              {
+                "id": "black_tea",
+                "name": "Black Tea"
+              }
+            ]
+          },
+          {
+            "id": "cold_drinks",
+            "name": "Cold Drinks",
+            "items": [
+              {
+                "id": "iced_coffee",
+                "name": "Iced Coffee"
+              },
+              {
+                "id": "sparkling_water",
+                "name": "Sparkling Water"
+              }
+            ]
+          },
+          {
+            "id": "specials",
+            "name": "Specials",
+            "items": [
+              {
+                "id": "mulled_wine",
+                "name": "Mulled Wine"
+              },
+              {
+                "id": "hot_chocolate",
+                "name": "Hot Chocolate"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "global_desserts_and_bakery",
+        "name": "Global Desserts And Bakery",
+        "child_categories": [
+          {
+            "id": "french",
+            "name": "French",
+            "items": [
+              {
+                "id": "cr_me_br_l_e",
+                "name": "Crème Brûlée"
+              },
+              {
+                "id": "clair",
+                "name": "Éclair"
+              },
+              {
+                "id": "macaron",
+                "name": "Macaron"
+              },
+              {
+                "id": "croissant",
+                "name": "Croissant"
+              },
+              {
+                "id": "tart",
+                "name": "Tart"
+              }
+            ]
+          },
+          {
+            "id": "italian",
+            "name": "Italian",
+            "items": [
+              {
+                "id": "tiramisu",
+                "name": "Tiramisu"
+              },
+              {
+                "id": "panna_cotta",
+                "name": "Panna Cotta"
+              },
+              {
+                "id": "cannoli",
+                "name": "Cannoli"
+              }
+            ]
+          },
+          {
+            "id": "german",
+            "name": "German",
+            "items": [
+              {
+                "id": "black_forest_cake",
+                "name": "Black Forest Cake"
+              },
+              {
+                "id": "apple_strudel",
+                "name": "Apple Strudel"
+              }
+            ]
+          },
+          {
+            "id": "british",
+            "name": "British",
+            "items": [
+              {
+                "id": "trifle",
+                "name": "Trifle"
+              },
+              {
+                "id": "sticky_toffee_pudding",
+                "name": "Sticky Toffee Pudding"
+              },
+              {
+                "id": "scones",
+                "name": "Scones"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "global_seafood_and_grilled_specials",
+        "name": "Global Seafood And Grilled Specials",
+        "child_categories": [
+          {
+            "id": "seafood",
+            "name": "Seafood",
+            "items": [
+              {
+                "id": "fish_chips",
+                "name": "Fish & Chips"
+              },
+              {
+                "id": "grilled_trout",
+                "name": "Grilled Trout"
+              },
+              {
+                "id": "seafood_paella",
+                "name": "Seafood Paella"
+              }
+            ]
+          },
+          {
+            "id": "grilled_bbq",
+            "name": "Grilled & BBQ",
+            "items": [
+              {
+                "id": "german_bratwurst",
+                "name": "German Bratwurst"
+              },
+              {
+                "id": "spanish_bbq",
+                "name": "Spanish BBQ"
+              },
+              {
+                "id": "italian_grilled_chicken",
+                "name": "Italian Grilled Chicken"
+              }
+            ]
+          },
+          {
+            "id": "vegetarian_grill",
+            "name": "Vegetarian Grill",
+            "items": [
+              {
+                "id": "grilled_asparagus",
+                "name": "Grilled Asparagus"
+              },
+              {
+                "id": "stuffed_peppers",
+                "name": "Stuffed Peppers"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "global_breakfast_and_healthy_options",
+        "name": "Global Breakfast And Healthy Options",
+        "child_categories": [
+          {
+            "id": "breakfast",
+            "name": "Breakfast",
+            "items": [
+              {
+                "id": "croissant",
+                "name": "Croissant"
+              },
+              {
+                "id": "omelette",
+                "name": "Omelette"
+              },
+              {
+                "id": "toast_with_jam",
+                "name": "Toast with Jam"
+              },
+              {
+                "id": "pancakes",
+                "name": "Pancakes"
+              }
+            ]
+          },
+          {
+            "id": "healthy_options",
+            "name": "Healthy Options",
+            "items": [
+              {
+                "id": "greek_yogurt_bowl",
+                "name": "Greek Yogurt Bowl"
+              },
+              {
+                "id": "avocado_toast",
+                "name": "Avocado Toast"
+              },
+              {
+                "id": "fruit_smoothie",
+                "name": "Fruit Smoothie"
+              }
+            ]
+          },
+          {
+            "id": "drinks",
+            "name": "Drinks",
+            "items": [
+              {
+                "id": "espresso",
+                "name": "Espresso"
+              },
+              {
+                "id": "cappuccino",
+                "name": "Cappuccino"
+              },
+              {
+                "id": "orange_juice",
+                "name": "Orange Juice"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "asian",
+    "name": "Asian",
+    "main_categories": [
+      {
+        "id": "global_desserts_and_bakery",
+        "name": "Global Desserts And Bakery",
+        "child_categories": [
+          {
+            "id": "chinese",
+            "name": "Chinese",
+            "items": [
+              {
+                "id": "mooncake",
+                "name": "Mooncake"
+              },
+              {
+                "id": "sesame_balls",
+                "name": "Sesame Balls"
+              },
+              {
+                "id": "mango_pudding",
+                "name": "Mango Pudding"
+              }
+            ]
+          },
+          {
+            "id": "japanese",
+            "name": "Japanese",
+            "items": [
+              {
+                "id": "mochi",
+                "name": "Mochi"
+              },
+              {
+                "id": "dorayaki",
+                "name": "Dorayaki"
+              },
+              {
+                "id": "matcha_cake",
+                "name": "Matcha Cake"
+              }
+            ]
+          },
+          {
+            "id": "thai",
+            "name": "Thai",
+            "items": [
+              {
+                "id": "mango_sticky_rice",
+                "name": "Mango Sticky Rice"
+              },
+              {
+                "id": "coconut_ice_cream",
+                "name": "Coconut Ice Cream"
+              }
+            ]
+          },
+          {
+            "id": "korean",
+            "name": "Korean",
+            "items": [
+              {
+                "id": "hotteok",
+                "name": "Hotteok"
+              },
+              {
+                "id": "bingsu",
+                "name": "Bingsu"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "global_seafood_and_grilled_specials",
+        "name": "Global Seafood And Grilled Specials",
+        "child_categories": [
+          {
+            "id": "seafood",
+            "name": "Seafood",
+            "items": [
+              {
+                "id": "teriyaki_salmon",
+                "name": "Teriyaki Salmon"
+              },
+              {
+                "id": "sweet_sour_fish",
+                "name": "Sweet & Sour Fish"
+              },
+              {
+                "id": "tempura_shrimp",
+                "name": "Tempura Shrimp"
+              }
+            ]
+          },
+          {
+            "id": "grilled_bbq",
+            "name": "Grilled & BBQ",
+            "items": [
+              {
+                "id": "yakitori_japan",
+                "name": "Yakitori (Japan)"
+              },
+              {
+                "id": "satay_thailand",
+                "name": "Satay (Thailand)"
+              },
+              {
+                "id": "korean_bbq",
+                "name": "Korean BBQ"
+              }
+            ]
+          },
+          {
+            "id": "vegetarian_grill",
+            "name": "Vegetarian Grill",
+            "items": [
+              {
+                "id": "tofu_skewers",
+                "name": "Tofu Skewers"
+              },
+              {
+                "id": "grilled_vegetables",
+                "name": "Grilled Vegetables"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "global_breakfast_and_healthy_options",
+        "name": "Global Breakfast And Healthy Options",
+        "child_categories": [
+          {
+            "id": "breakfast",
+            "name": "Breakfast",
+            "items": [
+              {
+                "id": "congee_china",
+                "name": "Congee (China)"
+              },
+              {
+                "id": "miso_soup_japan",
+                "name": "Miso Soup (Japan)"
+              },
+              {
+                "id": "nasi_lemak_malaysia",
+                "name": "Nasi Lemak (Malaysia)"
+              },
+              {
+                "id": "roti_canai_singapore",
+                "name": "Roti Canai (Singapore)"
+              }
+            ]
+          },
+          {
+            "id": "healthy_options",
+            "name": "Healthy Options",
+            "items": [
+              {
+                "id": "steamed_vegetables",
+                "name": "Steamed Vegetables"
+              },
+              {
+                "id": "tofu_salad",
+                "name": "Tofu Salad"
+              },
+              {
+                "id": "rice_porridge",
+                "name": "Rice Porridge"
+              }
+            ]
+          },
+          {
+            "id": "drinks",
+            "name": "Drinks",
+            "items": [
+              {
+                "id": "green_tea",
+                "name": "Green Tea"
+              },
+              {
+                "id": "soy_milk",
+                "name": "Soy Milk"
+              },
+              {
+                "id": "lemongrass_juice",
+                "name": "Lemongrass Juice"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mexican",
+    "name": "Mexican",
+    "main_categories": [
+      {
+        "id": "global_street_food_and_fusion",
+        "name": "Global Street Food And Fusion",
+        "child_categories": [
+          {
+            "id": "street_food",
+            "name": "Street Food",
+            "items": [
+              {
+                "id": "tacos",
+                "name": "Tacos"
+              },
+              {
+                "id": "burritos",
+                "name": "Burritos"
+              },
+              {
+                "id": "quesadilla",
+                "name": "Quesadilla"
+              }
+            ]
+          },
+          {
+            "id": "snacks",
+            "name": "Snacks",
+            "items": [
+              {
+                "id": "nachos",
+                "name": "Nachos"
+              },
+              {
+                "id": "churros",
+                "name": "Churros"
+              }
+            ]
+          },
+          {
+            "id": "fusion",
+            "name": "Fusion",
+            "items": [
+              {
+                "id": "mexican_pizza",
+                "name": "Mexican Pizza"
+              },
+              {
+                "id": "taco_pasta",
+                "name": "Taco Pasta"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

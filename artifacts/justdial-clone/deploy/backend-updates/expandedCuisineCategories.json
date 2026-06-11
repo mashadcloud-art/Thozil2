@@ -1,0 +1,5354 @@
+[
+  {
+    "id": "kerala",
+    "name": "Kerala",
+    "main_categories": [
+      {
+        "id": "kerala_breakfast",
+        "name": "Kerala Breakfast",
+        "child_categories": [
+          {
+            "id": "dosa_varieties",
+            "name": "Dosa Varieties",
+            "items": [
+              {
+                "id": "masala_dosa",
+                "name": "Masala Dosa"
+              },
+              {
+                "id": "ghee_roast",
+                "name": "Ghee Roast"
+              },
+              {
+                "id": "onion_dosa",
+                "name": "Onion Dosa"
+              },
+              {
+                "id": "set_dosa",
+                "name": "Set Dosa"
+              },
+              {
+                "id": "neer_dosa",
+                "name": "Neer Dosa"
+              },
+              {
+                "id": "special_dosa",
+                "name": "Special Dosa"
+              },
+              {
+                "id": "premium_dosa",
+                "name": "Premium Dosa"
+              },
+              {
+                "id": "spicy_dosa",
+                "name": "Spicy Dosa"
+              },
+              {
+                "id": "authentic_dosa",
+                "name": "Authentic Dosa"
+              },
+              {
+                "id": "classic_dosa",
+                "name": "Classic Dosa"
+              },
+              {
+                "id": "traditional_dosa",
+                "name": "Traditional Dosa"
+              },
+              {
+                "id": "family_dosa",
+                "name": "Family Dosa"
+              },
+              {
+                "id": "combo_dosa",
+                "name": "Combo Dosa"
+              },
+              {
+                "id": "chef_s_special_dosa",
+                "name": "Chef's Special Dosa"
+              },
+              {
+                "id": "supreme_dosa",
+                "name": "Supreme Dosa"
+              }
+            ]
+          },
+          {
+            "id": "idli_varieties",
+            "name": "Idli Varieties",
+            "items": [
+              {
+                "id": "idli",
+                "name": "Idli"
+              },
+              {
+                "id": "rava_idli",
+                "name": "Rava Idli"
+              },
+              {
+                "id": "thatte_idli",
+                "name": "Thatte Idli"
+              },
+              {
+                "id": "special_idli",
+                "name": "Special Idli"
+              },
+              {
+                "id": "premium_idli",
+                "name": "Premium Idli"
+              },
+              {
+                "id": "spicy_idli",
+                "name": "Spicy Idli"
+              },
+              {
+                "id": "authentic_idli",
+                "name": "Authentic Idli"
+              },
+              {
+                "id": "classic_idli",
+                "name": "Classic Idli"
+              },
+              {
+                "id": "traditional_idli",
+                "name": "Traditional Idli"
+              },
+              {
+                "id": "family_idli",
+                "name": "Family Idli"
+              },
+              {
+                "id": "combo_idli",
+                "name": "Combo Idli"
+              },
+              {
+                "id": "chef_s_special_idli",
+                "name": "Chef's Special Idli"
+              },
+              {
+                "id": "supreme_idli",
+                "name": "Supreme Idli"
+              }
+            ]
+          },
+          {
+            "id": "puttu_appam",
+            "name": "Puttu & Appam",
+            "items": [
+              {
+                "id": "puttu",
+                "name": "Puttu"
+              },
+              {
+                "id": "kadala_curry",
+                "name": "Kadala Curry"
+              },
+              {
+                "id": "appam",
+                "name": "Appam"
+              },
+              {
+                "id": "special_puttu_appam",
+                "name": "Special Puttu & Appam"
+              },
+              {
+                "id": "premium_puttu_appam",
+                "name": "Premium Puttu & Appam"
+              },
+              {
+                "id": "spicy_puttu_appam",
+                "name": "Spicy Puttu & Appam"
+              },
+              {
+                "id": "authentic_puttu_appam",
+                "name": "Authentic Puttu & Appam"
+              },
+              {
+                "id": "classic_puttu_appam",
+                "name": "Classic Puttu & Appam"
+              },
+              {
+                "id": "traditional_puttu_appam",
+                "name": "Traditional Puttu & Appam"
+              },
+              {
+                "id": "family_puttu_appam",
+                "name": "Family Puttu & Appam"
+              },
+              {
+                "id": "combo_puttu_appam",
+                "name": "Combo Puttu & Appam"
+              },
+              {
+                "id": "chef_s_special_puttu_appam",
+                "name": "Chef's Special Puttu & Appam"
+              },
+              {
+                "id": "supreme_puttu_appam",
+                "name": "Supreme Puttu & Appam"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kerala_breads",
+        "name": "Kerala Breads",
+        "child_categories": [
+          {
+            "id": "parotta",
+            "name": "Parotta",
+            "items": [
+              {
+                "id": "malabar_parotta",
+                "name": "Malabar Parotta"
+              },
+              {
+                "id": "coin_parotta",
+                "name": "Coin Parotta"
+              },
+              {
+                "id": "special_parotta",
+                "name": "Special Parotta"
+              },
+              {
+                "id": "premium_parotta",
+                "name": "Premium Parotta"
+              },
+              {
+                "id": "spicy_parotta",
+                "name": "Spicy Parotta"
+              },
+              {
+                "id": "authentic_parotta",
+                "name": "Authentic Parotta"
+              },
+              {
+                "id": "classic_parotta",
+                "name": "Classic Parotta"
+              },
+              {
+                "id": "traditional_parotta",
+                "name": "Traditional Parotta"
+              },
+              {
+                "id": "family_parotta",
+                "name": "Family Parotta"
+              },
+              {
+                "id": "combo_parotta",
+                "name": "Combo Parotta"
+              },
+              {
+                "id": "chef_s_special_parotta",
+                "name": "Chef's Special Parotta"
+              },
+              {
+                "id": "supreme_parotta",
+                "name": "Supreme Parotta"
+              }
+            ]
+          },
+          {
+            "id": "chapati_roti",
+            "name": "Chapati & Roti",
+            "items": [
+              {
+                "id": "kerala_chapati",
+                "name": "Kerala Chapati"
+              },
+              {
+                "id": "wheat_roti",
+                "name": "Wheat Roti"
+              },
+              {
+                "id": "special_chapati_roti",
+                "name": "Special Chapati & Roti"
+              },
+              {
+                "id": "premium_chapati_roti",
+                "name": "Premium Chapati & Roti"
+              },
+              {
+                "id": "spicy_chapati_roti",
+                "name": "Spicy Chapati & Roti"
+              },
+              {
+                "id": "authentic_chapati_roti",
+                "name": "Authentic Chapati & Roti"
+              },
+              {
+                "id": "classic_chapati_roti",
+                "name": "Classic Chapati & Roti"
+              },
+              {
+                "id": "traditional_chapati_roti",
+                "name": "Traditional Chapati & Roti"
+              },
+              {
+                "id": "family_chapati_roti",
+                "name": "Family Chapati & Roti"
+              },
+              {
+                "id": "combo_chapati_roti",
+                "name": "Combo Chapati & Roti"
+              },
+              {
+                "id": "chef_s_special_chapati_roti",
+                "name": "Chef's Special Chapati & Roti"
+              },
+              {
+                "id": "supreme_chapati_roti",
+                "name": "Supreme Chapati & Roti"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kerala_meals",
+        "name": "Kerala Meals",
+        "child_categories": [
+          {
+            "id": "veg_meals",
+            "name": "Veg Meals",
+            "items": [
+              {
+                "id": "kerala_veg_meals",
+                "name": "Kerala Veg Meals"
+              },
+              {
+                "id": "special_veg_meals",
+                "name": "Special Veg Meals"
+              },
+              {
+                "id": "premium_veg_meals",
+                "name": "Premium Veg Meals"
+              },
+              {
+                "id": "spicy_veg_meals",
+                "name": "Spicy Veg Meals"
+              },
+              {
+                "id": "authentic_veg_meals",
+                "name": "Authentic Veg Meals"
+              },
+              {
+                "id": "classic_veg_meals",
+                "name": "Classic Veg Meals"
+              },
+              {
+                "id": "traditional_veg_meals",
+                "name": "Traditional Veg Meals"
+              },
+              {
+                "id": "family_veg_meals",
+                "name": "Family Veg Meals"
+              },
+              {
+                "id": "combo_veg_meals",
+                "name": "Combo Veg Meals"
+              },
+              {
+                "id": "chef_s_special_veg_meals",
+                "name": "Chef's Special Veg Meals"
+              },
+              {
+                "id": "supreme_veg_meals",
+                "name": "Supreme Veg Meals"
+              }
+            ]
+          },
+          {
+            "id": "nonveg_meals",
+            "name": "Non-Veg Meals",
+            "items": [
+              {
+                "id": "fish_meals",
+                "name": "Fish Meals"
+              },
+              {
+                "id": "chicken_meals",
+                "name": "Chicken Meals"
+              },
+              {
+                "id": "special_non_veg_meals",
+                "name": "Special Non-Veg Meals"
+              },
+              {
+                "id": "premium_non_veg_meals",
+                "name": "Premium Non-Veg Meals"
+              },
+              {
+                "id": "spicy_non_veg_meals",
+                "name": "Spicy Non-Veg Meals"
+              },
+              {
+                "id": "authentic_non_veg_meals",
+                "name": "Authentic Non-Veg Meals"
+              },
+              {
+                "id": "classic_non_veg_meals",
+                "name": "Classic Non-Veg Meals"
+              },
+              {
+                "id": "traditional_non_veg_meals",
+                "name": "Traditional Non-Veg Meals"
+              },
+              {
+                "id": "family_non_veg_meals",
+                "name": "Family Non-Veg Meals"
+              },
+              {
+                "id": "combo_non_veg_meals",
+                "name": "Combo Non-Veg Meals"
+              },
+              {
+                "id": "chef_s_special_non_veg_meals",
+                "name": "Chef's Special Non-Veg Meals"
+              },
+              {
+                "id": "supreme_non_veg_meals",
+                "name": "Supreme Non-Veg Meals"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kerala_seafood",
+        "name": "Kerala Seafood",
+        "child_categories": [
+          {
+            "id": "fish_fry",
+            "name": "Fish Fry",
+            "items": [
+              {
+                "id": "ayala_fry",
+                "name": "Ayala Fry"
+              },
+              {
+                "id": "king_fish_fry",
+                "name": "King Fish Fry"
+              },
+              {
+                "id": "special_fish_fry",
+                "name": "Special Fish Fry"
+              },
+              {
+                "id": "premium_fish_fry",
+                "name": "Premium Fish Fry"
+              },
+              {
+                "id": "spicy_fish_fry",
+                "name": "Spicy Fish Fry"
+              },
+              {
+                "id": "authentic_fish_fry",
+                "name": "Authentic Fish Fry"
+              },
+              {
+                "id": "classic_fish_fry",
+                "name": "Classic Fish Fry"
+              },
+              {
+                "id": "traditional_fish_fry",
+                "name": "Traditional Fish Fry"
+              },
+              {
+                "id": "family_fish_fry",
+                "name": "Family Fish Fry"
+              },
+              {
+                "id": "combo_fish_fry",
+                "name": "Combo Fish Fry"
+              },
+              {
+                "id": "chef_s_special_fish_fry",
+                "name": "Chef's Special Fish Fry"
+              },
+              {
+                "id": "supreme_fish_fry",
+                "name": "Supreme Fish Fry"
+              }
+            ]
+          },
+          {
+            "id": "fish_curry",
+            "name": "Fish Curry",
+            "items": [
+              {
+                "id": "meen_curry",
+                "name": "Kerala Meen Curry"
+              },
+              {
+                "id": "malabar_fish_curry",
+                "name": "Malabar Fish Curry"
+              },
+              {
+                "id": "special_fish_curry",
+                "name": "Special Fish Curry"
+              },
+              {
+                "id": "premium_fish_curry",
+                "name": "Premium Fish Curry"
+              },
+              {
+                "id": "spicy_fish_curry",
+                "name": "Spicy Fish Curry"
+              },
+              {
+                "id": "authentic_fish_curry",
+                "name": "Authentic Fish Curry"
+              },
+              {
+                "id": "classic_fish_curry",
+                "name": "Classic Fish Curry"
+              },
+              {
+                "id": "traditional_fish_curry",
+                "name": "Traditional Fish Curry"
+              },
+              {
+                "id": "family_fish_curry",
+                "name": "Family Fish Curry"
+              },
+              {
+                "id": "combo_fish_curry",
+                "name": "Combo Fish Curry"
+              },
+              {
+                "id": "chef_s_special_fish_curry",
+                "name": "Chef's Special Fish Curry"
+              },
+              {
+                "id": "supreme_fish_curry",
+                "name": "Supreme Fish Curry"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tamil_nadu",
+    "name": "Tamil Nadu",
+    "main_categories": [
+      {
+        "id": "tn_breakfast",
+        "name": "Tamil Breakfast",
+        "child_categories": [
+          {
+            "id": "idli_varieties",
+            "name": "Idli Varieties",
+            "items": [
+              {
+                "id": "idli",
+                "name": "Idli"
+              },
+              {
+                "id": "kanchipuram_idli",
+                "name": "Kanchipuram Idli"
+              },
+              {
+                "id": "special_idli",
+                "name": "Special Idli"
+              },
+              {
+                "id": "premium_idli",
+                "name": "Premium Idli"
+              },
+              {
+                "id": "spicy_idli",
+                "name": "Spicy Idli"
+              },
+              {
+                "id": "authentic_idli",
+                "name": "Authentic Idli"
+              },
+              {
+                "id": "classic_idli",
+                "name": "Classic Idli"
+              },
+              {
+                "id": "traditional_idli",
+                "name": "Traditional Idli"
+              },
+              {
+                "id": "family_idli",
+                "name": "Family Idli"
+              },
+              {
+                "id": "combo_idli",
+                "name": "Combo Idli"
+              },
+              {
+                "id": "chef_s_special_idli",
+                "name": "Chef's Special Idli"
+              },
+              {
+                "id": "supreme_idli",
+                "name": "Supreme Idli"
+              }
+            ]
+          },
+          {
+            "id": "dosa_varieties",
+            "name": "Dosa Varieties",
+            "items": [
+              {
+                "id": "kal_dosa",
+                "name": "Kal Dosa"
+              },
+              {
+                "id": "podi_dosa",
+                "name": "Podi Dosa"
+              },
+              {
+                "id": "special_dosa",
+                "name": "Special Dosa"
+              },
+              {
+                "id": "premium_dosa",
+                "name": "Premium Dosa"
+              },
+              {
+                "id": "spicy_dosa",
+                "name": "Spicy Dosa"
+              },
+              {
+                "id": "authentic_dosa",
+                "name": "Authentic Dosa"
+              },
+              {
+                "id": "classic_dosa",
+                "name": "Classic Dosa"
+              },
+              {
+                "id": "traditional_dosa",
+                "name": "Traditional Dosa"
+              },
+              {
+                "id": "family_dosa",
+                "name": "Family Dosa"
+              },
+              {
+                "id": "combo_dosa",
+                "name": "Combo Dosa"
+              },
+              {
+                "id": "chef_s_special_dosa",
+                "name": "Chef's Special Dosa"
+              },
+              {
+                "id": "supreme_dosa",
+                "name": "Supreme Dosa"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "chettinad",
+        "name": "Chettinad Specials",
+        "child_categories": [
+          {
+            "id": "chettinad_chicken",
+            "name": "Chicken",
+            "items": [
+              {
+                "id": "chettinad_chicken",
+                "name": "Chettinad Chicken"
+              },
+              {
+                "id": "special_chicken",
+                "name": "Special Chicken"
+              },
+              {
+                "id": "premium_chicken",
+                "name": "Premium Chicken"
+              },
+              {
+                "id": "spicy_chicken",
+                "name": "Spicy Chicken"
+              },
+              {
+                "id": "authentic_chicken",
+                "name": "Authentic Chicken"
+              },
+              {
+                "id": "classic_chicken",
+                "name": "Classic Chicken"
+              },
+              {
+                "id": "traditional_chicken",
+                "name": "Traditional Chicken"
+              },
+              {
+                "id": "family_chicken",
+                "name": "Family Chicken"
+              },
+              {
+                "id": "combo_chicken",
+                "name": "Combo Chicken"
+              },
+              {
+                "id": "chef_s_special_chicken",
+                "name": "Chef's Special Chicken"
+              },
+              {
+                "id": "supreme_chicken",
+                "name": "Supreme Chicken"
+              }
+            ]
+          },
+          {
+            "id": "chettinad_mutton",
+            "name": "Mutton",
+            "items": [
+              {
+                "id": "mutton_chukka",
+                "name": "Mutton Chukka"
+              },
+              {
+                "id": "special_mutton",
+                "name": "Special Mutton"
+              },
+              {
+                "id": "premium_mutton",
+                "name": "Premium Mutton"
+              },
+              {
+                "id": "spicy_mutton",
+                "name": "Spicy Mutton"
+              },
+              {
+                "id": "authentic_mutton",
+                "name": "Authentic Mutton"
+              },
+              {
+                "id": "classic_mutton",
+                "name": "Classic Mutton"
+              },
+              {
+                "id": "traditional_mutton",
+                "name": "Traditional Mutton"
+              },
+              {
+                "id": "family_mutton",
+                "name": "Family Mutton"
+              },
+              {
+                "id": "combo_mutton",
+                "name": "Combo Mutton"
+              },
+              {
+                "id": "chef_s_special_mutton",
+                "name": "Chef's Special Mutton"
+              },
+              {
+                "id": "supreme_mutton",
+                "name": "Supreme Mutton"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "karnataka",
+    "name": "Karnataka",
+    "main_categories": [
+      {
+        "id": "kar_breakfast",
+        "name": "Karnataka Breakfast",
+        "child_categories": [
+          {
+            "id": "dosa_varieties",
+            "name": "Dosa Varieties",
+            "items": [
+              {
+                "id": "set_dosa",
+                "name": "Set Dosa"
+              },
+              {
+                "id": "benne_dosa",
+                "name": "Benne Dosa"
+              },
+              {
+                "id": "special_dosa",
+                "name": "Special Dosa"
+              },
+              {
+                "id": "premium_dosa",
+                "name": "Premium Dosa"
+              },
+              {
+                "id": "spicy_dosa",
+                "name": "Spicy Dosa"
+              },
+              {
+                "id": "authentic_dosa",
+                "name": "Authentic Dosa"
+              },
+              {
+                "id": "classic_dosa",
+                "name": "Classic Dosa"
+              },
+              {
+                "id": "traditional_dosa",
+                "name": "Traditional Dosa"
+              },
+              {
+                "id": "family_dosa",
+                "name": "Family Dosa"
+              },
+              {
+                "id": "combo_dosa",
+                "name": "Combo Dosa"
+              },
+              {
+                "id": "chef_s_special_dosa",
+                "name": "Chef's Special Dosa"
+              },
+              {
+                "id": "supreme_dosa",
+                "name": "Supreme Dosa"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "andhra_pradesh",
+    "name": "Andhra Pradesh",
+    "main_categories": [
+      {
+        "id": "andhra_meals",
+        "name": "Andhra Meals",
+        "child_categories": [
+          {
+            "id": "veg_meals",
+            "name": "Veg Meals",
+            "items": [
+              {
+                "id": "andhra_veg_meals",
+                "name": "Andhra Veg Meals"
+              },
+              {
+                "id": "special_veg_meals",
+                "name": "Special Veg Meals"
+              },
+              {
+                "id": "premium_veg_meals",
+                "name": "Premium Veg Meals"
+              },
+              {
+                "id": "spicy_veg_meals",
+                "name": "Spicy Veg Meals"
+              },
+              {
+                "id": "authentic_veg_meals",
+                "name": "Authentic Veg Meals"
+              },
+              {
+                "id": "classic_veg_meals",
+                "name": "Classic Veg Meals"
+              },
+              {
+                "id": "traditional_veg_meals",
+                "name": "Traditional Veg Meals"
+              },
+              {
+                "id": "family_veg_meals",
+                "name": "Family Veg Meals"
+              },
+              {
+                "id": "combo_veg_meals",
+                "name": "Combo Veg Meals"
+              },
+              {
+                "id": "chef_s_special_veg_meals",
+                "name": "Chef's Special Veg Meals"
+              },
+              {
+                "id": "supreme_veg_meals",
+                "name": "Supreme Veg Meals"
+              }
+            ]
+          },
+          {
+            "id": "nonveg_meals",
+            "name": "Non-Veg Meals",
+            "items": [
+              {
+                "id": "andhra_chicken_meals",
+                "name": "Chicken Meals"
+              },
+              {
+                "id": "special_non_veg_meals",
+                "name": "Special Non-Veg Meals"
+              },
+              {
+                "id": "premium_non_veg_meals",
+                "name": "Premium Non-Veg Meals"
+              },
+              {
+                "id": "spicy_non_veg_meals",
+                "name": "Spicy Non-Veg Meals"
+              },
+              {
+                "id": "authentic_non_veg_meals",
+                "name": "Authentic Non-Veg Meals"
+              },
+              {
+                "id": "classic_non_veg_meals",
+                "name": "Classic Non-Veg Meals"
+              },
+              {
+                "id": "traditional_non_veg_meals",
+                "name": "Traditional Non-Veg Meals"
+              },
+              {
+                "id": "family_non_veg_meals",
+                "name": "Family Non-Veg Meals"
+              },
+              {
+                "id": "combo_non_veg_meals",
+                "name": "Combo Non-Veg Meals"
+              },
+              {
+                "id": "chef_s_special_non_veg_meals",
+                "name": "Chef's Special Non-Veg Meals"
+              },
+              {
+                "id": "supreme_non_veg_meals",
+                "name": "Supreme Non-Veg Meals"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "telangana",
+    "name": "Telangana",
+    "main_categories": [
+      {
+        "id": "hyderabadi_biryani",
+        "name": "Hyderabadi Biryani",
+        "child_categories": [
+          {
+            "id": "biryani_types",
+            "name": "Biryani Types",
+            "items": [
+              {
+                "id": "chicken_biryani",
+                "name": "Chicken Biryani"
+              },
+              {
+                "id": "mutton_biryani",
+                "name": "Mutton Biryani"
+              },
+              {
+                "id": "special_biryani",
+                "name": "Special Biryani"
+              },
+              {
+                "id": "premium_biryani",
+                "name": "Premium Biryani"
+              },
+              {
+                "id": "spicy_biryani",
+                "name": "Spicy Biryani"
+              },
+              {
+                "id": "authentic_biryani",
+                "name": "Authentic Biryani"
+              },
+              {
+                "id": "classic_biryani",
+                "name": "Classic Biryani"
+              },
+              {
+                "id": "traditional_biryani",
+                "name": "Traditional Biryani"
+              },
+              {
+                "id": "family_biryani",
+                "name": "Family Biryani"
+              },
+              {
+                "id": "combo_biryani",
+                "name": "Combo Biryani"
+              },
+              {
+                "id": "chef_s_special_biryani",
+                "name": "Chef's Special Biryani"
+              },
+              {
+                "id": "supreme_biryani",
+                "name": "Supreme Biryani"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "punjab",
+    "name": "Punjab",
+    "main_categories": [
+      {
+        "id": "punjabi_meals",
+        "name": "Punjabi Meals",
+        "child_categories": [
+          {
+            "id": "veg_curries",
+            "name": "Veg Curries",
+            "items": [
+              {
+                "id": "paneer_butter_masala",
+                "name": "Paneer Butter Masala"
+              },
+              {
+                "id": "dal_makhani",
+                "name": "Dal Makhani"
+              },
+              {
+                "id": "special_veg_curries",
+                "name": "Special Veg Curries"
+              },
+              {
+                "id": "premium_veg_curries",
+                "name": "Premium Veg Curries"
+              },
+              {
+                "id": "spicy_veg_curries",
+                "name": "Spicy Veg Curries"
+              },
+              {
+                "id": "authentic_veg_curries",
+                "name": "Authentic Veg Curries"
+              },
+              {
+                "id": "classic_veg_curries",
+                "name": "Classic Veg Curries"
+              },
+              {
+                "id": "traditional_veg_curries",
+                "name": "Traditional Veg Curries"
+              },
+              {
+                "id": "family_veg_curries",
+                "name": "Family Veg Curries"
+              },
+              {
+                "id": "combo_veg_curries",
+                "name": "Combo Veg Curries"
+              },
+              {
+                "id": "chef_s_special_veg_curries",
+                "name": "Chef's Special Veg Curries"
+              },
+              {
+                "id": "supreme_veg_curries",
+                "name": "Supreme Veg Curries"
+              }
+            ]
+          },
+          {
+            "id": "nonveg_curries",
+            "name": "Non-Veg Curries",
+            "items": [
+              {
+                "id": "butter_chicken",
+                "name": "Butter Chicken"
+              },
+              {
+                "id": "amritsari_chicken",
+                "name": "Amritsari Chicken"
+              },
+              {
+                "id": "special_non_veg_curries",
+                "name": "Special Non-Veg Curries"
+              },
+              {
+                "id": "premium_non_veg_curries",
+                "name": "Premium Non-Veg Curries"
+              },
+              {
+                "id": "spicy_non_veg_curries",
+                "name": "Spicy Non-Veg Curries"
+              },
+              {
+                "id": "authentic_non_veg_curries",
+                "name": "Authentic Non-Veg Curries"
+              },
+              {
+                "id": "classic_non_veg_curries",
+                "name": "Classic Non-Veg Curries"
+              },
+              {
+                "id": "traditional_non_veg_curries",
+                "name": "Traditional Non-Veg Curries"
+              },
+              {
+                "id": "family_non_veg_curries",
+                "name": "Family Non-Veg Curries"
+              },
+              {
+                "id": "combo_non_veg_curries",
+                "name": "Combo Non-Veg Curries"
+              },
+              {
+                "id": "chef_s_special_non_veg_curries",
+                "name": "Chef's Special Non-Veg Curries"
+              },
+              {
+                "id": "supreme_non_veg_curries",
+                "name": "Supreme Non-Veg Curries"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "punjabi_breads",
+        "name": "Punjabi Breads",
+        "child_categories": [
+          {
+            "id": "tandoor_breads",
+            "name": "Tandoor Breads",
+            "items": [
+              {
+                "id": "naan",
+                "name": "Naan"
+              },
+              {
+                "id": "tandoori_roti",
+                "name": "Tandoori Roti"
+              },
+              {
+                "id": "kulcha",
+                "name": "Kulcha"
+              },
+              {
+                "id": "special_tandoor_breads",
+                "name": "Special Tandoor Breads"
+              },
+              {
+                "id": "premium_tandoor_breads",
+                "name": "Premium Tandoor Breads"
+              },
+              {
+                "id": "spicy_tandoor_breads",
+                "name": "Spicy Tandoor Breads"
+              },
+              {
+                "id": "authentic_tandoor_breads",
+                "name": "Authentic Tandoor Breads"
+              },
+              {
+                "id": "classic_tandoor_breads",
+                "name": "Classic Tandoor Breads"
+              },
+              {
+                "id": "traditional_tandoor_breads",
+                "name": "Traditional Tandoor Breads"
+              },
+              {
+                "id": "family_tandoor_breads",
+                "name": "Family Tandoor Breads"
+              },
+              {
+                "id": "combo_tandoor_breads",
+                "name": "Combo Tandoor Breads"
+              },
+              {
+                "id": "chef_s_special_tandoor_breads",
+                "name": "Chef's Special Tandoor Breads"
+              },
+              {
+                "id": "supreme_tandoor_breads",
+                "name": "Supreme Tandoor Breads"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "delhi",
+    "name": "Delhi",
+    "main_categories": [
+      {
+        "id": "delhi_street_food",
+        "name": "Delhi Street Food",
+        "child_categories": [
+          {
+            "id": "chaat",
+            "name": "Chaat",
+            "items": [
+              {
+                "id": "golgappa",
+                "name": "Golgappa"
+              },
+              {
+                "id": "aloo_tikki",
+                "name": "Aloo Tikki"
+              },
+              {
+                "id": "special_chaat",
+                "name": "Special Chaat"
+              },
+              {
+                "id": "premium_chaat",
+                "name": "Premium Chaat"
+              },
+              {
+                "id": "spicy_chaat",
+                "name": "Spicy Chaat"
+              },
+              {
+                "id": "authentic_chaat",
+                "name": "Authentic Chaat"
+              },
+              {
+                "id": "classic_chaat",
+                "name": "Classic Chaat"
+              },
+              {
+                "id": "traditional_chaat",
+                "name": "Traditional Chaat"
+              },
+              {
+                "id": "family_chaat",
+                "name": "Family Chaat"
+              },
+              {
+                "id": "combo_chaat",
+                "name": "Combo Chaat"
+              },
+              {
+                "id": "chef_s_special_chaat",
+                "name": "Chef's Special Chaat"
+              },
+              {
+                "id": "supreme_chaat",
+                "name": "Supreme Chaat"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "uttar_pradesh",
+    "name": "Uttar Pradesh",
+    "main_categories": [
+      {
+        "id": "awadhi_cuisine",
+        "name": "Awadhi Cuisine",
+        "child_categories": [
+          {
+            "id": "biryani",
+            "name": "Biryani",
+            "items": [
+              {
+                "id": "lucknowi_biryani",
+                "name": "Lucknowi Biryani"
+              },
+              {
+                "id": "special_biryani",
+                "name": "Special Biryani"
+              },
+              {
+                "id": "premium_biryani",
+                "name": "Premium Biryani"
+              },
+              {
+                "id": "spicy_biryani",
+                "name": "Spicy Biryani"
+              },
+              {
+                "id": "authentic_biryani",
+                "name": "Authentic Biryani"
+              },
+              {
+                "id": "classic_biryani",
+                "name": "Classic Biryani"
+              },
+              {
+                "id": "traditional_biryani",
+                "name": "Traditional Biryani"
+              },
+              {
+                "id": "family_biryani",
+                "name": "Family Biryani"
+              },
+              {
+                "id": "combo_biryani",
+                "name": "Combo Biryani"
+              },
+              {
+                "id": "chef_s_special_biryani",
+                "name": "Chef's Special Biryani"
+              },
+              {
+                "id": "supreme_biryani",
+                "name": "Supreme Biryani"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rajasthan",
+    "name": "Rajasthan",
+    "main_categories": [
+      {
+        "id": "rajasthani_thali",
+        "name": "Rajasthani Thali",
+        "child_categories": [
+          {
+            "id": "veg_items",
+            "name": "Veg Items",
+            "items": [
+              {
+                "id": "dal_baati",
+                "name": "Dal Baati Churma"
+              },
+              {
+                "id": "gatte_ki_sabzi",
+                "name": "Gatte Ki Sabzi"
+              },
+              {
+                "id": "special_veg_items",
+                "name": "Special Veg Items"
+              },
+              {
+                "id": "premium_veg_items",
+                "name": "Premium Veg Items"
+              },
+              {
+                "id": "spicy_veg_items",
+                "name": "Spicy Veg Items"
+              },
+              {
+                "id": "authentic_veg_items",
+                "name": "Authentic Veg Items"
+              },
+              {
+                "id": "classic_veg_items",
+                "name": "Classic Veg Items"
+              },
+              {
+                "id": "traditional_veg_items",
+                "name": "Traditional Veg Items"
+              },
+              {
+                "id": "family_veg_items",
+                "name": "Family Veg Items"
+              },
+              {
+                "id": "combo_veg_items",
+                "name": "Combo Veg Items"
+              },
+              {
+                "id": "chef_s_special_veg_items",
+                "name": "Chef's Special Veg Items"
+              },
+              {
+                "id": "supreme_veg_items",
+                "name": "Supreme Veg Items"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gujarat",
+    "name": "Gujarat",
+    "main_categories": [
+      {
+        "id": "gujarati_snacks",
+        "name": "Gujarati Snacks",
+        "child_categories": [
+          {
+            "id": "dhokla_varieties",
+            "name": "Dhokla Varieties",
+            "items": [
+              {
+                "id": "khaman_dhokla",
+                "name": "Khaman Dhokla"
+              },
+              {
+                "id": "nylon_dhokla",
+                "name": "Nylon Dhokla"
+              },
+              {
+                "id": "special_dhokla",
+                "name": "Special Dhokla"
+              },
+              {
+                "id": "premium_dhokla",
+                "name": "Premium Dhokla"
+              },
+              {
+                "id": "spicy_dhokla",
+                "name": "Spicy Dhokla"
+              },
+              {
+                "id": "authentic_dhokla",
+                "name": "Authentic Dhokla"
+              },
+              {
+                "id": "classic_dhokla",
+                "name": "Classic Dhokla"
+              },
+              {
+                "id": "traditional_dhokla",
+                "name": "Traditional Dhokla"
+              },
+              {
+                "id": "family_dhokla",
+                "name": "Family Dhokla"
+              },
+              {
+                "id": "combo_dhokla",
+                "name": "Combo Dhokla"
+              },
+              {
+                "id": "chef_s_special_dhokla",
+                "name": "Chef's Special Dhokla"
+              },
+              {
+                "id": "supreme_dhokla",
+                "name": "Supreme Dhokla"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kashmir",
+    "name": "Kashmir",
+    "main_categories": [
+      {
+        "id": "wazwan",
+        "name": "Wazwan",
+        "child_categories": [
+          {
+            "id": "meat_dishes",
+            "name": "Meat Dishes",
+            "items": [
+              {
+                "id": "rogan_josh",
+                "name": "Rogan Josh"
+              },
+              {
+                "id": "gushtaba",
+                "name": "Gushtaba"
+              },
+              {
+                "id": "special_meat",
+                "name": "Special Meat"
+              },
+              {
+                "id": "premium_meat",
+                "name": "Premium Meat"
+              },
+              {
+                "id": "spicy_meat",
+                "name": "Spicy Meat"
+              },
+              {
+                "id": "authentic_meat",
+                "name": "Authentic Meat"
+              },
+              {
+                "id": "classic_meat",
+                "name": "Classic Meat"
+              },
+              {
+                "id": "traditional_meat",
+                "name": "Traditional Meat"
+              },
+              {
+                "id": "family_meat",
+                "name": "Family Meat"
+              },
+              {
+                "id": "combo_meat",
+                "name": "Combo Meat"
+              },
+              {
+                "id": "chef_s_special_meat",
+                "name": "Chef's Special Meat"
+              },
+              {
+                "id": "supreme_meat",
+                "name": "Supreme Meat"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "west_bengal",
+    "name": "West Bengal",
+    "main_categories": [
+      {
+        "id": "bengali_fish",
+        "name": "Bengali Fish Dishes",
+        "child_categories": [
+          {
+            "id": "hilsa_dishes",
+            "name": "Hilsa Specials",
+            "items": [
+              {
+                "id": "ilish_bhapa",
+                "name": "Ilish Bhapa"
+              },
+              {
+                "id": "ilish_jhol",
+                "name": "Ilish Jhol"
+              },
+              {
+                "id": "special_hilsa_specials",
+                "name": "Special Hilsa Specials"
+              },
+              {
+                "id": "premium_hilsa_specials",
+                "name": "Premium Hilsa Specials"
+              },
+              {
+                "id": "spicy_hilsa_specials",
+                "name": "Spicy Hilsa Specials"
+              },
+              {
+                "id": "authentic_hilsa_specials",
+                "name": "Authentic Hilsa Specials"
+              },
+              {
+                "id": "classic_hilsa_specials",
+                "name": "Classic Hilsa Specials"
+              },
+              {
+                "id": "traditional_hilsa_specials",
+                "name": "Traditional Hilsa Specials"
+              },
+              {
+                "id": "family_hilsa_specials",
+                "name": "Family Hilsa Specials"
+              },
+              {
+                "id": "combo_hilsa_specials",
+                "name": "Combo Hilsa Specials"
+              },
+              {
+                "id": "chef_s_special_hilsa_specials",
+                "name": "Chef's Special Hilsa Specials"
+              },
+              {
+                "id": "supreme_hilsa_specials",
+                "name": "Supreme Hilsa Specials"
+              }
+            ]
+          },
+          {
+            "id": "rohu_dishes",
+            "name": "Rohu Specials",
+            "items": [
+              {
+                "id": "rohu_kalia",
+                "name": "Rohu Kalia"
+              },
+              {
+                "id": "rohu_jhol",
+                "name": "Rohu Jhol"
+              },
+              {
+                "id": "special_rohu_specials",
+                "name": "Special Rohu Specials"
+              },
+              {
+                "id": "premium_rohu_specials",
+                "name": "Premium Rohu Specials"
+              },
+              {
+                "id": "spicy_rohu_specials",
+                "name": "Spicy Rohu Specials"
+              },
+              {
+                "id": "authentic_rohu_specials",
+                "name": "Authentic Rohu Specials"
+              },
+              {
+                "id": "classic_rohu_specials",
+                "name": "Classic Rohu Specials"
+              },
+              {
+                "id": "traditional_rohu_specials",
+                "name": "Traditional Rohu Specials"
+              },
+              {
+                "id": "family_rohu_specials",
+                "name": "Family Rohu Specials"
+              },
+              {
+                "id": "combo_rohu_specials",
+                "name": "Combo Rohu Specials"
+              },
+              {
+                "id": "chef_s_special_rohu_specials",
+                "name": "Chef's Special Rohu Specials"
+              },
+              {
+                "id": "supreme_rohu_specials",
+                "name": "Supreme Rohu Specials"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "odisha",
+    "name": "Odisha",
+    "main_categories": [
+      {
+        "id": "odia_meals",
+        "name": "Odia Meals",
+        "child_categories": [
+          {
+            "id": "veg_items",
+            "name": "Veg Items",
+            "items": [
+              {
+                "id": "dalma",
+                "name": "Dalma"
+              },
+              {
+                "id": "pakhala_bhata",
+                "name": "Pakhala Bhata"
+              },
+              {
+                "id": "special_veg_items",
+                "name": "Special Veg Items"
+              },
+              {
+                "id": "premium_veg_items",
+                "name": "Premium Veg Items"
+              },
+              {
+                "id": "spicy_veg_items",
+                "name": "Spicy Veg Items"
+              },
+              {
+                "id": "authentic_veg_items",
+                "name": "Authentic Veg Items"
+              },
+              {
+                "id": "classic_veg_items",
+                "name": "Classic Veg Items"
+              },
+              {
+                "id": "traditional_veg_items",
+                "name": "Traditional Veg Items"
+              },
+              {
+                "id": "family_veg_items",
+                "name": "Family Veg Items"
+              },
+              {
+                "id": "combo_veg_items",
+                "name": "Combo Veg Items"
+              },
+              {
+                "id": "chef_s_special_veg_items",
+                "name": "Chef's Special Veg Items"
+              },
+              {
+                "id": "supreme_veg_items",
+                "name": "Supreme Veg Items"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "assam",
+    "name": "Assam",
+    "main_categories": [
+      {
+        "id": "assamese_specials",
+        "name": "Assamese Specials",
+        "child_categories": [
+          {
+            "id": "fish_items",
+            "name": "Fish Items",
+            "items": [
+              {
+                "id": "masor_tenga",
+                "name": "Masor Tenga"
+              },
+              {
+                "id": "assam_fish_curry",
+                "name": "Assam Fish Curry"
+              },
+              {
+                "id": "special_fish_items",
+                "name": "Special Fish Items"
+              },
+              {
+                "id": "premium_fish_items",
+                "name": "Premium Fish Items"
+              },
+              {
+                "id": "spicy_fish_items",
+                "name": "Spicy Fish Items"
+              },
+              {
+                "id": "authentic_fish_items",
+                "name": "Authentic Fish Items"
+              },
+              {
+                "id": "classic_fish_items",
+                "name": "Classic Fish Items"
+              },
+              {
+                "id": "traditional_fish_items",
+                "name": "Traditional Fish Items"
+              },
+              {
+                "id": "family_fish_items",
+                "name": "Family Fish Items"
+              },
+              {
+                "id": "combo_fish_items",
+                "name": "Combo Fish Items"
+              },
+              {
+                "id": "chef_s_special_fish_items",
+                "name": "Chef's Special Fish Items"
+              },
+              {
+                "id": "supreme_fish_items",
+                "name": "Supreme Fish Items"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "goa",
+    "name": "Goa",
+    "main_categories": [
+      {
+        "id": "goan_seafood",
+        "name": "Goan Seafood",
+        "child_categories": [
+          {
+            "id": "fish_curries",
+            "name": "Fish Curries",
+            "items": [
+              {
+                "id": "goan_fish_curry",
+                "name": "Goan Fish Curry"
+              },
+              {
+                "id": "prawn_curry",
+                "name": "Prawn Curry"
+              },
+              {
+                "id": "special_fish_curries",
+                "name": "Special Fish Curries"
+              },
+              {
+                "id": "premium_fish_curries",
+                "name": "Premium Fish Curries"
+              },
+              {
+                "id": "spicy_fish_curries",
+                "name": "Spicy Fish Curries"
+              },
+              {
+                "id": "authentic_fish_curries",
+                "name": "Authentic Fish Curries"
+              },
+              {
+                "id": "classic_fish_curries",
+                "name": "Classic Fish Curries"
+              },
+              {
+                "id": "traditional_fish_curries",
+                "name": "Traditional Fish Curries"
+              },
+              {
+                "id": "family_fish_curries",
+                "name": "Family Fish Curries"
+              },
+              {
+                "id": "combo_fish_curries",
+                "name": "Combo Fish Curries"
+              },
+              {
+                "id": "chef_s_special_fish_curries",
+                "name": "Chef's Special Fish Curries"
+              },
+              {
+                "id": "supreme_fish_curries",
+                "name": "Supreme Fish Curries"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "maharashtra",
+    "name": "Maharashtra",
+    "main_categories": [
+      {
+        "id": "maharashtrian_meals",
+        "name": "Maharashtrian Meals",
+        "child_categories": [
+          {
+            "id": "veg_items",
+            "name": "Veg Items",
+            "items": [
+              {
+                "id": "pithla_bhakri",
+                "name": "Pithla Bhakri"
+              },
+              {
+                "id": "misal_pav",
+                "name": "Misal Pav"
+              },
+              {
+                "id": "special_veg_items",
+                "name": "Special Veg Items"
+              },
+              {
+                "id": "premium_veg_items",
+                "name": "Premium Veg Items"
+              },
+              {
+                "id": "spicy_veg_items",
+                "name": "Spicy Veg Items"
+              },
+              {
+                "id": "authentic_veg_items",
+                "name": "Authentic Veg Items"
+              },
+              {
+                "id": "classic_veg_items",
+                "name": "Classic Veg Items"
+              },
+              {
+                "id": "traditional_veg_items",
+                "name": "Traditional Veg Items"
+              },
+              {
+                "id": "family_veg_items",
+                "name": "Family Veg Items"
+              },
+              {
+                "id": "combo_veg_items",
+                "name": "Combo Veg Items"
+              },
+              {
+                "id": "chef_s_special_veg_items",
+                "name": "Chef's Special Veg Items"
+              },
+              {
+                "id": "supreme_veg_items",
+                "name": "Supreme Veg Items"
+              }
+            ]
+          },
+          {
+            "id": "nonveg_items",
+            "name": "Non-Veg Items",
+            "items": [
+              {
+                "id": "kolhapuri_chicken",
+                "name": "Kolhapuri Chicken"
+              },
+              {
+                "id": "bombil_fry",
+                "name": "Bombil Fry"
+              },
+              {
+                "id": "special_non_veg_items",
+                "name": "Special Non-Veg Items"
+              },
+              {
+                "id": "premium_non_veg_items",
+                "name": "Premium Non-Veg Items"
+              },
+              {
+                "id": "spicy_non_veg_items",
+                "name": "Spicy Non-Veg Items"
+              },
+              {
+                "id": "authentic_non_veg_items",
+                "name": "Authentic Non-Veg Items"
+              },
+              {
+                "id": "classic_non_veg_items",
+                "name": "Classic Non-Veg Items"
+              },
+              {
+                "id": "traditional_non_veg_items",
+                "name": "Traditional Non-Veg Items"
+              },
+              {
+                "id": "family_non_veg_items",
+                "name": "Family Non-Veg Items"
+              },
+              {
+                "id": "combo_non_veg_items",
+                "name": "Combo Non-Veg Items"
+              },
+              {
+                "id": "chef_s_special_non_veg_items",
+                "name": "Chef's Special Non-Veg Items"
+              },
+              {
+                "id": "supreme_non_veg_items",
+                "name": "Supreme Non-Veg Items"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "madhya_pradesh",
+    "name": "Madhya Pradesh",
+    "main_categories": [
+      {
+        "id": "mp_specials",
+        "name": "MP Specials",
+        "child_categories": [
+          {
+            "id": "street_food",
+            "name": "Street Food",
+            "items": [
+              {
+                "id": "poha_jalebi",
+                "name": "Poha Jalebi"
+              },
+              {
+                "id": "bhutte_ka_khees",
+                "name": "Bhutte Ka Khees"
+              },
+              {
+                "id": "special_street_food",
+                "name": "Special Street Food"
+              },
+              {
+                "id": "premium_street_food",
+                "name": "Premium Street Food"
+              },
+              {
+                "id": "spicy_street_food",
+                "name": "Spicy Street Food"
+              },
+              {
+                "id": "authentic_street_food",
+                "name": "Authentic Street Food"
+              },
+              {
+                "id": "classic_street_food",
+                "name": "Classic Street Food"
+              },
+              {
+                "id": "traditional_street_food",
+                "name": "Traditional Street Food"
+              },
+              {
+                "id": "family_street_food",
+                "name": "Family Street Food"
+              },
+              {
+                "id": "combo_street_food",
+                "name": "Combo Street Food"
+              },
+              {
+                "id": "chef_s_special_street_food",
+                "name": "Chef's Special Street Food"
+              },
+              {
+                "id": "supreme_street_food",
+                "name": "Supreme Street Food"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bihar",
+    "name": "Bihar",
+    "main_categories": [
+      {
+        "id": "bihari_specials",
+        "name": "Bihari Specials",
+        "child_categories": [
+          {
+            "id": "veg_items",
+            "name": "Veg Items",
+            "items": [
+              {
+                "id": "litti_chokha",
+                "name": "Litti Chokha"
+              },
+              {
+                "id": "sattu_paratha",
+                "name": "Sattu Paratha"
+              },
+              {
+                "id": "special_veg_items",
+                "name": "Special Veg Items"
+              },
+              {
+                "id": "premium_veg_items",
+                "name": "Premium Veg Items"
+              },
+              {
+                "id": "spicy_veg_items",
+                "name": "Spicy Veg Items"
+              },
+              {
+                "id": "authentic_veg_items",
+                "name": "Authentic Veg Items"
+              },
+              {
+                "id": "classic_veg_items",
+                "name": "Classic Veg Items"
+              },
+              {
+                "id": "traditional_veg_items",
+                "name": "Traditional Veg Items"
+              },
+              {
+                "id": "family_veg_items",
+                "name": "Family Veg Items"
+              },
+              {
+                "id": "combo_veg_items",
+                "name": "Combo Veg Items"
+              },
+              {
+                "id": "chef_s_special_veg_items",
+                "name": "Chef's Special Veg Items"
+              },
+              {
+                "id": "supreme_veg_items",
+                "name": "Supreme Veg Items"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jharkhand",
+    "name": "Jharkhand",
+    "main_categories": [
+      {
+        "id": "jharkhand_specials",
+        "name": "Jharkhand Specials",
+        "child_categories": [
+          {
+            "id": "local_items",
+            "name": "Local Items",
+            "items": [
+              {
+                "id": "dhuska",
+                "name": "Dhuska"
+              },
+              {
+                "id": "thekua",
+                "name": "Thekua"
+              },
+              {
+                "id": "special_local_items",
+                "name": "Special Local Items"
+              },
+              {
+                "id": "premium_local_items",
+                "name": "Premium Local Items"
+              },
+              {
+                "id": "spicy_local_items",
+                "name": "Spicy Local Items"
+              },
+              {
+                "id": "authentic_local_items",
+                "name": "Authentic Local Items"
+              },
+              {
+                "id": "classic_local_items",
+                "name": "Classic Local Items"
+              },
+              {
+                "id": "traditional_local_items",
+                "name": "Traditional Local Items"
+              },
+              {
+                "id": "family_local_items",
+                "name": "Family Local Items"
+              },
+              {
+                "id": "combo_local_items",
+                "name": "Combo Local Items"
+              },
+              {
+                "id": "chef_s_special_local_items",
+                "name": "Chef's Special Local Items"
+              },
+              {
+                "id": "supreme_local_items",
+                "name": "Supreme Local Items"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "chhattisgarh",
+    "name": "Chhattisgarh",
+    "main_categories": [
+      {
+        "id": "cg_specials",
+        "name": "Chhattisgarh Specials",
+        "child_categories": [
+          {
+            "id": "rice_items",
+            "name": "Rice Items",
+            "items": [
+              {
+                "id": "bafauri",
+                "name": "Bafauri"
+              },
+              {
+                "id": "chousela",
+                "name": "Chousela"
+              },
+              {
+                "id": "special_rice_items",
+                "name": "Special Rice Items"
+              },
+              {
+                "id": "premium_rice_items",
+                "name": "Premium Rice Items"
+              },
+              {
+                "id": "spicy_rice_items",
+                "name": "Spicy Rice Items"
+              },
+              {
+                "id": "authentic_rice_items",
+                "name": "Authentic Rice Items"
+              },
+              {
+                "id": "classic_rice_items",
+                "name": "Classic Rice Items"
+              },
+              {
+                "id": "traditional_rice_items",
+                "name": "Traditional Rice Items"
+              },
+              {
+                "id": "family_rice_items",
+                "name": "Family Rice Items"
+              },
+              {
+                "id": "combo_rice_items",
+                "name": "Combo Rice Items"
+              },
+              {
+                "id": "chef_s_special_rice_items",
+                "name": "Chef's Special Rice Items"
+              },
+              {
+                "id": "supreme_rice_items",
+                "name": "Supreme Rice Items"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "northeast_india",
+    "name": "North East India",
+    "main_categories": [
+      {
+        "id": "ne_specials",
+        "name": "North East Specials",
+        "child_categories": [
+          {
+            "id": "meat_items",
+            "name": "Meat Items",
+            "items": [
+              {
+                "id": "smoked_pork",
+                "name": "Smoked Pork"
+              },
+              {
+                "id": "axone_pork",
+                "name": "Axone Pork"
+              },
+              {
+                "id": "special_meat_items",
+                "name": "Special Meat Items"
+              },
+              {
+                "id": "premium_meat_items",
+                "name": "Premium Meat Items"
+              },
+              {
+                "id": "spicy_meat_items",
+                "name": "Spicy Meat Items"
+              },
+              {
+                "id": "authentic_meat_items",
+                "name": "Authentic Meat Items"
+              },
+              {
+                "id": "classic_meat_items",
+                "name": "Classic Meat Items"
+              },
+              {
+                "id": "traditional_meat_items",
+                "name": "Traditional Meat Items"
+              },
+              {
+                "id": "family_meat_items",
+                "name": "Family Meat Items"
+              },
+              {
+                "id": "combo_meat_items",
+                "name": "Combo Meat Items"
+              },
+              {
+                "id": "chef_s_special_meat_items",
+                "name": "Chef's Special Meat Items"
+              },
+              {
+                "id": "supreme_meat_items",
+                "name": "Supreme Meat Items"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "chinese",
+    "name": "Chinese",
+    "main_categories": [
+      {
+        "id": "chinese_starters",
+        "name": "Starters",
+        "child_categories": [
+          {
+            "id": "fried_starters",
+            "name": "Fried Starters",
+            "items": [
+              {
+                "id": "spring_rolls",
+                "name": "Spring Rolls"
+              },
+              {
+                "id": "chicken_lollipop",
+                "name": "Chicken Lollipop"
+              },
+              {
+                "id": "special_fried_starters",
+                "name": "Special Fried Starters"
+              },
+              {
+                "id": "premium_fried_starters",
+                "name": "Premium Fried Starters"
+              },
+              {
+                "id": "spicy_fried_starters",
+                "name": "Spicy Fried Starters"
+              },
+              {
+                "id": "authentic_fried_starters",
+                "name": "Authentic Fried Starters"
+              },
+              {
+                "id": "classic_fried_starters",
+                "name": "Classic Fried Starters"
+              },
+              {
+                "id": "traditional_fried_starters",
+                "name": "Traditional Fried Starters"
+              },
+              {
+                "id": "family_fried_starters",
+                "name": "Family Fried Starters"
+              },
+              {
+                "id": "combo_fried_starters",
+                "name": "Combo Fried Starters"
+              },
+              {
+                "id": "chef_s_special_fried_starters",
+                "name": "Chef's Special Fried Starters"
+              },
+              {
+                "id": "supreme_fried_starters",
+                "name": "Supreme Fried Starters"
+              }
+            ]
+          },
+          {
+            "id": "dimsum",
+            "name": "Dimsum",
+            "items": [
+              {
+                "id": "veg_dumplings",
+                "name": "Veg Dumplings"
+              },
+              {
+                "id": "chicken_dumplings",
+                "name": "Chicken Dumplings"
+              },
+              {
+                "id": "special_dimsum",
+                "name": "Special Dimsum"
+              },
+              {
+                "id": "premium_dimsum",
+                "name": "Premium Dimsum"
+              },
+              {
+                "id": "spicy_dimsum",
+                "name": "Spicy Dimsum"
+              },
+              {
+                "id": "authentic_dimsum",
+                "name": "Authentic Dimsum"
+              },
+              {
+                "id": "classic_dimsum",
+                "name": "Classic Dimsum"
+              },
+              {
+                "id": "traditional_dimsum",
+                "name": "Traditional Dimsum"
+              },
+              {
+                "id": "family_dimsum",
+                "name": "Family Dimsum"
+              },
+              {
+                "id": "combo_dimsum",
+                "name": "Combo Dimsum"
+              },
+              {
+                "id": "chef_s_special_dimsum",
+                "name": "Chef's Special Dimsum"
+              },
+              {
+                "id": "supreme_dimsum",
+                "name": "Supreme Dimsum"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "chinese_maincourse",
+        "name": "Main Course",
+        "child_categories": [
+          {
+            "id": "noodles",
+            "name": "Noodles",
+            "items": [
+              {
+                "id": "hakka_noodles",
+                "name": "Hakka Noodles"
+              },
+              {
+                "id": "schezwan_noodles",
+                "name": "Schezwan Noodles"
+              },
+              {
+                "id": "special_noodles",
+                "name": "Special Noodles"
+              },
+              {
+                "id": "premium_noodles",
+                "name": "Premium Noodles"
+              },
+              {
+                "id": "spicy_noodles",
+                "name": "Spicy Noodles"
+              },
+              {
+                "id": "authentic_noodles",
+                "name": "Authentic Noodles"
+              },
+              {
+                "id": "classic_noodles",
+                "name": "Classic Noodles"
+              },
+              {
+                "id": "traditional_noodles",
+                "name": "Traditional Noodles"
+              },
+              {
+                "id": "family_noodles",
+                "name": "Family Noodles"
+              },
+              {
+                "id": "combo_noodles",
+                "name": "Combo Noodles"
+              },
+              {
+                "id": "chef_s_special_noodles",
+                "name": "Chef's Special Noodles"
+              },
+              {
+                "id": "supreme_noodles",
+                "name": "Supreme Noodles"
+              }
+            ]
+          },
+          {
+            "id": "gravies",
+            "name": "Gravies",
+            "items": [
+              {
+                "id": "manchurian_gravy",
+                "name": "Veg Manchurian Gravy"
+              },
+              {
+                "id": "chilli_chicken",
+                "name": "Chilli Chicken"
+              },
+              {
+                "id": "special_gravies",
+                "name": "Special Gravies"
+              },
+              {
+                "id": "premium_gravies",
+                "name": "Premium Gravies"
+              },
+              {
+                "id": "spicy_gravies",
+                "name": "Spicy Gravies"
+              },
+              {
+                "id": "authentic_gravies",
+                "name": "Authentic Gravies"
+              },
+              {
+                "id": "classic_gravies",
+                "name": "Classic Gravies"
+              },
+              {
+                "id": "traditional_gravies",
+                "name": "Traditional Gravies"
+              },
+              {
+                "id": "family_gravies",
+                "name": "Family Gravies"
+              },
+              {
+                "id": "combo_gravies",
+                "name": "Combo Gravies"
+              },
+              {
+                "id": "chef_s_special_gravies",
+                "name": "Chef's Special Gravies"
+              },
+              {
+                "id": "supreme_gravies",
+                "name": "Supreme Gravies"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "japanese",
+    "name": "Japanese",
+    "main_categories": [
+      {
+        "id": "sushi",
+        "name": "Sushi",
+        "child_categories": [
+          {
+            "id": "maki_rolls",
+            "name": "Maki Rolls",
+            "items": [
+              {
+                "id": "california_roll",
+                "name": "California Roll"
+              },
+              {
+                "id": "spicy_tuna_roll",
+                "name": "Spicy Tuna Roll"
+              },
+              {
+                "id": "special_maki_rolls",
+                "name": "Special Maki Rolls"
+              },
+              {
+                "id": "premium_maki_rolls",
+                "name": "Premium Maki Rolls"
+              },
+              {
+                "id": "spicy_maki_rolls",
+                "name": "Spicy Maki Rolls"
+              },
+              {
+                "id": "authentic_maki_rolls",
+                "name": "Authentic Maki Rolls"
+              },
+              {
+                "id": "classic_maki_rolls",
+                "name": "Classic Maki Rolls"
+              },
+              {
+                "id": "traditional_maki_rolls",
+                "name": "Traditional Maki Rolls"
+              },
+              {
+                "id": "family_maki_rolls",
+                "name": "Family Maki Rolls"
+              },
+              {
+                "id": "combo_maki_rolls",
+                "name": "Combo Maki Rolls"
+              },
+              {
+                "id": "chef_s_special_maki_rolls",
+                "name": "Chef's Special Maki Rolls"
+              },
+              {
+                "id": "supreme_maki_rolls",
+                "name": "Supreme Maki Rolls"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ramen",
+        "name": "Ramen",
+        "child_categories": [
+          {
+            "id": "ramen_types",
+            "name": "Ramen Types",
+            "items": [
+              {
+                "id": "shoyu_ramen",
+                "name": "Shoyu Ramen"
+              },
+              {
+                "id": "tonkotsu_ramen",
+                "name": "Tonkotsu Ramen"
+              },
+              {
+                "id": "special_ramen",
+                "name": "Special Ramen"
+              },
+              {
+                "id": "premium_ramen",
+                "name": "Premium Ramen"
+              },
+              {
+                "id": "spicy_ramen",
+                "name": "Spicy Ramen"
+              },
+              {
+                "id": "authentic_ramen",
+                "name": "Authentic Ramen"
+              },
+              {
+                "id": "classic_ramen",
+                "name": "Classic Ramen"
+              },
+              {
+                "id": "traditional_ramen",
+                "name": "Traditional Ramen"
+              },
+              {
+                "id": "family_ramen",
+                "name": "Family Ramen"
+              },
+              {
+                "id": "combo_ramen",
+                "name": "Combo Ramen"
+              },
+              {
+                "id": "chef_s_special_ramen",
+                "name": "Chef's Special Ramen"
+              },
+              {
+                "id": "supreme_ramen",
+                "name": "Supreme Ramen"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "korean",
+    "name": "Korean",
+    "main_categories": [
+      {
+        "id": "korean_bbq",
+        "name": "Korean BBQ",
+        "child_categories": [
+          {
+            "id": "bbq_meats",
+            "name": "BBQ Meats",
+            "items": [
+              {
+                "id": "bulgogi",
+                "name": "Bulgogi"
+              },
+              {
+                "id": "samgyeopsal",
+                "name": "Samgyeopsal"
+              },
+              {
+                "id": "special_bbq_meats",
+                "name": "Special BBQ Meats"
+              },
+              {
+                "id": "premium_bbq_meats",
+                "name": "Premium BBQ Meats"
+              },
+              {
+                "id": "spicy_bbq_meats",
+                "name": "Spicy BBQ Meats"
+              },
+              {
+                "id": "authentic_bbq_meats",
+                "name": "Authentic BBQ Meats"
+              },
+              {
+                "id": "classic_bbq_meats",
+                "name": "Classic BBQ Meats"
+              },
+              {
+                "id": "traditional_bbq_meats",
+                "name": "Traditional BBQ Meats"
+              },
+              {
+                "id": "family_bbq_meats",
+                "name": "Family BBQ Meats"
+              },
+              {
+                "id": "combo_bbq_meats",
+                "name": "Combo BBQ Meats"
+              },
+              {
+                "id": "chef_s_special_bbq_meats",
+                "name": "Chef's Special BBQ Meats"
+              },
+              {
+                "id": "supreme_bbq_meats",
+                "name": "Supreme BBQ Meats"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "korean_stews",
+        "name": "Stews",
+        "child_categories": [
+          {
+            "id": "jjigae",
+            "name": "Jjigae",
+            "items": [
+              {
+                "id": "kimchi_jjigae",
+                "name": "Kimchi Jjigae"
+              },
+              {
+                "id": "soondubu_jjigae",
+                "name": "Soondubu Jjigae"
+              },
+              {
+                "id": "special_jjigae",
+                "name": "Special Jjigae"
+              },
+              {
+                "id": "premium_jjigae",
+                "name": "Premium Jjigae"
+              },
+              {
+                "id": "spicy_jjigae",
+                "name": "Spicy Jjigae"
+              },
+              {
+                "id": "authentic_jjigae",
+                "name": "Authentic Jjigae"
+              },
+              {
+                "id": "classic_jjigae",
+                "name": "Classic Jjigae"
+              },
+              {
+                "id": "traditional_jjigae",
+                "name": "Traditional Jjigae"
+              },
+              {
+                "id": "family_jjigae",
+                "name": "Family Jjigae"
+              },
+              {
+                "id": "combo_jjigae",
+                "name": "Combo Jjigae"
+              },
+              {
+                "id": "chef_s_special_jjigae",
+                "name": "Chef's Special Jjigae"
+              },
+              {
+                "id": "supreme_jjigae",
+                "name": "Supreme Jjigae"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "thai",
+    "name": "Thai",
+    "main_categories": [
+      {
+        "id": "thai_curries",
+        "name": "Thai Curries",
+        "child_categories": [
+          {
+            "id": "curry_types",
+            "name": "Curry Types",
+            "items": [
+              {
+                "id": "green_curry",
+                "name": "Green Curry"
+              },
+              {
+                "id": "red_curry",
+                "name": "Red Curry"
+              },
+              {
+                "id": "special_curry",
+                "name": "Special Curry"
+              },
+              {
+                "id": "premium_curry",
+                "name": "Premium Curry"
+              },
+              {
+                "id": "spicy_curry",
+                "name": "Spicy Curry"
+              },
+              {
+                "id": "authentic_curry",
+                "name": "Authentic Curry"
+              },
+              {
+                "id": "classic_curry",
+                "name": "Classic Curry"
+              },
+              {
+                "id": "traditional_curry",
+                "name": "Traditional Curry"
+              },
+              {
+                "id": "family_curry",
+                "name": "Family Curry"
+              },
+              {
+                "id": "combo_curry",
+                "name": "Combo Curry"
+              },
+              {
+                "id": "chef_s_special_curry",
+                "name": "Chef's Special Curry"
+              },
+              {
+                "id": "supreme_curry",
+                "name": "Supreme Curry"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "thai_noodles",
+        "name": "Thai Noodles",
+        "child_categories": [
+          {
+            "id": "noodle_types",
+            "name": "Noodle Types",
+            "items": [
+              {
+                "id": "pad_thai",
+                "name": "Pad Thai"
+              },
+              {
+                "id": "pad_see_ew",
+                "name": "Pad See Ew"
+              },
+              {
+                "id": "special_noodle",
+                "name": "Special Noodle"
+              },
+              {
+                "id": "premium_noodle",
+                "name": "Premium Noodle"
+              },
+              {
+                "id": "spicy_noodle",
+                "name": "Spicy Noodle"
+              },
+              {
+                "id": "authentic_noodle",
+                "name": "Authentic Noodle"
+              },
+              {
+                "id": "classic_noodle",
+                "name": "Classic Noodle"
+              },
+              {
+                "id": "traditional_noodle",
+                "name": "Traditional Noodle"
+              },
+              {
+                "id": "family_noodle",
+                "name": "Family Noodle"
+              },
+              {
+                "id": "combo_noodle",
+                "name": "Combo Noodle"
+              },
+              {
+                "id": "chef_s_special_noodle",
+                "name": "Chef's Special Noodle"
+              },
+              {
+                "id": "supreme_noodle",
+                "name": "Supreme Noodle"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vietnamese",
+    "name": "Vietnamese",
+    "main_categories": [
+      {
+        "id": "pho",
+        "name": "Pho",
+        "child_categories": [
+          {
+            "id": "pho_types",
+            "name": "Pho Types",
+            "items": [
+              {
+                "id": "pho_beef",
+                "name": "Pho Beef"
+              },
+              {
+                "id": "pho_chicken",
+                "name": "Pho Chicken"
+              },
+              {
+                "id": "special_pho",
+                "name": "Special Pho"
+              },
+              {
+                "id": "premium_pho",
+                "name": "Premium Pho"
+              },
+              {
+                "id": "spicy_pho",
+                "name": "Spicy Pho"
+              },
+              {
+                "id": "authentic_pho",
+                "name": "Authentic Pho"
+              },
+              {
+                "id": "classic_pho",
+                "name": "Classic Pho"
+              },
+              {
+                "id": "traditional_pho",
+                "name": "Traditional Pho"
+              },
+              {
+                "id": "family_pho",
+                "name": "Family Pho"
+              },
+              {
+                "id": "combo_pho",
+                "name": "Combo Pho"
+              },
+              {
+                "id": "chef_s_special_pho",
+                "name": "Chef's Special Pho"
+              },
+              {
+                "id": "supreme_pho",
+                "name": "Supreme Pho"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "banh_mi",
+        "name": "Banh Mi",
+        "child_categories": [
+          {
+            "id": "banhmi_types",
+            "name": "Banh Mi Types",
+            "items": [
+              {
+                "id": "banhmi_pork",
+                "name": "Banh Mi Pork"
+              },
+              {
+                "id": "banhmi_veg",
+                "name": "Banh Mi Veg"
+              },
+              {
+                "id": "special_banh_mi",
+                "name": "Special Banh Mi"
+              },
+              {
+                "id": "premium_banh_mi",
+                "name": "Premium Banh Mi"
+              },
+              {
+                "id": "spicy_banh_mi",
+                "name": "Spicy Banh Mi"
+              },
+              {
+                "id": "authentic_banh_mi",
+                "name": "Authentic Banh Mi"
+              },
+              {
+                "id": "classic_banh_mi",
+                "name": "Classic Banh Mi"
+              },
+              {
+                "id": "traditional_banh_mi",
+                "name": "Traditional Banh Mi"
+              },
+              {
+                "id": "family_banh_mi",
+                "name": "Family Banh Mi"
+              },
+              {
+                "id": "combo_banh_mi",
+                "name": "Combo Banh Mi"
+              },
+              {
+                "id": "chef_s_special_banh_mi",
+                "name": "Chef's Special Banh Mi"
+              },
+              {
+                "id": "supreme_banh_mi",
+                "name": "Supreme Banh Mi"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "indonesian",
+    "name": "Indonesian",
+    "main_categories": [
+      {
+        "id": "indonesian_rice",
+        "name": "Rice Dishes",
+        "child_categories": [
+          {
+            "id": "nasi_items",
+            "name": "Nasi Items",
+            "items": [
+              {
+                "id": "nasi_goreng",
+                "name": "Nasi Goreng"
+              },
+              {
+                "id": "nasi_lemak",
+                "name": "Nasi Lemak"
+              },
+              {
+                "id": "special_nasi_items",
+                "name": "Special Nasi Items"
+              },
+              {
+                "id": "premium_nasi_items",
+                "name": "Premium Nasi Items"
+              },
+              {
+                "id": "spicy_nasi_items",
+                "name": "Spicy Nasi Items"
+              },
+              {
+                "id": "authentic_nasi_items",
+                "name": "Authentic Nasi Items"
+              },
+              {
+                "id": "classic_nasi_items",
+                "name": "Classic Nasi Items"
+              },
+              {
+                "id": "traditional_nasi_items",
+                "name": "Traditional Nasi Items"
+              },
+              {
+                "id": "family_nasi_items",
+                "name": "Family Nasi Items"
+              },
+              {
+                "id": "combo_nasi_items",
+                "name": "Combo Nasi Items"
+              },
+              {
+                "id": "chef_s_special_nasi_items",
+                "name": "Chef's Special Nasi Items"
+              },
+              {
+                "id": "supreme_nasi_items",
+                "name": "Supreme Nasi Items"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "filipino",
+    "name": "Filipino",
+    "main_categories": [
+      {
+        "id": "filipino_classics",
+        "name": "Filipino Classics",
+        "child_categories": [
+          {
+            "id": "classic_items",
+            "name": "Classic Items",
+            "items": [
+              {
+                "id": "adobo",
+                "name": "Chicken Adobo"
+              },
+              {
+                "id": "sinigang",
+                "name": "Sinigang"
+              },
+              {
+                "id": "special_classic_items",
+                "name": "Special Classic Items"
+              },
+              {
+                "id": "premium_classic_items",
+                "name": "Premium Classic Items"
+              },
+              {
+                "id": "spicy_classic_items",
+                "name": "Spicy Classic Items"
+              },
+              {
+                "id": "authentic_classic_items",
+                "name": "Authentic Classic Items"
+              },
+              {
+                "id": "classic_classic_items",
+                "name": "Classic Classic Items"
+              },
+              {
+                "id": "traditional_classic_items",
+                "name": "Traditional Classic Items"
+              },
+              {
+                "id": "family_classic_items",
+                "name": "Family Classic Items"
+              },
+              {
+                "id": "combo_classic_items",
+                "name": "Combo Classic Items"
+              },
+              {
+                "id": "chef_s_special_classic_items",
+                "name": "Chef's Special Classic Items"
+              },
+              {
+                "id": "supreme_classic_items",
+                "name": "Supreme Classic Items"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "malaysian",
+    "name": "Malaysian",
+    "main_categories": [
+      {
+        "id": "malaysian_noodles",
+        "name": "Noodles",
+        "child_categories": [
+          {
+            "id": "noodle_items",
+            "name": "Noodle Items",
+            "items": [
+              {
+                "id": "special_noodle_items",
+                "name": "Special Noodle Items"
+              },
+              {
+                "id": "premium_noodle_items",
+                "name": "Premium Noodle Items"
+              },
+              {
+                "id": "spicy_noodle_items",
+                "name": "Spicy Noodle Items"
+              },
+              {
+                "id": "authentic_noodle_items",
+                "name": "Authentic Noodle Items"
+              },
+              {
+                "id": "classic_noodle_items",
+                "name": "Classic Noodle Items"
+              },
+              {
+                "id": "traditional_noodle_items",
+                "name": "Traditional Noodle Items"
+              },
+              {
+                "id": "family_noodle_items",
+                "name": "Family Noodle Items"
+              },
+              {
+                "id": "combo_noodle_items",
+                "name": "Combo Noodle Items"
+              },
+              {
+                "id": "chef_s_special_noodle_items",
+                "name": "Chef's Special Noodle Items"
+              },
+              {
+                "id": "supreme_noodle_items",
+                "name": "Supreme Noodle Items"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "italian",
+    "name": "Italian",
+    "main_categories": [
+      {
+        "id": "italian_pizza",
+        "name": "Pizza",
+        "child_categories": [
+          {
+            "id": "pizza_types",
+            "name": "Pizza Types",
+            "items": [
+              {
+                "id": "margherita",
+                "name": "Margherita"
+              },
+              {
+                "id": "pepperoni",
+                "name": "Pepperoni"
+              },
+              {
+                "id": "four_cheese",
+                "name": "Four Cheese Pizza"
+              },
+              {
+                "id": "special_pizza",
+                "name": "Special Pizza"
+              },
+              {
+                "id": "premium_pizza",
+                "name": "Premium Pizza"
+              },
+              {
+                "id": "spicy_pizza",
+                "name": "Spicy Pizza"
+              },
+              {
+                "id": "authentic_pizza",
+                "name": "Authentic Pizza"
+              },
+              {
+                "id": "classic_pizza",
+                "name": "Classic Pizza"
+              },
+              {
+                "id": "traditional_pizza",
+                "name": "Traditional Pizza"
+              },
+              {
+                "id": "family_pizza",
+                "name": "Family Pizza"
+              },
+              {
+                "id": "combo_pizza",
+                "name": "Combo Pizza"
+              },
+              {
+                "id": "chef_s_special_pizza",
+                "name": "Chef's Special Pizza"
+              },
+              {
+                "id": "supreme_pizza",
+                "name": "Supreme Pizza"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "italian_pasta",
+        "name": "Pasta",
+        "child_categories": [
+          {
+            "id": "pasta_types",
+            "name": "Pasta Types",
+            "items": [
+              {
+                "id": "spaghetti_carbonara",
+                "name": "Spaghetti Carbonara"
+              },
+              {
+                "id": "penne_arrabiata",
+                "name": "Penne Arrabiata"
+              },
+              {
+                "id": "fettuccine_alfredo",
+                "name": "Fettuccine Alfredo"
+              },
+              {
+                "id": "special_pasta",
+                "name": "Special Pasta"
+              },
+              {
+                "id": "premium_pasta",
+                "name": "Premium Pasta"
+              },
+              {
+                "id": "spicy_pasta",
+                "name": "Spicy Pasta"
+              },
+              {
+                "id": "authentic_pasta",
+                "name": "Authentic Pasta"
+              },
+              {
+                "id": "classic_pasta",
+                "name": "Classic Pasta"
+              },
+              {
+                "id": "traditional_pasta",
+                "name": "Traditional Pasta"
+              },
+              {
+                "id": "family_pasta",
+                "name": "Family Pasta"
+              },
+              {
+                "id": "combo_pasta",
+                "name": "Combo Pasta"
+              },
+              {
+                "id": "chef_s_special_pasta",
+                "name": "Chef's Special Pasta"
+              },
+              {
+                "id": "supreme_pasta",
+                "name": "Supreme Pasta"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "french",
+    "name": "French",
+    "main_categories": [
+      {
+        "id": "french_classics",
+        "name": "French Classics",
+        "child_categories": [
+          {
+            "id": "classic_dishes",
+            "name": "Classic Dishes",
+            "items": [
+              {
+                "id": "ratatouille",
+                "name": "Ratatouille"
+              },
+              {
+                "id": "coq_au_vin",
+                "name": "Coq au Vin"
+              },
+              {
+                "id": "special_classic",
+                "name": "Special Classic"
+              },
+              {
+                "id": "premium_classic",
+                "name": "Premium Classic"
+              },
+              {
+                "id": "spicy_classic",
+                "name": "Spicy Classic"
+              },
+              {
+                "id": "authentic_classic",
+                "name": "Authentic Classic"
+              },
+              {
+                "id": "classic_classic",
+                "name": "Classic Classic"
+              },
+              {
+                "id": "traditional_classic",
+                "name": "Traditional Classic"
+              },
+              {
+                "id": "family_classic",
+                "name": "Family Classic"
+              },
+              {
+                "id": "combo_classic",
+                "name": "Combo Classic"
+              },
+              {
+                "id": "chef_s_special_classic",
+                "name": "Chef's Special Classic"
+              },
+              {
+                "id": "supreme_classic",
+                "name": "Supreme Classic"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "french_bakery",
+        "name": "Bakery",
+        "child_categories": [
+          {
+            "id": "pastries",
+            "name": "Pastries",
+            "items": [
+              {
+                "id": "croissant",
+                "name": "Croissant"
+              },
+              {
+                "id": "pain_au_chocolat",
+                "name": "Pain au Chocolat"
+              },
+              {
+                "id": "special_pastries",
+                "name": "Special Pastries"
+              },
+              {
+                "id": "premium_pastries",
+                "name": "Premium Pastries"
+              },
+              {
+                "id": "spicy_pastries",
+                "name": "Spicy Pastries"
+              },
+              {
+                "id": "authentic_pastries",
+                "name": "Authentic Pastries"
+              },
+              {
+                "id": "classic_pastries",
+                "name": "Classic Pastries"
+              },
+              {
+                "id": "traditional_pastries",
+                "name": "Traditional Pastries"
+              },
+              {
+                "id": "family_pastries",
+                "name": "Family Pastries"
+              },
+              {
+                "id": "combo_pastries",
+                "name": "Combo Pastries"
+              },
+              {
+                "id": "chef_s_special_pastries",
+                "name": "Chef's Special Pastries"
+              },
+              {
+                "id": "supreme_pastries",
+                "name": "Supreme Pastries"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "spanish",
+    "name": "Spanish",
+    "main_categories": [
+      {
+        "id": "spanish_rice",
+        "name": "Rice Dishes",
+        "child_categories": [
+          {
+            "id": "paella_types",
+            "name": "Paella Types",
+            "items": [
+              {
+                "id": "paella_valenciana",
+                "name": "Paella Valenciana"
+              },
+              {
+                "id": "seafood_paella",
+                "name": "Seafood Paella"
+              },
+              {
+                "id": "special_paella",
+                "name": "Special Paella"
+              },
+              {
+                "id": "premium_paella",
+                "name": "Premium Paella"
+              },
+              {
+                "id": "spicy_paella",
+                "name": "Spicy Paella"
+              },
+              {
+                "id": "authentic_paella",
+                "name": "Authentic Paella"
+              },
+              {
+                "id": "classic_paella",
+                "name": "Classic Paella"
+              },
+              {
+                "id": "traditional_paella",
+                "name": "Traditional Paella"
+              },
+              {
+                "id": "family_paella",
+                "name": "Family Paella"
+              },
+              {
+                "id": "combo_paella",
+                "name": "Combo Paella"
+              },
+              {
+                "id": "chef_s_special_paella",
+                "name": "Chef's Special Paella"
+              },
+              {
+                "id": "supreme_paella",
+                "name": "Supreme Paella"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "spanish_tapas",
+        "name": "Tapas",
+        "child_categories": [
+          {
+            "id": "tapas_items",
+            "name": "Tapas Items",
+            "items": [
+              {
+                "id": "patatas_bravas",
+                "name": "Patatas Bravas"
+              },
+              {
+                "id": "gambas_al_ajillo",
+                "name": "Gambas al Ajillo"
+              },
+              {
+                "id": "special_tapas_items",
+                "name": "Special Tapas Items"
+              },
+              {
+                "id": "premium_tapas_items",
+                "name": "Premium Tapas Items"
+              },
+              {
+                "id": "spicy_tapas_items",
+                "name": "Spicy Tapas Items"
+              },
+              {
+                "id": "authentic_tapas_items",
+                "name": "Authentic Tapas Items"
+              },
+              {
+                "id": "classic_tapas_items",
+                "name": "Classic Tapas Items"
+              },
+              {
+                "id": "traditional_tapas_items",
+                "name": "Traditional Tapas Items"
+              },
+              {
+                "id": "family_tapas_items",
+                "name": "Family Tapas Items"
+              },
+              {
+                "id": "combo_tapas_items",
+                "name": "Combo Tapas Items"
+              },
+              {
+                "id": "chef_s_special_tapas_items",
+                "name": "Chef's Special Tapas Items"
+              },
+              {
+                "id": "supreme_tapas_items",
+                "name": "Supreme Tapas Items"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "greek",
+    "name": "Greek",
+    "main_categories": [
+      {
+        "id": "greek_grill",
+        "name": "Grill",
+        "child_categories": [
+          {
+            "id": "grill_items",
+            "name": "Grill Items",
+            "items": [
+              {
+                "id": "souvlaki",
+                "name": "Souvlaki"
+              },
+              {
+                "id": "gyros",
+                "name": "Gyros"
+              },
+              {
+                "id": "special_grill_items",
+                "name": "Special Grill Items"
+              },
+              {
+                "id": "premium_grill_items",
+                "name": "Premium Grill Items"
+              },
+              {
+                "id": "spicy_grill_items",
+                "name": "Spicy Grill Items"
+              },
+              {
+                "id": "authentic_grill_items",
+                "name": "Authentic Grill Items"
+              },
+              {
+                "id": "classic_grill_items",
+                "name": "Classic Grill Items"
+              },
+              {
+                "id": "traditional_grill_items",
+                "name": "Traditional Grill Items"
+              },
+              {
+                "id": "family_grill_items",
+                "name": "Family Grill Items"
+              },
+              {
+                "id": "combo_grill_items",
+                "name": "Combo Grill Items"
+              },
+              {
+                "id": "chef_s_special_grill_items",
+                "name": "Chef's Special Grill Items"
+              },
+              {
+                "id": "supreme_grill_items",
+                "name": "Supreme Grill Items"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "greek_salads",
+        "name": "Salads",
+        "child_categories": [
+          {
+            "id": "salad_items",
+            "name": "Salad Items",
+            "items": [
+              {
+                "id": "greek_salad",
+                "name": "Greek Salad"
+              },
+              {
+                "id": "dakos",
+                "name": "Dakos"
+              },
+              {
+                "id": "special_salad_items",
+                "name": "Special Salad Items"
+              },
+              {
+                "id": "premium_salad_items",
+                "name": "Premium Salad Items"
+              },
+              {
+                "id": "spicy_salad_items",
+                "name": "Spicy Salad Items"
+              },
+              {
+                "id": "authentic_salad_items",
+                "name": "Authentic Salad Items"
+              },
+              {
+                "id": "classic_salad_items",
+                "name": "Classic Salad Items"
+              },
+              {
+                "id": "traditional_salad_items",
+                "name": "Traditional Salad Items"
+              },
+              {
+                "id": "family_salad_items",
+                "name": "Family Salad Items"
+              },
+              {
+                "id": "combo_salad_items",
+                "name": "Combo Salad Items"
+              },
+              {
+                "id": "chef_s_special_salad_items",
+                "name": "Chef's Special Salad Items"
+              },
+              {
+                "id": "supreme_salad_items",
+                "name": "Supreme Salad Items"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mediterranean",
+    "name": "Mediterranean",
+    "main_categories": [
+      {
+        "id": "med_mains",
+        "name": "Main Dishes",
+        "child_categories": [
+          {
+            "id": "med_items",
+            "name": "Mediterranean Items",
+            "items": [
+              {
+                "id": "special_mediterranean_items",
+                "name": "Special Mediterranean Items"
+              },
+              {
+                "id": "premium_mediterranean_items",
+                "name": "Premium Mediterranean Items"
+              },
+              {
+                "id": "spicy_mediterranean_items",
+                "name": "Spicy Mediterranean Items"
+              },
+              {
+                "id": "authentic_mediterranean_items",
+                "name": "Authentic Mediterranean Items"
+              },
+              {
+                "id": "classic_mediterranean_items",
+                "name": "Classic Mediterranean Items"
+              },
+              {
+                "id": "traditional_mediterranean_items",
+                "name": "Traditional Mediterranean Items"
+              },
+              {
+                "id": "family_mediterranean_items",
+                "name": "Family Mediterranean Items"
+              },
+              {
+                "id": "combo_mediterranean_items",
+                "name": "Combo Mediterranean Items"
+              },
+              {
+                "id": "chef_s_special_mediterranean_items",
+                "name": "Chef's Special Mediterranean Items"
+              },
+              {
+                "id": "supreme_mediterranean_items",
+                "name": "Supreme Mediterranean Items"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "turkish",
+    "name": "Turkish",
+    "main_categories": [
+      {
+        "id": "turkish_grill",
+        "name": "Grill",
+        "child_categories": [
+          {
+            "id": "grill_items",
+            "name": "Grill Items",
+            "items": [
+              {
+                "id": "doner_kebab",
+                "name": "Doner Kebab"
+              },
+              {
+                "id": "adana_kebab",
+                "name": "Adana Kebab"
+              },
+              {
+                "id": "special_grill_items",
+                "name": "Special Grill Items"
+              },
+              {
+                "id": "premium_grill_items",
+                "name": "Premium Grill Items"
+              },
+              {
+                "id": "spicy_grill_items",
+                "name": "Spicy Grill Items"
+              },
+              {
+                "id": "authentic_grill_items",
+                "name": "Authentic Grill Items"
+              },
+              {
+                "id": "classic_grill_items",
+                "name": "Classic Grill Items"
+              },
+              {
+                "id": "traditional_grill_items",
+                "name": "Traditional Grill Items"
+              },
+              {
+                "id": "family_grill_items",
+                "name": "Family Grill Items"
+              },
+              {
+                "id": "combo_grill_items",
+                "name": "Combo Grill Items"
+              },
+              {
+                "id": "chef_s_special_grill_items",
+                "name": "Chef's Special Grill Items"
+              },
+              {
+                "id": "supreme_grill_items",
+                "name": "Supreme Grill Items"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "turkish_breads",
+        "name": "Breads",
+        "child_categories": [
+          {
+            "id": "bread_items",
+            "name": "Bread Items",
+            "items": [
+              {
+                "id": "pide",
+                "name": "Pide"
+              },
+              {
+                "id": "simit",
+                "name": "Simit"
+              },
+              {
+                "id": "special_bread_items",
+                "name": "Special Bread Items"
+              },
+              {
+                "id": "premium_bread_items",
+                "name": "Premium Bread Items"
+              },
+              {
+                "id": "spicy_bread_items",
+                "name": "Spicy Bread Items"
+              },
+              {
+                "id": "authentic_bread_items",
+                "name": "Authentic Bread Items"
+              },
+              {
+                "id": "classic_bread_items",
+                "name": "Classic Bread Items"
+              },
+              {
+                "id": "traditional_bread_items",
+                "name": "Traditional Bread Items"
+              },
+              {
+                "id": "family_bread_items",
+                "name": "Family Bread Items"
+              },
+              {
+                "id": "combo_bread_items",
+                "name": "Combo Bread Items"
+              },
+              {
+                "id": "chef_s_special_bread_items",
+                "name": "Chef's Special Bread Items"
+              },
+              {
+                "id": "supreme_bread_items",
+                "name": "Supreme Bread Items"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "arabian",
+    "name": "Arabian",
+    "main_categories": [
+      {
+        "id": "arabian_grill",
+        "name": "Grill",
+        "child_categories": [
+          {
+            "id": "grill_items",
+            "name": "Grill Items",
+            "items": [
+              {
+                "id": "chicken_kebab",
+                "name": "Chicken Kebab"
+              },
+              {
+                "id": "mutton_kebab",
+                "name": "Mutton Kebab"
+              },
+              {
+                "id": "special_grill_items",
+                "name": "Special Grill Items"
+              },
+              {
+                "id": "premium_grill_items",
+                "name": "Premium Grill Items"
+              },
+              {
+                "id": "spicy_grill_items",
+                "name": "Spicy Grill Items"
+              },
+              {
+                "id": "authentic_grill_items",
+                "name": "Authentic Grill Items"
+              },
+              {
+                "id": "classic_grill_items",
+                "name": "Classic Grill Items"
+              },
+              {
+                "id": "traditional_grill_items",
+                "name": "Traditional Grill Items"
+              },
+              {
+                "id": "family_grill_items",
+                "name": "Family Grill Items"
+              },
+              {
+                "id": "combo_grill_items",
+                "name": "Combo Grill Items"
+              },
+              {
+                "id": "chef_s_special_grill_items",
+                "name": "Chef's Special Grill Items"
+              },
+              {
+                "id": "supreme_grill_items",
+                "name": "Supreme Grill Items"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "arabian_rice",
+        "name": "Rice Dishes",
+        "child_categories": [
+          {
+            "id": "rice_items",
+            "name": "Rice Items",
+            "items": [
+              {
+                "id": "mandi",
+                "name": "Chicken Mandi"
+              },
+              {
+                "id": "kabsa",
+                "name": "Kabsa"
+              },
+              {
+                "id": "special_rice_items",
+                "name": "Special Rice Items"
+              },
+              {
+                "id": "premium_rice_items",
+                "name": "Premium Rice Items"
+              },
+              {
+                "id": "spicy_rice_items",
+                "name": "Spicy Rice Items"
+              },
+              {
+                "id": "authentic_rice_items",
+                "name": "Authentic Rice Items"
+              },
+              {
+                "id": "classic_rice_items",
+                "name": "Classic Rice Items"
+              },
+              {
+                "id": "traditional_rice_items",
+                "name": "Traditional Rice Items"
+              },
+              {
+                "id": "family_rice_items",
+                "name": "Family Rice Items"
+              },
+              {
+                "id": "combo_rice_items",
+                "name": "Combo Rice Items"
+              },
+              {
+                "id": "chef_s_special_rice_items",
+                "name": "Chef's Special Rice Items"
+              },
+              {
+                "id": "supreme_rice_items",
+                "name": "Supreme Rice Items"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lebanese",
+    "name": "Lebanese",
+    "main_categories": [
+      {
+        "id": "lebanese_mezze",
+        "name": "Mezze",
+        "child_categories": [
+          {
+            "id": "mezze_items",
+            "name": "Mezze Items",
+            "items": [
+              {
+                "id": "hummus",
+                "name": "Hummus"
+              },
+              {
+                "id": "baba_ganoush",
+                "name": "Baba Ganoush"
+              },
+              {
+                "id": "special_mezze_items",
+                "name": "Special Mezze Items"
+              },
+              {
+                "id": "premium_mezze_items",
+                "name": "Premium Mezze Items"
+              },
+              {
+                "id": "spicy_mezze_items",
+                "name": "Spicy Mezze Items"
+              },
+              {
+                "id": "authentic_mezze_items",
+                "name": "Authentic Mezze Items"
+              },
+              {
+                "id": "classic_mezze_items",
+                "name": "Classic Mezze Items"
+              },
+              {
+                "id": "traditional_mezze_items",
+                "name": "Traditional Mezze Items"
+              },
+              {
+                "id": "family_mezze_items",
+                "name": "Family Mezze Items"
+              },
+              {
+                "id": "combo_mezze_items",
+                "name": "Combo Mezze Items"
+              },
+              {
+                "id": "chef_s_special_mezze_items",
+                "name": "Chef's Special Mezze Items"
+              },
+              {
+                "id": "supreme_mezze_items",
+                "name": "Supreme Mezze Items"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "lebanese_grill",
+        "name": "Grill",
+        "child_categories": [
+          {
+            "id": "grill_items",
+            "name": "Grill Items",
+            "items": [
+              {
+                "id": "shish_tawook",
+                "name": "Shish Tawook"
+              },
+              {
+                "id": "kafta",
+                "name": "Kafta"
+              },
+              {
+                "id": "special_grill_items",
+                "name": "Special Grill Items"
+              },
+              {
+                "id": "premium_grill_items",
+                "name": "Premium Grill Items"
+              },
+              {
+                "id": "spicy_grill_items",
+                "name": "Spicy Grill Items"
+              },
+              {
+                "id": "authentic_grill_items",
+                "name": "Authentic Grill Items"
+              },
+              {
+                "id": "classic_grill_items",
+                "name": "Classic Grill Items"
+              },
+              {
+                "id": "traditional_grill_items",
+                "name": "Traditional Grill Items"
+              },
+              {
+                "id": "family_grill_items",
+                "name": "Family Grill Items"
+              },
+              {
+                "id": "combo_grill_items",
+                "name": "Combo Grill Items"
+              },
+              {
+                "id": "chef_s_special_grill_items",
+                "name": "Chef's Special Grill Items"
+              },
+              {
+                "id": "supreme_grill_items",
+                "name": "Supreme Grill Items"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iranian",
+    "name": "Iranian",
+    "main_categories": [
+      {
+        "id": "iranian_kebabs",
+        "name": "Kebabs",
+        "child_categories": [
+          {
+            "id": "kebab_items",
+            "name": "Kebab Items",
+            "items": [
+              {
+                "id": "chelo_kebab",
+                "name": "Chelo Kebab"
+              },
+              {
+                "id": "koobideh",
+                "name": "Koobideh"
+              },
+              {
+                "id": "special_kebab_items",
+                "name": "Special Kebab Items"
+              },
+              {
+                "id": "premium_kebab_items",
+                "name": "Premium Kebab Items"
+              },
+              {
+                "id": "spicy_kebab_items",
+                "name": "Spicy Kebab Items"
+              },
+              {
+                "id": "authentic_kebab_items",
+                "name": "Authentic Kebab Items"
+              },
+              {
+                "id": "classic_kebab_items",
+                "name": "Classic Kebab Items"
+              },
+              {
+                "id": "traditional_kebab_items",
+                "name": "Traditional Kebab Items"
+              },
+              {
+                "id": "family_kebab_items",
+                "name": "Family Kebab Items"
+              },
+              {
+                "id": "combo_kebab_items",
+                "name": "Combo Kebab Items"
+              },
+              {
+                "id": "chef_s_special_kebab_items",
+                "name": "Chef's Special Kebab Items"
+              },
+              {
+                "id": "supreme_kebab_items",
+                "name": "Supreme Kebab Items"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "iranian_rice",
+        "name": "Rice Dishes",
+        "child_categories": [
+          {
+            "id": "rice_items",
+            "name": "Rice Items",
+            "items": [
+              {
+                "id": "zereshk_polo",
+                "name": "Zereshk Polo"
+              },
+              {
+                "id": "sabzi_polo",
+                "name": "Sabzi Polo"
+              },
+              {
+                "id": "special_rice_items",
+                "name": "Special Rice Items"
+              },
+              {
+                "id": "premium_rice_items",
+                "name": "Premium Rice Items"
+              },
+              {
+                "id": "spicy_rice_items",
+                "name": "Spicy Rice Items"
+              },
+              {
+                "id": "authentic_rice_items",
+                "name": "Authentic Rice Items"
+              },
+              {
+                "id": "classic_rice_items",
+                "name": "Classic Rice Items"
+              },
+              {
+                "id": "traditional_rice_items",
+                "name": "Traditional Rice Items"
+              },
+              {
+                "id": "family_rice_items",
+                "name": "Family Rice Items"
+              },
+              {
+                "id": "combo_rice_items",
+                "name": "Combo Rice Items"
+              },
+              {
+                "id": "chef_s_special_rice_items",
+                "name": "Chef's Special Rice Items"
+              },
+              {
+                "id": "supreme_rice_items",
+                "name": "Supreme Rice Items"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "afghan",
+    "name": "Afghan",
+    "main_categories": [
+      {
+        "id": "afghan_rice",
+        "name": "Rice Dishes",
+        "child_categories": [
+          {
+            "id": "rice_items",
+            "name": "Rice Items",
+            "items": [
+              {
+                "id": "kabuli_pulao",
+                "name": "Kabuli Pulao"
+              },
+              {
+                "id": "afghan_pilaf",
+                "name": "Afghan Pilaf"
+              },
+              {
+                "id": "special_rice_items",
+                "name": "Special Rice Items"
+              },
+              {
+                "id": "premium_rice_items",
+                "name": "Premium Rice Items"
+              },
+              {
+                "id": "spicy_rice_items",
+                "name": "Spicy Rice Items"
+              },
+              {
+                "id": "authentic_rice_items",
+                "name": "Authentic Rice Items"
+              },
+              {
+                "id": "classic_rice_items",
+                "name": "Classic Rice Items"
+              },
+              {
+                "id": "traditional_rice_items",
+                "name": "Traditional Rice Items"
+              },
+              {
+                "id": "family_rice_items",
+                "name": "Family Rice Items"
+              },
+              {
+                "id": "combo_rice_items",
+                "name": "Combo Rice Items"
+              },
+              {
+                "id": "chef_s_special_rice_items",
+                "name": "Chef's Special Rice Items"
+              },
+              {
+                "id": "supreme_rice_items",
+                "name": "Supreme Rice Items"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "afghan_grill",
+        "name": "Grill",
+        "child_categories": [
+          {
+            "id": "grill_items",
+            "name": "Grill Items",
+            "items": [
+              {
+                "id": "chapli_kebab",
+                "name": "Chapli Kebab"
+              },
+              {
+                "id": "seekh_kebab",
+                "name": "Seekh Kebab"
+              },
+              {
+                "id": "special_grill_items",
+                "name": "Special Grill Items"
+              },
+              {
+                "id": "premium_grill_items",
+                "name": "Premium Grill Items"
+              },
+              {
+                "id": "spicy_grill_items",
+                "name": "Spicy Grill Items"
+              },
+              {
+                "id": "authentic_grill_items",
+                "name": "Authentic Grill Items"
+              },
+              {
+                "id": "classic_grill_items",
+                "name": "Classic Grill Items"
+              },
+              {
+                "id": "traditional_grill_items",
+                "name": "Traditional Grill Items"
+              },
+              {
+                "id": "family_grill_items",
+                "name": "Family Grill Items"
+              },
+              {
+                "id": "combo_grill_items",
+                "name": "Combo Grill Items"
+              },
+              {
+                "id": "chef_s_special_grill_items",
+                "name": "Chef's Special Grill Items"
+              },
+              {
+                "id": "supreme_grill_items",
+                "name": "Supreme Grill Items"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "african",
+    "name": "African",
+    "main_categories": [
+      {
+        "id": "ethiopian",
+        "name": "Ethiopian",
+        "child_categories": [
+          {
+            "id": "ethiopian_items",
+            "name": "Ethiopian Items",
+            "items": [
+              {
+                "id": "injera",
+                "name": "Injera"
+              },
+              {
+                "id": "doro_wat",
+                "name": "Doro Wat"
+              },
+              {
+                "id": "special_ethiopian_items",
+                "name": "Special Ethiopian Items"
+              },
+              {
+                "id": "premium_ethiopian_items",
+                "name": "Premium Ethiopian Items"
+              },
+              {
+                "id": "spicy_ethiopian_items",
+                "name": "Spicy Ethiopian Items"
+              },
+              {
+                "id": "authentic_ethiopian_items",
+                "name": "Authentic Ethiopian Items"
+              },
+              {
+                "id": "classic_ethiopian_items",
+                "name": "Classic Ethiopian Items"
+              },
+              {
+                "id": "traditional_ethiopian_items",
+                "name": "Traditional Ethiopian Items"
+              },
+              {
+                "id": "family_ethiopian_items",
+                "name": "Family Ethiopian Items"
+              },
+              {
+                "id": "combo_ethiopian_items",
+                "name": "Combo Ethiopian Items"
+              },
+              {
+                "id": "chef_s_special_ethiopian_items",
+                "name": "Chef's Special Ethiopian Items"
+              },
+              {
+                "id": "supreme_ethiopian_items",
+                "name": "Supreme Ethiopian Items"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "moroccan",
+        "name": "Moroccan",
+        "child_categories": [
+          {
+            "id": "moroccan_items",
+            "name": "Moroccan Items",
+            "items": [
+              {
+                "id": "tagine",
+                "name": "Tagine"
+              },
+              {
+                "id": "couscous",
+                "name": "Couscous"
+              },
+              {
+                "id": "special_moroccan_items",
+                "name": "Special Moroccan Items"
+              },
+              {
+                "id": "premium_moroccan_items",
+                "name": "Premium Moroccan Items"
+              },
+              {
+                "id": "spicy_moroccan_items",
+                "name": "Spicy Moroccan Items"
+              },
+              {
+                "id": "authentic_moroccan_items",
+                "name": "Authentic Moroccan Items"
+              },
+              {
+                "id": "classic_moroccan_items",
+                "name": "Classic Moroccan Items"
+              },
+              {
+                "id": "traditional_moroccan_items",
+                "name": "Traditional Moroccan Items"
+              },
+              {
+                "id": "family_moroccan_items",
+                "name": "Family Moroccan Items"
+              },
+              {
+                "id": "combo_moroccan_items",
+                "name": "Combo Moroccan Items"
+              },
+              {
+                "id": "chef_s_special_moroccan_items",
+                "name": "Chef's Special Moroccan Items"
+              },
+              {
+                "id": "supreme_moroccan_items",
+                "name": "Supreme Moroccan Items"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "nigerian",
+        "name": "Nigerian",
+        "child_categories": [
+          {
+            "id": "nigerian_items",
+            "name": "Nigerian Items",
+            "items": [
+              {
+                "id": "special_nigerian_items",
+                "name": "Special Nigerian Items"
+              },
+              {
+                "id": "premium_nigerian_items",
+                "name": "Premium Nigerian Items"
+              },
+              {
+                "id": "spicy_nigerian_items",
+                "name": "Spicy Nigerian Items"
+              },
+              {
+                "id": "authentic_nigerian_items",
+                "name": "Authentic Nigerian Items"
+              },
+              {
+                "id": "classic_nigerian_items",
+                "name": "Classic Nigerian Items"
+              },
+              {
+                "id": "traditional_nigerian_items",
+                "name": "Traditional Nigerian Items"
+              },
+              {
+                "id": "family_nigerian_items",
+                "name": "Family Nigerian Items"
+              },
+              {
+                "id": "combo_nigerian_items",
+                "name": "Combo Nigerian Items"
+              },
+              {
+                "id": "chef_s_special_nigerian_items",
+                "name": "Chef's Special Nigerian Items"
+              },
+              {
+                "id": "supreme_nigerian_items",
+                "name": "Supreme Nigerian Items"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "american",
+    "name": "American",
+    "main_categories": [
+      {
+        "id": "american_burgers",
+        "name": "Burgers",
+        "child_categories": [
+          {
+            "id": "burger_types",
+            "name": "Burger Types",
+            "items": [
+              {
+                "id": "cheeseburger",
+                "name": "Cheeseburger"
+              },
+              {
+                "id": "double_patty_burger",
+                "name": "Double Patty Burger"
+              },
+              {
+                "id": "bbq_burger",
+                "name": "BBQ Burger"
+              },
+              {
+                "id": "special_burger",
+                "name": "Special Burger"
+              },
+              {
+                "id": "premium_burger",
+                "name": "Premium Burger"
+              },
+              {
+                "id": "spicy_burger",
+                "name": "Spicy Burger"
+              },
+              {
+                "id": "authentic_burger",
+                "name": "Authentic Burger"
+              },
+              {
+                "id": "classic_burger",
+                "name": "Classic Burger"
+              },
+              {
+                "id": "traditional_burger",
+                "name": "Traditional Burger"
+              },
+              {
+                "id": "family_burger",
+                "name": "Family Burger"
+              },
+              {
+                "id": "combo_burger",
+                "name": "Combo Burger"
+              },
+              {
+                "id": "chef_s_special_burger",
+                "name": "Chef's Special Burger"
+              },
+              {
+                "id": "supreme_burger",
+                "name": "Supreme Burger"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "american_grill",
+        "name": "Grill",
+        "child_categories": [
+          {
+            "id": "grill_items",
+            "name": "Grill Items",
+            "items": [
+              {
+                "id": "grilled_chicken",
+                "name": "Grilled Chicken"
+              },
+              {
+                "id": "bbq_ribs",
+                "name": "BBQ Ribs"
+              },
+              {
+                "id": "special_grill_items",
+                "name": "Special Grill Items"
+              },
+              {
+                "id": "premium_grill_items",
+                "name": "Premium Grill Items"
+              },
+              {
+                "id": "spicy_grill_items",
+                "name": "Spicy Grill Items"
+              },
+              {
+                "id": "authentic_grill_items",
+                "name": "Authentic Grill Items"
+              },
+              {
+                "id": "classic_grill_items",
+                "name": "Classic Grill Items"
+              },
+              {
+                "id": "traditional_grill_items",
+                "name": "Traditional Grill Items"
+              },
+              {
+                "id": "family_grill_items",
+                "name": "Family Grill Items"
+              },
+              {
+                "id": "combo_grill_items",
+                "name": "Combo Grill Items"
+              },
+              {
+                "id": "chef_s_special_grill_items",
+                "name": "Chef's Special Grill Items"
+              },
+              {
+                "id": "supreme_grill_items",
+                "name": "Supreme Grill Items"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mexican",
+    "name": "Mexican",
+    "main_categories": [
+      {
+        "id": "mexican_tacos",
+        "name": "Tacos",
+        "child_categories": [
+          {
+            "id": "taco_types",
+            "name": "Taco Types",
+            "items": [
+              {
+                "id": "chicken_taco",
+                "name": "Chicken Taco"
+              },
+              {
+                "id": "beef_taco",
+                "name": "Beef Taco"
+              },
+              {
+                "id": "special_taco",
+                "name": "Special Taco"
+              },
+              {
+                "id": "premium_taco",
+                "name": "Premium Taco"
+              },
+              {
+                "id": "spicy_taco",
+                "name": "Spicy Taco"
+              },
+              {
+                "id": "authentic_taco",
+                "name": "Authentic Taco"
+              },
+              {
+                "id": "classic_taco",
+                "name": "Classic Taco"
+              },
+              {
+                "id": "traditional_taco",
+                "name": "Traditional Taco"
+              },
+              {
+                "id": "family_taco",
+                "name": "Family Taco"
+              },
+              {
+                "id": "combo_taco",
+                "name": "Combo Taco"
+              },
+              {
+                "id": "chef_s_special_taco",
+                "name": "Chef's Special Taco"
+              },
+              {
+                "id": "supreme_taco",
+                "name": "Supreme Taco"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "mexican_burritos",
+        "name": "Burritos",
+        "child_categories": [
+          {
+            "id": "burrito_types",
+            "name": "Burrito Types",
+            "items": [
+              {
+                "id": "veg_burrito",
+                "name": "Veg Burrito"
+              },
+              {
+                "id": "chicken_burrito",
+                "name": "Chicken Burrito"
+              },
+              {
+                "id": "special_burrito",
+                "name": "Special Burrito"
+              },
+              {
+                "id": "premium_burrito",
+                "name": "Premium Burrito"
+              },
+              {
+                "id": "spicy_burrito",
+                "name": "Spicy Burrito"
+              },
+              {
+                "id": "authentic_burrito",
+                "name": "Authentic Burrito"
+              },
+              {
+                "id": "classic_burrito",
+                "name": "Classic Burrito"
+              },
+              {
+                "id": "traditional_burrito",
+                "name": "Traditional Burrito"
+              },
+              {
+                "id": "family_burrito",
+                "name": "Family Burrito"
+              },
+              {
+                "id": "combo_burrito",
+                "name": "Combo Burrito"
+              },
+              {
+                "id": "chef_s_special_burrito",
+                "name": "Chef's Special Burrito"
+              },
+              {
+                "id": "supreme_burrito",
+                "name": "Supreme Burrito"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "brazilian",
+    "name": "Brazilian",
+    "main_categories": [
+      {
+        "id": "brazilian_grill",
+        "name": "Brazilian Grill",
+        "child_categories": [
+          {
+            "id": "grill_items",
+            "name": "Grill Items",
+            "items": [
+              {
+                "id": "picanha",
+                "name": "Picanha"
+              },
+              {
+                "id": "frango_assado",
+                "name": "Frango Assado"
+              },
+              {
+                "id": "special_grill_items",
+                "name": "Special Grill Items"
+              },
+              {
+                "id": "premium_grill_items",
+                "name": "Premium Grill Items"
+              },
+              {
+                "id": "spicy_grill_items",
+                "name": "Spicy Grill Items"
+              },
+              {
+                "id": "authentic_grill_items",
+                "name": "Authentic Grill Items"
+              },
+              {
+                "id": "classic_grill_items",
+                "name": "Classic Grill Items"
+              },
+              {
+                "id": "traditional_grill_items",
+                "name": "Traditional Grill Items"
+              },
+              {
+                "id": "family_grill_items",
+                "name": "Family Grill Items"
+              },
+              {
+                "id": "combo_grill_items",
+                "name": "Combo Grill Items"
+              },
+              {
+                "id": "chef_s_special_grill_items",
+                "name": "Chef's Special Grill Items"
+              },
+              {
+                "id": "supreme_grill_items",
+                "name": "Supreme Grill Items"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "caribbean",
+    "name": "Caribbean",
+    "main_categories": [
+      {
+        "id": "caribbean_specials",
+        "name": "Caribbean Specials",
+        "child_categories": [
+          {
+            "id": "special_items",
+            "name": "Special Items",
+            "items": [
+              {
+                "id": "jerk_chicken",
+                "name": "Jerk Chicken"
+              },
+              {
+                "id": "curry_goat",
+                "name": "Curry Goat"
+              },
+              {
+                "id": "special_special_items",
+                "name": "Special Special Items"
+              },
+              {
+                "id": "premium_special_items",
+                "name": "Premium Special Items"
+              },
+              {
+                "id": "spicy_special_items",
+                "name": "Spicy Special Items"
+              },
+              {
+                "id": "authentic_special_items",
+                "name": "Authentic Special Items"
+              },
+              {
+                "id": "classic_special_items",
+                "name": "Classic Special Items"
+              },
+              {
+                "id": "traditional_special_items",
+                "name": "Traditional Special Items"
+              },
+              {
+                "id": "family_special_items",
+                "name": "Family Special Items"
+              },
+              {
+                "id": "combo_special_items",
+                "name": "Combo Special Items"
+              },
+              {
+                "id": "chef_s_special_special_items",
+                "name": "Chef's Special Special Items"
+              },
+              {
+                "id": "supreme_special_items",
+                "name": "Supreme Special Items"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fast_food",
+    "name": "Fast Food",
+    "main_categories": [
+      {
+        "id": "fastfood_burgers",
+        "name": "Burgers",
+        "child_categories": [
+          {
+            "id": "burger_items",
+            "name": "Burger Items",
+            "items": [
+              {
+                "id": "crispy_chicken_burger",
+                "name": "Crispy Chicken Burger"
+              },
+              {
+                "id": "veg_burger",
+                "name": "Veg Burger"
+              },
+              {
+                "id": "special_burger_items",
+                "name": "Special Burger Items"
+              },
+              {
+                "id": "premium_burger_items",
+                "name": "Premium Burger Items"
+              },
+              {
+                "id": "spicy_burger_items",
+                "name": "Spicy Burger Items"
+              },
+              {
+                "id": "authentic_burger_items",
+                "name": "Authentic Burger Items"
+              },
+              {
+                "id": "classic_burger_items",
+                "name": "Classic Burger Items"
+              },
+              {
+                "id": "traditional_burger_items",
+                "name": "Traditional Burger Items"
+              },
+              {
+                "id": "family_burger_items",
+                "name": "Family Burger Items"
+              },
+              {
+                "id": "combo_burger_items",
+                "name": "Combo Burger Items"
+              },
+              {
+                "id": "chef_s_special_burger_items",
+                "name": "Chef's Special Burger Items"
+              },
+              {
+                "id": "supreme_burger_items",
+                "name": "Supreme Burger Items"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "fastfood_fries",
+        "name": "Fries",
+        "child_categories": [
+          {
+            "id": "fries_items",
+            "name": "Fries Items",
+            "items": [
+              {
+                "id": "french_fries",
+                "name": "French Fries"
+              },
+              {
+                "id": "peri_peri_fries",
+                "name": "Peri Peri Fries"
+              },
+              {
+                "id": "special_fries_items",
+                "name": "Special Fries Items"
+              },
+              {
+                "id": "premium_fries_items",
+                "name": "Premium Fries Items"
+              },
+              {
+                "id": "spicy_fries_items",
+                "name": "Spicy Fries Items"
+              },
+              {
+                "id": "authentic_fries_items",
+                "name": "Authentic Fries Items"
+              },
+              {
+                "id": "classic_fries_items",
+                "name": "Classic Fries Items"
+              },
+              {
+                "id": "traditional_fries_items",
+                "name": "Traditional Fries Items"
+              },
+              {
+                "id": "family_fries_items",
+                "name": "Family Fries Items"
+              },
+              {
+                "id": "combo_fries_items",
+                "name": "Combo Fries Items"
+              },
+              {
+                "id": "chef_s_special_fries_items",
+                "name": "Chef's Special Fries Items"
+              },
+              {
+                "id": "supreme_fries_items",
+                "name": "Supreme Fries Items"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bakery",
+    "name": "Bakery",
+    "main_categories": [
+      {
+        "id": "cakes",
+        "name": "Cakes",
+        "child_categories": [
+          {
+            "id": "cake_types",
+            "name": "Cake Types",
+            "items": [
+              {
+                "id": "chocolate_cake",
+                "name": "Chocolate Cake"
+              },
+              {
+                "id": "red_velvet_cake",
+                "name": "Red Velvet Cake"
+              },
+              {
+                "id": "special_cake",
+                "name": "Special Cake"
+              },
+              {
+                "id": "premium_cake",
+                "name": "Premium Cake"
+              },
+              {
+                "id": "spicy_cake",
+                "name": "Spicy Cake"
+              },
+              {
+                "id": "authentic_cake",
+                "name": "Authentic Cake"
+              },
+              {
+                "id": "classic_cake",
+                "name": "Classic Cake"
+              },
+              {
+                "id": "traditional_cake",
+                "name": "Traditional Cake"
+              },
+              {
+                "id": "family_cake",
+                "name": "Family Cake"
+              },
+              {
+                "id": "combo_cake",
+                "name": "Combo Cake"
+              },
+              {
+                "id": "chef_s_special_cake",
+                "name": "Chef's Special Cake"
+              },
+              {
+                "id": "supreme_cake",
+                "name": "Supreme Cake"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "breads",
+        "name": "Breads",
+        "child_categories": [
+          {
+            "id": "bread_types",
+            "name": "Bread Types",
+            "items": [
+              {
+                "id": "garlic_bread",
+                "name": "Garlic Bread"
+              },
+              {
+                "id": "baguette",
+                "name": "Baguette"
+              },
+              {
+                "id": "special_bread",
+                "name": "Special Bread"
+              },
+              {
+                "id": "premium_bread",
+                "name": "Premium Bread"
+              },
+              {
+                "id": "spicy_bread",
+                "name": "Spicy Bread"
+              },
+              {
+                "id": "authentic_bread",
+                "name": "Authentic Bread"
+              },
+              {
+                "id": "classic_bread",
+                "name": "Classic Bread"
+              },
+              {
+                "id": "traditional_bread",
+                "name": "Traditional Bread"
+              },
+              {
+                "id": "family_bread",
+                "name": "Family Bread"
+              },
+              {
+                "id": "combo_bread",
+                "name": "Combo Bread"
+              },
+              {
+                "id": "chef_s_special_bread",
+                "name": "Chef's Special Bread"
+              },
+              {
+                "id": "supreme_bread",
+                "name": "Supreme Bread"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "desserts",
+    "name": "Desserts",
+    "main_categories": [
+      {
+        "id": "icecreams",
+        "name": "Ice Creams",
+        "child_categories": [
+          {
+            "id": "icecream_types",
+            "name": "Ice Cream Types",
+            "items": [
+              {
+                "id": "vanilla_icecream",
+                "name": "Vanilla Ice Cream"
+              },
+              {
+                "id": "chocolate_icecream",
+                "name": "Chocolate Ice Cream"
+              },
+              {
+                "id": "special_ice_cream",
+                "name": "Special Ice Cream"
+              },
+              {
+                "id": "premium_ice_cream",
+                "name": "Premium Ice Cream"
+              },
+              {
+                "id": "spicy_ice_cream",
+                "name": "Spicy Ice Cream"
+              },
+              {
+                "id": "authentic_ice_cream",
+                "name": "Authentic Ice Cream"
+              },
+              {
+                "id": "classic_ice_cream",
+                "name": "Classic Ice Cream"
+              },
+              {
+                "id": "traditional_ice_cream",
+                "name": "Traditional Ice Cream"
+              },
+              {
+                "id": "family_ice_cream",
+                "name": "Family Ice Cream"
+              },
+              {
+                "id": "combo_ice_cream",
+                "name": "Combo Ice Cream"
+              },
+              {
+                "id": "chef_s_special_ice_cream",
+                "name": "Chef's Special Ice Cream"
+              },
+              {
+                "id": "supreme_ice_cream",
+                "name": "Supreme Ice Cream"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sweets",
+        "name": "Sweets",
+        "child_categories": [
+          {
+            "id": "sweet_items",
+            "name": "Sweet Items",
+            "items": [
+              {
+                "id": "brownie",
+                "name": "Brownie"
+              },
+              {
+                "id": "cheesecake",
+                "name": "Cheesecake"
+              },
+              {
+                "id": "special_sweet_items",
+                "name": "Special Sweet Items"
+              },
+              {
+                "id": "premium_sweet_items",
+                "name": "Premium Sweet Items"
+              },
+              {
+                "id": "spicy_sweet_items",
+                "name": "Spicy Sweet Items"
+              },
+              {
+                "id": "authentic_sweet_items",
+                "name": "Authentic Sweet Items"
+              },
+              {
+                "id": "classic_sweet_items",
+                "name": "Classic Sweet Items"
+              },
+              {
+                "id": "traditional_sweet_items",
+                "name": "Traditional Sweet Items"
+              },
+              {
+                "id": "family_sweet_items",
+                "name": "Family Sweet Items"
+              },
+              {
+                "id": "combo_sweet_items",
+                "name": "Combo Sweet Items"
+              },
+              {
+                "id": "chef_s_special_sweet_items",
+                "name": "Chef's Special Sweet Items"
+              },
+              {
+                "id": "supreme_sweet_items",
+                "name": "Supreme Sweet Items"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

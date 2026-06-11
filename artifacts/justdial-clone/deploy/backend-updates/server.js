@@ -47,6 +47,16 @@ app.use("/admin/hotel", hotelRoutes);
 app.use("/admin/upload", uploadRoutes);
 
 // =========================
+// FOOD IMAGES & SCRAPER API
+// =========================
+const foodImageRoutes = require("./routes/foodImageRoutes");
+const foodImageCtrl = require('./controllers/foodImageController');
+
+app.use("/api/v1/food-images", foodImageRoutes);
+app.get("/api/v1/categories", foodImageCtrl.getCategories);
+app.post("/api/v1/scraper/run", foodImageCtrl.scrapeImages); // Pexels → Unsplash → Pixabay → Wikimedia fallback
+
+// =========================
 // LIVE WEATHER AUTOMATION
 // =========================
 const weatherCache = {};
