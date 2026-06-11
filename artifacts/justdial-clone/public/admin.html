@@ -312,10 +312,21 @@
   <!-- OVERVIEW -->
   <div class="panel active" id="panel-overview">
     <div class="metrics" id="metricsGrid">
-      <div class="metric"><div class="metric-label">TOTAL IMAGES</div><div class="metric-val accent" id="m-total">—</div><div class="metric-sub">across all categories</div></div>
-      <div class="metric"><div class="metric-label">CATEGORIES</div><div class="metric-val blue" id="m-cats">20</div><div class="metric-sub">food types</div></div>
-      <div class="metric"><div class="metric-label">PEXELS SOURCED</div><div class="metric-val green" id="m-pexels">—</div><div class="metric-sub">auto scraped</div></div>
-      <div class="metric"><div class="metric-label">USER UPLOADS</div><div class="metric-val yellow" id="m-uploads">—</div><div class="metric-sub">manually added</div></div>
+      <div class="metric" style="cursor:pointer;transition:all .2s" onclick="filterSourceFromDashboard('')" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='var(--border)'">
+        <div class="metric-label">TOTAL IMAGES</div>
+        <div class="metric-val accent" id="m-total">—</div>
+        <div class="metric-sub">Click to view all</div>
+      </div>
+      <div class="metric" style="cursor:pointer;transition:all .2s" onclick="showPanel('categories')" onmouseover="this.style.borderColor='var(--blue)'" onmouseout="this.style.borderColor='var(--border)'">
+        <div class="metric-label">CATEGORIES</div>
+        <div class="metric-val blue" id="m-cats">—</div>
+        <div class="metric-sub">Click to manage</div>
+      </div>
+      <div class="metric" style="cursor:pointer;transition:all .2s" onclick="showPanel('images')" onmouseover="this.style.borderColor='var(--green)'" onmouseout="this.style.borderColor='var(--border)'">
+        <div class="metric-label">DATA SOURCES</div>
+        <div class="metric-val green" id="m-sources">—</div>
+        <div class="metric-sub">Total unique sources</div>
+      </div>
     </div>
 
     <div class="section-card">
@@ -328,6 +339,13 @@
       </div>
       <div class="section-body">
         <div id="catStats" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:10px"></div>
+      </div>
+    </div>
+
+    <div class="section-card" id="sourcesCard">
+      <div class="section-header"><div><h3>Images by source</h3><p>Manage images by where they came from</p></div></div>
+      <div class="section-body">
+        <div id="sourceStats" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:10px"></div>
       </div>
     </div>
 
@@ -357,6 +375,13 @@
         <option>beverages</option><option>breakfast</option><option>street-food</option>
         <option>salads</option><option>soups</option><option>fried-rice</option>
         <option>tandoori</option><option>arabic</option>
+      </select>
+      <select id="imgSourceFilter" onchange="filterImages()" style="background:var(--card2);border:1px solid var(--border);border-radius:8px;padding:9px 12px;color:var(--text);font-size:0.875rem;outline:none">
+        <option value="">All sources</option>
+      </select>
+      <select id="imgSortFilter" onchange="filterImages()" style="background:var(--card2);border:1px solid var(--border);border-radius:8px;padding:9px 12px;color:var(--text);font-size:0.875rem;outline:none">
+        <option value="newest">Latest first</option>
+        <option value="oldest">Oldest first</option>
       </select>
       <button class="btn btn-danger" onclick="deleteSelected()">
         <svg viewBox="0 0 24 24"><polyline points="3 6 5 6 21 6"/><path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"/><path d="M10 11v6M14 11v6"/></svg>
@@ -532,7 +557,7 @@
 </div>
 
 <!-- LIGHTBOX MODAL -->
-<div class="modal-backdrop" id="imageLightbox" onclick="closeLightbox()" style="align-items:center;justify-width:center;background:rgba(0,0,0,0.85);cursor:zoom-out">
+<div class="modal-backdrop" id="imageLightbox" onclick="closeLightbox()" style="align-items:center;justify-content:center;background:rgba(0,0,0,0.85);cursor:zoom-out">
   <div style="position:relative;max-width:90%;max-height:90vh;margin:auto" onclick="event.stopPropagation()">
     <img id="lightboxImg" src="" style="max-width:100%;max-height:80vh;border-radius:12px;box-shadow:0 20px 50px rgba(0,0,0,0.5);display:block;margin:0 auto" alt=""/>
     <button onclick="closeLightbox()" style="position:absolute;top:-40px;right:0;background:none;border:none;color:#fff;font-size:24px;cursor:pointer">✕</button>
@@ -588,17 +613,37 @@ function showPanel(id) {
 
 async function loadOverview() {
   try {
-    const res = await fetch(API+'?limit=200');
+    const res = await fetch(API+'?limit=5000');
     const data = await res.json();
     const imgs = data.images || [];
     document.getElementById('m-total').textContent = (data.total||imgs.length).toLocaleString();
-    const pexels = imgs.filter(i=>i.source==='pexels').length;
-    const uploads = imgs.filter(i=>i.source!=='pexels').length;
-    document.getElementById('m-pexels').textContent = pexels;
-    document.getElementById('m-uploads').textContent = uploads;
-
+    
     const catCounts = {};
-    imgs.forEach(i => { catCounts[i.category] = (catCounts[i.category]||0)+1; });
+    const sourceCounts = {};
+    
+    imgs.forEach(i => { 
+      catCounts[i.category] = (catCounts[i.category]||0)+1; 
+      const src = i.source || 'upload';
+      sourceCounts[src] = (sourceCounts[src]||0)+1;
+    });
+
+    document.getElementById('m-cats').textContent = Object.keys(catCounts).length;
+    document.getElementById('m-sources').textContent = Object.keys(sourceCounts).length;
+
+    const sourceFilter = document.getElementById('imgSourceFilter');
+    if (sourceFilter) {
+      sourceFilter.innerHTML = '<option value="">All sources</option>' + 
+        Object.keys(sourceCounts).map(src => `<option value="${src}">${src}</option>`).join('');
+    }
+
+    const sourceDiv = document.getElementById('sourceStats');
+    if (sourceDiv) {
+      sourceDiv.innerHTML = Object.entries(sourceCounts).sort((a,b)=>b[1]-a[1]).map(([src,cnt])=>`
+        <div onclick="filterSourceFromDashboard('${src}')" style="display:flex;align-items:center;justify-content:space-between;padding:8px 12px;background:var(--card2);border-radius:8px;cursor:pointer;transition:background .15s" onmouseenter="this.style.background='var(--border)'" onmouseleave="this.style.background='var(--card2)'">
+          <span style="font-size:0.875rem;text-transform:capitalize">${src}</span>
+          <span class="badge badge-blue">${cnt}</span>
+        </div>`).join('');
+    }
     const catDiv = document.getElementById('catStats');
     catDiv.innerHTML = Object.entries(catCounts).sort((a,b)=>b[1]-a[1]).map(([cat,cnt])=>`
       <div onclick="filterCategoryFromDashboard('${cat}')" style="display:flex;align-items:center;justify-content:space-between;padding:8px 12px;background:var(--card2);border-radius:8px;cursor:pointer;transition:background .15s" onmouseenter="this.style.background='var(--border)'" onmouseleave="this.style.background='var(--card2)'">
@@ -632,11 +677,22 @@ async function loadImages() {
 function filterImages() {
   const q = document.getElementById('imgSearch').value.toLowerCase();
   const cat = document.getElementById('imgCatFilter').value;
+  const src = document.getElementById('imgSourceFilter').value;
+  const sort = document.getElementById('imgSortFilter').value;
+  
   filteredImages = allImages.filter(img => {
     const matchCat = !cat || img.category === cat;
+    const matchSrc = !src || (img.source||'upload') === src;
     const matchQ = !q || (img.name||'').toLowerCase().includes(q) || (img.category||'').includes(q) || (img.tags||[]).some(t=>t.includes(q));
-    return matchCat && matchQ;
+    return matchCat && matchSrc && matchQ;
   });
+  
+  if (sort === 'oldest') {
+    filteredImages.sort((a,b) => new Date(a.createdAt || 0) - new Date(b.createdAt || 0));
+  } else {
+    filteredImages.sort((a,b) => new Date(b.createdAt || 0) - new Date(a.createdAt || 0));
+  }
+  
   page = 0;
   renderImageTable();
 }
@@ -916,6 +972,40 @@ async function filterCategoryFromDashboard(category) {
     filteredImages = allImages.filter(img => img.category === category);
     page = 0;
     renderImageTable();
+  } catch(e) {
+    showToast('Failed to load images','error');
+  }
+}
+
+async function filterSourceFromDashboard(source) {
+  document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
+  
+  const navItems = document.querySelectorAll('.nav-item');
+  navItems.forEach(n => {
+    if (n.getAttribute('onclick')?.includes('images')) {
+      n.classList.add('active');
+    }
+  });
+  
+  document.getElementById('panel-images').classList.add('active');
+  document.getElementById('pageTitle').textContent = pageTitles['images'];
+  
+  try {
+    const res = await fetch(API+'?limit=5000');
+    const data = await res.json();
+    allImages = data.images || [];
+    
+    const srcSelect = document.getElementById('imgSourceFilter');
+    if (srcSelect && Array.from(srcSelect.options).some(o => o.value === source) === false && source !== '') {
+       srcSelect.innerHTML += `<option value="${source}">${source}</option>`;
+    }
+    if (srcSelect) srcSelect.value = source;
+    
+    const catSelect = document.getElementById('imgCatFilter');
+    if (catSelect) catSelect.value = "";
+    
+    filterImages();
   } catch(e) {
     showToast('Failed to load images','error');
   }
