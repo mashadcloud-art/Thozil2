@@ -33,8 +33,7 @@ const Tourism = require("./models/Tourism");
 const app = express();
 app.use(cors());
 app.use(express.json());
-app.use('/api', express.static(path.join(__dirname, 'public')));
-
+app.use(express.static(path.join(__dirname, 'public')));
 // =========================
 // USE ADMIN ROUTES
 // =========================
